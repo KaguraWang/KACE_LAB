@@ -288,7 +288,7 @@ public sealed class ConsoleCommandAudit {
         var output = GameObject.Find("DeveloperConsoleOverlay").GetComponentsInChildren<Text>(true)
             .FirstOrDefault(t => t.text.Contains("outside the supported range"));
         Check("range error is rendered red", output != null && output.supportRichText
-            && output.text.Contains("<color=#FF6464>[ERR] world_speed: 3.01"));
+            && output.text.Contains("<color=#A61919>[ERR] world_speed: 3.01"));
         Check("logs cannot inject rich text", !DeveloperConsole.FormatHistoryLine("<size=99>log</size>").Contains("<size"));
         yield return PressKey(KeyCode.BackQuote);
 

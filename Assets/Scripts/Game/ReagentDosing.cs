@@ -49,6 +49,7 @@ public partial class LabUI {
         Label(panel,"输入物质的量或质量（g / mol）",13,DIM,TextAnchor.UpperLeft,new Vector2(0,1),Vector2.one,new Vector2(22,-89),new Vector2(-20,-63));
         var input=Node("DoseAmount",panel,new Vector2(0,1),new Vector2(0,1),new Vector2(22,-145),new Vector2(330,-103),BG2);
         _doseInput=input.gameObject.AddComponent<InputField>();_doseInput.textComponent=Label(input,"",18,INK,TextAnchor.MiddleLeft,Vector2.zero,Vector2.one,new Vector2(10,0),new Vector2(-10,0));_doseInput.textComponent.raycastTarget=false;_doseInput.targetGraphic=input.GetComponent<Image>();_doseInput.text="0.1";
+        LabUiTheme.Input(_doseInput);
         var unit=Node("DoseUnit",panel,new Vector2(0,1),new Vector2(0,1),new Vector2(344,-145),new Vector2(458,-103),BG2);
         _unitText=Btn(unit,"g ▾",()=>{_doseMol=!_doseMol;_unitText.text=_doseMol?"mol ▾":"g ▾";},BG2,17,true).GetComponentInChildren<Text>();
         _doseError=Label(panel,"",12,WARN,TextAnchor.UpperLeft,new Vector2(0,1),Vector2.one,new Vector2(22,-230),new Vector2(-22,-160));

@@ -294,6 +294,7 @@ public static class Localization {
         RegisterTranslation("未配置 AI 接口 —— 点「设置」填写 baseURL 与 API Key", "AI is not configured — open Settings to enter the base URL and API key.");
         RegisterTranslation("当前状态：已配置", "Status: configured");
         RegisterTranslation("当前状态：未配置", "Status: not configured");
+        RegisterTranslation("baseURL = (空)", "baseURL = (empty)");
         RegisterTranslation("已连接 {model}", "Connected · {model}");
         RegisterTranslation("改为教师端默认（DeepSeek）", "Teacher defaults (DeepSeek)");
         RegisterTranslation("清空 API Key（学生分发模式）", "Clear API key (student mode)");

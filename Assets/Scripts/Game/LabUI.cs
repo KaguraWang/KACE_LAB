@@ -42,6 +42,7 @@ public partial class LabUI : MonoBehaviour {
     Vessel _selected;
     public Vessel SelectedVessel => _selected;
     string _cat = "metal";
+    readonly Dictionary<string,Button> _categoryButtons=new Dictionary<string,Button>();
     string _query = "";
     InputField _searchField;   /* 给审计用：看输入框里到底有什么 */
 
@@ -56,12 +57,12 @@ public partial class LabUI : MonoBehaviour {
         = new List<(string, string, string, string, char, string, string)>();
 
     /* 配色 */
-    static readonly Color BG      = new Color(0.055f, 0.075f, 0.10f, 0.92f);
-    static readonly Color BG2     = new Color(0.085f, 0.11f, 0.145f, 0.95f);
-    static readonly Color ACC     = new Color(0.37f, 0.78f, 1.00f);
-    static readonly Color INK     = new Color(0.86f, 0.91f, 0.96f);
-    static readonly Color DIM     = new Color(0.55f, 0.63f, 0.72f);
-    static readonly Color WARN    = new Color(1.00f, 0.70f, 0.28f);
+    static readonly Color BG      = LabUiTheme.Panel;
+    static readonly Color BG2     = LabUiTheme.Card;
+    static readonly Color ACC     = LabUiTheme.Accent;
+    static readonly Color INK     = LabUiTheme.Ink;
+    static readonly Color DIM     = LabUiTheme.Muted;
+    static readonly Color WARN    = new Color32(0xA6,0x19,0x19,0xFF);
     static readonly Color LOGADD  = new Color(0.75f, 0.89f, 1.00f);
     static readonly Color LOGRXN  = new Color(1.00f, 0.90f, 0.62f);
     static readonly Color LOGOBS  = new Color(0.78f, 0.95f, 0.84f);
@@ -111,6 +112,10 @@ public partial class LabUI : MonoBehaviour {
             ego.AddComponent<StandaloneInputModule>();
         }
 
+        var navigation=Node("MainNavigation",_canvas.transform,new Vector2(0,1),Vector2.one,
+            new Vector2(12,-46),new Vector2(-12,-6),BG);
+        Label(navigation,"KaceLab",14,INK,TextAnchor.MiddleCenter,
+            new Vector2(.5f,0),new Vector2(.5f,1),new Vector2(-64,0),new Vector2(64,0));
         BuildLeft();
         BuildRight();
         BuildBottom();
@@ -136,7 +141,7 @@ public partial class LabUI : MonoBehaviour {
         rt.anchorMin = amin; rt.anchorMax = amax;
         rt.offsetMin = offMin; rt.offsetMax = offMax;
         if (col.a > 0.001f) {
-            var img = go.AddComponent<Image>();
+            var img = rounded ? go.AddComponent<LabUiSurface>() : go.AddComponent<Image>();
             img.color = col;
         }
         return rt;
@@ -149,7 +154,7 @@ public partial class LabUI : MonoBehaviour {
         var rt = go.AddComponent<RectTransform>();
         rt.anchorMin = amin; rt.anchorMax = amax; rt.offsetMin = offMin; rt.offsetMax = offMax;
         var t = go.AddComponent<Text>();
-        t.font = _font; t.fontSize = size; t.color = col;
+        t.font = _font; t.fontSize = size; t.color = INK;
         t.alignment = anchor; t.text = txt;
         t.horizontalOverflow = HorizontalWrapMode.Overflow;
         /* 中英文字宽差很多，长单词必须能截断，否则会溢出盖住相邻控件 */
@@ -180,14 +185,12 @@ public partial class LabUI : MonoBehaviour {
         rtb.anchorMax = Vector2.one;
         rtb.offsetMin = Vector2.zero;
         rtb.offsetMax = Vector2.zero;
-        var img = go.AddComponent<Image>();
+        var img = go.AddComponent<LabUiSurface>();
         img.color = bg ?? BG2;
         Button b;
         if(doseModal){var dose=go.AddComponent<DoseModalButton>();dose.Owner=this;b=dose;}
         else b=go.AddComponent<Button>();
-        var cb = b.colors; cb.normalColor = Color.white; cb.highlightedColor = new Color(1f,1f,1f,0.9f);
-        cb.pressedColor = new Color(0.8f,0.85f,0.9f,1f); cb.selectedColor = Color.white;
-        b.colors = cb;
+        LabUiTheme.Button(b);
         if (onClick != null) b.onClick.AddListener(() => onClick());
         var t = Label(go.transform, txt, size, InkOn(img.color), TextAnchor.MiddleCenter,
                       Vector2.zero, Vector2.one, new Vector2(2,0), new Vector2(-2,0));
@@ -213,17 +216,20 @@ public partial class LabUI : MonoBehaviour {
                           Vector2.zero, Vector2.zero, BG2);
             var rt = (RectTransform)go;
             rt.pivot = new Vector2(0,1);
-            /* 五行到 -218 为止；容器卡片从 -224 起，不能遮住最后一行。 */
-            rt.anchoredPosition = new Vector2(16 + col * 186, -52 - row * 34);
-            rt.sizeDelta = new Vector2(178, 30);
+            rt.anchoredPosition = new Vector2(16 + col * 186, -52 - row * 76);
+            rt.sizeDelta = new Vector2(178, 68);
             var k = kinds[i].k;
             var vesselButton=Btn(rt, kinds[i].n+"  "+Vessel.NominalCapacity(k).ToString("0")+" mL", () => { var v = Lab.AddVessel(k); Select(v); CloseCompactDrawers(); });
             vesselButton.gameObject.name="Btn_"+kinds[i].n;
+            ApparatusGlyph.Create(vesselButton.transform,k);
             var vesselButtonText = vesselButton.GetComponentInChildren<Text>();
             if (vesselButtonText != null) {
                 vesselButtonText.resizeTextForBestFit = true;
                 vesselButtonText.resizeTextMinSize = 8;
                 vesselButtonText.resizeTextMaxSize = vesselButtonText.fontSize;
+                var labelRect=vesselButtonText.rectTransform;
+                labelRect.anchorMax=new Vector2(1,0);labelRect.offsetMin=new Vector2(6,4);labelRect.offsetMax=new Vector2(-6,27);
+                vesselButtonText.fontSize=12;vesselButtonText.resizeTextMaxSize=12;
             }
         }
 
@@ -231,10 +237,10 @@ public partial class LabUI : MonoBehaviour {
         for(int i=0;i<2;i++){
             bool reflux=i==1;
             var slot=Node("Ap_"+(reflux?"RefluxKit":"DistillationKit"),root,new Vector2(0,1),new Vector2(0,1),Vector2.zero,Vector2.zero,BG2);
-            slot.pivot=new Vector2(0,1);slot.anchoredPosition=new Vector2(16+i*186,-222);slot.sizeDelta=new Vector2(178,30);
+            slot.pivot=new Vector2(0,1);slot.anchoredPosition=new Vector2(16+i*186,-432);slot.sizeDelta=new Vector2(178,34);
             Btn(slot,(reflux?"回流套件":"蒸馏套件")+" 250 mL",()=>{DistillationView.CreateKit(reflux);CloseCompactDrawers();},BG2,14);
         }
-        float y = -258;
+        float y = -480;
         var info = Node("VesselCard", root, new Vector2(0,1), new Vector2(1,1),
                         Vector2.zero, Vector2.zero, BG2);
         var irt = (RectTransform)info;
@@ -253,7 +259,7 @@ public partial class LabUI : MonoBehaviour {
         for (int i = 0; i < 3; i++) {
             float x0 = 12 + i * 88;
             var cell = Node("Cell" + i, info, new Vector2(0,1), new Vector2(0,1), Vector2.zero, Vector2.zero,
-                            new Color(0.10f,0.14f,0.18f,0.9f));
+                            LabUiTheme.Card);
             var crt = (RectTransform)cell; crt.pivot = new Vector2(0,1);
             crt.anchoredPosition = new Vector2(x0, -52);
             crt.sizeDelta = new Vector2(80, 46);
@@ -325,7 +331,7 @@ public partial class LabUI : MonoBehaviour {
         _burnerLabel = BarLabel(_burnerBar, "本生灯火力", 86, 0, 2, 12);
         var fireSettings=Btn(_burnerBar,"调节火力…",()=>ShowBurnerDialog(ApparatusSet.HeatingBurner(_selected)),BG2,13);
         FixBtnRect(fireSettings,new Vector2(100,0),new Vector2(120,24));
-        _burnerBtn = Btn(_burnerBar, "点燃", ToggleBurner, WARN, 13);
+        _burnerBtn = Btn(_burnerBar, "点燃", ToggleBurner, BG2, 13);
         FixBtnRect(_burnerBtn, new Vector2(228, 0), new Vector2(60, 24));
         _pourBar.gameObject.SetActive(false);
         _burnerBar.gameObject.SetActive(false);
@@ -364,7 +370,7 @@ public partial class LabUI : MonoBehaviour {
             r2.pivot = new Vector2(0,0);
             r2.anchoredPosition = new Vector2(152, 2);
             r2.sizeDelta = new Vector2(68, 22);
-            _testBtn2 = Btn(slot2, "伸入", TestAction2, WARN, 12);
+            _testBtn2 = Btn(slot2, "伸入", TestAction2, BG2, 12);
         }
         _testBar.gameObject.SetActive(false);
 
@@ -498,6 +504,7 @@ public partial class LabUI : MonoBehaviour {
         f.contentType = InputField.ContentType.DecimalNumber;
         f.characterLimit = 5;
         f.text = initial.ToString("0.#");
+        LabUiTheme.Input(f);
         f.onEndEdit.AddListener(s => {
             float v;
             if (float.TryParse(s, out v)) { onChange(v); f.text = EqTagSettings.Duration.ToString("0.#"); }
@@ -579,7 +586,7 @@ public partial class LabUI : MonoBehaviour {
 
     /// <summary>顶端「焓变计算器」入口</summary>
     void BuildCalcButton(Transform parent) {
-        var go = Node("CalcBtn", parent, new Vector2(0, 1), new Vector2(0, 1), Vector2.zero, Vector2.zero, new Color(0.16f, 0.42f, 0.32f));
+        var go = Node("CalcBtn", parent, new Vector2(0, 1), new Vector2(0, 1), Vector2.zero, Vector2.zero, BG2);
         var rt = (RectTransform)go.transform;
         rt.pivot = new Vector2(0, 1);
         rt.anchoredPosition = new Vector2(310, -12);
@@ -934,7 +941,7 @@ public partial class LabUI : MonoBehaviour {
         if(_languageButtonLabel!=null)_languageButtonLabel.text=Localization.English?"中文":"EN";
     }
     void BuildLangButton(Transform parent) {
-        var go = Node("LangBtn", parent, new Vector2(1, 1), new Vector2(1, 1), Vector2.zero, Vector2.zero, ACC);
+        var go = Node("LangBtn", parent, new Vector2(1, 1), new Vector2(1, 1), Vector2.zero, Vector2.zero, BG2);
         var rt = (RectTransform)go.transform;
         rt.pivot = new Vector2(1, 1);
         rt.anchoredPosition = new Vector2(-14, -12);
@@ -983,6 +990,7 @@ public partial class LabUI : MonoBehaviour {
         ph.raycastTarget = false;
         inp.textComponent = txt; inp.placeholder = ph;
         inp.targetGraphic = sf.GetComponent<Image>();
+        LabUiTheme.Input(inp);
         _searchField = inp;
         inp.onValueChanged.AddListener(s => {
             Debug.Log("[SearchDbg] onValueChanged 触发，文本=" + s);
@@ -997,6 +1005,7 @@ public partial class LabUI : MonoBehaviour {
             rt.anchoredPosition = new Vector2(12 + col * 60, -96 - row * 38); rt.sizeDelta = new Vector2(56, 30);
             var c = Cats[i];
             var catButton = Btn(rt, CatNames[i], () => { _cat = c; _query = ""; if (inp != null) inp.text = ""; RefreshReagents(); }, null, 12);
+            _categoryButtons[c]=catButton;
             var catText = catButton.GetComponentInChildren<Text>();
             if (catText != null) { catText.resizeTextForBestFit = true; catText.resizeTextMinSize = 8; catText.resizeTextMaxSize = 12; }
         }
@@ -1070,6 +1079,8 @@ public partial class LabUI : MonoBehaviour {
 
     void RefreshReagents() {
         if (_contentList == null) return;
+        foreach(var category in _categoryButtons)
+            if(category.Value!=null)category.Value.targetGraphic.color=category.Key==_cat&&string.IsNullOrEmpty(_query)?ACC:BG2;
         for (int i = _contentList.childCount - 1; i >= 0; i--) {
             var oldRow=_contentList.GetChild(i).gameObject;
             oldRow.SetActive(false);
@@ -1095,13 +1106,10 @@ public partial class LabUI : MonoBehaviour {
             row.transform.SetParent(_contentList, false);
             var rt = row.AddComponent<RectTransform>();
             rt.sizeDelta = new Vector2(94,164);
-            var rimg = row.AddComponent<Image>();
-            rimg.color = new Color(0.10f, 0.135f, 0.175f, 0.85f);
+            var rimg = row.AddComponent<LabUiSurface>();
+            rimg.color = LabUiTheme.Card;rimg.StrongBorder=true;
             var btn = row.AddComponent<Button>();
-            var cb = btn.colors; cb.normalColor = Color.white;
-            cb.highlightedColor = new Color(0.55f, 0.75f, 1f, 1f);
-            cb.pressedColor = new Color(0.4f, 0.6f, 0.85f, 1f);
-            btn.colors = cb;
+            LabUiTheme.Button(btn);
             var id = r.id; var st = r.state; var sol = r.sol;
             var drag=row.AddComponent<ReagentDrag>();drag.Owner=this;drag.SubstanceId=id;
             btn.onClick.AddListener(() => Hint("请将试剂拖入目标容器"));
@@ -1111,7 +1119,7 @@ public partial class LabUI : MonoBehaviour {
             var sprite=_reagentArt!=null?_reagentArt.Find(id):null;
             if(sprite!=null){photoImage.sprite=sprite;photoImage.preserveAspect=true;}
             else{
-                photoImage.color=new Color(.17f,.21f,.26f,1);
+                photoImage.color=LabUiTheme.Card;
                 var missing=Label(photo,"暂无图片",11,new Color(.78f,.84f,.91f),TextAnchor.MiddleCenter,Vector2.zero,Vector2.one,new Vector2(3,3),new Vector2(-3,-3));
                 missing.raycastTarget=false;
             }
@@ -1206,7 +1214,7 @@ public partial class LabUI : MonoBehaviour {
         Localization.Apply(_vesselTitle, $"{VesselNames.Name(v.Kind)} #{v.Id.Replace("v","")}");
         Localization.Apply(_vesselVol, v.Sealed?$"密闭 · {v.PressureBar:F3} bar（绝压）":$"{v.Volume():F0} / {v.Capacity:F0} mL");
         _gTemp.text = $"{v.Temp:F0} ℃";
-        _gTemp.color = v.Temp > 70 ? WARN : (v.Temp > 40 ? new Color(1f,0.85f,0.55f) : INK);
+        _gTemp.color = INK;
         _gPh.text = v.Water > 0.5 ? v.Ph.ToString("F1") : "—";
         _gFill.text = (v.FillFraction() * 100).ToString("F0") + "%";
         if (_phMarker != null) {

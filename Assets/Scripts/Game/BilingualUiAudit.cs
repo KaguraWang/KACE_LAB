@@ -40,6 +40,10 @@ public sealed class BilingualUiAudit : MonoBehaviour {
         if(ok) passed++; else failed++;
     }
     IEnumerator Frames(int count) { for(int i=0;i<count;i++) yield return null; }
+    IEnumerator Capture(string name) {
+        WindowTargetInput.InjectForTest("CAPTURE bilingual-"+name);
+        yield return Frames(5);
+    }
     IEnumerator ClickLanguage() {
         var button=FindObjectsOfType<Button>().FirstOrDefault(x=>x.name=="LangBtn");
         Check("language button is available",button!=null && WindowTargetInput.Active);
@@ -55,6 +59,11 @@ public sealed class BilingualUiAudit : MonoBehaviour {
     void Sample(string context, bool english) {
         Canvas.ForceUpdateCanvases();
         int visible=0, untranslated=0, overflow=0;
+        foreach(var field in FindObjectsOfType<InputField>()){
+            if(!field.isActiveAndEnabled||field.targetGraphic==null)continue;
+            var actual=(Color32)field.targetGraphic.color;
+            Check(context+" input background #39C5BB "+PathOf(field.transform),actual.r==0x39&&actual.g==0xC5&&actual.b==0xBB);
+        }
         foreach(var text in FindObjectsOfType<Text>()) {
             if(!text.isActiveAndEnabled || text.canvasRenderer.cull || string.IsNullOrWhiteSpace(text.text)) continue;
             var canvas=text.GetComponentInParent<Canvas>();if(canvas==null) continue;
@@ -64,6 +73,10 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             Vector2 b=RectTransformUtility.WorldToScreenPoint(camera,corners[2]);
             if(Mathf.Max(a.x,b.x)<0 || Mathf.Min(a.x,b.x)>Screen.width || Mathf.Max(a.y,b.y)<0 || Mathf.Min(a.y,b.y)>Screen.height)continue;
             visible++;
+            var ink=text.color;
+            bool dark=ink.r<=.3f&&ink.g<=.3f&&ink.b<=.3f;
+            bool errorInk=ink.r<=.75f&&ink.r>.35f&&ink.g<.2f&&ink.b<.2f;
+            if(!dark&&!errorInk)lines.Add("PALETTE "+context+" | "+PathOf(text.transform)+" | "+ColorUtility.ToHtmlStringRGBA(ink));
             if(context.StartsWith("en-rack-",StringComparison.Ordinal))
                 for(Transform ancestor=text.transform;ancestor!=null;ancestor=ancestor.parent)
                     if(ancestor.name.StartsWith("R_",StringComparison.Ordinal)) {seenReagentCards.Add(ancestor.name.Substring(2));break;}
@@ -157,7 +170,7 @@ public sealed class BilingualUiAudit : MonoBehaviour {
                 PetMenu.Close();
                 if(apparatus.Kind==ApparatusKind.BunsenBurner) {
                     ui.ShowBurnerDialog(apparatus);yield return new WaitForSeconds(.5f);
-                    Sample("en-burner-dialog",true);ui.CloseBurnerDialog();
+                    Sample("en-burner-dialog",true);yield return Capture("burner");ui.CloseBurnerDialog();
                 }
             }
             foreach(var item in TestSet.All.ToArray()) {
@@ -205,6 +218,7 @@ public sealed class BilingualUiAudit : MonoBehaviour {
                 foreach(bool explanation in new[]{false,true}) {
                     ui.ShowThermalLedger(source.Distillation,explanation);yield return new WaitForSeconds(.5f);
                     Sample("en-thermal-"+reflux+"-"+explanation,true);
+                    yield return Capture("thermal-"+reflux+"-"+explanation);
                     ui.CloseThermalLedger();
                 }
             }
@@ -216,6 +230,7 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             WindowTargetInput.InjectForTest("KEYDOWN Return");yield return Frames(2);
             WindowTargetInput.InjectForTest("KEYUP Return");yield return new WaitForSeconds(.5f);
             Sample("en-console-rate-error",true);
+            yield return Capture("console-error");
             Check("rejected command preserves paused experiment",WorldClock.Rate==0);
             WindowTargetInput.InjectForTest("KEYDOWN BackQuote");yield return Frames(2);
             WindowTargetInput.InjectForTest("KEYUP BackQuote");yield return new WaitForSeconds(.5f);
@@ -226,6 +241,7 @@ public sealed class BilingualUiAudit : MonoBehaviour {
                 var point=version.ButtonScreenPosition;
                 WindowTargetInput.InjectForTest("MOVE "+Mathf.RoundToInt(point.x)+" "+Mathf.RoundToInt(point.y));
                 yield return new WaitForSeconds(.5f);Sample("en-version-info",true);
+                yield return Capture("version");
                 Check("version popup opens by pointer",version.IsOpen);
                 Check("user specified version and credits preserved",version.DisplayText.Contains("v0.0.2_SE_CESA") && version.DisplayText.Contains("神楽風和") && version.DisplayText.Contains("支持風和谢谢喵"));
                 Check("English teacher edition displayed",version.DisplayText.Contains("Teacher Edition"));
@@ -256,9 +272,10 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             Check("calculator edge available for edit-dialog audit",edge!=null);
             if(edge!=null) {
                 calculator.AskEnthalpy(edge,true);yield return new WaitForSeconds(.5f);
-                Sample("en-calculator-edge-menu",true);calculator.CloseMenu();
+                Sample("en-calculator-edge-menu",true);yield return Capture("calculator-menu");calculator.CloseMenu();
                 calculator.AskManualValue(edge,false);yield return new WaitForSeconds(.5f);
                 Sample("en-calculator-value-dialog",true);
+                yield return Capture("calculator-value");
                 Lang.Set(false);yield return new WaitForSeconds(.5f);Sample("zh-calculator-value-dialog",false);
                 Lang.Set(true);yield return new WaitForSeconds(.5f);Sample("en-calculator-value-dialog-repeat",true);
                 calculator.CloseMenu();
@@ -269,11 +286,13 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             PetChat.Toggle();
             if(PetChat.Instance!=null && !PetChat.Instance.gameObject.activeSelf)PetChat.Toggle();
             yield return new WaitForSeconds(.5f);Sample("en-chat-unconfigured",true);
+            yield return Capture("chat");
             var settingsButton=PetChat.Instance==null?null:PetChat.Instance.GetComponentsInChildren<Button>()
                 .FirstOrDefault(b=>b.GetComponentInChildren<Text>()?.text=="Settings" || b.GetComponentInChildren<Text>()?.text=="设置");
             Check("chat settings button available",settingsButton!=null);
             if(settingsButton!=null) {
                 settingsButton.onClick.Invoke();yield return new WaitForSeconds(.5f);Sample("en-chat-settings",true);
+                yield return Capture("chat-settings");
                 PetMenu.Close();
             }
             const string userMessage="我是阿侬。想要什么实验、想算什么，直接说就行。";

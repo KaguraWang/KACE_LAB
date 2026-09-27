@@ -22,13 +22,14 @@ public partial class LabUI {
     }
     void RefreshThermalLedger(){
         var r=_thermalRig;if(r==null||_thermalBody==null)return;
-        _thermalBody.text=_thermalExplanation?
+        string body=_thermalExplanation?
             "按实际模型计算冷凝管、器皿玻璃及水套体积。\n\n玻璃采用 BOROFLOAT 平均热容代理，并作 0–100℃定热容近似。\n\n空气换热、液体接触热导和两侧 UA 分配为教学设定，不是实测仪器标定。\n\n储热、冷却水外流和环境散热分别记账。\n器皿蓄热："+(r.UseVesselThermalStorage?"已启用":"未启用"):
             $"状态：{(r.Running?"运行中":"已停止")}　管长：{r.CondenserLengthMeters*1000:F0} mm\n\n"+
             $"加热输入　　　　　　 {r.HeaterEnergyJ:F1} J\n冷却水带走　　　　　 {r.CoolantEnergyJ:F1} J\n壁面 / 水套储热　　　 {r.CondenserStoredEnergyJ:F1} J\n环境散热　　　　　　 {r.CondenserAmbientEnergyJ:F1} J\n"+
             $"壁温 {r.CondenserWallC:F2} ℃　水套 {r.CondenserWaterC:F2} ℃\n"+
             (r.UseVesselThermalStorage?$"器皿玻璃储热　　　　 {r.VesselStoredEnergyJ:F1} J\n器皿环境散热　　　　 {r.VesselAmbientEnergyJ:F1} J\n源瓶壁 {r.Source.GlassTemperatureC:F2} ℃　接收壁 {r.Receiver.GlassTemperatureC:F2} ℃\n":"器皿蓄热：未启用\n")+
             $"逸散 {r.EscapedGrams:F4} g / {r.EscapedEnergyJ:F1} J";
+        Localization.Apply(_thermalBody,body);
     }
     public void CloseThermalLedger(){
         if(_thermalModal!=null){_thermalModal.gameObject.SetActive(false);Destroy(_thermalModal.gameObject);}

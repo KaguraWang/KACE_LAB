@@ -217,9 +217,8 @@ public class EnthalpyScene : MonoBehaviour {
         if (texts.Length > 0) texts[texts.Length - 1].text = n.Formula;
         var img = n.Rt.GetComponent<Image>();
         bool matched = !string.IsNullOrEmpty(n.SpeciesId);
-        img.color = n == _selected ? new Color(0.20f, 0.45f, 0.35f, 1f)
-                  : matched ? new Color(0.12f, 0.18f, 0.26f, 0.97f)
-                            : new Color(0.30f, 0.16f, 0.16f, 0.97f);
+        img.color = n == _selected ? LabUiTheme.Accent : LabUiTheme.Card;
+        if(img is LabUiSurface surface){surface.WarningBorder=!matched;surface.SetVerticesDirty();}
         n.Rt.anchoredPosition = n.Pos;
     }
 
@@ -271,7 +270,7 @@ public class EnthalpyScene : MonoBehaviour {
         if (d.sqrMagnitude < 6f) return;
         Vector2 dir = d.normalized, nrm = new Vector2(-dir.y, dir.x);
         Vector2 ctrl = (p0 + target) * 0.5f + nrm * Mathf.Clamp(d.magnitude * 0.20f, 24f, 120f);
-        DrawCurve(_pendingRt, p0, ctrl, target, new Color(0.55f, 0.88f, 1f, 0.95f));
+        DrawCurve(_pendingRt, p0, ctrl, target, new Color(0.05f, 0.40f, 0.37f, 1f));
     }
 
     void Update() {
@@ -379,8 +378,7 @@ public class EnthalpyScene : MonoBehaviour {
                 hrt.anchoredPosition = trt.anchoredPosition;
                 hrt.sizeDelta = new Vector2(186f, 40f);   /* 和标注同尺寸（见下面的 LW/LH） */
             }
-            t.color = e.Source == EnthalpySource.Unknown ? new Color(1f, 0.8f, 0.35f)
-                                                         : new Color(0.85f, 0.94f, 1f);
+            t.color = LabUiTheme.Ink;
 
         /* 第二遍：第一遍是顺序贪心，先放的不知道后放的会在哪，
            于是两个标注可能横向压在一起。带着所有人的既有位置重排一次就分开了。 */
@@ -489,7 +487,7 @@ public class EnthalpyScene : MonoBehaviour {
 
     /// <summary>把曲线画成 UI 里的白色细条 + 末端箭头</summary>
     void RebuildEdgeMesh(Edge e, Vector2 p0, Vector2 ctrl, Vector2 p1) {
-        DrawCurve(e.Rt, p0, ctrl, p1, Color.white);
+        DrawCurve(e.Rt, p0, ctrl, p1, LabUiTheme.Ink);
     }
 
     /// <summary>把一条二次贝塞尔画成细条 + 末端箭头。连线与临时拉线共用。</summary>
@@ -1129,8 +1127,9 @@ public class EnthalpyScene : MonoBehaviour {
         rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
         rt.pivot = new Vector2(0.5f, 0.5f);
         if (col.a > 0f) {
-            var img = go.AddComponent<Image>();
-            img.color = col;
+            bool line=name=="Seg"||name=="Head";
+            var img = line?go.AddComponent<Image>():go.AddComponent<LabUiSurface>();
+            img.color = !line&&col.a>=.8f?LabUiTheme.Panel:col;
         }
         return rt;
     }
@@ -1143,7 +1142,7 @@ public class EnthalpyScene : MonoBehaviour {
         var go = new GameObject("T", typeof(RectTransform));
         go.transform.SetParent(parent, false);
         var t = go.AddComponent<Text>();
-        t.font = LabUI.UiFont; t.fontSize = size; t.color = col; t.alignment = anc;
+        t.font = LabUI.UiFont; t.fontSize = size; t.color = LabUiTheme.Ink; t.alignment = anc;
         Localization.Apply(t, s); t.raycastTarget = false; t.supportRichText = true;
         t.horizontalOverflow = HorizontalWrapMode.Overflow;
         t.verticalOverflow = VerticalWrapMode.Overflow;
@@ -1161,8 +1160,9 @@ public class EnthalpyScene : MonoBehaviour {
            从右下角往左排。硬编码 (1,1) 会把对话框的按钮摆到面板外面去。 */
         rt.anchorMin = rt.anchorMax = pivot;
         rt.pivot = pivot; rt.anchoredPosition = pos; rt.sizeDelta = size;
-        var img = go.AddComponent<Image>(); img.color = col;
+        var img = go.AddComponent<LabUiSurface>(); img.color = LabUiTheme.Card;
         var b = go.AddComponent<Button>(); b.targetGraphic = img;
+        LabUiTheme.Button(b);
         if (act != null) b.onClick.AddListener(() => act());
         MkText(rt, label, 13, Color.white, TextAnchor.MiddleCenter, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
         return b;
@@ -1177,6 +1177,7 @@ public class EnthalpyScene : MonoBehaviour {
         var t = MkText(rt, "", 13, new Color(0.92f, 0.96f, 1f), TextAnchor.MiddleCenter, Vector2.zero, Vector2.one, new Vector2(4, 0), new Vector2(-4, 0));
         var f = go.AddComponent<InputField>();
         f.targetGraphic = img; f.textComponent = t; f.text = placeholder;
+        LabUiTheme.Input(f);
         return f;
     }
 }

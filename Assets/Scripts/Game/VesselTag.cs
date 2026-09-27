@@ -125,22 +125,22 @@ public class VesselTag : MonoBehaviour {
         /* 背景板 */
         var bg = new GameObject("BG");
         bg.transform.SetParent(cgo.transform, false);
-        var bimg = bg.AddComponent<Image>();
-        bimg.color = new Color(0.04f, 0.09f, 0.16f, 0.86f);
+        var bimg = bg.AddComponent<LabUiSurface>();
+        bimg.color = LabUiTheme.Panel;
         if (OverlayTagMaterial.Value != null) bimg.material = OverlayTagMaterial.Value;
         var brt = (RectTransform)bg.transform;
         brt.anchorMin = Vector2.zero; brt.anchorMax = Vector2.one;
         brt.offsetMin = Vector2.zero; brt.offsetMax = Vector2.zero;
 
         /* 标题 */
-        t._title = MakeText(cgo.transform, "标题", 20, new Color(0.55f, 0.92f, 0.72f), TextAnchor.MiddleLeft);
+        t._title = MakeText(cgo.transform, "标题", 20, LabUiTheme.Ink, TextAnchor.MiddleLeft);
         var trt = (RectTransform)t._title.transform;
         trt.anchorMin = new Vector2(0, 1); trt.anchorMax = new Vector2(1, 1);
         trt.pivot = new Vector2(0.5f, 1f);
         trt.anchoredPosition = new Vector2(0, -6);
         trt.sizeDelta = new Vector2(-PadX * 2, 28);
 
-        t._capacity = MakeText(cgo.transform, "默认容量", 18, new Color(0.65f,0.80f,0.95f), TextAnchor.MiddleLeft);
+        t._capacity = MakeText(cgo.transform, "默认容量", 18, LabUiTheme.Ink, TextAnchor.MiddleLeft);
         var caprt=(RectTransform)t._capacity.transform;
         caprt.anchorMin=new Vector2(0,1);caprt.anchorMax=new Vector2(1,1);caprt.pivot=new Vector2(0.5f,1);
         caprt.anchoredPosition=new Vector2(0,-34);caprt.sizeDelta=new Vector2(-PadX*2,28);
@@ -314,14 +314,14 @@ public class VesselTag : MonoBehaviour {
 
     void EnsureRows(int n) {
         while (_rowName.Count < n) {
-            var a = MakeText(_canvas.transform, "N" + _rowName.Count, 18, new Color(0.88f, 0.92f, 0.98f), TextAnchor.MiddleLeft);
+            var a = MakeText(_canvas.transform, "N" + _rowName.Count, 18, LabUiTheme.Ink, TextAnchor.MiddleLeft);
             var ar = (RectTransform)a.transform;
             ar.anchorMin = new Vector2(0f, 1f); ar.anchorMax = new Vector2(0.54f, 1f);   /* 名字列 */
             ar.pivot = new Vector2(0.5f, 1f);
             ar.sizeDelta = new Vector2(-PadX, RowH - 4);
             _rowName.Add(a);
 
-            var b = MakeText(_canvas.transform, "A" + _rowAmt.Count, 17, new Color(0.62f, 0.78f, 0.95f), TextAnchor.MiddleRight);
+            var b = MakeText(_canvas.transform, "A" + _rowAmt.Count, 17, LabUiTheme.Ink, TextAnchor.MiddleRight);
             var br = (RectTransform)b.transform;
             br.anchorMin = new Vector2(0.54f, 1f); br.anchorMax = new Vector2(1f, 1f);   /* 数量列 */
             br.pivot = new Vector2(0.5f, 1f);

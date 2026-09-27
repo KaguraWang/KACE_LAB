@@ -223,7 +223,7 @@ public sealed class DeveloperConsole : MonoBehaviour {
         // Log/command text must never inject UI rich-text tags.
         string safe = line.Replace("<", "‹").Replace(">", "›");
         return line.StartsWith("[ERR]", StringComparison.Ordinal)
-            ? "<color=#FF6464>" + safe + "</color>" : safe;
+            ? "<color=#A61919>" + safe + "</color>" : safe;
     }
 
     void FocusInput() {
@@ -250,22 +250,22 @@ public sealed class DeveloperConsole : MonoBehaviour {
             Vector2.zero, Vector2.zero, new Color(0f, 0f, 0f, 0.42f));
         blocker.GetComponent<Image>().raycastTarget = true;
         var panel = Rect("ConsolePanel", blocker, new Vector2(.025f, .42f), new Vector2(.975f, .975f),
-            Vector2.zero, Vector2.zero, new Color(.025f, .035f, .045f, .97f));
+            Vector2.zero, Vector2.zero, LabUiTheme.Panel);
 
-        Text title = Label("ConsoleTitle", panel, font, 19, new Color(.44f, .86f, .98f),
+        Text title = Label("ConsoleTitle", panel, font, 19, LabUiTheme.Ink,
             TextAnchor.MiddleLeft, new Vector2(0, 1), new Vector2(1, 1),
             new Vector2(18, -42), new Vector2(-18, -6));
         title.text = "CHEMLAB  /  DEVELOPER CONSOLE    ~ CLOSE";
 
         var viewport = Rect("LogViewport", panel, new Vector2(0, 0), new Vector2(1, 1),
-            new Vector2(16, 62), new Vector2(-36, -48), new Color(.012f, .02f, .027f, 1f));
+            new Vector2(16, 62), new Vector2(-36, -48), LabUiTheme.Card);
         viewport.gameObject.AddComponent<RectMask2D>();
         var logRect = Rect("LogContent", viewport, new Vector2(0, 1), new Vector2(1, 1),
             new Vector2(10, 0), new Vector2(-10, 0), Color.clear);
         _output = logRect.gameObject.AddComponent<Text>();
         _output.font = font;
         _output.fontSize = 15;
-        _output.color = new Color(.83f, .91f, .88f);
+        _output.color = LabUiTheme.Ink;
         _output.alignment = TextAnchor.UpperLeft;
         _output.horizontalOverflow = HorizontalWrapMode.Wrap;
         _output.verticalOverflow = VerticalWrapMode.Overflow;
@@ -294,7 +294,7 @@ public sealed class DeveloperConsole : MonoBehaviour {
 
         var inputBackground = Rect("CommandInput", panel, new Vector2(0, 0), new Vector2(1, 0),
             new Vector2(16, 12), new Vector2(-16, 54), new Color(.07f, .10f, .12f, 1f));
-        Label("Prompt", inputBackground, font, 19, new Color(.43f, .88f, .62f), TextAnchor.MiddleCenter,
+        Label("Prompt", inputBackground, font, 19, LabUiTheme.Ink, TextAnchor.MiddleCenter,
             Vector2.zero, new Vector2(0, 1), new Vector2(10, 0), new Vector2(29, 0)).text = ">";
         var inputRect = Rect("InputTextArea", inputBackground, Vector2.zero, Vector2.one,
             new Vector2(34, 3), new Vector2(-8, -3), Color.clear);
@@ -307,6 +307,7 @@ public sealed class DeveloperConsole : MonoBehaviour {
         _input.textComponent = inputText;
         _input.placeholder = placeholder;
         _input.targetGraphic = inputBackground.GetComponent<Image>();
+        LabUiTheme.Input(_input);
         _input.lineType = InputField.LineType.SingleLine;
         _input.characterLimit = 512;
         _input.onValidateInput = (text, index, added) => added == '`' || added == '~' ? '\0' : added;
@@ -324,7 +325,7 @@ public sealed class DeveloperConsole : MonoBehaviour {
         rect.anchorMax = max;
         rect.offsetMin = offsetsMin;
         rect.offsetMax = offsetsMax;
-        if (color.a > 0f) go.AddComponent<Image>().color = color;
+        if (color.a > 0f) go.AddComponent<LabUiSurface>().color = color;
         return rect;
     }
 

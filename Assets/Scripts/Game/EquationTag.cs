@@ -114,7 +114,7 @@ public class EquationTag : MonoBehaviour {
         var bg = new GameObject("BG");
         bg.transform.SetParent(cgo.transform, false);
         t._bg = bg.AddComponent<Image>();
-        t._bg.color = new Color(0.06f, 0.12f, 0.20f, 0.93f);
+        t._bg.color = LabUiTheme.Panel;
         if (OverlayTagMaterial.Value != null) t._bg.material = OverlayTagMaterial.Value;
         var brt = (RectTransform)bg.transform;
         brt.anchorMin = Vector2.zero; brt.anchorMax = Vector2.one;
@@ -131,7 +131,7 @@ public class EquationTag : MonoBehaviour {
         var cg = new GameObject("Conn", typeof(RectTransform));
         cg.transform.SetParent(cgo.transform, false);
         t._conn = ConnectorGraphic.Attach(cg);
-        t._conn.color = new Color(0.96f, 0.98f, 1f);
+        t._conn.color = LabUiTheme.Ink;
 
         return t;
     }
@@ -142,7 +142,7 @@ public class EquationTag : MonoBehaviour {
         var tx = go.AddComponent<Text>();
         tx.font = LabUI.UiFont;
         tx.fontSize = size;
-        tx.color = col;
+        tx.color = LabUiTheme.Ink;
         tx.alignment = anchor;
         tx.horizontalOverflow = HorizontalWrapMode.Overflow;
         tx.verticalOverflow = VerticalWrapMode.Overflow;
@@ -253,7 +253,7 @@ public class EquationTag : MonoBehaviour {
         /* ---- 快消失时淡出 ---- */
         float left01 = Mathf.Clamp01((float)(EqTagSettings.Duration - age));
         float a = Mathf.Min(1f, left01 / 1.2f);
-        var c1 = _bg.color;  c1.a = 0.93f * a; _bg.color = c1;
+        var c1 = _bg.color;  c1.a = LabUiTheme.Panel.a * a; _bg.color = c1;
         SetAlpha(_cond, a); SetAlpha(_left, a); SetAlpha(_right, a);
         var cc = _conn.color; cc.a = a; _conn.color = cc;
         return true;

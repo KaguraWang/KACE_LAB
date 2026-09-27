@@ -72,7 +72,7 @@ public class PetView : MonoBehaviour {
         var bg = new GameObject("Bubble", typeof(RectTransform));
         bg.transform.SetParent(_root, false);
         _bubbleBg = bg.AddComponent<Image>();
-        _bubbleBg.color = new Color(0.10f, 0.14f, 0.20f, 0.96f);
+        _bubbleBg.color = LabUiTheme.Panel;
         _bubbleBg.raycastTarget = false;
         _bubble = (RectTransform)bg.transform;
         _bubble.anchorMin = _bubble.anchorMax = new Vector2(0.5f, 0.5f);
@@ -82,7 +82,7 @@ public class PetView : MonoBehaviour {
         tgo.transform.SetParent(_bubble, false);
         _bubbleText = tgo.AddComponent<Text>();
         _bubbleText.font = font; _bubbleText.fontSize = 15;
-        _bubbleText.color = new Color(0.95f, 0.97f, 1f);
+        _bubbleText.color = LabUiTheme.Ink;
         _bubbleText.alignment = TextAnchor.UpperLeft;
         _bubbleText.horizontalOverflow = HorizontalWrapMode.Wrap;
         _bubbleText.verticalOverflow = VerticalWrapMode.Overflow;
@@ -122,6 +122,7 @@ public class PetView : MonoBehaviour {
         _rt.anchoredPosition = Home;
         if (_bubble != null)
             _bubble.anchoredPosition = Home + new Vector2(-_rt.sizeDelta.x * 0.5f - 8f, _rt.sizeDelta.y * 0.30f);
+        ClampBubble();
     }
 
     Vector2 LabCorner() => new Vector2(
@@ -221,7 +222,7 @@ public class PetView : MonoBehaviour {
         gs.horizontalOverflow = HorizontalWrapMode.Wrap;
         gs.verticalOverflow = VerticalWrapMode.Overflow;
         float textH = _bubbleText.cachedTextGeneratorForLayout
-                        .GetPreferredHeight(text, gs) / _bubbleText.pixelsPerUnit;
+                        .GetPreferredHeight(_bubbleText.text, gs) / _bubbleText.pixelsPerUnit;
 
         /* ④ 定高 */
         float wantH = Mathf.Max(LineH + PadY * 2f, textH + PadY * 2f + 2f);
@@ -232,6 +233,7 @@ public class PetView : MonoBehaviour {
         float pw = petRt != null ? petRt.sizeDelta.x : 192f;
         float ph = petRt != null ? petRt.sizeDelta.y : 208f;
         _bubble.anchoredPosition = Home + new Vector2(-pw * 0.5f - 10f, ph * 0.18f + wantH * 0.5f);
+        ClampBubble();
 
         _bubble.gameObject.SetActive(true);
         _bubbleUntil = LabClock() + seconds;
@@ -240,6 +242,17 @@ public class PetView : MonoBehaviour {
     }
 
     public void ShutUp() { if (_bubble != null) _bubble.gameObject.SetActive(false); }
+    void ClampBubble() {
+        if(_bubble==null||_root==null)return;
+        var corners=new Vector3[4];_bubble.GetWorldCorners(corners);
+        Vector2 min=_root.InverseTransformPoint(corners[0]),max=_root.InverseTransformPoint(corners[2]);
+        Rect bounds=_root.rect;Vector2 correction=Vector2.zero;
+        if(min.x<bounds.xMin+8)correction.x=bounds.xMin+8-min.x;
+        else if(max.x>bounds.xMax-8)correction.x=bounds.xMax-8-max.x;
+        if(min.y<bounds.yMin+8)correction.y=bounds.yMin+8-min.y;
+        else if(max.y>bounds.yMax-8)correction.y=bounds.yMax-8-max.y;
+        _bubble.anchoredPosition+=correction;
+    }
 
     /* ---------------- 交互入口（由 PetDrag 调用） ---------------- */
     public void OnLeftClick() {

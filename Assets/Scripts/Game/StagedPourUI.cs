@@ -32,7 +32,7 @@ public partial class LabUI {
         var panel=Node("StagedPourPanel",_pourModal,new Vector2(.5f,0),new Vector2(.5f,0),new Vector2(-320,20),new Vector2(320,275),BG);
         _pourAmount=Label(panel,"",16,INK,TextAnchor.UpperLeft,new Vector2(0,1),Vector2.one,new Vector2(20,-50),new Vector2(-20,-15));
         Slider MakeSlider(string name,float y){
-            var track=Node(name,panel,Vector2.zero,Vector2.zero,new Vector2(25,y),new Vector2(450,y+20),new Color(.24f,.32f,.42f,1));
+            var track=Node(name,panel,Vector2.zero,Vector2.zero,new Vector2(25,y),new Vector2(450,y+20),LabUiTheme.Card);
             var handle=Node("Handle",track,Vector2.zero,new Vector2(0,1),new Vector2(-7,0),new Vector2(7,0),ACC);
             var slider=track.gameObject.AddComponent<Slider>();slider.handleRect=(RectTransform)handle;slider.targetGraphic=handle.GetComponent<Image>();slider.minValue=0;slider.maxValue=100;slider.value=50;
             slider.onValueChanged.AddListener(_=>UpdatePourAmounts());return slider;
@@ -40,9 +40,9 @@ public partial class LabUI {
         _pourLiquid=MakeSlider("LiquidAmount",170);_pourSolid=MakeSlider("SolidAmount",120);_pourSolid.interactable=_pour.SolidMassGrams>0;
         _pourLiquid.interactable=_pour.LiquidMassGrams>0;if(!_pourLiquid.interactable)_pourLiquid.value=0;if(!_pourSolid.interactable)_pourSolid.value=0;
         var unit=Node("Units",panel,Vector2.zero,Vector2.zero,new Vector2(480,120),new Vector2(615,190),BG2);
-        Btn(unit,"百分比 / g",()=>SetPourUnits(!_pourGrams),new Color(.2f,.35f,.47f,1),15,true);
+        Btn(unit,"百分比 / g",()=>SetPourUnits(!_pourGrams),LabUiTheme.Card,15,true);
         _pourMessage=Label(panel,"全场反应已暂停；预览后可撤销，完成才提交",12,DIM,TextAnchor.MiddleLeft,Vector2.zero,new Vector2(1,0),new Vector2(20,70),new Vector2(-20,110));
-        void Button(string title,int x,System.Action action){Color color=title=="完成操作"?new Color(.12f,.46f,.36f,1):new Color(.2f,.3f,.42f,1);var node=Node(title,panel,Vector2.zero,Vector2.zero,new Vector2(x,15),new Vector2(x+140,58),color);Btn(node,title,()=>{if(!_pourBusy)action();},color,16,true);}
+        void Button(string title,int x,System.Action action){Color color=title=="完成操作"?LabUiTheme.Accent:LabUiTheme.Card;var node=Node(title,panel,Vector2.zero,Vector2.zero,new Vector2(x,15),new Vector2(x+140,58),color);Btn(node,title,()=>{if(!_pourBusy)action();},color,16,true);}
         Button("预览 / Enter",15,PreviewStagedPour);Button("撤销",170,()=>StartCoroutine(FlyContents(0,0)));Button("完成操作",325,()=>StartCoroutine(EndStagedPour(true)));Button("取消",480,()=>StartCoroutine(EndStagedPour(false)));
         SetLayerRecursive(_pourModal.gameObject,UiLayer);UpdatePourAmounts();PrewarmFonts();StartCoroutine(FlyPour(false));
     }

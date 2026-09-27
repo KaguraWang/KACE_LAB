@@ -87,8 +87,8 @@ public static class PetMenu {
         float h = items.Count * 30 + 10;
         var panel = new GameObject("Menu", typeof(RectTransform));
         panel.transform.SetParent(layer, false);
-        var img = panel.AddComponent<Image>();
-        img.color = new Color(0.10f, 0.14f, 0.20f, 0.99f);
+        var img = panel.AddComponent<LabUiSurface>();
+        img.color = LabUiTheme.Panel;
         var rt = (RectTransform)panel.transform;
         rt.anchorMin = rt.anchorMax = new Vector2(0, 0);
         rt.pivot = new Vector2(0, 1);
@@ -104,11 +104,11 @@ public static class PetMenu {
 
         for (int i = 0; i < items.Count; i++) {
             var it = items[i];
-            if (it.Item2 == null) continue;                   // 分隔线
+            if (it.Item1 == "——") continue;
             var bgo = new GameObject("I", typeof(RectTransform));
             bgo.transform.SetParent(rt, false);
-            var bimg = bgo.AddComponent<Image>();
-            bimg.color = new Color(0.16f, 0.22f, 0.30f, 1f);
+            var bimg = bgo.AddComponent<LabUiSurface>();
+            bimg.color = LabUiTheme.Card;
             var brt = (RectTransform)bgo.transform;
             brt.anchorMin = brt.anchorMax = new Vector2(1, 1);
             brt.pivot = new Vector2(1, 1);
@@ -116,12 +116,14 @@ public static class PetMenu {
             brt.sizeDelta = new Vector2(240, 28);
             var b = bgo.AddComponent<Button>();
             b.targetGraphic = bimg;
+            LabUiTheme.Button(b);
             var act = it.Item2;
-            b.onClick.AddListener(() => { Close(); act(); });
+            if(act!=null)b.onClick.AddListener(() => { Close(); act(); });
+            else b.onClick.AddListener(Close);
             var tgo = new GameObject("T", typeof(RectTransform));
             tgo.transform.SetParent(brt, false);
             var t = tgo.AddComponent<Text>();
-            t.font = LabUI.UiFont; t.fontSize = 13; t.color = Color.white;
+            t.font = LabUI.UiFont; t.fontSize = 13; t.color = LabUiTheme.Ink;
             Localization.Apply(t, it.Item1); t.alignment = TextAnchor.MiddleLeft;
             t.resizeTextForBestFit = true; t.resizeTextMinSize = 9; t.resizeTextMaxSize = 13;
             t.raycastTarget = false;

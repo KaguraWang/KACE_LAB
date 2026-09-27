@@ -9,13 +9,17 @@ public sealed class LeftPanelScroll : MonoBehaviour, IScrollHandler, IBeginDragH
     RectTransform[] content;
     Vector2[] original;
     float offset;
-    const float ContentBottom=878f;
+    float contentBottom;
     public void Configure(RectTransform host,RectTransform[] items){
         panel=host;content=items;original=new Vector2[items.Length];
-        for(int i=0;i<items.Length;i++)original[i]=items[i].anchoredPosition;
+        contentBottom=0;
+        for(int i=0;i<items.Length;i++){
+            original[i]=items[i].anchoredPosition;
+            contentBottom=Mathf.Max(contentBottom,-original[i].y+items[i].rect.height*items[i].pivot.y);
+        }
         Apply();
     }
-    float Maximum()=>panel==null?0:Mathf.Max(0,ContentBottom-panel.rect.height+12);
+    float Maximum()=>panel==null?0:Mathf.Max(0,contentBottom-panel.rect.height+12);
     void Apply(){
         if(content==null)return;
         offset=Mathf.Clamp(offset,0,Maximum());
@@ -172,6 +176,15 @@ public partial class LabUI {
         bool leftVisible=compact?_compactLeftOpen:_desktopLeftOpen,rightVisible=compact?_compactRightOpen:_desktopRightOpen;
         _leftMotion.Present(leftVisible,Vector2.left);_rightMotion.Present(rightVisible,Vector2.right);_logMotion.Present(_logOpen,Vector2.down);
         _leftDrawerMark.text=leftVisible?"−":"+";_rightDrawerMark.text=rightVisible?"−":"+";_logDrawerMark.text=_logOpen?"−":"+";
+        DrawerColor(_leftDrawerToggle,leftVisible);
+        DrawerColor(_rightDrawerToggle,rightVisible);
+        DrawerColor(_logDrawerToggle,_logOpen);
+    }
+    static void DrawerColor(RectTransform toggle,bool selected){
+        if(toggle==null)return;
+        var shade=selected?LabUiTheme.Accent:LabUiTheme.Card;
+        var background=toggle.GetComponent<Image>();if(background!=null)background.color=shade;
+        var button=toggle.GetComponentInChildren<Button>();if(button!=null&&button.targetGraphic!=null)button.targetGraphic.color=shade;
     }
 }
 }

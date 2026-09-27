@@ -119,8 +119,8 @@ public class PetChat : MonoBehaviour {
         /* 面板：贴在右下角，不挡左侧器材架与右侧试剂架 */
         var pgo = new GameObject("Panel", typeof(RectTransform));
         pgo.transform.SetParent(_root, false);
-        var pimg = pgo.AddComponent<Image>();
-        pimg.color = new Color(0.08f, 0.11f, 0.16f, 0.97f);
+        var pimg = pgo.AddComponent<LabUiSurface>();
+        pimg.color = LabUiTheme.Panel;
         _panel = (RectTransform)pgo.transform;
         _panel.anchorMin = _panel.anchorMax = new Vector2(1, 0);
         _panel.pivot = new Vector2(1, 0);
@@ -137,7 +137,7 @@ public class PetChat : MonoBehaviour {
         var viewGo = new GameObject("View", typeof(RectTransform));
         viewGo.transform.SetParent(_panel, false);
         var vimg = viewGo.AddComponent<Image>();
-        vimg.color = new Color(0.05f, 0.07f, 0.10f, 1f);
+        vimg.color = LabUiTheme.Card;
         var viewRt = (RectTransform)viewGo.transform;
         viewRt.anchorMin = new Vector2(0, 0); viewRt.anchorMax = new Vector2(1, 1);
         viewRt.offsetMin = new Vector2(10, 96); viewRt.offsetMax = new Vector2(-10, -38);
@@ -177,8 +177,8 @@ public class PetChat : MonoBehaviour {
         _inputRt = (RectTransform)inGo.transform;
         _inputRt.anchorMin = new Vector2(0, 0); _inputRt.anchorMax = new Vector2(1, 0);
         _inputRt.pivot = new Vector2(0.5f, 0);
-        _inputRt.anchoredPosition = new Vector2(-46, 46);
-        _inputRt.sizeDelta = new Vector2(-72, InputMinH);
+        _inputRt.anchoredPosition = new Vector2(-28, 46);
+        _inputRt.sizeDelta = new Vector2(-80, InputMinH);
 
         var txtGo = new GameObject("Text", typeof(RectTransform));
         txtGo.transform.SetParent(_inputRt, false);
@@ -196,11 +196,15 @@ public class PetChat : MonoBehaviour {
         _input = inGo.AddComponent<InputField>();
         _input.targetGraphic = inImg;
         _input.textComponent = _inputText;
+        LabUiTheme.Input(_input);
         _input.lineType = InputField.LineType.MultiLineNewline;   // 多行，回车换行
         _input.text = "";
 
-        MkBtn(_panel, "发送", Send, new Vector2(-4, 46), new Vector2(58, 34));
-        MkBtn(_panel, "收起", () => gameObject.SetActive(false), new Vector2(-4, 46 + 38), new Vector2(58, 30));
+        var send= MkBtn(_panel, "发送", Send, new Vector2(-4, 46), new Vector2(58, 34));
+        var hide= MkBtn(_panel, "收起", () => gameObject.SetActive(false), new Vector2(-4, 84), new Vector2(58, 30));
+        foreach(var button in new[]{send,hide}){
+            var rt=(RectTransform)button.transform;rt.anchorMin=rt.anchorMax=new Vector2(1,0);rt.pivot=new Vector2(1,0);
+        }
 
         _status = MkText(_panel, "", 12, new Color(0.7f, 0.75f, 0.85f), TextAnchor.MiddleLeft,
                          new Vector2(0, 0), new Vector2(1, 0), new Vector2(12, 14), new Vector2(-70, 40));
@@ -233,15 +237,13 @@ public class PetChat : MonoBehaviour {
     void AddBubble(ChatMsg m) {
         var go = new GameObject("Msg", typeof(RectTransform));
         go.transform.SetParent(_listContent, false);
-        var bg = go.AddComponent<Image>();
+        var bg = go.AddComponent<LabUiSurface>();
         bool me = m.From == ChatMsg.Who.Me;
-        bg.color = me ? new Color(0.16f, 0.30f, 0.26f, 1f)
-                 : m.From == ChatMsg.Who.System ? new Color(0.20f, 0.18f, 0.12f, 1f)
-                 : new Color(0.14f, 0.18f, 0.26f, 1f);
+        bg.color = LabUiTheme.Card;
         var tgo = new GameObject("T", typeof(RectTransform));
         tgo.transform.SetParent(go.transform, false);
         var t = tgo.AddComponent<Text>();
-        t.font = LabUI.UiFont; t.fontSize = 14; t.color = new Color(0.95f, 0.97f, 1f);
+        t.font = LabUI.UiFont; t.fontSize = 14; t.color = LabUiTheme.Ink;
         string speaker = !Localization.English ? (m.From == ChatMsg.Who.Anon ? "阿侬" : "系统")
             : (m.From == ChatMsg.Who.Anon ? "Anon" : "System");
         string body = m.Localizable ? Localization.TChatMessage(m.Text) : m.Text;
@@ -254,21 +256,23 @@ public class PetChat : MonoBehaviour {
         var trt = (RectTransform)tgo.transform;
         trt.anchorMin = Vector2.zero; trt.anchorMax = Vector2.one;
         trt.offsetMin = new Vector2(10, 7); trt.offsetMax = new Vector2(-10, -7);
-        var fit = go.AddComponent<ContentSizeFitter>();
-        fit.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
         var le = go.AddComponent<LayoutElement>();
         le.minHeight = 30;
+        float width=Mathf.Max(80,_panel.rect.width-56);
+        var settings=t.GetGenerationSettings(new Vector2(width,0));
+        settings.horizontalOverflow=HorizontalWrapMode.Wrap;
+        le.preferredHeight=Mathf.Max(30,t.cachedTextGeneratorForLayout.GetPreferredHeight(t.text,settings)/t.pixelsPerUnit+14);
     }
 
     void UpdateStatus() {
         if (_status == null) return;
         if (Cfg == null) Cfg = AiConfig.Load();
-        if (_busy) { Localization.Apply(_status, "处理中…"); _status.color = new Color(1f, 0.85f, 0.5f); return; }
+        if (_busy) { Localization.Apply(_status, "处理中…"); _status.color = LabUiTheme.Ink; return; }
         if (!Cfg.Ready) {
             Localization.Apply(_status, "未配置 AI 接口 —— 点「设置」填写 baseURL 与 API Key");
-            _status.color = new Color(1f, 0.7f, 0.5f);
+            _status.color = LabUiTheme.Ink;
         } else {
-            Localization.Apply(_status, $"已连接 {Cfg.model}"); _status.color = new Color(0.6f, 0.85f, 0.7f);
+            Localization.Apply(_status, $"已连接 {Cfg.model}"); _status.color = LabUiTheme.Ink;
         }
     }
 
@@ -285,8 +289,9 @@ public class PetChat : MonoBehaviour {
             float want = Mathf.Clamp(pref + 12f, InputMinH, InputMaxH);
             if (Mathf.Abs(want - _inputH) > 0.6f) {
                 _inputH = want;
-                _inputRt.sizeDelta = new Vector2(-72, _inputH);
-                _inputRt.anchoredPosition = new Vector2(-46, 46);
+                _inputRt.sizeDelta = new Vector2(-80, _inputH);
+                _inputRt.anchoredPosition = new Vector2(-28, 46);
+                _scroll.viewport.offsetMin=new Vector2(10,46+_inputH+10);
             }
         }
         /* 回车（不带 Shift）发送 */
@@ -306,7 +311,8 @@ public class PetChat : MonoBehaviour {
         string msg = (_input.text ?? "").Trim();
         if (msg.Length == 0) return;
         _input.text = "";
-        _inputH = InputMinH; _inputRt.sizeDelta = new Vector2(-72, InputMinH);
+        _inputH = InputMinH; _inputRt.sizeDelta = new Vector2(-80, InputMinH);
+        _scroll.viewport.offsetMin=new Vector2(10,46+InputMinH+10);
         Add(ChatMsg.Who.Me, msg);
 
         PetProgress.ChatUsed = true;
@@ -480,7 +486,7 @@ public class PetChat : MonoBehaviour {
         var go = new GameObject("T", typeof(RectTransform));
         go.transform.SetParent(parent, false);
         var t = go.AddComponent<Text>();
-        t.font = LabUI.UiFont; t.fontSize = size; t.color = col; t.alignment = anc;
+        t.font = LabUI.UiFont; t.fontSize = size; t.color = LabUiTheme.Ink; t.alignment = anc;
         Localization.Apply(t, s); t.raycastTarget = false; t.supportRichText = true;
         t.horizontalOverflow = HorizontalWrapMode.Wrap;
         t.verticalOverflow = VerticalWrapMode.Overflow;
@@ -492,16 +498,17 @@ public class PetChat : MonoBehaviour {
     static Button MkBtn(RectTransform parent, string label, Action act, Vector2 pos, Vector2 size) {
         var go = new GameObject("B", typeof(RectTransform));
         go.transform.SetParent(parent, false);
-        var img = go.AddComponent<Image>();
-        img.color = new Color(0.20f, 0.28f, 0.38f, 1f);
+        var img = go.AddComponent<LabUiSurface>();
+        img.color = LabUiTheme.Card;
         var rt = (RectTransform)go.transform;
         rt.anchorMin = rt.anchorMax = new Vector2(1, 1);
         rt.pivot = new Vector2(1, 1);
         rt.anchoredPosition = pos; rt.sizeDelta = size;
         var b = go.AddComponent<Button>();
         b.targetGraphic = img;
+        LabUiTheme.Button(b);
         if (act != null) b.onClick.AddListener(() => act());
-        var t = MkText(rt, label, 13, Color.white, TextAnchor.MiddleCenter,
+        var t = MkText(rt, label, 13, LabUiTheme.Ink, TextAnchor.MiddleCenter,
                        Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
         return b;
     }

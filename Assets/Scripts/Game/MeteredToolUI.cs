@@ -64,8 +64,8 @@ public partial class LabUI {
         _meteredPanel.localScale=Vector3.one*Mathf.Min(1f,Mathf.Max(.1f,(Screen.width*.5f-34f)/420f));
         _meteredPanel.gameObject.SetActive(true);
         var v=_meteredTool;string target=v.AttachedTo==null?"请拖到目标器皿上方":VesselNames.Name(v.AttachedTo.Kind)+" #"+v.AttachedTo.Id;
-        _meteredStatus.text=$"{VesselNames.Name(v.Kind)}：{v.Volume():F2} / {v.Capacity:F0} mL\n{target}  |  {v.MeteredFlowMlPerSecond:F2} mL/s";
-        if(_meteredFrameLabel!=null)_meteredFrameLabel.text=LabBootstrap.Instance!=null&&LabBootstrap.Instance.MeteredFrameActiveFor(v)?"返回视角":"查看全貌";
+        Localization.Apply(_meteredStatus,$"{VesselNames.Name(v.Kind)}：{v.Volume():F2} / {v.Capacity:F0} mL\n{target}  |  {v.MeteredFlowMlPerSecond:F2} mL/s");
+        if(_meteredFrameLabel!=null)Localization.Apply(_meteredFrameLabel,LabBootstrap.Instance!=null&&LabBootstrap.Instance.MeteredFrameActiveFor(v)?"返回视角":"查看全貌");
         if(_meteredDialPointer!=null)_meteredDialPointer.localRotation=Quaternion.Euler(0,0,135-(float)(v.MeteredFlowMlPerSecond*135));
     }
 

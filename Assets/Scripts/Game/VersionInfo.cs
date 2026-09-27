@@ -41,22 +41,22 @@ public sealed class VersionInfo : MonoBehaviour, IPointerEnterHandler, IPointerE
         ir.offsetMin = ir.offsetMax = Vector2.zero;
         var glyph = icon.GetComponent<Text>();glyph.font = font;glyph.text = "i";
         glyph.fontSize = 21;glyph.fontStyle = FontStyle.Bold;glyph.alignment = TextAnchor.MiddleCenter;
-        glyph.color = new Color(.94f,.97f,1);glyph.raycastTarget = false;
+        glyph.color = LabUiTheme.Ink;glyph.raycastTarget = false;
 
         var info = button.AddComponent<VersionInfo>();Instance = info;
-        var popup = new GameObject("VersionInfoPopup", typeof(RectTransform), typeof(Image));
+        var popup = new GameObject("VersionInfoPopup", typeof(RectTransform), typeof(LabUiSurface));
         popup.transform.SetParent(root.transform, false);
         info.panel = (RectTransform)popup.transform;
         info.panel.anchorMin = info.panel.anchorMax = new Vector2(1,0);info.panel.pivot = new Vector2(1,0);
         info.panel.anchoredPosition = new Vector2(-18,58);info.panel.sizeDelta = new Vector2(300,140);
-        popup.GetComponent<Image>().color = new Color(.065f,.085f,.115f,1);
+        popup.GetComponent<Image>().color = LabUiTheme.Panel;
         popup.GetComponent<Image>().raycastTarget = false;
         var text = new GameObject("VersionInfoText", typeof(RectTransform), typeof(Text));
         text.transform.SetParent(popup.transform, false);
         var tr = (RectTransform)text.transform;tr.anchorMin = Vector2.zero;tr.anchorMax = Vector2.one;
         tr.offsetMin = new Vector2(16,12);tr.offsetMax = new Vector2(-16,-12);
         info.contents = text.GetComponent<Text>();info.contents.font = font;info.contents.fontSize = 16;
-        info.contents.color = new Color(.94f,.97f,1);info.contents.alignment = TextAnchor.UpperLeft;
+        info.contents.color = LabUiTheme.Ink;info.contents.alignment = TextAnchor.UpperLeft;
         info.contents.horizontalOverflow = HorizontalWrapMode.Wrap;info.contents.lineSpacing = 1.25f;
         info.contents.raycastTarget = false;info.RefreshText();popup.SetActive(false);
     }
@@ -86,7 +86,7 @@ public sealed class InfoCircle : MaskableGraphic {
     protected override void OnPopulateMesh(VertexHelper helper) {
         helper.Clear();var rect = rectTransform.rect;var center = rect.center;
         float radius = Mathf.Min(rect.width,rect.height)*.45f;
-        var vertex = UIVertex.simpleVert;vertex.color = new Color(.11f,.16f,.22f);
+        var vertex = UIVertex.simpleVert;vertex.color = LabUiTheme.Panel;
         vertex.position = center;helper.AddVert(vertex);
         const int segments = 48;
         for(int i=0;i<=segments;i++) {
@@ -95,7 +95,7 @@ public sealed class InfoCircle : MaskableGraphic {
             helper.AddVert(vertex);
         }
         for(int i=0;i<segments;i++) helper.AddTriangle(0,i+1,i+2);
-        int start=helper.currentVertCount;vertex.color = new Color(.66f,.79f,.88f);
+        int start=helper.currentVertCount;vertex.color = LabUiTheme.Border;
         for(int i=0;i<=segments;i++) {
             float a=i*Mathf.PI*2/segments;var dir=new Vector2(Mathf.Cos(a),Mathf.Sin(a));
             vertex.position=center+dir*radius;helper.AddVert(vertex);

@@ -31,11 +31,11 @@ public partial class LabUI {
     }
     void RefreshBurnerDialog(){
         if(_burnerModal==null||_controlledBurner==null)return;
-        _fireValue.text=$"火力 {_controlledBurner.GasFlow*100:F0}%";
+        Localization.Apply(_fireValue,$"火力 {_controlledBurner.GasFlow*100:F0}%");
         _fireSlider.SetValueWithoutNotify((float)_controlledBurner.GasFlow);
-        _fireToggle.text=_controlledBurner.Lit?"熄灭":"点燃";
-        _fireStatus.text=(_controlledBurner.Lit?"已点燃":"未点燃")+" · 拖动滑条立即生效\n"+
-            (_controlledBurner.CanLight?"调高火力会增大火焰并加快加热。":"低于 12% 无法维持火焰；调高后需重新点燃。")+"\nEsc 关闭，保留当前设置。";
+        Localization.Apply(_fireToggle,_controlledBurner.Lit?"熄灭":"点燃");
+        Localization.Apply(_fireStatus,(_controlledBurner.Lit?"已点燃":"未点燃")+" · 拖动滑条立即生效\n"+
+            (_controlledBurner.CanLight?"调高火力会增大火焰并加快加热。":"低于 12% 无法维持火焰；调高后需重新点燃。")+"\nEsc 关闭，保留当前设置。");
     }
     public void CloseBurnerDialog(){
         if(_burnerModal!=null){_burnerModal.gameObject.SetActive(false);Destroy(_burnerModal.gameObject);}

@@ -42,8 +42,8 @@ public class TutorialBar : MonoBehaviour {
 
         var pgo = new GameObject("Panel", typeof(RectTransform));
         pgo.transform.SetParent(_root, false);
-        var img = pgo.AddComponent<Image>();
-        img.color = new Color(0.09f, 0.15f, 0.21f, 0.97f);
+        var img = pgo.AddComponent<LabUiSurface>();
+        img.color = LabUiTheme.Panel;
         _panel = (RectTransform)pgo.transform;
         _panel.anchorMin = new Vector2(0.5f, 1); _panel.anchorMax = new Vector2(0.5f, 1);
         _panel.pivot = new Vector2(0.5f, 1);
@@ -54,7 +54,7 @@ public class TutorialBar : MonoBehaviour {
         tgo.transform.SetParent(_panel, false);
         _label = tgo.AddComponent<Text>();
         _label.font = LabUI.UiFont; _label.fontSize = 14;
-        _label.color = new Color(0.9f, 0.96f, 1f);
+        _label.color = LabUiTheme.Ink;
         _label.alignment = TextAnchor.MiddleLeft;
         _label.horizontalOverflow = HorizontalWrapMode.Overflow;
         _label.raycastTarget = false;
@@ -70,19 +70,20 @@ public class TutorialBar : MonoBehaviour {
     void Btn(string label, float x, System.Action act, Color col) {
         var go = new GameObject("B", typeof(RectTransform));
         go.transform.SetParent(_panel, false);
-        var img = go.AddComponent<Image>();
-        img.color = col;
+        var img = go.AddComponent<LabUiSurface>();
+        img.color = LabUiTheme.Card;
         var rt = (RectTransform)go.transform;
         rt.anchorMin = rt.anchorMax = new Vector2(1, 0.5f);
         rt.pivot = new Vector2(1, 0.5f);
         rt.anchoredPosition = new Vector2(x, 0);
         rt.sizeDelta = new Vector2(100, 28);
         var b = go.AddComponent<Button>(); b.targetGraphic = img;
+        LabUiTheme.Button(b);
         b.onClick.AddListener(() => act());
         var tgo = new GameObject("T", typeof(RectTransform));
         tgo.transform.SetParent(rt, false);
         var t = tgo.AddComponent<Text>();
-        t.font = LabUI.UiFont; t.fontSize = 12; t.color = Color.white;
+        t.font = LabUI.UiFont; t.fontSize = 12; t.color = LabUiTheme.Ink;
         t.text = label; t.alignment = TextAnchor.MiddleCenter; t.raycastTarget = false;
         var trt = (RectTransform)tgo.transform;
         trt.anchorMin = Vector2.zero; trt.anchorMax = Vector2.one;
