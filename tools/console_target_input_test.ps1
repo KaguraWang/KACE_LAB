@@ -1,5 +1,5 @@
 param(
-    [string]$ProjectRoot = 'D:\KaceLab_TeacherCopy1',
+    [string]$ProjectRoot = 'D:\ChemLabUnity',
     [int]$Width = 1280,
     [int]$Height = 800
 )
