@@ -73,7 +73,9 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             if(input!=null && input.textComponent==text) continue; // User input is not interface prose.
             string cleaned=Regex.Replace(raw,"<[^>]+>","").Replace("神楽風和","").Replace("支持風和谢谢喵","");
             // The language selector intentionally advertises Chinese in English mode.
-            if(english && cleaned!="中" && Regex.IsMatch(cleaned,@"[\u3400-\u9fff]")) {
+            bool languageSelector=text.GetComponentInParent<Button>()?.name=="LangBtn";
+            if(languageSelector)Check(context+" language selector names the destination language",cleaned==(english?"中文":"EN"));
+            if(english && !(languageSelector&&cleaned=="中文") && Regex.IsMatch(cleaned,@"[\u3400-\u9fff]")) {
                 untranslated++;
                 string entry=context+" | "+PathOf(text.transform)+" | "+raw.Replace('\n','|');
                 if(missing.Add(entry))lines.Add("UNTRANSLATED "+entry);

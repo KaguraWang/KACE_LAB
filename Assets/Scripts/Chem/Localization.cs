@@ -645,7 +645,7 @@ public static class Lang {
         Localization.English = english;
         Localization.RefreshTrackedTexts();
         var ui = UnityEngine.Object.FindObjectOfType<ChemLab.Game.LabUI>();
-        if (ui != null) ui.RefreshLogLayout();
+        if (ui != null) { ui.RefreshLogLayout(); ui.RefreshLanguageButton(); }
         ChemLab.Game.PetChat.RefreshForLanguage();
         PlayerPrefs.SetInt("chemlab.lang", english ? 1 : 0);
         PlayerPrefs.Save();

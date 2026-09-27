@@ -929,6 +929,10 @@ public partial class LabUI : MonoBehaviour {
 
     /* ------------------------------------------------------------ 右：试剂架 */
     /// <summary>右上角的语言切换按钮</summary>
+    Text _languageButtonLabel;
+    public void RefreshLanguageButton() {
+        if(_languageButtonLabel!=null)_languageButtonLabel.text=Localization.English?"中文":"EN";
+    }
     void BuildLangButton(Transform parent) {
         var go = Node("LangBtn", parent, new Vector2(1, 1), new Vector2(1, 1), Vector2.zero, Vector2.zero, ACC);
         var rt = (RectTransform)go.transform;
@@ -939,6 +943,9 @@ public partial class LabUI : MonoBehaviour {
         b.targetGraphic = go.GetComponent<Image>();
         var lbl = Label(go.transform, "EN", 15, new Color(0.05f, 0.07f, 0.10f), TextAnchor.MiddleCenter,
                         Vector2.zero, Vector2.one, new Vector2(2, 0), new Vector2(-2, 0));
+        _languageButtonLabel=lbl;
+        LangOrig.Remove(lbl);
+        Localization.ProtectFromTranslation(lbl);
         var lblRT = (RectTransform)lbl.transform;
         lblRT.pivot = new Vector2(0.5f, 0.5f);
         b.onClick.AddListener(() => {
@@ -946,9 +953,9 @@ public partial class LabUI : MonoBehaviour {
             ApplyLang();
             RefreshReagents();
             if (Lab3D != null) Lab3D.SyncViews();
-            lbl.text = Localization.English ? "中" : "EN";
+            RefreshLanguageButton();
         });
-        lbl.text = Localization.English ? "中" : "EN";
+        RefreshLanguageButton();
     }
 
     void BuildRight() {
