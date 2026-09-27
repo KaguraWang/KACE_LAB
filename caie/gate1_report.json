@@ -1,0 +1,931 @@
+{
+  "source_dir": "D:\\ChemLabUnity\\caie\\sources",
+  "file_count": 30,
+  "all_ok": true,
+  "files": [
+    {
+      "file": "9701_s24_ci_33.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ci",
+      "component": "33",
+      "pages": 8,
+      "sha256": "b7a34eb3b7cabf2ba3dd0ef4073da04fd19894e13acefa2ef91dee4037d05fb6",
+      "bytes": 749698,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 13820,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_ci_34.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ci",
+      "component": "34",
+      "pages": 8,
+      "sha256": "2372c08992f78fb5441795424746cd96abe1cb5156153a3c35c9103da903f9ed",
+      "bytes": 743165,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 11233,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_ms_12.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ms",
+      "component": "12",
+      "pages": 3,
+      "sha256": "3ecc773c5809315bd9c2ffb767918a445c7442f1b2df5ae54f4960dd68ee4e03",
+      "bytes": 96581,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 1,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 1547,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_ms_22.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ms",
+      "component": "22",
+      "pages": 13,
+      "sha256": "3d4fb98644a25b4baa4c8b054d497cacf56f8ed7e38dcab8c91283deaf1814f2",
+      "bytes": 325594,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 2,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 13632,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_ms_33.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ms",
+      "component": "33",
+      "pages": 11,
+      "sha256": "51a818b5263c2f80e64b12d3825d9d1587cb0678707418aa50a41d9589ce6538",
+      "bytes": 241837,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 13840,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_ms_34.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "ms",
+      "component": "34",
+      "pages": 11,
+      "sha256": "0349ce2b18b54629f33e3b64b28fad797dfd7bf135659c053e58c92f17f4c1e0",
+      "bytes": 255067,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 14870,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_qp_12.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "qp",
+      "component": "12",
+      "pages": 16,
+      "sha256": "3ce0234d2b806d106dc4cb6425303785b394f4a9f94d240a52885bc4def2afd8",
+      "bytes": 395473,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 1
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 17857,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_qp_22.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "qp",
+      "component": "22",
+      "pages": 16,
+      "sha256": "02463479abb9dd19ef2bbc8297bf832f083bc6a52b95977119c3a7260d69580c",
+      "bytes": 205378,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 2
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 21945,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_qp_33.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "qp",
+      "component": "33",
+      "pages": 12,
+      "sha256": "072e30c9c1e02acc1eaa6af038defe36b90283903096d8b497b50aabacca7ceb",
+      "bytes": 169807,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 21937,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s24_qp_34.pdf",
+      "season": "s",
+      "year": 2024,
+      "kind": "qp",
+      "component": "34",
+      "pages": 12,
+      "sha256": "1bfce168cd0ac6e3e6585b9654b1cbd1150054bc0ce2bd0f2dd599f38470551e",
+      "bytes": 163987,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2024,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 22422,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ci_33.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ci",
+      "component": "33",
+      "pages": 8,
+      "sha256": "dc87247e372068c139a9773f1feebec3331deeec06fa3e87fe0b4f7db7f59be2",
+      "bytes": 772716,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 11246,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ci_34.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ci",
+      "component": "34",
+      "pages": 8,
+      "sha256": "58fc95f5179b126adbbc123522271b000527bbc6d0437ffc520a00ab6444b53f",
+      "bytes": 1984049,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 12314,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ms_12.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ms",
+      "component": "12",
+      "pages": 3,
+      "sha256": "00fed045a934cf30f6bad5acd8e22f27a09c37255028989cc894e8276352f712",
+      "bytes": 167935,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 1,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 1535,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ms_22.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ms",
+      "component": "22",
+      "pages": 14,
+      "sha256": "722e570432cdc8cc495c02d68d7d3f1c20129ca75ff5c347847d744fe72cf02d",
+      "bytes": 390910,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 2,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 16263,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ms_33.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ms",
+      "component": "33",
+      "pages": 13,
+      "sha256": "f93d39d9d74a5f8d7655e048b962a9d4fc7708b4d658e97d0d91e822435ce1ce",
+      "bytes": 376531,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 15525,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_ms_34.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "ms",
+      "component": "34",
+      "pages": 12,
+      "sha256": "28158b21270402587f61777f78085ea3fc533b7e1bdd48edc426c4f77cc18668",
+      "bytes": 344492,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 15270,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_qp_12.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "qp",
+      "component": "12",
+      "pages": 16,
+      "sha256": "2339574fdacf18bb1ffb5e1ae0eb1a3457ac2be27d85f6d499f1fd60ffe3aa5d",
+      "bytes": 411557,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 1
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 19185,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_qp_22.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "qp",
+      "component": "22",
+      "pages": 16,
+      "sha256": "dea8f17527e2bd62bcca8be4c885f0bb4fe136ee4b7c3f7049129efc6d73ddd5",
+      "bytes": 127221,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 2
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 24779,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_qp_33.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "qp",
+      "component": "33",
+      "pages": 16,
+      "sha256": "be488063559d254b8afbf23c9346005699541d71a15d1919ec562aea422bb291",
+      "bytes": 127280,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 23081,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s25_qp_34.pdf",
+      "season": "s",
+      "year": 2025,
+      "kind": "qp",
+      "component": "34",
+      "pages": 12,
+      "sha256": "4dfc8868d2f2d5a1dc61d8fdbb4e978ffa34588eccd447c4e2ba6d1a39c18126",
+      "bytes": 124701,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2025,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 21366,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ci_33.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ci",
+      "component": "33",
+      "pages": 8,
+      "sha256": "68820e7304e2bfca41bac97013ef6347cf11656b0a07dc8fb2ecaebd669b0cc5",
+      "bytes": 470580,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 15741,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ci_34.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ci",
+      "component": "34",
+      "pages": 8,
+      "sha256": "d328a7f210ac4e54d165cd1755b41acdc65c88ad5cd5909fcc347785b7c98dd1",
+      "bytes": 493981,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 14850,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ms_12.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ms",
+      "component": "12",
+      "pages": 3,
+      "sha256": "d04aa5774e98c67f3c9c295dc5e52d642afba852cd3b5e0b36cb7b7c9d60193e",
+      "bytes": 329619,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 1,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 2348,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ms_22.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ms",
+      "component": "22",
+      "pages": 24,
+      "sha256": "3b7eea0b962cdc9f1eb1f62d53bb0a8e7b90f709bca70f9077039d4bb3ef4f5a",
+      "bytes": 1808115,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 2,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 35577,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ms_33.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ms",
+      "component": "33",
+      "pages": 26,
+      "sha256": "bd36b47f127ed73d924f0534716f8d9d76c9241f22ebdfc006b9ba75f2f820c4",
+      "bytes": 1789791,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 45331,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_ms_34.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "ms",
+      "component": "34",
+      "pages": 20,
+      "sha256": "83a2d8dd11f07715d834a858051fc967722b79f578868c460db0625c93325a2d",
+      "bytes": 1450838,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ms": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 34910,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_qp_12.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "qp",
+      "component": "12",
+      "pages": 20,
+      "sha256": "23cf7a42e02aed6a0d54692b222aa80e731a2816ab2b7481593a9f70abfdc194",
+      "bytes": 1720105,
+      "identity": {
+        "syllabus": "9701",
+        "component": "12",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 1
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 26344,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_qp_22.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "qp",
+      "component": "22",
+      "pages": 16,
+      "sha256": "1015224233a9be349152a6e9d464e2ba60ba695a27cea8b98e1c9d7a4be65242",
+      "bytes": 560079,
+      "identity": {
+        "syllabus": "9701",
+        "component": "22",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 2
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 31574,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_qp_33.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "qp",
+      "component": "33",
+      "pages": 12,
+      "sha256": "4f4f49a6588e967705e6ddf64db80b04d2c5ac56583bc421779c4932d550fc3e",
+      "bytes": 445421,
+      "identity": {
+        "syllabus": "9701",
+        "component": "33",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 27573,
+      "status": "OK"
+    },
+    {
+      "file": "9701_s26_qp_34.pdf",
+      "season": "s",
+      "year": 2026,
+      "kind": "qp",
+      "component": "34",
+      "pages": 12,
+      "sha256": "5aafe1d852a9eb4624998324939f71d7405304564acea1a7cd486a15adecd237",
+      "bytes": 442326,
+      "identity": {
+        "syllabus": "9701",
+        "component": "34",
+        "month": "May/June",
+        "year": 2026,
+        "paper": 3,
+        "is_ci": true
+      },
+      "checks": {
+        "name": true,
+        "parseable": true,
+        "pagecount": true,
+        "syllabus": true,
+        "component": true,
+        "month": true,
+        "year": true,
+        "kind_matches": true
+      },
+      "parse_error": null,
+      "text_chars": 25615,
+      "status": "OK"
+    }
+  ]
+}

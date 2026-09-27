@@ -1,0 +1,4170 @@
+{
+ "rules": [
+  {
+   "entry": {
+    "id": "A2-26-01",
+    "title": "Fe²⁺ homogeneous catalysis of I⁻ / S₂O₈²⁻",
+    "section": "26. Reaction kinetics and catalysis",
+    "priority": "P1",
+    "reactants": "2Fe²⁺ + S₂O₈²⁻",
+    "reagent": "Fe²⁺ is the catalyst/intermediate carrier",
+    "temperature": "usually RT unless stated",
+    "medium": "aqueous",
+    "products": "2Fe³⁺ + 2SO₄²⁻",
+    "observation": "Fe²⁺ pale-green solution may become more yellow/brown as Fe³⁺ forms; colour change may be masked at low concentration",
+    "notes": "first catalytic step; Fe²⁺ is regenerated in the next step.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe2+",
+     "coef": 2,
+     "raw": "Fe2+"
+    },
+    {
+     "kind": "species",
+     "id": "s2o8^2-",
+     "coef": 1,
+     "raw": "S2O82-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "Fe3+",
+     "coef": 2,
+     "raw": "Fe3+"
+    },
+    {
+     "kind": "species",
+     "id": "SO4^2-",
+     "coef": 2,
+     "raw": "SO42-"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-26-02",
+    "title": "Regeneration of Fe²⁺ in I⁻ / S₂O₈²⁻ catalysis",
+    "section": "26. Reaction kinetics and catalysis",
+    "priority": "P1",
+    "reactants": "2Fe³⁺ + 2I⁻",
+    "reagent": "Fe³⁺ intermediate",
+    "temperature": "usually RT",
+    "medium": "aqueous",
+    "products": "2Fe²⁺ + I₂",
+    "observation": "iodine gives a yellow-brown / brown solution; with starch gives blue-black",
+    "notes": "second catalytic step; catalyst is regenerated.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe3+",
+     "coef": 2,
+     "raw": "Fe3+"
+    },
+    {
+     "kind": "species",
+     "id": "I-",
+     "coef": 2,
+     "raw": "I-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "Fe2+",
+     "coef": 2,
+     "raw": "Fe2+"
+    },
+    {
+     "kind": "species",
+     "id": "i2",
+     "coef": 1,
+     "raw": "I2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-26-03",
+    "title": "NO / NO₂ homogeneous catalysis of SO₂ oxidation",
+    "section": "26. Reaction kinetics and catalysis",
+    "priority": "P2",
+    "reactants": "2NO + O₂",
+    "reagent": "NO acts in a catalytic cycle",
+    "temperature": "atmospheric / as given",
+    "medium": "gas phase",
+    "products": "2NO₂",
+    "observation": "NO is colourless; NO₂ is brown gas",
+    "notes": "conceptual catalyst-cycle example.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "no",
+     "coef": 2,
+     "raw": "NO"
+    },
+    {
+     "kind": "species",
+     "id": "o2",
+     "coef": 1,
+     "raw": "O2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "no2",
+     "coef": 2,
+     "raw": "NO2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-26-04",
+    "title": "NO₂ oxidises SO₂",
+    "section": "26. Reaction kinetics and catalysis",
+    "priority": "P2",
+    "reactants": "SO₂ + NO₂",
+    "reagent": "NO₂",
+    "temperature": "atmospheric / as given",
+    "medium": "gas phase",
+    "products": "SO₃ + NO",
+    "observation": "brown NO₂ is consumed; NO formed is colourless",
+    "notes": "completes the atmospheric NOx catalytic cycle. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "so2",
+     "coef": 1,
+     "raw": "SO2"
+    },
+    {
+     "kind": "species",
+     "id": "no2",
+     "coef": 1,
+     "raw": "NO2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "so3",
+     "coef": 1,
+     "raw": "SO3"
+    },
+    {
+     "kind": "species",
+     "id": "no",
+     "coef": 1,
+     "raw": "NO"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-27-02",
+    "title": "Thermal decomposition of Group 2 nitrates",
+    "section": "27. Group 2",
+    "priority": "P0",
+    "reactants": "2Cu²⁺ + 4I⁻",
+    "reagent": "KI(aq) / excess I⁻",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "2CuI(s) + I₂",
+    "observation": "white CuI precipitate forms together with brown iodine solution",
+    "notes": "iodine may be confirmed with starch → blue-black. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Cu2+",
+     "coef": 2,
+     "raw": "Cu2+"
+    },
+    {
+     "kind": "species",
+     "id": "I-",
+     "coef": 4,
+     "raw": "I-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "cui",
+     "coef": 2,
+     "raw": "CuI"
+    },
+    {
+     "kind": "species",
+     "id": "i2",
+     "coef": 1,
+     "raw": "I2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-01",
+    "title": "Benzene chlorination",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "benzene + Cl₂",
+    "reagent": "Cl₂, AlCl₃ catalyst",
+    "temperature": "RT / mild conditions",
+    "medium": "anhydrous / non-aqueous aromatic reaction mixture",
+    "products": "chlorobenzene + HCl",
+    "observation": "chlorine colour is consumed; HCl may be evolved; no single distinctive observation is normally required",
+    "notes": "electrophilic substitution.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzene",
+     "coef": 1,
+     "raw": "benzene"
+    },
+    {
+     "kind": "species",
+     "id": "cl2",
+     "coef": 1,
+     "raw": "Cl2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "chlorobenzene",
+     "coef": 1,
+     "raw": "chlorobenzene"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-02",
+    "title": "Benzene bromination",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "benzene + Br₂",
+    "reagent": "Br₂, AlBr₃ catalyst",
+    "temperature": "RT / mild conditions",
+    "medium": "anhydrous / non-aqueous aromatic reaction mixture",
+    "products": "bromobenzene + HBr",
+    "observation": "bromine colour is consumed; no white precipitate",
+    "notes": "**do not confuse with phenol/phenylamine**, which react with Br₂(aq) without AlBr₃.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzene",
+     "coef": 1,
+     "raw": "benzene"
+    },
+    {
+     "kind": "species",
+     "id": "br2",
+     "coef": 1,
+     "raw": "Br2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "bromobenzene",
+     "coef": 1,
+     "raw": "bromobenzene"
+    },
+    {
+     "kind": "species",
+     "id": "hbr",
+     "coef": 1,
+     "raw": "HBr"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-03",
+    "title": "Benzene nitration",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "benzene + HNO₃",
+    "reagent": "concentrated HNO₃ + concentrated H₂SO₄",
+    "temperature": "**25–60 °C**",
+    "medium": "strongly acidic",
+    "products": "nitrobenzene + H₂O",
+    "observation": "no distinctive required colour change; nitrobenzene is a pale-yellow oily liquid in practice",
+    "notes": "exact 25–60 °C range is worth memorising.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzene",
+     "coef": 1,
+     "raw": "benzene"
+    },
+    {
+     "kind": "species",
+     "id": "hno3",
+     "coef": 1,
+     "raw": "HNO3"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "nitrobenzene",
+     "coef": 1,
+     "raw": "nitrobenzene"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-04",
+    "title": "Friedel–Crafts alkylation",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "benzene + CH₃Cl",
+    "reagent": "anhydrous AlCl₃",
+    "temperature": "heat",
+    "medium": "anhydrous",
+    "products": "methylbenzene + HCl",
+    "observation": "OBS-NONE",
+    "notes": "electrophilic substitution.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzene",
+     "coef": 1,
+     "raw": "benzene"
+    },
+    {
+     "kind": "species",
+     "id": "ch3cl",
+     "coef": 1,
+     "raw": "CH3Cl"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "methylbenzene",
+     "coef": 1,
+     "raw": "methylbenzene"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-05",
+    "title": "Friedel–Crafts acylation",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "benzene + CH₃COCl",
+    "reagent": "anhydrous AlCl₃",
+    "temperature": "heat",
+    "medium": "anhydrous",
+    "products": "phenylethanone (acetophenone) + HCl",
+    "observation": "OBS-NONE",
+    "notes": "electrophilic substitution.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzene",
+     "coef": 1,
+     "raw": "benzene"
+    },
+    {
+     "kind": "species",
+     "id": "ch3cocl",
+     "coef": 1,
+     "raw": "CH3COCl"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "phenylethanone",
+     "coef": 1,
+     "raw": "phenylethanone(acetophenone)"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-07",
+    "title": "Hydrogenation of benzene ring",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P0",
+    "reactants": "3H₂",
+    "reagent": "H₂, Ni or Pt catalyst",
+    "temperature": "heat",
+    "medium": "catalytic gas/liquid system",
+    "products": "cyclohexane",
+    "observation": "OBS-NONE",
+    "notes": "ring addition, not electrophilic substitution.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 3,
+     "raw": "H2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "cyclohexane",
+     "coef": 1,
+     "raw": "cyclohexane"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-30-08",
+    "title": "Methylbenzene side-chain halogenation",
+    "section": "30. Hydrocarbons — arenes",
+    "priority": "P1",
+    "reactants": "methylbenzene + Cl₂ or Br₂",
+    "reagent": "halogen + UV light",
+    "temperature": "light / mild heating may be used",
+    "medium": "non-aqueous",
+    "products": "(chloromethyl)benzene",
+    "observation": "halogen colour is consumed",
+    "notes": "conditions determine **side-chain** substitution; `AlCl₃/AlBr₃` instead promotes **ring** substitution. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "methylbenzene",
+     "coef": 1,
+     "raw": "methylbenzene"
+    },
+    {
+     "kind": "family",
+     "id": "halogen",
+     "coef": 1,
+     "raw": "Cl2orBr2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "(chloromethyl)benzene",
+     "coef": 1,
+     "raw": "(chloromethyl)benzene"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-31-01",
+    "title": "Formation of chlorobenzene / bromobenzene",
+    "section": "31. Halogen compounds — halogenoarenes",
+    "priority": "P0",
+    "reactants": "arene + Cl₂ or Br₂",
+    "reagent": "AlCl₃ for chlorination / AlBr₃ for bromination",
+    "temperature": "RT / mild conditions",
+    "medium": "anhydrous",
+    "products": "halogenoarene + HX",
+    "observation": "halogen colour consumed",
+    "notes": "same chemistry as A2-30-01/02; listed again because Topic 31 explicitly requires the preparation route.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "arene",
+     "coef": 1,
+     "raw": "arene"
+    },
+    {
+     "kind": "family",
+     "id": "halogen",
+     "coef": 1,
+     "raw": "Cl2orBr2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "halogenoarene",
+     "coef": 1,
+     "raw": "halogenoarene"
+    },
+    {
+     "kind": "family",
+     "id": "HX",
+     "coef": 1,
+     "raw": "HX"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-32-01",
+    "title": "Alcohol acylation",
+    "section": "32A. Alcohol + acyl chloride",
+    "priority": "P0",
+    "reactants": "alcohol + acyl chloride",
+    "reagent": "acyl chloride, e.g. CH₃COCl",
+    "temperature": "RT",
+    "medium": "usually dry / non-aqueous",
+    "products": "ester + HCl",
+    "observation": "reaction occurs readily; steamy/acidic HCl fumes may be seen",
+    "notes": "no concentrated H₂SO₄ catalyst is required. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    },
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "acylchloride"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "ester",
+     "coef": 1,
+     "raw": "ester"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-32-03",
+    "title": "Phenol + sodium metal",
+    "section": "32B. Phenol",
+    "priority": "P0",
+    "reactants": "2C₆H₅OH + 2Na",
+    "reagent": "Na(s)",
+    "temperature": "RT",
+    "medium": "dry phenol / suitable non-aqueous conditions",
+    "products": "2C₆H₅ONa + H₂",
+    "observation": "effervescence; sodium disappears; H₂ gives a squeaky pop",
+    "notes": "acid–metal reaction.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "phenol",
+     "coef": 2,
+     "raw": "C6H5OH"
+    },
+    {
+     "kind": "species",
+     "id": "na",
+     "coef": 2,
+     "raw": "Na"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "c6h5ona",
+     "coef": 2,
+     "raw": "C6H5ONa"
+    },
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 1,
+     "raw": "H2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-32-05",
+    "title": "Phenol bromination",
+    "section": "32B. Phenol",
+    "priority": "P0",
+    "reactants": "3Br₂",
+    "reagent": "**Br₂(aq) / bromine water**",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "3HBr",
+    "observation": "bromine water decolourises and a **white precipitate** forms",
+    "notes": "no AlBr₃ catalyst.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "br2",
+     "coef": 3,
+     "raw": "Br2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "hbr",
+     "coef": 3,
+     "raw": "HBr"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-02",
+    "title": "Carboxylic acid + PCl₃",
+    "section": "33B. Conversion of carboxylic acids to acyl chlorides",
+    "priority": "P0",
+    "reactants": "3RCOOH + PCl₃",
+    "reagent": "PCl₃",
+    "temperature": "**heat**",
+    "medium": "dry / non-aqueous",
+    "products": "3RCOCl + H₃PO₃",
+    "observation": "corrosive reaction; no single standard CIE observation required",
+    "notes": "syllabus explicitly associates **PCl₃ with heat**.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 3,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "pcl3",
+     "coef": 1,
+     "raw": "PCl3"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 3,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "species",
+     "id": "h3po3",
+     "coef": 1,
+     "raw": "H3PO3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-03",
+    "title": "Carboxylic acid + PCl₅",
+    "section": "33B. Conversion of carboxylic acids to acyl chlorides",
+    "priority": "P0",
+    "reactants": "RCOOH + PCl₅",
+    "reagent": "PCl₅",
+    "temperature": "RT is generally sufficient",
+    "medium": "dry",
+    "products": "RCOCl + POCl₃ + HCl",
+    "observation": "steamy/acidic HCl fumes may be observed",
+    "notes": "useful qualitative conversion route.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "pcl5",
+     "coef": 1,
+     "raw": "PCl5"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "species",
+     "id": "poCl3",
+     "coef": 1,
+     "raw": "POCl3"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-04",
+    "title": "Carboxylic acid + SOCl₂",
+    "section": "33B. Conversion of carboxylic acids to acyl chlorides",
+    "priority": "P0",
+    "reactants": "RCOOH + SOCl₂",
+    "reagent": "thionyl chloride, SOCl₂",
+    "temperature": "RT or gentle warming",
+    "medium": "dry",
+    "products": "RCOCl + SO₂ + HCl",
+    "observation": "gas evolution; steamy acidic HCl fumes; SO₂ also evolved",
+    "notes": "gaseous by-products help drive reaction forward. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "socl2",
+     "coef": 1,
+     "raw": "SOCl2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "species",
+     "id": "so2",
+     "coef": 1,
+     "raw": "SO2"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-06",
+    "title": "Methanoic acid + Tollens' reagent",
+    "section": "33C. Special oxidation of methanoic acid",
+    "priority": "P0",
+    "reactants": "HCOOH",
+    "reagent": "freshly prepared Tollens' reagent",
+    "temperature": "warm gently",
+    "medium": "aqueous ammoniacal",
+    "products": "CO₂ + H₂O + Ag(s)",
+    "observation": "**silver mirror** or black/silver deposit",
+    "notes": "methanoic acid is an exception among ordinary carboxylic acids.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "hcooh",
+     "coef": 1,
+     "raw": "HCOOH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    },
+    {
+     "kind": "species",
+     "id": "ag",
+     "coef": 1,
+     "raw": "Ag"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-07",
+    "title": "Methanoic acid + acidified KMnO₄",
+    "section": "33C. Special oxidation of methanoic acid",
+    "priority": "P0",
+    "reactants": "HCOOH",
+    "reagent": "acidified KMnO₄",
+    "temperature": "warm if necessary",
+    "medium": "acidic aqueous",
+    "products": "CO₂ + H₂O + Mn²⁺",
+    "observation": "purple → colourless; CO₂ may be evolved",
+    "notes": "oxidation to carbon dioxide.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "hcooh",
+     "coef": 1,
+     "raw": "HCOOH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    },
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-08",
+    "title": "Methanoic acid + acidified K₂Cr₂O₇",
+    "section": "33C. Special oxidation of methanoic acid",
+    "priority": "P0",
+    "reactants": "HCOOH",
+    "reagent": "acidified K₂Cr₂O₇",
+    "temperature": "warm",
+    "medium": "acidic aqueous",
+    "products": "CO₂ + H₂O + Cr³⁺",
+    "observation": "orange → green; CO₂ may be evolved",
+    "notes": "oxidation to carbon dioxide. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "hcooh",
+     "coef": 1,
+     "raw": "HCOOH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    },
+    {
+     "kind": "species",
+     "id": "Cr3+",
+     "coef": 1,
+     "raw": "Cr3+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-09",
+    "title": "Ethanedioic acid + warm acidified KMnO₄",
+    "section": "33D. Ethanedioic acid oxidation",
+    "priority": "P0",
+    "reactants": "C₂O₄²⁻",
+    "reagent": "acidified KMnO₄",
+    "temperature": "**warm**",
+    "medium": "acidic aqueous",
+    "products": "CO₂ + H₂O + Mn²⁺",
+    "observation": "purple solution decolourises; effervescence of CO₂",
+    "notes": "slow at first when cold; becomes faster as Mn²⁺ builds up. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "c2o4^2-",
+     "coef": 1,
+     "raw": "C2O42-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    },
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-10",
+    "title": "Acyl chloride hydrolysis",
+    "section": "33E. Acyl chloride reactions",
+    "priority": "P0",
+    "reactants": "RCOCl + H₂O",
+    "reagent": "water",
+    "temperature": "**RT**",
+    "medium": "aqueous",
+    "products": "RCOOH + HCl",
+    "observation": "rapid/vigorous reaction; steamy acidic HCl fumes may be observed",
+    "notes": "much more readily hydrolysed than chloroalkanes or chlorobenzene.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-11",
+    "title": "Acyl chloride + alcohol",
+    "section": "33E. Acyl chloride reactions",
+    "priority": "P0",
+    "reactants": "RCOCl + R'OH",
+    "reagent": "alcohol",
+    "temperature": "**RT**",
+    "medium": "usually dry / non-aqueous",
+    "products": "RCOOR' + HCl",
+    "observation": "reaction occurs readily; HCl fumes may be seen",
+    "notes": "ester formation; no concentrated H₂SO₄ catalyst needed.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "R'OH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "ester",
+     "coef": 1,
+     "raw": "RCOOR'"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-33-12",
+    "title": "Acyl chloride + phenol",
+    "section": "33E. Acyl chloride reactions",
+    "priority": "P0",
+    "reactants": "RCOCl + C₆H₅OH",
+    "reagent": "phenol",
+    "temperature": "**RT**",
+    "medium": "non-aqueous / weakly basic trapping conditions may be used experimentally",
+    "products": "phenyl ester + HCl",
+    "observation": "ester forms; HCl may be evolved",
+    "notes": "e.g. benzoyl chloride + phenol → phenyl benzoate.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "acyl_chloride",
+     "coef": 1,
+     "raw": "RCOCl"
+    },
+    {
+     "kind": "family",
+     "id": "phenol",
+     "coef": 1,
+     "raw": "C6H5OH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "phenyl_ester",
+     "coef": 1,
+     "raw": "phenylester"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-03",
+    "title": "Amide reduction with LiAlH₄",
+    "section": "34A. Formation of amines",
+    "priority": "P0",
+    "reactants": "RCONH₂",
+    "reagent": "LiAlH₄",
+    "temperature": "warm / reflux, then aqueous work-up",
+    "medium": "dry ether / anhydrous solvent",
+    "products": "RCH₂NH₂",
+    "observation": "no distinctive colour change",
+    "notes": "C=O group is reduced to CH₂.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "amide",
+     "coef": 1,
+     "raw": "RCONH2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "RCH2NH2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-04",
+    "title": "Nitrile reduction with LiAlH₄",
+    "section": "34A. Formation of amines",
+    "priority": "P0",
+    "reactants": "RCN",
+    "reagent": "LiAlH₄",
+    "temperature": "warm / reflux, then aqueous work-up",
+    "medium": "dry ether / anhydrous solvent",
+    "products": "RCH₂NH₂",
+    "observation": "OBS-NONE",
+    "notes": "carbon chain is retained; nitrile carbon becomes CH₂.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "nitrile",
+     "coef": 1,
+     "raw": "RCN"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "RCH2NH2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-05",
+    "title": "Nitrile hydrogenation",
+    "section": "34A. Formation of amines",
+    "priority": "P0",
+    "reactants": "RCN + 2H₂",
+    "reagent": "H₂ / Ni",
+    "temperature": "heat",
+    "medium": "catalytic",
+    "products": "RCH₂NH₂",
+    "observation": "OBS-NONE",
+    "notes": "an alternative to LiAlH₄. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "nitrile",
+     "coef": 1,
+     "raw": "RCN"
+    },
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 2,
+     "raw": "H2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "RCH2NH2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-06",
+    "title": "Nitrobenzene reduction to phenylamine",
+    "section": "34B. Phenylamine",
+    "priority": "P0",
+    "reactants": "nitrobenzene",
+    "reagent": "**hot Sn + concentrated HCl**, then NaOH(aq)",
+    "temperature": "**hot**",
+    "medium": "strongly acidic reduction, then alkaline work-up",
+    "products": "phenylamine",
+    "observation": "tin dissolves during reduction; no single final colour observation is required",
+    "notes": "NaOH liberates free phenylamine from the phenylammonium salt.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "nitrobenzene",
+     "coef": 1,
+     "raw": "nitrobenzene"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "phenylamine",
+     "coef": 1,
+     "raw": "phenylamine"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-07",
+    "title": "Phenylamine + bromine water",
+    "section": "34B. Phenylamine",
+    "priority": "P0",
+    "reactants": "3Br₂",
+    "reagent": "**Br₂(aq)**",
+    "temperature": "**RT**",
+    "medium": "aqueous",
+    "products": "3HBr",
+    "observation": "bromine water decolourises and a **white precipitate** forms",
+    "notes": "activated aromatic ring; no AlBr₃ catalyst.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "br2",
+     "coef": 3,
+     "raw": "Br2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "hbr",
+     "coef": 3,
+     "raw": "HBr"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-09",
+    "title": "Diazonium salt hydrolysis to phenol",
+    "section": "34B. Phenylamine",
+    "priority": "P0",
+    "reactants": "benzenediazonium salt + H₂O",
+    "reagent": "water",
+    "temperature": "**warm**",
+    "medium": "aqueous",
+    "products": "N₂(g)",
+    "observation": "**effervescence of N₂ gas**",
+    "notes": "direct conversion phenylamine → diazonium → phenol.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzenediazonium",
+     "coef": 1,
+     "raw": "benzenediazoniumsalt"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "n2",
+     "coef": 1,
+     "raw": "N2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-10",
+    "title": "Diazonium coupling with phenol",
+    "section": "34B. Phenylamine",
+    "priority": "P0",
+    "reactants": "benzenediazonium salt + phenol",
+    "reagent": "phenol in NaOH(aq)",
+    "temperature": "cool / RT",
+    "medium": "alkaline aqueous",
+    "products": "azo compound",
+    "observation": "**strongly coloured azo dye**, often orange/red/yellow",
+    "notes": "azo linkage is `–N=N–`.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "benzenediazonium",
+     "coef": 1,
+     "raw": "benzenediazoniumsalt"
+    },
+    {
+     "kind": "family",
+     "id": "phenol",
+     "coef": 1,
+     "raw": "phenol"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "azo_compound",
+     "coef": 1,
+     "raw": "azocompound"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-13",
+    "title": "Amide alkaline hydrolysis",
+    "section": "34C. Amides",
+    "priority": "P0",
+    "reactants": "amide + OH⁻",
+    "reagent": "NaOH(aq) / KOH(aq)",
+    "temperature": "heat / reflux",
+    "medium": "alkaline aqueous",
+    "products": "carboxylate salt + NH₃ or amine",
+    "observation": "ammonia may be evolved from primary amides; NH₃ turns damp red litmus blue",
+    "notes": "acidification afterwards gives the free carboxylic acid.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "amide",
+     "coef": 1,
+     "raw": "amide"
+    },
+    {
+     "kind": "species",
+     "id": "OH-",
+     "coef": 1,
+     "raw": "OH-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylatesalt"
+    },
+    {
+     "kind": "family",
+     "id": "amine",
+     "coef": 1,
+     "raw": "NH3oramine"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-14",
+    "title": "Amide reduction",
+    "section": "34C. Amides",
+    "priority": "P0",
+    "reactants": "amide",
+    "reagent": "LiAlH₄",
+    "temperature": "warm / reflux, then work-up",
+    "medium": "anhydrous ether",
+    "products": "amine",
+    "observation": "OBS-NONE",
+    "notes": "same transformation as A2-34-03. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "amide",
+     "coef": 1,
+     "raw": "amide"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "amine"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-15",
+    "title": "Amino acid + acid",
+    "section": "34D. Amino acids and peptides",
+    "priority": "P1",
+    "reactants": "amino acid / zwitterion + H⁺",
+    "reagent": "dilute acid",
+    "temperature": "RT",
+    "medium": "aqueous acidic",
+    "products": "H₃N⁺–CHR–COOH",
+    "observation": "OBS-NONE",
+    "notes": "basis of electrophoresis behaviour at low pH.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "amino_acid",
+     "coef": 1,
+     "raw": "aminoacid/zwitterion"
+    },
+    {
+     "kind": "species",
+     "id": "H+",
+     "coef": 1,
+     "raw": "H+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "amino_acid_cation",
+     "coef": 1,
+     "raw": "H3N+–CHR–COOH"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-16",
+    "title": "Amino acid + base",
+    "section": "34D. Amino acids and peptides",
+    "priority": "P1",
+    "reactants": "amino acid / zwitterion + OH⁻",
+    "reagent": "dilute NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous alkaline",
+    "products": "H₂N–CHR–COO⁻",
+    "observation": "OBS-NONE",
+    "notes": "basis of electrophoresis behaviour at high pH.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "amino_acid",
+     "coef": 1,
+     "raw": "aminoacid/zwitterion"
+    },
+    {
+     "kind": "species",
+     "id": "OH-",
+     "coef": 1,
+     "raw": "OH-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "zwitterion",
+     "coef": 1,
+     "raw": "H2N–CHR–COO-"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-34-17",
+    "title": "Peptide-bond formation",
+    "section": "34D. Amino acids and peptides",
+    "priority": "P1",
+    "reactants": "–NH₂",
+    "reagent": "condensation conditions",
+    "temperature": "heating / activation as appropriate",
+    "medium": "depends on synthesis",
+    "products": "dipeptide / tripeptide + H₂O",
+    "observation": "OBS-NONE",
+    "notes": "forms `–CONH–` peptide linkage. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "–NH2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "peptide",
+     "coef": 1,
+     "raw": "dipeptide/tripeptide"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-01",
+    "title": "Polyester from diol + dicarboxylic acid",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "diol + dicarboxylic acid",
+    "reagent": "condensation conditions",
+    "temperature": "heat",
+    "medium": "melt / suitable reaction medium",
+    "products": "polyester + H₂O",
+    "observation": "viscous polymer forms; water is eliminated",
+    "notes": "exact laboratory apparatus/temperature is not normally memorised.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "diol",
+     "coef": 1,
+     "raw": "diol"
+    },
+    {
+     "kind": "family",
+     "id": "dicarboxylic_acid",
+     "coef": 1,
+     "raw": "dicarboxylicacid"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyester",
+     "coef": 1,
+     "raw": "polyester"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-02",
+    "title": "Polyester from diol + dioyl chloride",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "diol + dioyl chloride",
+    "reagent": "monomers themselves; base may be used to remove HCl",
+    "temperature": "RT",
+    "medium": "suitable solvent / interfacial setup",
+    "products": "polyester + HCl",
+    "observation": "polymer may form rapidly at interface",
+    "notes": "acyl chlorides are more reactive than dicarboxylic acids.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "diol",
+     "coef": 1,
+     "raw": "diol"
+    },
+    {
+     "kind": "family",
+     "id": "dioyl_chloride",
+     "coef": 1,
+     "raw": "dioylchloride"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyester",
+     "coef": 1,
+     "raw": "polyester"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-03",
+    "title": "Polyester from hydroxycarboxylic acid",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "HO–R–COOH",
+    "reagent": "condensation conditions",
+    "temperature": "heat",
+    "medium": "suitable",
+    "products": "polyester + H₂O",
+    "observation": "polymer formation; no distinctive colour change",
+    "notes": "one monomer contains both functional groups.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "hydroxy_acid",
+     "coef": 1,
+     "raw": "HO–R–COOH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyester",
+     "coef": 1,
+     "raw": "polyester"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-04",
+    "title": "Polyamide from diamine + dicarboxylic acid",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "diamine + dicarboxylic acid",
+    "reagent": "condensation conditions",
+    "temperature": "heat",
+    "medium": "suitable",
+    "products": "polyamide + H₂O",
+    "observation": "polymer forms",
+    "notes": "amide links `–CONH–`.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "diamine",
+     "coef": 1,
+     "raw": "diamine"
+    },
+    {
+     "kind": "family",
+     "id": "dicarboxylic_acid",
+     "coef": 1,
+     "raw": "dicarboxylicacid"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyamide",
+     "coef": 1,
+     "raw": "polyamide"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-05",
+    "title": "Polyamide from diamine + dioyl chloride",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "diamine + dioyl chloride",
+    "reagent": "monomers; base can trap HCl",
+    "temperature": "RT",
+    "medium": "often interfacial two-phase system",
+    "products": "polyamide + HCl",
+    "observation": "polymer fibre/film can form at the interface (\"nylon-rope\" style experiment)",
+    "notes": "laboratory-reproducible demonstration.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "diamine",
+     "coef": 1,
+     "raw": "diamine"
+    },
+    {
+     "kind": "family",
+     "id": "dioyl_chloride",
+     "coef": 1,
+     "raw": "dioylchloride"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyamide",
+     "coef": 1,
+     "raw": "polyamide"
+    },
+    {
+     "kind": "species",
+     "id": "hcl",
+     "coef": 1,
+     "raw": "HCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "A2-35-06",
+    "title": "Polyamide / polypeptide from aminocarboxylic acid or amino acid",
+    "section": "35. Polymerisation",
+    "priority": "P1",
+    "reactants": "–NH₂",
+    "reagent": "condensation conditions",
+    "temperature": "heat / activation",
+    "medium": "depends on system",
+    "products": "polyamide / polypeptide + H₂O",
+    "observation": "polymer formation",
+    "notes": "conceptual syllabus reaction.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "–NH2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "polyamide",
+     "coef": 1,
+     "raw": "polyamide/polypeptide"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-01",
+    "title": "Al³⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Al³⁺(aq)",
+    "reagent": "NaOH(aq), dropwise then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Al(OH)₃(s), then soluble aluminate complex in excess OH⁻",
+    "observation": "white ppt; **soluble in excess**",
+    "notes": "amphoteric behaviour.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Al3+",
+     "coef": 1,
+     "raw": "Al3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "aloh3",
+     "coef": 1,
+     "raw": "Al(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-02",
+    "title": "Al³⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Al³⁺(aq)",
+    "reagent": "NH₃(aq), then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Al(OH)₃(s)",
+    "observation": "white ppt; **insoluble in excess**",
+    "notes": "distinguishes from Zn²⁺.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Al3+",
+     "coef": 1,
+     "raw": "Al3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "aloh3",
+     "coef": 1,
+     "raw": "Al(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-03",
+    "title": "NH₄⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "NH₄⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "warm",
+    "medium": "aqueous",
+    "products": "NH₃(g) + H₂O",
+    "observation": "ammonia evolved; damp red litmus turns blue",
+    "notes": "standard ammonium test.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "NH4+",
+     "coef": 1,
+     "raw": "NH4+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "nh3",
+     "coef": 1,
+     "raw": "NH3"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-05",
+    "title": "Ca²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Ca²⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Ca(OH)₂(s)",
+    "observation": "white ppt unless `[Ca²⁺]` is very low",
+    "notes": "NH₃ gives no ppt.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Ca2+",
+     "coef": 1,
+     "raw": "Ca2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "caoh2",
+     "coef": 1,
+     "raw": "Ca(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-06",
+    "title": "Cr³⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Cr³⁺(aq)",
+    "reagent": "NaOH(aq), dropwise then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Cr(OH)₃(s), then soluble hydroxo complex",
+    "observation": "grey-green ppt; **soluble in excess giving dark-green solution**",
+    "notes": "highly characteristic.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Cr3+",
+     "coef": 1,
+     "raw": "Cr3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "croh3",
+     "coef": 1,
+     "raw": "Cr(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-07",
+    "title": "Cr³⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Cr³⁺(aq)",
+    "reagent": "NH₃(aq), then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Cr(OH)₃(s)",
+    "observation": "grey-green ppt; **insoluble in excess**",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Cr3+",
+     "coef": 1,
+     "raw": "Cr3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "croh3",
+     "coef": 1,
+     "raw": "Cr(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-08",
+    "title": "Cu²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Cu²⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Cu(OH)₂(s)",
+    "observation": "pale-blue ppt; insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Cu2+",
+     "coef": 1,
+     "raw": "Cu2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "cuoh2",
+     "coef": 1,
+     "raw": "Cu(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-10",
+    "title": "Fe²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Fe²⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Fe(OH)₂(s), then oxidation products on standing in air",
+    "observation": "**green ppt turning brown on contact with air**; insoluble in excess",
+    "notes": "air oxidation is an important observation.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe2+",
+     "coef": 1,
+     "raw": "Fe2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "feoh2",
+     "coef": 1,
+     "raw": "Fe(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-11",
+    "title": "Fe²⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Fe²⁺(aq)",
+    "reagent": "NH₃(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Fe(OH)₂(s)",
+    "observation": "green ppt turning brown in air; insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe2+",
+     "coef": 1,
+     "raw": "Fe2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "feoh2",
+     "coef": 1,
+     "raw": "Fe(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-12",
+    "title": "Fe³⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Fe³⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Fe(OH)₃(s)",
+    "observation": "**red-brown ppt**, insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe3+",
+     "coef": 1,
+     "raw": "Fe3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "feoh3",
+     "coef": 1,
+     "raw": "Fe(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-13",
+    "title": "Fe³⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Fe³⁺(aq)",
+    "reagent": "NH₃(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Fe(OH)₃(s)",
+    "observation": "red-brown ppt, insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Fe3+",
+     "coef": 1,
+     "raw": "Fe3+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "feoh3",
+     "coef": 1,
+     "raw": "Fe(OH)3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-14",
+    "title": "Mg²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Mg²⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Mg(OH)₂(s)",
+    "observation": "white ppt, insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Mg2+",
+     "coef": 1,
+     "raw": "Mg2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "mgoh2",
+     "coef": 1,
+     "raw": "Mg(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-15",
+    "title": "Mg²⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Mg²⁺(aq)",
+    "reagent": "NH₃(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Mg(OH)₂(s)",
+    "observation": "white ppt, insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Mg2+",
+     "coef": 1,
+     "raw": "Mg2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "mgoh2",
+     "coef": 1,
+     "raw": "Mg(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-16",
+    "title": "Mn²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Mn²⁺(aq)",
+    "reagent": "NaOH(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Mn(OH)₂(s), then oxidised manganese species in air",
+    "observation": "**off-white ppt rapidly turning brown on contact with air**; insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "mnoh2",
+     "coef": 1,
+     "raw": "Mn(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-17",
+    "title": "Mn²⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Mn²⁺(aq)",
+    "reagent": "NH₃(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Mn(OH)₂(s)",
+    "observation": "off-white ppt rapidly turning brown in air; insoluble in excess",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "mnoh2",
+     "coef": 1,
+     "raw": "Mn(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-18",
+    "title": "Zn²⁺ + NaOH",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Zn²⁺(aq)",
+    "reagent": "NaOH(aq), then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Zn(OH)₂(s), then soluble zincate/hydroxo complex",
+    "observation": "white ppt; **soluble in excess**",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Zn2+",
+     "coef": 1,
+     "raw": "Zn2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "znoh2",
+     "coef": 1,
+     "raw": "Zn(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-CAT-19",
+    "title": "Zn²⁺ + NH₃",
+    "section": "Cation tests with NaOH(aq) / NH₃(aq)",
+    "priority": "P0",
+    "reactants": "Zn²⁺(aq)",
+    "reagent": "NH₃(aq), then excess",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "Zn(OH)₂(s), then soluble ammine complex",
+    "observation": "white ppt; **soluble in excess**",
+    "notes": "key distinction from Al³⁺. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Zn2+",
+     "coef": 1,
+     "raw": "Zn2+"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "znoh2",
+     "coef": 1,
+     "raw": "Zn(OH)2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-01",
+    "title": "Carbonate + acid",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "CO₃²⁻",
+    "reagent": "dilute acid",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "CO₂ + H₂O",
+    "observation": "effervescence; CO₂ turns limewater milky",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "CO3^2-",
+     "coef": 1,
+     "raw": "CO32-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-02",
+    "title": "Chloride + Ag⁺",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "Cl⁻(aq)",
+    "reagent": "Ag⁺(aq), commonly acidified AgNO₃",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "AgCl(s)",
+    "observation": "**white ppt**, soluble in NH₃(aq)",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Cl-",
+     "coef": 1,
+     "raw": "Cl-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "agcl",
+     "coef": 1,
+     "raw": "AgCl"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-03",
+    "title": "Bromide + Ag⁺",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "Br⁻(aq)",
+    "reagent": "Ag⁺(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "AgBr(s)",
+    "observation": "**cream / off-white ppt**, partially soluble in NH₃(aq)",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "Br-",
+     "coef": 1,
+     "raw": "Br-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "agbr",
+     "coef": 1,
+     "raw": "AgBr"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-04",
+    "title": "Iodide + Ag⁺",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "I⁻(aq)",
+    "reagent": "Ag⁺(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "AgI(s)",
+    "observation": "**pale-yellow ppt**, insoluble in NH₃(aq)",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "I-",
+     "coef": 1,
+     "raw": "I-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "agi",
+     "coef": 1,
+     "raw": "AgI"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-07",
+    "title": "Sulfate + Ba²⁺",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "SO₄²⁻(aq)",
+    "reagent": "Ba²⁺(aq)",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "BaSO₄(s)",
+    "observation": "**white ppt**, insoluble in excess dilute strong acids",
+    "notes": "high `[Ca²⁺]` can also give white CaSO₄ ppt.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "SO4^2-",
+     "coef": 1,
+     "raw": "SO42-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "baso4",
+     "coef": 1,
+     "raw": "BaSO4"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-08",
+    "title": "Sulfite + Ba²⁺ then acid",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "SO₃²⁻(aq)",
+    "reagent": "Ba²⁺(aq), then dilute strong acid",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "BaSO₃(s), then SO₂ on acidification",
+    "observation": "white ppt forms then **dissolves in dilute strong acid**",
+    "notes": "sulfite also decolourises acidified KMnO₄.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "SO3^2-",
+     "coef": 1,
+     "raw": "SO32-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "baso3",
+     "coef": 1,
+     "raw": "BaSO3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-09",
+    "title": "Sulfite + acidified KMnO₄",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "SO₃²⁻",
+    "reagent": "acidified KMnO₄",
+    "temperature": "RT",
+    "medium": "acidic aqueous",
+    "products": "sulfate + Mn²⁺",
+    "observation": "purple KMnO₄ decolourises",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "SO3^2-",
+     "coef": 1,
+     "raw": "SO32-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "so4^2-",
+     "coef": 1,
+     "raw": "sulfate"
+    },
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-AN-10",
+    "title": "Thiosulfate + acid",
+    "section": "Anion tests",
+    "priority": "P0",
+    "reactants": "S₂O₃²⁻",
+    "reagent": "H⁺ / dilute acid",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "sulfur + SO₂ + H₂O",
+    "observation": "**off-white / pale-yellow precipitate slowly forms**; mixture becomes cloudy",
+    "notes": "sulfur precipitate can obscure a mark beneath the flask in rate experiments. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "S2O3^2-",
+     "coef": 1,
+     "raw": "S2O32-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "s",
+     "coef": 1,
+     "raw": "sulfur"
+    },
+    {
+     "kind": "species",
+     "id": "so2",
+     "coef": 1,
+     "raw": "SO2"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-GAS-01",
+    "title": "NH₃ test",
+    "section": "Gas / element confirmation tests",
+    "priority": "P0",
+    "reactants": "NH₃(g)",
+    "reagent": "damp red litmus paper",
+    "temperature": "RT",
+    "medium": "gas test",
+    "products": "acid–base interaction",
+    "observation": "**red litmus turns blue**",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "nh3",
+     "coef": 1,
+     "raw": "NH3"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "salt",
+     "coef": 1,
+     "raw": "acid–baseinteraction"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-GAS-02",
+    "title": "CO₂ test",
+    "section": "Gas / element confirmation tests",
+    "priority": "P0",
+    "reactants": "CO₂(g)",
+    "reagent": "limewater, Ca(OH)₂(aq)",
+    "temperature": "RT",
+    "medium": "gas bubbled through aqueous reagent",
+    "products": "CaCO₃(s) + H₂O",
+    "observation": "**white precipitate / limewater turns milky**",
+    "notes": "excess CO₂ can redissolve precipitate by forming soluble hydrogencarbonate, though not required for the basic test.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "caco3",
+     "coef": 1,
+     "raw": "CaCO3"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-GAS-03",
+    "title": "H₂ test",
+    "section": "Gas / element confirmation tests",
+    "priority": "P0",
+    "reactants": "H₂(g)",
+    "reagent": "lighted splint",
+    "temperature": "ignition",
+    "medium": "gas",
+    "products": "H₂O",
+    "observation": "**squeaky pop**",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 1,
+     "raw": "H2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-GAS-04",
+    "title": "O₂ test",
+    "section": "Gas / element confirmation tests",
+    "priority": "P0",
+    "reactants": "O₂(g)",
+    "reagent": "glowing splint",
+    "temperature": "hot glowing splint",
+    "medium": "gas",
+    "products": "enhanced combustion",
+    "observation": "**glowing splint relights**",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "o2",
+     "coef": 1,
+     "raw": "O2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "co2",
+     "coef": 1,
+     "raw": "enhancedcombustion"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ELEM-01",
+    "title": "I₂ + starch",
+    "section": "Gas / element confirmation tests",
+    "priority": "P0",
+    "reactants": "I₂",
+    "reagent": "starch solution",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "iodine–starch complex",
+    "observation": "**blue-black colour**",
+    "notes": "very sensitive iodine test. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "species",
+     "id": "i2",
+     "coef": 1,
+     "raw": "I2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "starch",
+     "coef": 1,
+     "raw": "iodine–starchcomplex"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ORG-01",
+    "title": "Aldehyde + Fehling's reagent",
+    "section": "Part III — Organic functional-group tests that can appear in practical work",
+    "priority": "P0",
+    "reactants": "aldehyde",
+    "reagent": "Fehling's reagent",
+    "temperature": "warm / heat",
+    "medium": "alkaline aqueous",
+    "products": "carboxylate + Cu₂O(s)",
+    "observation": "blue solution → **orange/red precipitate**",
+    "notes": "ketones generally negative.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "aldehyde",
+     "coef": 1,
+     "raw": "aldehyde"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylate"
+    },
+    {
+     "kind": "species",
+     "id": "cu2o",
+     "coef": 1,
+     "raw": "Cu2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ORG-02",
+    "title": "Aldehyde + Tollens' reagent",
+    "section": "Part III — Organic functional-group tests that can appear in practical work",
+    "priority": "P0",
+    "reactants": "aldehyde",
+    "reagent": "Tollens' reagent",
+    "temperature": "warm gently",
+    "medium": "ammoniacal aqueous",
+    "products": "carboxylate + Ag(s)",
+    "observation": "**silver mirror or black/silver precipitate**",
+    "notes": "ketones generally negative.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "aldehyde",
+     "coef": 1,
+     "raw": "aldehyde"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylate"
+    },
+    {
+     "kind": "species",
+     "id": "ag",
+     "coef": 1,
+     "raw": "Ag"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ORG-03",
+    "title": "Iodoform / triiodomethane test",
+    "section": "Part III — Organic functional-group tests that can appear in practical work",
+    "priority": "P0",
+    "reactants": "CH₃CO–",
+    "reagent": "alkaline I₂(aq)",
+    "temperature": "warm",
+    "medium": "alkaline aqueous",
+    "products": "CHI₃(s) + carboxylate / oxidised products",
+    "observation": "**yellow precipitate of triiodomethane**",
+    "notes": "classic methyl ketone / suitable secondary alcohol test.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "ch3co-",
+     "coef": 1,
+     "raw": "CH3CO–"
+    }
+   ],
+   "R": [
+    {
+     "kind": "species",
+     "id": "chi3",
+     "coef": 1,
+     "raw": "CHI3"
+    },
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylate/oxidisedproducts"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ORG-04",
+    "title": "Acidified KMnO₄ oxidation test",
+    "section": "Part III — Organic functional-group tests that can appear in practical work",
+    "priority": "P0",
+    "reactants": "oxidisable organic compound",
+    "reagent": "acidified KMnO₄",
+    "temperature": "depends on substrate; often warm",
+    "medium": "acidic aqueous",
+    "products": "oxidised organic product + Mn²⁺",
+    "observation": "**purple → colourless**",
+    "notes": "not specific to one functional group.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "organic",
+     "coef": 1,
+     "raw": "oxidisableorganiccompound"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "organic",
+     "coef": 1,
+     "raw": "oxidisedorganicproduct"
+    },
+    {
+     "kind": "species",
+     "id": "Mn2+",
+     "coef": 1,
+     "raw": "Mn2+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "QA-ORG-05",
+    "title": "Carbonyl + 2,4-DNPH",
+    "section": "Part III — Organic functional-group tests that can appear in practical work",
+    "priority": "P0",
+    "reactants": "aldehyde or ketone",
+    "reagent": "2,4-dinitrophenylhydrazine reagent",
+    "temperature": "RT",
+    "medium": "acidic alcoholic reagent",
+    "products": "2,4-DNP hydrazone",
+    "observation": "**yellow/orange/orange-red precipitate**",
+    "notes": "detects C=O in aldehydes and ketones. --- > Paper 4 explicitly assumes AS knowledge. These are the high-value \"carry-over\" transformations that often connect A2 synthesis pathways.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carbonyl",
+     "coef": 1,
+     "raw": "aldehydeorketone"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "dnph_hydrazone",
+     "coef": 1,
+     "raw": "2,4-DNPhydrazone"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-01",
+    "title": "Alkane free-radical halogenation",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkane + Cl₂ / Br₂",
+    "reagent": "Cl₂ or Br₂",
+    "temperature": "**UV light**",
+    "medium": "gas / non-aqueous",
+    "products": "halogenoalkane(s) + HX",
+    "observation": "halogen colour disappears",
+    "notes": "substitution; often gives mixture.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkane",
+     "coef": 1,
+     "raw": "alkane"
+    },
+    {
+     "kind": "family",
+     "id": "halogen",
+     "coef": 1,
+     "raw": "Cl2/Br2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "halogenoalkane"
+    },
+    {
+     "kind": "family",
+     "id": "HX",
+     "coef": 1,
+     "raw": "HX"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-02",
+    "title": "Alkene + Br₂(aq)",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene + Br₂",
+    "reagent": "bromine water",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "dibromoalkane",
+    "observation": "**orange/brown → colourless**",
+    "notes": "test for C=C.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "species",
+     "id": "br2",
+     "coef": 1,
+     "raw": "Br2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "dibromoalkane",
+     "coef": 1,
+     "raw": "dibromoalkane"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-03",
+    "title": "Alkene + H₂",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene + H₂",
+    "reagent": "H₂ / Ni or Pt",
+    "temperature": "heat",
+    "medium": "catalytic",
+    "products": "alkane",
+    "observation": "OBS-NONE",
+    "notes": "hydrogenation.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 1,
+     "raw": "H2"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "alkane",
+     "coef": 1,
+     "raw": "alkane"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-04",
+    "title": "Alkene + steam",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene + H₂O(g)",
+    "reagent": "steam + H₃PO₄ catalyst",
+    "temperature": "heat",
+    "medium": "gas-phase catalytic",
+    "products": "alcohol",
+    "observation": "OBS-NONE",
+    "notes": "electrophilic addition.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-05",
+    "title": "Alkene + HX",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene + HX(g)",
+    "reagent": "HCl / HBr / HI as relevant",
+    "temperature": "RT",
+    "medium": "gas / organic",
+    "products": "halogenoalkane",
+    "observation": "OBS-NONE",
+    "notes": "Markovnikov outcome may matter for unsymmetrical alkenes.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "family",
+     "id": "HX",
+     "coef": 1,
+     "raw": "HX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "halogenoalkane"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-06",
+    "title": "Alkene + cold dilute acidified KMnO₄",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene",
+    "reagent": "cold dilute acidified KMnO₄",
+    "temperature": "**cold**",
+    "medium": "acidic aqueous",
+    "products": "vicinal diol",
+    "observation": "purple → colourless",
+    "notes": "oxidation without C=C cleavage.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "vicinaldiol",
+     "coef": 1,
+     "raw": "vicinaldiol"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-07",
+    "title": "Alkene oxidative cleavage",
+    "section": "Alkanes / alkenes",
+    "priority": "P0",
+    "reactants": "alkene",
+    "reagent": "**hot concentrated acidified KMnO₄**",
+    "temperature": "hot",
+    "medium": "acidic aqueous",
+    "products": "carbonyl compounds / carboxylic acids / CO₂ depending on substitution",
+    "observation": "purple decolourises",
+    "notes": "used to locate C=C positions. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carbonylcompounds/carboxylicacids/CO2dependingonsubstitution"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-08",
+    "title": "Halogenoalkane → alcohol",
+    "section": "Halogenoalkanes",
+    "priority": "P0",
+    "reactants": "RX",
+    "reagent": "NaOH(aq)",
+    "temperature": "heat / reflux",
+    "medium": "aqueous",
+    "products": "ROH + X⁻",
+    "observation": "usually no distinctive visible change",
+    "notes": "nucleophilic substitution.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "RX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "ROH"
+    },
+    {
+     "kind": "family",
+     "id": "halide",
+     "coef": 1,
+     "raw": "X-"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-09",
+    "title": "Halogenoalkane → nitrile",
+    "section": "Halogenoalkanes",
+    "priority": "P0",
+    "reactants": "RX",
+    "reagent": "KCN",
+    "temperature": "heat / reflux",
+    "medium": "**ethanol**",
+    "products": "RCN",
+    "observation": "OBS-NONE",
+    "notes": "carbon chain length increases by one carbon.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "RX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "nitrile",
+     "coef": 1,
+     "raw": "RCN"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-10",
+    "title": "Halogenoalkane → amine",
+    "section": "Halogenoalkanes",
+    "priority": "P0",
+    "reactants": "RX",
+    "reagent": "NH₃",
+    "temperature": "heat",
+    "medium": "**ethanol**",
+    "products": "RNH₂",
+    "observation": "OBS-NONE",
+    "notes": "**heated under pressure**; excess NH₃ favours primary amine.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "RX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_amine",
+     "coef": 1,
+     "raw": "RNH2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-11",
+    "title": "Halogenoalkane elimination",
+    "section": "Halogenoalkanes",
+    "priority": "P0",
+    "reactants": "RX",
+    "reagent": "NaOH",
+    "temperature": "heat",
+    "medium": "**ethanol**",
+    "products": "alkene + salt + H₂O",
+    "observation": "OBS-NONE",
+    "notes": "contrast `NaOH(aq)` substitution vs `NaOH in ethanol` elimination.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "RX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "family",
+     "id": "salt",
+     "coef": 1,
+     "raw": "salt"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-12",
+    "title": "Halogenoalkane + ethanolic AgNO₃",
+    "section": "Halogenoalkanes",
+    "priority": "P0",
+    "reactants": "RX",
+    "reagent": "AgNO₃ in ethanol",
+    "temperature": "warm",
+    "medium": "ethanolic / aqueous silver nitrate mixture",
+    "products": "AgX(s)",
+    "observation": "AgCl white / AgBr cream / AgI pale yellow precipitate",
+    "notes": "rate indicates relative C–X bond reactivity. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "halogenoalkane",
+     "coef": 1,
+     "raw": "RX"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "agx",
+     "coef": 1,
+     "raw": "AgX"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-13",
+    "title": "Alcohol + Na",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "ROH + Na",
+    "reagent": "Na(s)",
+    "temperature": "RT",
+    "medium": "dry",
+    "products": "RONa + H₂",
+    "observation": "effervescence; H₂ gives squeaky pop",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "ROH"
+    },
+    {
+     "kind": "species",
+     "id": "na",
+     "coef": 1,
+     "raw": "Na"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "rona",
+     "coef": 1,
+     "raw": "RONa"
+    },
+    {
+     "kind": "species",
+     "id": "h2",
+     "coef": 1,
+     "raw": "H2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-14",
+    "title": "Primary alcohol → aldehyde",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "primary alcohol",
+    "reagent": "acidified K₂Cr₂O₇ or acidified KMnO₄",
+    "temperature": "heat gently",
+    "medium": "acidic",
+    "products": "aldehyde",
+    "observation": "dichromate orange → green / permanganate purple → colourless",
+    "notes": "**distil product as it forms** to prevent further oxidation.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "primaryalcohol"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "aldehyde",
+     "coef": 1,
+     "raw": "aldehyde"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-15",
+    "title": "Primary alcohol → carboxylic acid",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "primary alcohol",
+    "reagent": "excess acidified K₂Cr₂O₇ or acidified KMnO₄",
+    "temperature": "heat",
+    "medium": "acidic",
+    "products": "carboxylic acid",
+    "observation": "orange → green or purple → colourless",
+    "notes": "**reflux**.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "primaryalcohol"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "carboxylicacid"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-16",
+    "title": "Secondary alcohol → ketone",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "secondary alcohol",
+    "reagent": "acidified K₂Cr₂O₇ or acidified KMnO₄",
+    "temperature": "heat",
+    "medium": "acidic",
+    "products": "ketone",
+    "observation": "orange → green or purple → colourless",
+    "notes": "distillation commonly used.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "secondary_alcohol",
+     "coef": 1,
+     "raw": "secondaryalcohol"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "ketone",
+     "coef": 1,
+     "raw": "ketone"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-17",
+    "title": "Alcohol dehydration",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "alcohol",
+    "reagent": "conc. H₂SO₄ or heated Al₂O₃ catalyst",
+    "temperature": "heat",
+    "medium": "acidic / catalytic",
+    "products": "alkene + H₂O",
+    "observation": "OBS-NONE",
+    "notes": "elimination.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "alkene",
+     "coef": 1,
+     "raw": "alkene"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-18",
+    "title": "Fischer esterification",
+    "section": "Alcohols",
+    "priority": "P0",
+    "reactants": "alcohol + carboxylic acid",
+    "reagent": "concentrated H₂SO₄ catalyst",
+    "temperature": "heat / reflux",
+    "medium": "acidic",
+    "products": "ester + H₂O",
+    "observation": "often fruity ester smell, but odour should not be relied on as an exam observation unless instructed",
+    "notes": "reversible equilibrium. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    },
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "carboxylicacid"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "ester",
+     "coef": 1,
+     "raw": "ester"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-19",
+    "title": "Aldehyde / ketone reduction",
+    "section": "Carbonyl compounds",
+    "priority": "P0",
+    "reactants": "aldehyde or ketone",
+    "reagent": "NaBH₄ or LiAlH₄",
+    "temperature": "suitable mild conditions",
+    "medium": "NaBH₄ often aqueous/alcoholic; LiAlH₄ dry ether",
+    "products": "primary alcohol from aldehyde / secondary alcohol from ketone",
+    "observation": "OBS-NONE",
+    "notes": "nucleophilic reduction.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carbonyl",
+     "coef": 1,
+     "raw": "aldehydeorketone"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "primaryalcoholfromaldehyde/secondaryalcoholfromketone"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-20",
+    "title": "Carbonyl + HCN",
+    "section": "Carbonyl compounds",
+    "priority": "P0",
+    "reactants": "aldehyde or ketone + HCN",
+    "reagent": "HCN with KCN catalyst",
+    "temperature": "heat",
+    "medium": "aqueous/organic as specified",
+    "products": "hydroxynitrile",
+    "observation": "OBS-NONE",
+    "notes": "nucleophilic addition; introduces one extra carbon. ---",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carbonyl",
+     "coef": 1,
+     "raw": "aldehydeorketone"
+    },
+    {
+     "kind": "species",
+     "id": "hcn",
+     "coef": 1,
+     "raw": "HCN"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "hydroxynitrile",
+     "coef": 1,
+     "raw": "hydroxynitrile"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-21",
+    "title": "Nitrile acid hydrolysis",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "RCN + H₂O",
+    "reagent": "dilute acid",
+    "temperature": "heat / reflux",
+    "medium": "acidic aqueous",
+    "products": "RCOOH + NH₄⁺",
+    "observation": "OBS-NONE",
+    "notes": "carbon chain retained.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "nitrile",
+     "coef": 1,
+     "raw": "RCN"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "NH4+",
+     "coef": 1,
+     "raw": "NH4+"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-22",
+    "title": "Nitrile alkaline hydrolysis",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "RCN",
+    "reagent": "dilute NaOH(aq), then acidify if free acid required",
+    "temperature": "heat / reflux",
+    "medium": "alkaline aqueous",
+    "products": "RCOO⁻ + NH₃; after acidification → RCOOH",
+    "observation": "NH₃ may be evolved",
+    "notes": "—",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "nitrile",
+     "coef": 1,
+     "raw": "RCN"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "RCOO-"
+    },
+    {
+     "kind": "species",
+     "id": "nh3",
+     "coef": 1,
+     "raw": "NH3"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-23",
+    "title": "Ester acid hydrolysis",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "ester + H₂O",
+    "reagent": "dilute acid",
+    "temperature": "heat / reflux",
+    "medium": "acidic aqueous",
+    "products": "carboxylic acid + alcohol",
+    "observation": "OBS-NONE",
+    "notes": "reversible.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "ester",
+     "coef": 1,
+     "raw": "ester"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "carboxylicacid"
+    },
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-24",
+    "title": "Ester alkaline hydrolysis",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "ester + OH⁻",
+    "reagent": "dilute NaOH(aq)",
+    "temperature": "heat / reflux",
+    "medium": "alkaline aqueous",
+    "products": "carboxylate salt + alcohol",
+    "observation": "OBS-NONE",
+    "notes": "effectively irreversible under normal conditions.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "ester",
+     "coef": 1,
+     "raw": "ester"
+    },
+    {
+     "kind": "species",
+     "id": "OH-",
+     "coef": 1,
+     "raw": "OH-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylatesalt"
+    },
+    {
+     "kind": "family",
+     "id": "primary_alcohol",
+     "coef": 1,
+     "raw": "alcohol"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-25",
+    "title": "Carboxylic acid + carbonate",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "RCOOH + CO₃²⁻",
+    "reagent": "carbonate / hydrogencarbonate",
+    "temperature": "RT",
+    "medium": "aqueous",
+    "products": "carboxylate salt + H₂O + CO₂",
+    "observation": "**effervescence**",
+    "notes": "distinguishes carboxylic acid from phenol/alcohol.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    },
+    {
+     "kind": "species",
+     "id": "CO3^2-",
+     "coef": 1,
+     "raw": "CO32-"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "carboxylate",
+     "coef": 1,
+     "raw": "carboxylatesalt"
+    },
+    {
+     "kind": "species",
+     "id": "h2o",
+     "coef": 1,
+     "raw": "H2O"
+    },
+    {
+     "kind": "species",
+     "id": "co2",
+     "coef": 1,
+     "raw": "CO2"
+    }
+   ]
+  },
+  {
+   "entry": {
+    "id": "AS-X-26",
+    "title": "Carboxylic acid reduction",
+    "section": "Nitriles / esters / carboxylic acids",
+    "priority": "P0",
+    "reactants": "RCOOH",
+    "reagent": "LiAlH₄",
+    "temperature": "warm / reflux, then work-up",
+    "medium": "dry ether",
+    "products": "RCH₂OH",
+    "observation": "OBS-NONE",
+    "notes": "strong reducing agent required. --- 1. **Benzene + Br₂:** `Br₂ + AlBr₃`, no bromine water test conditions. 2. **Phenol + Br₂(aq):** RT, no catalyst → bromine water decolourises + **white ppt**. 3. **Phenylamine + Br₂(aq):** RT, no catalyst → bromine water decolourises + **white ppt**. 4. **Benzene nitration:** conc. HNO₃ + conc. H₂SO₄, **25–60 °C**. 5. **Phenol nitration:** **dilute HNO₃(aq), RT**. 6. **Diazotisation:** `NaNO₂ + dilute acid`, **below 10 °C**. 7. **Diazonium → phenol:** **warm with water**, N₂ effervescence. 8. **Alkylbenzene → benzoic acid:** **hot alkaline KMnO₄, then dilute acid**. 9. **Acyl chloride reactions:** generally **RT**; no Fischer esterification catalyst required. 10. **RX → alcohol:** `NaOH(aq) + heat`. 11. **RX → alkene:** `NaOH in ethanol + heat`. 12. **RX → nitrile:** `KCN in ethanol + heat`. 13. **RX → amine:** `NH₃ in ethanol + heat under pressure`. 14. **Primary alcohol → aldehyde:** oxidise and **distil**. 15. **Primary alcohol → acid:** oxidise under **reflux**. 16. **Methanoic acid:** positive Tollens / Fehling and decolourises acidified KMnO₄. 17. **Ethanedioic acid + KMnO₄:** must be **warm and acidic**. 18. **Cu²⁺ + excess NH₃:** deep-blue solution. 19. **Co²⁺ + excess Cl⁻:** pink → blue. 20. **Cu²⁺ + I⁻:** white CuI ppt + brown iodine. --- For implementation, each record can map directly to: ```text id topic priority reactants[] reagent[] temperature medium products[] observation[] notes[] ``` For simulation logic, separate: - `required_conditions` - `catalyst` - `solvent_or_medium` - `temperature_range` - `visible_colour_before` - `visible_colour_after` - `precipitate_colour` - `gas_evolved` - `reversible` - `reaction_type` - `exam_priority` This prevents a single free-text `observation` field from becoming hard to query later. --- - Cambridge International AS & A Level Chemistry 9701 syllabus, examinations 2025–2027. - A Level Topics 23–37, especially Topics 26–36. - Current Cambridge qualitative-analysis notes used for 9701 practical assessment. - Paper 4 syllabus statement: A Level questions are based on A Level content, but knowledge of AS content is required.",
+    "extra": {}
+   },
+   "L": [
+    {
+     "kind": "family",
+     "id": "carboxylic_acid",
+     "coef": 1,
+     "raw": "RCOOH"
+    }
+   ],
+   "R": [
+    {
+     "kind": "family",
+     "id": "rch2oh",
+     "coef": 1,
+     "raw": "RCH2OH"
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "id": "A2-27-01",
+   "miss": [
+    "MCO3"
+   ],
+   "gen": [
+    "MO"
+   ],
+   "prod": "MO(s) + CO₂(g)"
+  },
+  {
+   "id": "A2-30-06",
+   "miss": [
+    "alkylbenzenewithatleastonebenzylicH,e.g.methylbenzene"
+   ],
+   "gen": [],
+   "prod": "benzoic acid (or substituted benzoic acid)"
+  },
+  {
+   "id": "A2-31-02",
+   "miss": [
+    "commonaqueousnucleophiles",
+    "essentiallynoreactionunderconditionsthatreadilyhydrolysechloroalkanes"
+   ],
+   "gen": [],
+   "prod": "essentially no reaction under conditions that readily hydrolyse chloroalkanes"
+  },
+  {
+   "id": "A2-32-02",
+   "miss": [
+    "C6H5O-Na+"
+   ],
+   "gen": [],
+   "prod": "C₆H₅O⁻Na⁺ + H₂O"
+  },
+  {
+   "id": "A2-32-04",
+   "miss": [
+    "mixtureof2-nitrophenoland4-nitrophenol"
+   ],
+   "gen": [],
+   "prod": "mixture of 2-nitrophenol and 4-nitrophenol + H₂O"
+  },
+  {
+   "id": "A2-32-06",
+   "miss": [
+    "salts"
+   ],
+   "gen": [],
+   "prod": "hydroxy-azo compound + salts"
+  },
+  {
+   "id": "A2-33-01",
+   "miss": [
+    "alkylbenzene,e.g.methylbenzene"
+   ],
+   "gen": [],
+   "prod": "benzoic acid"
+  },
+  {
+   "id": "A2-33-05",
+   "miss": [
+    "Cu2OfromreductionofCu2^2+"
+   ],
+   "gen": [],
+   "prod": "CO₂ + H₂O + Cu₂O(s) from reduction of Cu²⁺"
+  },
+  {
+   "id": "A2-33-13",
+   "miss": [
+    "primaryamide"
+   ],
+   "gen": [],
+   "prod": "primary amide"
+  },
+  {
+   "id": "A2-33-14",
+   "miss": [
+    "R'NH3Cl"
+   ],
+   "gen": [],
+   "prod": "RCONHR' + R'NH₃Cl"
+  },
+  {
+   "id": "A2-33-15",
+   "miss": [
+    "R'2NH2Cl"
+   ],
+   "gen": [],
+   "prod": "RCONR'₂ + R'₂NH₂Cl"
+  },
+  {
+   "id": "A2-34-01",
+   "miss": [
+    "primaryamine"
+   ],
+   "gen": [],
+   "prod": "primary amine"
+  },
+  {
+   "id": "A2-34-02",
+   "miss": [
+    "ammonium/aminesalt"
+   ],
+   "gen": [],
+   "prod": "secondary amine + ammonium/amine salt"
+  },
+  {
+   "id": "A2-34-08",
+   "miss": [
+    "C6H5N2+Cl-"
+   ],
+   "gen": [],
+   "prod": "C₆H₅N₂⁺Cl⁻"
+  },
+  {
+   "id": "A2-34-11",
+   "miss": [
+    "RNH3+"
+   ],
+   "gen": [],
+   "prod": "RNH₃⁺"
+  },
+  {
+   "id": "A2-34-12",
+   "miss": [
+    "ammonium/alkylammoniumsalt"
+   ],
+   "gen": [],
+   "prod": "carboxylic acid + ammonium / alkylammonium salt"
+  },
+  {
+   "id": "A2-35-07",
+   "miss": [
+    "hydroxy/carboxylicmonomersorfragments"
+   ],
+   "gen": [],
+   "prod": "hydroxy/carboxylic monomers or fragments"
+  },
+  {
+   "id": "A2-35-08",
+   "miss": [
+    "alcohol-containingfragments",
+    "carboxylatesalts"
+   ],
+   "gen": [],
+   "prod": "alcohol-containing fragments + carboxylate salts"
+  },
+  {
+   "id": "A2-35-09",
+   "miss": [
+    "carboxylic-acidfragments",
+    "protonatedaminefragments"
+   ],
+   "gen": [],
+   "prod": "carboxylic-acid fragments + protonated amine fragments"
+  },
+  {
+   "id": "A2-35-10",
+   "miss": [
+    "carboxylatefragments",
+    "aminefragments"
+   ],
+   "gen": [],
+   "prod": "carboxylate fragments + amine fragments"
+  },
+  {
+   "id": "QA-CAT-04",
+   "miss": [
+    "slightBa(OH)2/precipitateonlyifconcentrationpermits"
+   ],
+   "gen": [],
+   "prod": "slight Ba(OH)₂ / precipitate only if concentration permits"
+  },
+  {
+   "id": "QA-CAT-09",
+   "miss": [
+    "[Cu(NH3)4(H2O)2]2^2+"
+   ],
+   "gen": [],
+   "prod": "[Cu(NH₃)₄(H₂O)₂]²⁺"
+  },
+  {
+   "id": "QA-AN-05",
+   "miss": [
+    "NH3amongreductionproducts"
+   ],
+   "gen": [],
+   "prod": "NH₃ among reduction products"
+  },
+  {
+   "id": "QA-AN-06",
+   "miss": [
+    "nitrate/Mn2+products"
+   ],
+   "gen": [],
+   "prod": "nitrate / Mn²⁺ products"
+  }
+ ]
+}

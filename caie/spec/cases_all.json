@@ -1,0 +1,9679 @@
+[
+ {
+  "case_id": "G2-01-molar-mass",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "CuSO4·5H2O",
+    "expect": 249.7,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "K2Cr2O7",
+    "expect": 294.2,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "Ca(OH)2",
+    "expect": 74.1,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "(NH4)2SO4",
+    "expect": 132.1,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "FeSO4·7H2O",
+    "expect": 278,
+    "tol": 1.5
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "Na2CO3",
+    "expect": 106,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "C6H12O6",
+    "expect": 180.2,
+    "tol": 1
+   },
+   {
+    "kind": "molar_mass",
+    "vessel": "v",
+    "required": true,
+    "formula": "Fe2(SO4)3",
+    "expect": 399.9,
+    "tol": 1
+   }
+  ]
+ },
+ {
+  "case_id": "G2-02-balance-ok",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "Zn + 2H+ -> Zn2+ + H2"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "MnO4- + 8H+ + 5Fe2+ -> Mn2+ + 5Fe3+ + 4H2O"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "5H2O2 + 2MnO4- + 6H+ -> 5O2 + 8H2O + 2Mn2+"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "Ba2+ + SO4^2- -> BaSO4"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "Ag+ + Cl- -> AgCl"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "CaCO3 + 2H+ -> Ca2+ + H2O + CO2"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "2Fe2+ + Cl2 -> 2Fe3+ + 2Cl-"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "Cr2O7^2- + 14H+ + 6Fe2+ -> 2Cr3+ + 6Fe3+ + 7H2O"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "Fe2+ -> Fe3+ + e-"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "2H2 + O2 -> 2H2O"
+   },
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "NH4+ + OH- -> NH3 + H2O"
+   }
+  ]
+ },
+ {
+  "case_id": "G2-03-balance-BAD",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "BAD1",
+    "kind": "equation_unbalanced",
+    "equation": "Zn + H+ -> Zn2+ + H2"
+   },
+   {
+    "id": "BAD2",
+    "kind": "equation_unbalanced",
+    "equation": "MnO4- + 8H+ + Fe2+ -> Mn2+ + Fe3+ + 4H2O"
+   },
+   {
+    "id": "BAD3",
+    "kind": "equation_unbalanced",
+    "equation": "Fe2+ -> Fe3+"
+   },
+   {
+    "id": "BAD4",
+    "kind": "equation_unbalanced",
+    "equation": "Ba2+ + SO4^2- -> BaSO4-"
+   },
+   {
+    "id": "BAD5",
+    "kind": "equation_unbalanced",
+    "equation": "2H2 + O2 -> H2O"
+   },
+   {
+    "id": "BAD6",
+    "kind": "equation_unbalanced",
+    "equation": "Cu + 2Ag+ -> Cu2+ + Ag"
+   }
+  ]
+ },
+ {
+  "case_id": "G2-04-acid-base",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "naoh",
+    "ml": 5
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Cl-"
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "OH-",
+    "expect": 0,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "G2-05-precipitate",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "nacl",
+    "g": 0.5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl"
+   },
+   {
+    "kind": "colour",
+    "vessel": "v",
+    "required": true,
+    "contains": "白"
+   }
+  ]
+ },
+ {
+  "case_id": "G2-06-gas-evolution",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "caco3",
+    "g": 2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.0001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Ca2+"
+   }
+  ]
+ },
+ {
+  "case_id": "G2-07-redox-displacement",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 2
+   },
+   {
+    "op": "add_g",
+    "id": "fe",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe2+"
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "Cu2+",
+    "max": 0.001
+   }
+  ]
+ },
+ {
+  "case_id": "G2-08-limiting",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "agno3",
+    "mol": 0.001
+   },
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.005
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Ag+",
+    "expect": 0,
+    "tol": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Cl-",
+    "min": 0.003
+   }
+  ]
+ },
+ {
+  "case_id": "G2-09-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "agno3",
+    "mol": 0.005
+   },
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.001
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Cl-",
+    "expect": 0,
+    "tol": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Ag+",
+    "min": 0.003
+   }
+  ]
+ },
+ {
+  "case_id": "G2-10-cu-oh2",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 蓝"
+ },
+ {
+  "case_id": "G2-11-fe2-oh2",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 绿"
+ },
+ {
+  "case_id": "G2-12-fe3-oh3",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 红"
+ },
+ {
+  "case_id": "G2-13-agcl",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nacl",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 白"
+ },
+ {
+  "case_id": "G2-14-agbr",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nabr",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agbr",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 淡黄"
+ },
+ {
+  "case_id": "G2-15-agi",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nai",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agi",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 黄"
+ },
+ {
+  "case_id": "G2-16-baso4",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2so4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "bacl2",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "baso4",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 白"
+ },
+ {
+  "case_id": "G2-17-pbi2",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ki",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "pbno32",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "pbi2",
+    "min": 0.000001
+   }
+  ],
+  "note": "期望沉淀颜色 金"
+ },
+ {
+  "case_id": "G2-18-amphoteric-al",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "alcl3",
+    "mol": 0.001
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.003
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "G2-19-amphoteric-al-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "alcl3",
+    "mol": 0.001
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "max": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "AlO2-",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "G2-20-thermal-decomp",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "caco3",
+    "g": 2
+   },
+   {
+    "op": "set_temp",
+    "c": 900
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "T1",
+    "kind": "present",
+    "species": "cao",
+    "min": 1e-9,
+    "required": false
+   },
+   {
+    "id": "T2",
+    "kind": "present",
+    "species": "co2",
+    "min": 1e-9,
+    "required": false
+   }
+  ]
+ },
+ {
+  "case_id": "G2-21-weak-acid",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cooh",
+    "ml": 5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "W1",
+    "kind": "present",
+    "species": "H+",
+    "min": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "G2-22-esterification",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cooh_glacial",
+    "ml": 5
+   },
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 6
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4_conc",
+    "ml": 1
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooc2h5",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "G2-23-aldehyde-oxidation",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {"op": "set_temp", "c": 80},
+   {
+    "op": "add_ml",
+    "id": "ch3cho",
+    "ml": 2
+   },
+   {
+    "op": "add_g",
+    "id": "k2cr2o7",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4",
+    "ml": 3
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooh",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "G2-24-tollens",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 40
+   },
+   {
+    "op": "add_ml",
+    "id": "ch3cho",
+    "ml": 2
+   },
+   {
+    "op": "set_temp",
+    "c": 50
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "fx_mirror",
+    "vessel": "v",
+    "required": true
+   }
+  ]
+ },
+ {
+  "case_id": "R01-01-stoich",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.00025
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe2+",
+    "expect": 0,
+    "tol": 1e-7
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "expect": 0,
+    "tol": 1e-8
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe3+",
+    "expect": 0.00125,
+    "tol": 0.000001
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Mn2+",
+    "expect": 0.00025,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R01-02-ratio",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.0002
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "compute",
+    "name": "ratio",
+    "calc": "species_delta_ratio",
+    "a": "Fe2+",
+    "a0": 0.00125,
+    "b": 0.0002
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "equation_balanced",
+    "vessel": "v",
+    "required": true,
+    "equation": "MnO4- + 8H+ + 5Fe2+ -> Mn2+ + 5Fe3+ + 4H2O"
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "ratio",
+    "expect": 5,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R01-03-pre-endpoint",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.00024
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe2+",
+    "expect": 0.00005,
+    "tol": 1e-7
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "max": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "R01-04-post-endpoint",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.00026
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe2+",
+    "max": 1e-7
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "expect": 0.00001,
+    "tol": 1e-8
+   }
+  ]
+ },
+ {
+  "case_id": "R01-05-hcl-interference",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "hcl_conc",
+    "mol": 0.02
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.0005
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cl2",
+    "min": 1e-9
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": false,
+    "species": "Cl-",
+    "expect": 0,
+    "tol": 0.019999
+   }
+  ],
+  "note": "错用 HCl：过量高锰酸根氧化 Cl- 生成氯气，滴定剂被额外消耗"
+ },
+ {
+  "case_id": "R01-06-no-acid",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "Mn2+",
+    "max": 0.000001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mno2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "R02-01-good-data",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "mean",
+    "calc": "batch_eval",
+    "readings": [
+     {
+      "label": "rough",
+      "initial": 0,
+      "final": 25.6
+     },
+     {
+      "label": "acc1",
+      "initial": 0.15,
+      "final": 25.15
+     },
+     {
+      "label": "acc2",
+      "initial": 0.4,
+      "final": 25.4
+     }
+    ]
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "mean",
+    "expect": 25,
+    "tol": 0.005
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "mean_2dp",
+    "expect": 25,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "sel_count",
+    "expect": 2,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "all_spread",
+    "expect": 0,
+    "tol": 0.005
+   },
+   {
+    "kind": "var_le",
+    "vessel": "v",
+    "required": true,
+    "name": "sel_spread",
+    "limit": 0.2
+   }
+  ]
+ },
+ {
+  "case_id": "R02-02-bad-spread",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "mean",
+    "calc": "batch_eval",
+    "readings": [
+     {
+      "label": "acc1",
+      "initial": 0.1,
+      "final": 24.9
+     },
+     {
+      "label": "acc2",
+      "initial": 0.3,
+      "final": 25.6
+     }
+    ]
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var_ge",
+    "vessel": "v",
+    "required": true,
+    "name": "sel_spread",
+    "limit": 0.35
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "concordant",
+    "expect": 0,
+    "tol": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "R02-03-three-concordant",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "mean",
+    "calc": "batch_eval",
+    "readings": [
+     {
+      "label": "rough",
+      "initial": 0,
+      "final": 25.5
+     },
+     {
+      "label": "acc1",
+      "initial": 0.05,
+      "final": 25.1
+     },
+     {
+      "label": "acc2",
+      "initial": 0.2,
+      "final": 25.2
+     },
+     {
+      "label": "acc3",
+      "initial": 0.35,
+      "final": 25.4
+     }
+    ]
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "sel_count",
+    "expect": 2,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "mean",
+    "expect": 25.05,
+    "tol": 0.005
+   },
+   {
+    "kind": "var_le",
+    "vessel": "v",
+    "required": true,
+    "name": "all_spread",
+    "limit": 0.2
+   }
+  ]
+ },
+ {
+  "case_id": "R03-01-cu2-oh",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 1e-7
+   }
+  ],
+  "note": "浅蓝沉淀；不溶于过量 NaOH（只溶于过量氨水）"
+ },
+ {
+  "case_id": "R03-01-cu2-oh-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 1e-7
+   }
+  ],
+  "note": "浅蓝沉淀；不溶于过量 NaOH（只溶于过量氨水）（过量验证）"
+ },
+ {
+  "case_id": "R03-02-zn2-oh",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "min": 1e-7
+   }
+  ],
+  "note": "白色沉淀，过量 NaOH 溶解"
+ },
+ {
+  "case_id": "R03-02-zn2-oh-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "max": 0.000001
+   }
+  ],
+  "note": "白色沉淀，过量 NaOH 溶解（过量验证）"
+ },
+ {
+  "case_id": "R03-03-al3-oh",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "min": 1e-7
+   }
+  ],
+  "note": "白色胶状，过量 NaOH 溶解"
+ },
+ {
+  "case_id": "R03-03-al3-oh-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "max": 0.000001
+   }
+  ],
+  "note": "白色胶状，过量 NaOH 溶解（过量验证）"
+ },
+ {
+  "case_id": "R03-04-fe2-oh",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ],
+  "note": "绿色沉淀，过量不溶"
+ },
+ {
+  "case_id": "R03-04-fe2-oh-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ],
+  "note": "绿色沉淀，过量不溶（过量验证）"
+ },
+ {
+  "case_id": "R03-05-fe3-oh",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ],
+  "note": "红棕色沉淀，过量不溶"
+ },
+ {
+  "case_id": "R03-05-fe3-oh-excess",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ],
+  "note": "红棕色沉淀，过量不溶（过量验证）"
+ },
+ {
+  "case_id": "R03-10-white-not-unique",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "min": 1e-7
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "max": 1e-9
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "max": 1e-9
+   }
+  ],
+  "note": "白色沉淀 ≠ 唯一阳离子；此处必须是 Zn(OH)2 而不是别的白色氢氧化物"
+ },
+ {
+  "case_id": "R04-01-distil-aldehyde",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {"op": "set_temp", "c": 80},
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 6
+   },
+   {
+    "op": "add_g",
+    "id": "k2cr2o7",
+    "g": 1.5
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4",
+    "ml": 3
+   },
+   {
+    "op": "heat",
+    "mode": "distil"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cho",
+    "min": 0.000001
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooh",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R04-02-reflux-acid",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {"op": "set_temp", "c": 80},
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 6
+   },
+   {
+    "op": "add_g",
+    "id": "k2cr2o7",
+    "g": 1.5
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4",
+    "ml": 3
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooh",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R04-03-secondary-ketone",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {"op": "set_temp", "c": 80},
+   {"op": "add_ml", "id": "h2so4", "ml": 3},
+   {
+    "op": "add_ml",
+    "id": "ch3chohch3",
+    "ml": 5
+   },
+   {
+    "op": "add_g",
+    "id": "k2cr2o7",
+    "g": 1.5
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "acetone",
+    "min": 0.000001
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooh",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R04-04-halogenoalkane-aq",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "c2h5br",
+    "ml": 4
+   },
+   {
+    "op": "add_ml",
+    "id": "naoh",
+    "ml": 10
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "c2h5oh",
+    "min": 0.000001
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "c2h4",
+    "max": 1e-7
+   }
+  ],
+  "note": "水溶液 → 取代成醇"
+ },
+ {
+  "case_id": "R04-05-halogenoalkane-ethanol",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 1
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "c2h5br",
+    "ml": 4
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 3
+   },
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 80
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "c2h4",
+    "min": 0.000001
+   }
+  ],
+  "note": "乙醇溶液 → 消去成烯烃"
+ },
+ {
+  "case_id": "R04-06-ester-no-catalyst",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cooh_glacial",
+    "ml": 5
+   },
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 6
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "E1",
+    "kind": "absent",
+    "species": "ch3cooc2h5",
+    "max": 0.000001,
+    "required": false
+   }
+  ],
+  "note": "缺浓硫酸催化时酯化极慢"
+ },
+ {
+  "case_id": "R04-07-nabh4-reduce",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cho",
+    "ml": 3
+   },
+   {
+    "op": "add_g",
+    "id": "nabh4",
+    "g": 2
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "c2h5oh",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R04-08-nitration",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "c6h6",
+    "ml": 4
+   },
+   {
+    "op": "add_ml",
+    "id": "hno3_conc",
+    "ml": 6
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4_conc",
+    "ml": 3
+   },
+   {
+    "op": "set_temp",
+    "c": 55
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "c6h5no2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "R04-09-nitrile-hydrolysis",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cn",
+    "ml": 3
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4",
+    "ml": 4
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3cooh",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "R05-01-unit-conversions",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "v_dm3",
+    "calc": "unit",
+    "value": 25,
+    "from": "cm3",
+    "to": "dm3"
+   },
+   {
+    "op": "compute",
+    "name": "v_back",
+    "calc": "unit",
+    "value": 0.025,
+    "from": "dm3",
+    "to": "cm3"
+   },
+   {
+    "op": "compute",
+    "name": "m_mg",
+    "calc": "unit",
+    "value": 2.79,
+    "from": "g",
+    "to": "mg"
+   },
+   {
+    "op": "compute",
+    "name": "n_mmol",
+    "calc": "unit",
+    "value": 0.00125,
+    "from": "mol",
+    "to": "mmol"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "v_dm3",
+    "expect": 0.025,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "v_back",
+    "expect": 25,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "m_mg",
+    "expect": 2790,
+    "tol": 0.000001
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "n_mmol",
+    "expect": 1.25,
+    "tol": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "R05-02-full-chain",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "nMnO4",
+    "calc": "n",
+    "c": 0.01,
+    "v_cm3": 25
+   },
+   {
+    "op": "compute",
+    "name": "nFe",
+    "calc": "scale",
+    "n": 0,
+    "factor": 5,
+    "from_var": "nMnO4"
+   },
+   {
+    "op": "compute",
+    "name": "cFe",
+    "calc": "scale",
+    "n": 0,
+    "factor": 0,
+    "from_var": "nFe"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nMnO4",
+    "expect": 0.00025,
+    "tol": 1e-12
+   }
+  ]
+ },
+ {
+  "case_id": "R05-03-missing-1000",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "wrong",
+    "calc": "n",
+    "c": 0.01,
+    "v_cm3": 25000
+   },
+   {
+    "op": "compute",
+    "name": "right",
+    "calc": "n",
+    "c": 0.01,
+    "v_cm3": 25
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "right",
+    "expect": 0.00025,
+    "tol": 1e-12
+   },
+   {
+    "id": "NEG1",
+    "kind": "var_ge",
+    "name": "wrong",
+    "limit": 0.1
+   },
+   {
+    "id": "NEG2",
+    "kind": "numeric",
+    "got": 1000,
+    "expect": 1000,
+    "tol": 1
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-33-Q1",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/25",
+   "qp_page": 2,
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "h2o2",
+    "mol": 0.001875
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "titrate",
+    "id": "kmno4",
+    "conc": 0.03,
+    "to_cm3": 26,
+    "step_cm3": 1,
+    "probe": "h2o2"
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "compute",
+    "name": "nMnO4_eq",
+    "calc": "n",
+    "c": 0.03,
+    "v_cm3": 25
+   },
+   {
+    "op": "compute",
+    "name": "hplus_added",
+    "calc": "n",
+    "c": 2,
+    "v_cm3": 10
+   },
+   {
+    "op": "compute",
+    "name": "hplus_required",
+    "calc": "scale",
+    "from_var": "nMnO4_eq",
+    "factor": 3
+   }
+  ],
+  "probes": [
+   "MnO4-",
+   "h2o2"
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "expect": 0.00003,
+    "tol": 1e-8
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "h2o2",
+    "max": 1e-7
+   },
+   {
+    "id": "D1",
+    "kind": "var_ge",
+    "name": "hplus_added",
+    "limit": 0.02,
+    "required": false
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-33-Q1-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/33/M/J/25",
+   "ms_page": 8
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "mean_titre",
+    "calc": "mean",
+    "values": [
+     24.95,
+     25
+    ]
+   },
+   {
+    "op": "compute",
+    "name": "nMnO4",
+    "calc": "n",
+    "c": 0.03,
+    "v_cm3": 25
+   },
+   {
+    "op": "compute",
+    "name": "nH2O2",
+    "calc": "scale",
+    "n": 0,
+    "factor": 2.5
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "mean_titre",
+    "expect": 24.975,
+    "tol": 0.000001
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nMnO4",
+    "expect": 0.00075,
+    "tol": 1e-12
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-34-Q1",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/25",
+   "qp_page": 2,
+   "ms_page": 5
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 60
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.0012500000000000002
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "titrate",
+    "id": "kmno4",
+    "conc": 0.01,
+    "to_cm3": 26,
+    "step_cm3": 1,
+    "probe": "Fe2+"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "Fe2+",
+   "MnO4-"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "Fe2+",
+    "max": 1e-7
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "expect": 0.00001,
+    "tol": 1e-8
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-34-Q1-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/34/M/J/25",
+   "ms_page": 5
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "nMnO4",
+    "calc": "n",
+    "c": 0.01,
+    "v_cm3": 25
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nMnO4",
+    "expect": 0.00025,
+    "tol": 1e-12
+   },
+   {
+    "id": "FE1",
+    "kind": "numeric",
+    "got": 0.0012500000000000002,
+    "expect": 0.00125,
+    "tol": 1e-9
+   },
+   {
+    "id": "FE2",
+    "kind": "numeric",
+    "got": 2.79,
+    "expect": 2.79,
+    "tol": 0.01
+   },
+   {
+    "id": "FE3",
+    "kind": "numeric",
+    "got": 199.28571428571428,
+    "expect": 199,
+    "tol": 2
+   }
+  ]
+ },
+ {
+  "case_id": "ADV-01-wrong-acid",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "add_mol",
+    "id": "hcl_conc",
+    "mol": 0.02
+   },
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.0005
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cl2",
+    "min": 1e-9
+   }
+  ],
+  "note": "错用 HCl：过量高锰酸根氧化 Cl- 生成氯气，滴定剂被额外消耗"
+ },
+ {
+  "case_id": "ADV-02-no-heat-ester",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "ch3cooh_glacial",
+    "ml": 5
+   },
+   {
+    "op": "add_ml",
+    "id": "c2h5oh",
+    "ml": 6
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4_conc",
+    "ml": 1
+   },
+   {
+    "op": "set_temp",
+    "c": 20
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "absent",
+    "species": "ch3cooc2h5",
+    "max": 0.000001,
+    "required": false
+   }
+  ],
+  "note": "室温无回流时酯化几乎不发生"
+ },
+ {
+  "case_id": "ADV-03-reversed-redox",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "RV1",
+    "kind": "equation_unbalanced",
+    "equation": "MnO4- + 8H+ + 5Fe3+ -> Mn2+ + 5Fe2+ + 4H2O"
+   }
+  ]
+ },
+ {
+  "case_id": "ADV-04-charge-broken",
+  "mode": "validate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "CB1",
+    "kind": "equation_unbalanced",
+    "equation": "Fe2+ -> Fe3+"
+   },
+   {
+    "id": "CB2",
+    "kind": "equation_unbalanced",
+    "equation": "Ag+ + Cl- -> AgCl2-"
+   }
+  ]
+ },
+ {
+  "case_id": "ADV-05-observation-mismatch",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 70
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "kmno4",
+    "mol": 0.00025
+   },
+   {
+    "op": "add_mol",
+    "id": "feso4",
+    "mol": 0.00125
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "Mn2+",
+    "max": 0.000001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mno2",
+    "min": 1e-7
+   }
+  ],
+  "note": "缺酸时还原产物是 MnO2"
+ },
+ {
+  "case_id": "ADV-06-indicator",
+  "mode": "simulate",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "naoh",
+    "ml": 5
+   },
+   {
+    "op": "add_ml",
+    "id": "phenolphthalein",
+    "ml": 0.5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "colour",
+    "vessel": "v",
+    "required": true,
+    "contains": "紫红"
+   }
+  ],
+  "note": "碱性下酚酞显红"
+ },
+ {
+  "case_id": "P3-2024-33-Q1-reaction",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 2,
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "add_mol",
+    "id": "nh4cl",
+    "mol": 0.02625
+   },
+   {
+    "op": "heat",
+    "mode": "reflux"
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "OH-",
+   "NH3"
+  ],
+  "asserts": [
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "OH-",
+    "expect": 0.02375,
+    "tol": 0.0001
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "NH4+",
+    "max": 0.00001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q1-titration",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 2,
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.0023750000000000004
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "titrate",
+    "id": "h2so4",
+    "conc": 0.05,
+    "to_cm3": 23,
+    "step_cm3": 1,
+    "probe": "OH-"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "OH-"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "OH-",
+    "min": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q1-past-endpoint",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 2,
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.0023750000000000004
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "titrate",
+    "id": "h2so4",
+    "conc": 0.05,
+    "to_cm3": 24,
+    "step_cm3": 1,
+    "probe": "OH-"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "OH-"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "OH-",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q1-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "titre",
+    "calc": "mean",
+    "values": [
+     23.75,
+     23.75
+    ]
+   },
+   {
+    "op": "compute",
+    "name": "nH2SO4",
+    "calc": "n",
+    "c": 0.05,
+    "v_cm3": 23.75
+   },
+   {
+    "op": "compute",
+    "name": "nNaOH_25",
+    "calc": "scale",
+    "from_var": "nH2SO4",
+    "factor": 2
+   },
+   {
+    "op": "compute",
+    "name": "nNaOH_left",
+    "calc": "scale",
+    "from_var": "nNaOH_25",
+    "factor": 10
+   },
+   {
+    "op": "compute",
+    "name": "nNaOH_init",
+    "calc": "n",
+    "c": 2,
+    "v_cm3": 25
+   },
+   {
+    "op": "compute",
+    "name": "nHCl_needed",
+    "calc": "distill",
+    "a": 0,
+    "b": 0
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nH2SO4",
+    "expect": 0.0011875,
+    "tol": 1e-12
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nNaOH_25",
+    "expect": 0.002375,
+    "tol": 1e-12
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nNaOH_left",
+    "expect": 0.02375,
+    "tol": 1e-9
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nNaOH_init",
+    "expect": 0.05,
+    "tol": 1e-9
+   },
+   {
+    "id": "M2",
+    "kind": "numeric",
+    "got": 0.026250000000000002,
+    "expect": 0.02625,
+    "tol": 1e-9
+   },
+   {
+    "id": "A1",
+    "kind": "numeric",
+    "got": 2.625,
+    "expect": 2.625,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q1-iodine",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "qp_page": 2,
+   "ci_page": 4
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 45
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "kio3",
+    "mol": 0.00035000000000000005
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "ki",
+    "mol": 0.005
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "i2",
+   "io3-"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "io3-",
+    "max": 1e-7
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "i2",
+    "expect": 0.00105,
+    "tol": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q1-titration",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "qp_page": 2,
+   "ci_page": 4
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 45
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "kio3",
+    "mol": 0.00035000000000000005
+   },
+   {
+    "op": "add_mol",
+    "id": "h2so4",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "ki",
+    "mol": 0.005
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "titrate",
+    "id": "na2s2o3",
+    "conc": 0.1,
+    "to_cm3": 22,
+    "step_cm3": 1,
+    "probe": "i2"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "i2"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "i2",
+    "max": 0.000001
+   },
+   {
+    "id": "C1",
+    "kind": "numeric",
+    "got": 20.999999999999996,
+    "expect": 21,
+    "tol": 0.01
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q2-dissolve",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 4,
+   "ms_page": 7,
+   "ci": "NH4Br 4.5 g"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "add_mol",
+    "id": "nh4br",
+    "mol": 0.045965270684371805
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "temp",
+    "vessel": "v",
+    "required": true,
+    "expect": 17.61,
+    "tol": 0.15
+   },
+   {
+    "kind": "temp_le",
+    "vessel": "v",
+    "required": true,
+    "limit": 24
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "nh4br",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "dT",
+    "calc": "scale",
+    "n": 0,
+    "factor": 0
+   },
+   {
+    "op": "compute",
+    "name": "mass",
+    "calc": "scale",
+    "n": 0,
+    "factor": 0
+   }
+  ],
+  "asserts": [
+   {
+    "id": "DT",
+    "kind": "numeric",
+    "got": 7.389632033468386,
+    "expect": 7.39,
+    "tol": 0.02
+   },
+   {
+    "id": "E1",
+    "kind": "numeric",
+    "got": 772.2165474974463,
+    "expect": 772.3,
+    "tol": 1
+   },
+   {
+    "id": "N1",
+    "kind": "numeric",
+    "got": 0.04597023809523809,
+    "expect": 0.04597,
+    "tol": 0.0001
+   },
+   {
+    "id": "M1",
+    "kind": "numeric",
+    "got": 4.500463,
+    "expect": 4.501,
+    "tol": 0.02
+   },
+   {
+    "id": "P1",
+    "kind": "numeric",
+    "got": 60.00617333333334,
+    "expect": 60,
+    "tol": 0.5
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-33-Q2-decompose",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/25",
+   "qp_page": 6,
+   "ms_page": 9,
+   "ci": "FA1 = 9 vol H2O2"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 40
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "add_mol",
+    "id": "h2o2",
+    "mol": 0.03
+   },
+   {
+    "op": "add_g",
+    "id": "mno2",
+    "g": 0.5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "o2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "o2",
+    "min": 0.0001
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "h2o2",
+    "max": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-33-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/33/M/J/25",
+   "ms_page": 9
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "n",
+    "calc": "n",
+    "c": 0.75,
+    "v_cm3": 40
+   }
+  ],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "var",
+    "name": "n",
+    "expect": 0.03,
+    "tol": 1e-9
+   },
+   {
+    "id": "E1",
+    "kind": "numeric",
+    "got": 2946,
+    "expect": 2946,
+    "tol": 5
+   },
+   {
+    "id": "DT",
+    "kind": "numeric",
+    "got": 17.619617224880383,
+    "expect": 17.6,
+    "tol": 0.1
+   },
+   {
+    "id": "C1",
+    "kind": "numeric",
+    "got": 0.75,
+    "expect": 0.75,
+    "tol": 0.01
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-34-Q2-equivalence",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/25",
+   "qp_page": 2,
+   "ms_page": 6,
+   "ci": "FB4=1.00M NaOH, FB5=2.00M HCl"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 10
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "hcl",
+    "mol": 0.01
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "OH-"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "OH-",
+    "max": 1e-7
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "H+",
+    "max": 0.002
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2025-34-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/34/M/J/25",
+   "ms_page": 6
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [
+   {
+    "op": "compute",
+    "name": "nNaOH",
+    "calc": "n",
+    "c": 1,
+    "v_cm3": 10
+   },
+   {
+    "op": "compute",
+    "name": "vHCl",
+    "calc": "v",
+    "n": 0,
+    "c": 2
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "nNaOH",
+    "expect": 0.01,
+    "tol": 1e-9
+   },
+   {
+    "id": "V1",
+    "kind": "numeric",
+    "got": 5,
+    "expect": 5,
+    "tol": 1e-9
+   },
+   {
+    "id": "E1",
+    "kind": "numeric",
+    "got": 573,
+    "expect": 573,
+    "tol": 1
+   },
+   {
+    "id": "DT",
+    "kind": "numeric",
+    "got": 6.854066985645933,
+    "expect": 6.85,
+    "tol": 0.02
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q3-acid",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "ms_page": 8,
+   "rationale": "CO3^2- + 2H+ -> CO2 + H2O"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znco3",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.0001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Zn2+",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q3-naoh",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "ms_page": 8,
+   "rationale": "Zn2+ + 2OH- -> Zn(OH)2"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "min": 1e-7
+   },
+   {
+    "kind": "colour",
+    "vessel": "v",
+    "required": true,
+    "contains": "白"
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q3-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "ms_page": 8,
+   "rationale": "Zn(OH)2 + 2OH- -> ZnO2^2- + 2H2O"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.03
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q3-agno3",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "ms_page": 8,
+   "rationale": "Ag+ + I- -> AgI"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ki",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agi",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-33-Q3-white-not-unique",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "ms_page": 8,
+   "rationale": "白色沉淀的去歧"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "max": 1e-9
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "max": 1e-9
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "caco3",
+    "max": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "APP-01-burner-heats",
+  "mode": "simulate",
+  "note": "容器吸附到本生灯上，点燃后应按火力升温",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 50
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "burner",
+    "gas": 0.8,
+    "lit": true,
+    "seconds": 5
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "temp_ge",
+    "vessel": "v",
+    "required": true,
+    "limit": 100
+   },
+   {
+    "kind": "temp_le",
+    "vessel": "v",
+    "required": true,
+    "limit": 400
+   }
+  ]
+ },
+ {
+  "case_id": "APP-02-burner-low-gas",
+  "mode": "simulate",
+  "note": "小火力加热同样时间，升温应明显少于大火力",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 50
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "burner",
+    "gas": 0.15,
+    "lit": true,
+    "seconds": 5
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "temp_ge",
+    "vessel": "v",
+    "required": true,
+    "limit": 60
+   },
+   {
+    "kind": "temp_le",
+    "vessel": "v",
+    "required": true,
+    "limit": 120
+   }
+  ]
+ },
+ {
+  "case_id": "APP-03-burner-too-low",
+  "mode": "simulate",
+  "note": "出气量低于点火下限时点不着，温度不该变",
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 50
+   }
+  ],
+  "actions": [
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "burner",
+    "gas": 0.05,
+    "lit": true,
+    "seconds": 5
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "temp",
+    "vessel": "v",
+    "required": true,
+    "expect": 25,
+    "tol": 0.5
+   }
+  ]
+ },
+ {
+  "case_id": "APP-04-pour-half",
+  "mode": "simulate",
+  "note": "A 悬停在 B 上方，按 50% 倒入；用水量与溶质双重核对",
+  "vessels": [
+   {
+    "id": "a",
+    "kind": "beaker",
+    "water_ml": 100
+   },
+   {
+    "id": "b",
+    "kind": "beaker",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "vessel": "a",
+    "id": "nacl",
+    "mol": 0.02
+   },
+   {
+    "op": "settle",
+    "vessel": "a"
+   },
+   {
+    "op": "snap",
+    "vessel": "a",
+    "onto": "b"
+   },
+   {
+    "op": "pour_frac",
+    "vessel": "a",
+    "to": "b",
+    "frac": 0.5
+   },
+   {
+    "op": "settle",
+    "vessel": "b"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "W1",
+    "kind": "water",
+    "vessel": "a",
+    "expect": 50,
+    "tol": 0.5
+   },
+   {
+    "id": "W2",
+    "kind": "water",
+    "vessel": "b",
+    "expect": 70,
+    "tol": 0.5
+   },
+   {
+    "id": "N1",
+    "kind": "amount",
+    "vessel": "a",
+    "species": "Cl-",
+    "expect": 0.01,
+    "tol": 0.000001
+   },
+   {
+    "id": "N2",
+    "kind": "amount",
+    "vessel": "b",
+    "species": "Cl-",
+    "expect": 0.01,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "APP-05-pour-all",
+  "mode": "simulate",
+  "note": "滑动条拉到 100% 时 A 应被倒空",
+  "vessels": [
+   {
+    "id": "a",
+    "kind": "tube",
+    "water_ml": 30
+   },
+   {
+    "id": "b",
+    "kind": "beaker",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "vessel": "a",
+    "id": "cuso4",
+    "mol": 0.005
+   },
+   {
+    "op": "settle",
+    "vessel": "a"
+   },
+   {
+    "op": "snap",
+    "vessel": "a",
+    "onto": "b"
+   },
+   {
+    "op": "pour_frac",
+    "vessel": "a",
+    "to": "b",
+    "frac": 1
+   },
+   {
+    "op": "settle",
+    "vessel": "b"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "absent",
+    "vessel": "a",
+    "species": "Cu2+",
+    "max": 1e-9
+   },
+   {
+    "id": "N2",
+    "kind": "present",
+    "vessel": "b",
+    "species": "Cu2+",
+    "min": 0.004
+   }
+  ]
+ },
+ {
+  "case_id": "APP-06-pour-causes-reaction",
+  "mode": "simulate",
+  "note": "把 AgNO3 倒进 NaCl 里，沉淀应在目标容器产生",
+  "vessels": [
+   {
+    "id": "a",
+    "kind": "tube",
+    "water_ml": 20
+   },
+   {
+    "id": "b",
+    "kind": "beaker",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "vessel": "a",
+    "id": "agno3",
+    "mol": 0.002
+   },
+   {
+    "op": "settle",
+    "vessel": "a"
+   },
+   {
+    "op": "add_mol",
+    "vessel": "b",
+    "id": "nacl",
+    "mol": 0.002
+   },
+   {
+    "op": "settle",
+    "vessel": "b"
+   },
+   {
+    "op": "snap",
+    "vessel": "a",
+    "onto": "b"
+   },
+   {
+    "op": "pour_frac",
+    "vessel": "a",
+    "to": "b",
+    "frac": 0.8
+   },
+   {
+    "op": "settle",
+    "vessel": "b"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "P1",
+    "kind": "present",
+    "vessel": "b",
+    "species": "agcl",
+    "min": 1e-7
+   },
+   {
+    "id": "P2",
+    "kind": "amount",
+    "vessel": "b",
+    "species": "agcl",
+    "expect": 0.0016,
+    "tol": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-34-Q1-back-titration",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "qp_page": 2,
+   "expect": "MCO3·M(OH)2 + 4HCl -> 2MCl2 + CO2 + 3H2O"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 100
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "znco3znoh2",
+    "mol": 0.10008896797153025
+   },
+   {
+    "op": "add_mol",
+    "id": "hcl",
+    "mol": 0.5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "H+",
+   "co2"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "znco3znoh2",
+    "max": 1e-7
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "expect": 0.10008896797153025,
+    "tol": 0.00001
+   },
+   {
+    "kind": "amount",
+    "vessel": "v",
+    "required": true,
+    "species": "H+",
+    "expect": 0.09964412811387902,
+    "tol": 0.0005
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-34-Q1-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "ms_page": 6
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "K1",
+    "kind": "numeric",
+    "got": 0.0022504456327985737,
+    "expect": 0.00225,
+    "tol": 0.000001
+   },
+   {
+    "id": "H1",
+    "kind": "numeric",
+    "got": 0.099601593625498,
+    "expect": 0.09964412811387902,
+    "tol": 0.002
+   },
+   {
+    "id": "F1",
+    "kind": "numeric",
+    "got": 0.10008896797153025,
+    "expect": 0.10008896797153025,
+    "tol": 0.00005
+   },
+   {
+    "id": "M1",
+    "kind": "numeric",
+    "got": 224.8,
+    "expect": 224.8,
+    "tol": 0.5
+   },
+   {
+    "id": "A1",
+    "kind": "numeric",
+    "got": 65.4,
+    "expect": 65.4,
+    "tol": 0.2
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-34-Q2-crucible",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "qp_page": 4,
+   "expect": "ZnCO3·Zn(OH)2 -> 2ZnO + CO2 + H2O"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "crucible",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "znco3znoh2",
+    "mol": 0.00889679715302491
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "compute",
+    "name": "mass_before",
+    "calc": "mass"
+   },
+   {
+    "op": "burner",
+    "gas": 1,
+    "lit": true,
+    "seconds": 10
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "compute",
+    "name": "mass_after",
+    "calc": "mass"
+   }
+  ],
+  "probes": [
+   "co2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.0001
+   },
+   {
+    "kind": "mass",
+    "vessel": "v",
+    "required": true,
+    "expect": 1.4484,
+    "tol": 0.01
+   },
+   {
+    "kind": "temp_ge",
+    "vessel": "v",
+    "required": true,
+    "limit": 300
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2024-34-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "ms_page": 7
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "crucible"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "numeric",
+    "got": 0.008896797153024908,
+    "expect": 0.00889679715302491,
+    "tol": 0.000001
+   },
+   {
+    "id": "M1",
+    "kind": "numeric",
+    "got": 224.80000000000007,
+    "expect": 224.8,
+    "tol": 0.5
+   },
+   {
+    "id": "A1",
+    "kind": "numeric",
+    "got": 65.4,
+    "expect": 65.4,
+    "tol": 0.2
+   },
+   {
+    "id": "C1",
+    "kind": "numeric",
+    "got": 224.8,
+    "expect": 224.8,
+    "tol": 0.5
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q2-titration",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 4,
+   "ci": "FA3 = 0.095 M NaOH"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask",
+    "water_ml": 25
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ch3chbrcooh",
+    "g": 0.382
+   },
+   {
+    "op": "set_temp",
+    "c": 25
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "titrate",
+    "id": "naoh",
+    "conc": 0.095,
+    "to_cm3": 27,
+    "step_cm3": 1,
+    "probe": "H+"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "H+"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3chbrcooh",
+    "max": 0.000001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "CH3CHBrCOO-",
+    "min": 0.002
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "ms_page": 13
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "flask"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "numeric",
+    "got": 0.002496732026143791,
+    "expect": 0.0024967,
+    "tol": 0.000001
+   },
+   {
+    "id": "C1",
+    "kind": "numeric",
+    "got": 0.09986928104575163,
+    "expect": 0.09987,
+    "tol": 0.001
+   },
+   {
+    "id": "M1",
+    "kind": "numeric",
+    "got": 153,
+    "expect": 153,
+    "tol": 0.3
+   },
+   {
+    "id": "R1",
+    "kind": "numeric",
+    "got": 1,
+    "expect": 1,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q2-halide-test",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "ms_page": 14,
+   "expect": "Z = Br，AgNO3 得乳白色沉淀，部分溶于氨水"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ch3chbrcooh",
+    "g": 0.4
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.02
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_mol",
+    "id": "hno3",
+    "mol": 0.02
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "agbr"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agbr",
+    "min": 0.0005
+   },
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "ch3chbrcooh",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q2-bromide-vs-chloride",
+  "mode": "simulate",
+  "note": "区分 Br 与 Cl：稀氨水里 AgBr 基本不溶，AgCl 全溶",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "ms_page": 14
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "kbr",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agbr",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3-unsaturation",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 7,
+   "ms_page": 18,
+   "expect": "KMnO4 保持紫色 → R 饱和"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ch3cooh",
+    "g": 0.6
+   },
+   {
+    "op": "add_g",
+    "id": "kmno4",
+    "g": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "MnO4-"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3-unsaturation-positive",
+  "mode": "simulate",
+  "note": "对照：不饱和的 R 基会让高锰酸根褪色（酸在本条件不被氧化）",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "ms_page": 18
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "c2h4",
+    "ml": 5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "id": "G1",
+    "kind": "present",
+    "species": "c2h4",
+    "min": 0.000001,
+    "required": false
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3B-Cr-ammonia",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "ms_page": 19,
+   "test": "Test 2 加氨水",
+   "expect": "灰绿色沉淀，过量氨水中不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cr2so43",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 40
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3B-sulfate-barium",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "test": "Test 4 加氯化钡再加硝酸",
+   "expect": "白色沉淀，不溶于硝酸"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cr2so43",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "bacl2",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hno3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "baso4",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3B-nitrate-aluminium",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "test": "Test 1 加 NaOH 后加热并加铝箔",
+   "expect": "NO3- 被还原放出 NH3"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nano3",
+    "g": 1.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.08
+   },
+   {
+    "op": "add_g",
+    "id": "al",
+    "g": 0.5
+   },
+   {
+    "op": "set_temp",
+    "c": 90
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "nh3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3B-chromium-naoh",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "test": "Test 1 前半 / 与 NaOH",
+   "expect": "灰绿色沉淀，溶于过量碱得深绿色溶液"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cr2so43",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.3
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-33-Q3B-chromium-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "expect": "Cr(OH)3 溶于过量 NaOH"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cr2so43",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q2-dehydrate",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "qp_page": 4,
+   "ci": "FB6 = 2.0 g BaCl2·2H2O"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "crucible",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "bacl22h2o",
+    "mol": 0.008186655751125664
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "burner",
+    "gas": 0.35,
+    "lit": true,
+    "seconds": 4
+   },
+   {
+    "op": "burner",
+    "gas": 1,
+    "lit": true,
+    "seconds": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "bacl2"
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "bacl22h2o",
+    "max": 0.000001
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "bacl2",
+    "min": 0.005
+   },
+   {
+    "kind": "mass",
+    "vessel": "v",
+    "required": true,
+    "expect": 1.7052803929594762,
+    "tol": 0.01
+   },
+   {
+    "kind": "temp_ge",
+    "vessel": "v",
+    "required": true,
+    "limit": 62
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q2-calc",
+  "mode": "validate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "ms_page": 8
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "crucible"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "N1",
+    "kind": "numeric",
+    "got": 0.01637331150225133,
+    "expect": 0.01637331150225133,
+    "tol": 0.000001
+   },
+   {
+    "id": "M1",
+    "kind": "numeric",
+    "got": 208.30000000000004,
+    "expect": 208.30000000000004,
+    "tol": 0.3
+   },
+   {
+    "id": "A1",
+    "kind": "numeric",
+    "got": 137.40000000000003,
+    "expect": 137.40000000000003,
+    "tol": 0.3
+   },
+   {
+    "id": "C1",
+    "kind": "numeric",
+    "got": 2,
+    "expect": 2,
+    "tol": 0.000001
+   },
+   {
+    "id": "P1",
+    "kind": "numeric",
+    "got": 14.735980352026196,
+    "expect": 14.74,
+    "tol": 0.05
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q2-anion-test",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "qp_page": 4,
+   "expect": "X = Cl，AgNO3 得白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "bacl2",
+    "mol": 0.005
+   },
+   {
+    "op": "add_ml",
+    "id": "hno3",
+    "ml": 4
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "agcl"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "P3-2026-34-Q2-anion-confirm",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/26",
+   "qp_page": 4
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "bacl2",
+    "mol": 0.005
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-NH3-red-litmus",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "NH3",
+   "expect": "turns damp red litmus paper blue"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh4cl",
+    "g": 1
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.03
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "red_litmus",
+    "as": "t"
+   },
+   {
+    "op": "moisten",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   },
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "blue"
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "碱性"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-NH3-dry-litmus",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "NH3",
+   "note": "干燥试纸不响应"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh4cl",
+    "g": 1
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.03
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "red_litmus",
+    "as": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "none"
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "湿润"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-NH3-blue-litmus",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "NH3",
+   "note": "蓝石蕊在碱性中不变"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh4cl",
+    "g": 1
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.03
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "blue_litmus",
+    "as": "t"
+   },
+   {
+    "op": "moisten",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "none"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-CO2-limewater",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "CO2",
+   "expect": "gives a white ppt. with limewater"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2co3",
+    "g": 2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_ml",
+    "id": "limewater",
+    "ml": 5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "caco3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "caco3",
+    "min": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": false,
+    "species": "co2",
+    "min": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-H2-pop",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "H2",
+   "expect": "'pops' with a lighted splint"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mg",
+    "g": 0.3
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "splint",
+    "as": "t"
+   },
+   {
+    "op": "light_splint",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "popped",
+    "vessel": "v",
+    "required": true,
+    "min": 0.5
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "爆鸣"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-H2-unlit-splint",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "H2",
+   "note": "木条必须点燃"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mg",
+    "g": 0.3
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "splint",
+    "as": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "popped",
+    "vessel": "v",
+    "required": true,
+    "max": 1e-9
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "没有点燃"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-CH4-no-pop",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "note": "可燃但无爆鸣"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "ch4",
+    "mol": 0.01
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "splint",
+    "as": "t"
+   },
+   {
+    "op": "light_splint",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "popped",
+    "vessel": "v",
+    "required": true,
+    "max": 1e-9
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "没有爆鸣"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-O2-relight",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "gas": "O2",
+   "expect": "relights a glowing splint"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "h2o2",
+    "ml": 12
+   },
+   {
+    "op": "add_g",
+    "id": "mno2",
+    "g": 0.3
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "splint",
+    "as": "t"
+   },
+   {
+    "op": "light_splint",
+    "test": "t"
+   },
+   {
+    "op": "extinguish_splint",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": false,
+    "species": "o2",
+    "min": 0.00001
+   },
+   {
+    "kind": "splint_state",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "expect": "Burning"
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "复燃"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-CO2-splint-out",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for gases",
+   "note": "CO2 不支持燃烧"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2co3",
+    "g": 2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "splint",
+    "as": "t"
+   },
+   {
+    "op": "light_splint",
+    "test": "t"
+   },
+   {
+    "op": "extinguish_splint",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "splint_state",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "expect": "Normal"
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "熄灭"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-ELEM-iodine-starch",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / Tests for elements",
+   "element": "I2",
+   "expect": "blue-black colour with starch"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "starch",
+    "mol": 0.002
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_ml",
+    "id": "iodine_sol",
+    "ml": 3
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "colour",
+    "vessel": "v",
+    "required": true,
+    "contains": "蓝"
+   }
+  ]
+ },
+ {
+  "case_id": "GAS-SO2-blue-litmus",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "SO3^2-",
+   "expect": "放出的 SO2 显酸性"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2so3",
+    "g": 1.5
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "blue_litmus",
+    "as": "t"
+   },
+   {
+    "op": "moisten",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "red"
+   },
+   {
+    "kind": "test_result",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "contains": "酸性"
+   }
+  ]
+ },
+ {
+  "case_id": "EXAM-2433-Q3-acid-then-limewater",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "test": "加稀盐酸检验碳酸根，气体通入石灰水"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 12
+   },
+   {
+    "id": "lw",
+    "kind": "tube",
+    "water_ml": 5
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znco3",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_ml",
+    "vessel": "lw",
+    "id": "limewater",
+    "ml": 5
+   },
+   {
+    "op": "settle",
+    "vessel": "lw"
+   },
+   {
+    "op": "transfer_gas",
+    "gas": "co2",
+    "to": "lw"
+   },
+   {
+    "op": "settle",
+    "vessel": "lw"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "lw",
+    "required": true,
+    "species": "caco3",
+    "min": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Zn2+",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "EXAM-2433-Q3-iodide",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/24",
+   "qp_page": 6,
+   "test": "加硝酸银检验碘离子"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "ki",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agi",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "EXAM-2633-Q3B-nitrate-litmus",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/33/M/J/26",
+   "qp_page": 8,
+   "test": "Test 1：加 NaOH、加热、加铝箔，用石蕊检验 NH3"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nano3",
+    "g": 1.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.08
+   },
+   {
+    "op": "add_g",
+    "id": "al",
+    "g": 0.5
+   },
+   {
+    "op": "set_temp",
+    "c": 90
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "red_litmus",
+    "as": "t"
+   },
+   {
+    "op": "moisten",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   },
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "blue"
+   }
+  ]
+ },
+ {
+  "case_id": "EXAM-2434-Q3-ammonium-carbonate",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "ms_page": 10,
+   "expect": "warm with NaOH，氨气使红色石蕊变蓝"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 15
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh42co3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.04
+   },
+   {
+    "op": "set_temp",
+    "c": 80
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_test",
+    "kind": "red_litmus",
+    "as": "t"
+   },
+   {
+    "op": "moisten",
+    "test": "t"
+   },
+   {
+    "op": "insert",
+    "test": "t",
+    "as": "res"
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   },
+   {
+    "kind": "litmus_turned",
+    "vessel": "v",
+    "required": true,
+    "test": "t",
+    "to": "blue"
+   }
+  ]
+ },
+ {
+  "case_id": "EXAM-2434-Q3-carbonate-fizz",
+  "mode": "simulate",
+  "source": {
+   "paper": "9701/34/M/J/24",
+   "ms_page": 10,
+   "expect": "fizzing；气体使石灰水变浑浊"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 12
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh42co3",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_ml",
+    "id": "limewater",
+    "ml": 5
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "caco3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Al3-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Al3+",
+   "reagent": "NaOH(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "aloh3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Al3-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Al3+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀溶解"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Al3-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Al3+",
+   "reagent": "NH3(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Al3-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Al3+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "alcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "aloh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-NH4-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "NH4+",
+   "reagent": "NaOH(aq)",
+   "expect": "无沉淀，加热放氨"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh4cl",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "set_temp",
+    "c": 70
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "nh3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Ca2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Ca2+",
+   "reagent": "NaOH(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cacl2",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "caoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "caoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Ca2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Ca2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cacl2",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "caoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Ca2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Ca2+",
+   "reagent": "NH3(aq)",
+   "expect": "无沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cacl2",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "caoh2",
+    "max": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cr3-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Cr3+",
+   "reagent": "NaOH(aq)",
+   "expect": "灰绿色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "crcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "croh3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cr3-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cr3+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀溶解"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "crcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cr3-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cr3+",
+   "reagent": "NH3(aq)",
+   "expect": "灰绿色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "crcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cr3-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cr3+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "crcl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "croh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cu2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Cu2+",
+   "reagent": "NaOH(aq)",
+   "expect": "浅蓝色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "cuoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cu2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cu2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cu2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cu2+",
+   "reagent": "NH3(aq)",
+   "expect": "浅蓝色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Cu2-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Cu2+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀溶解"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "cuso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "cuoh2",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Fe2+",
+   "reagent": "NaOH(aq)",
+   "expect": "绿色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "feoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe2+",
+   "reagent": "NH3(aq)",
+   "expect": "绿色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe2-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe2+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "feso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe3-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Fe3+",
+   "reagent": "NaOH(aq)",
+   "expect": "红棕色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "feoh3"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe3-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe3+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe3-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe3+",
+   "reagent": "NH3(aq)",
+   "expect": "红棕色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Fe3-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Fe3+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "fecl3",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "feoh3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mg2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Mg2+",
+   "reagent": "NaOH(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mgso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "mgoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mg2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mg2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mgso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mg2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mg2+",
+   "reagent": "NH3(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mgso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mg2-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mg2+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mgso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mgoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mn2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Mn2+",
+   "reagent": "NaOH(aq)",
+   "expect": "灰白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mnso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "mnoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mnoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mn2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mn2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mnso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mnoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mn2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mn2+",
+   "reagent": "NH3(aq)",
+   "expect": "灰白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mnso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mnoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Mn2-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Mn2+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀不溶"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mnso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "mnoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Zn2-naoh",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 Qualitative analysis notes / Reactions of cations",
+   "ion": "Zn2+",
+   "reagent": "NaOH(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "naoh",
+    "g": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "actions2": null,
+  "probes": [
+   "znoh2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Zn2-naoh-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Zn2+",
+   "reagent": "NaOH 过量",
+   "expect": "沉淀溶解"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.05
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Zn2-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Zn2+",
+   "reagent": "NH3(aq)",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-CAT-Zn2-nh3-excess",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / cations",
+   "ion": "Zn2+",
+   "reagent": "NH3 过量",
+   "expect": "沉淀溶解"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "znso4",
+    "g": 0.5
+   },
+   {
+    "op": "add_mol",
+    "id": "nh3",
+    "mol": 0.25
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "znoh2",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-CO3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "CO3^2-",
+   "expect": "CO2 liberated by dilute acids"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2co3",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-Cl-ag",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "Cl-",
+   "reagent": "Ag+",
+   "expect": "白色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nacl",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-Br-ag",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "Br-",
+   "reagent": "Ag+",
+   "expect": "淡黄色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nabr",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agbr",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-I-ag",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "I-",
+   "reagent": "Ag+",
+   "expect": "黄色沉淀"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nai",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agi",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-Cl-ag-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "Cl-",
+   "expect": "AgCl 溶于 NH3"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nacl",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 30
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-I-ag-nh3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "I-",
+   "expect": "AgI 不溶于 NH3"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nai",
+    "g": 0.5
+   },
+   {
+    "op": "add_g",
+    "id": "agno3",
+    "g": 0.8
+   },
+   {
+    "op": "add_ml",
+    "id": "nh3",
+    "ml": 30
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agi",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-SO4-ba",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "SO4^2-",
+   "expect": "白色沉淀，不溶于过量稀强酸"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2so4",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "bacl2",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 8
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "baso4",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-SO3-ba",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "SO3^2-",
+   "expect": "白色沉淀，溶于过量稀强酸"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2so3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "bacl2",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "baso3",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-SO3-ba-acid",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "SO3^2-",
+   "expect": "加稀强酸后沉淀溶解并放出 SO2"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2so3",
+    "g": 1
+   },
+   {
+    "op": "add_g",
+    "id": "bacl2",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "baso3",
+    "max": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-SO3-kmno4",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "SO3^2-",
+   "expect": "使酸性 KMnO4 褪色"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "kmno4",
+    "g": 0.2
+   },
+   {
+    "op": "add_ml",
+    "id": "h2so4",
+    "ml": 3
+   },
+   {
+    "op": "add_g",
+    "id": "na2so3",
+    "g": 1
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "absent",
+    "vessel": "v",
+    "required": true,
+    "species": "MnO4-",
+    "max": 1e-7
+   },
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "Mn2+",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-AN-S2O3-acid",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / anions",
+   "ion": "S2O3^2-",
+   "expect": "加 H+ 缓慢析出淡黄色沉淀（硫）"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2s2o3",
+    "g": 1
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 6
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": false,
+    "species": "so2",
+    "min": 1e-7
+   }
+  ]
+ },
+ {
+  "case_id": "QA-GAS-NH3",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / gases",
+   "gas": "NH3",
+   "expect": "turns damp red litmus blue"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "nh4cl",
+    "g": 1
+   },
+   {
+    "op": "add_mol",
+    "id": "naoh",
+    "mol": 0.03
+   },
+   {
+    "op": "set_temp",
+    "c": 70
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "nh3",
+    "min": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-GAS-CO2",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / gases",
+   "gas": "CO2",
+   "expect": "white ppt. with limewater"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "caco3",
+    "g": 2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-GAS-H2",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / gases",
+   "gas": "H2",
+   "expect": "'pops' with a lighted splint"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "mg",
+    "g": 0.2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "h2",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-GAS-O2",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / gases",
+   "gas": "O2",
+   "expect": "relights a glowing splint"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_ml",
+    "id": "h2o2",
+    "ml": 10
+   },
+   {
+    "op": "add_g",
+    "id": "mno2",
+    "g": 0.3
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "o2",
+    "min": 0.0001
+   }
+  ]
+ },
+ {
+  "case_id": "QA-ELEM-iodine-starch",
+  "mode": "simulate",
+  "source": {
+   "table": "CIE 9701 / elements",
+   "element": "I2",
+   "expect": "gives blue-black colour with starch"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "tube",
+    "water_ml": 20
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "starch",
+    "mol": 0.002
+   },
+   {
+    "op": "settle"
+   },
+   {
+    "op": "add_ml",
+    "id": "iodine_sol",
+    "ml": 3
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "colour",
+    "vessel": "v",
+    "required": true,
+    "contains": "蓝"
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-01-nacl-both-views",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "同一个容器在两种视图下的内容"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 200
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.02
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "species": "Na+",
+    "mol": 0.02,
+    "conc": 0.1
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "species": "Cl-",
+    "mol": 0.02,
+    "conc": 0.1
+   },
+   {
+    "kind": "view_absent",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "species": "nacl"
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "nacl",
+    "mol": 0.02,
+    "conc": 0.1
+   },
+   {
+    "kind": "view_absent",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "Na+"
+   },
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "expect": 1
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-02-ledger-not-guess",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "NaCl+CuSO4 与 CuCl2+Na2SO4 离子完全相同，只能靠记账"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 200
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.02
+   },
+   {
+    "op": "add_mol",
+    "id": "cuso4",
+    "mol": 0.005
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "expect": 4
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "nacl",
+    "mol": 0.02
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "cuso4",
+    "mol": 0.005
+   },
+   {
+    "kind": "view_absent",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "cucl2"
+   },
+   {
+    "kind": "view_absent",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "na2so4"
+   },
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "expect": 2
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-03-conc-scales-with-volume",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "浓度 = n / V"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 100
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "kno3",
+    "mol": 0.01
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "kno3",
+    "mol": 0.01,
+    "conc": 0.1
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-04-conc-halved",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "稀释一倍后浓度减半，物质的量不变"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 200
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "kno3",
+    "mol": 0.01
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "kno3",
+    "mol": 0.01,
+    "conc": 0.05
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-05-ledger-charged-on-reaction",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "AgNO3 与 NaCl 反应后，两者都被消耗"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 200
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "agno3",
+    "mol": 0.004
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "agcl"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "agcl",
+    "min": 0.000001
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "nacl",
+    "mol": 0.006,
+    "tol": 0.000001
+   },
+   {
+    "kind": "view_absent",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "agno3"
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-06-multi-substance",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "多种物质同时列出"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 100
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_mol",
+    "id": "nacl",
+    "mol": 0.01
+   },
+   {
+    "op": "add_mol",
+    "id": "kno3",
+    "mol": 0.005
+   },
+   {
+    "op": "add_mol",
+    "id": "cuso4",
+    "mol": 0.002
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "expect": 3
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "nacl",
+    "mol": 0.01
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "kno3",
+    "mol": 0.005
+   },
+   {
+    "kind": "view_has",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "species": "cuso4",
+    "mol": 0.002
+   },
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "expect": 6
+   }
+  ]
+ },
+ {
+  "case_id": "TAG-07-empty-vessel",
+  "mode": "simulate",
+  "source": {
+   "feature": "容器标签",
+   "note": "空容器标签里没有条目"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 0
+   }
+  ],
+  "actions": [
+   {
+    "op": "settle"
+   }
+  ],
+  "asserts": [
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": true,
+    "expect": 0
+   },
+   {
+    "kind": "view_count",
+    "vessel": "v",
+    "required": true,
+    "molecular": false,
+    "expect": 0
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-01-chinese-inorganic",
+  "mode": "validate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "中文无机反应用等号，气体标↑，不标状态符号"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "CO3^2- + 2H+ -> H2O + CO2",
+    "english": false,
+    "ionic": false,
+    "contains": [
+     " = ",
+     "CO₃²⁻",
+     "2H⁺",
+     "H₂O",
+     "CO₂↑"
+    ]
+   },
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "H+ + OH- -> H2O",
+    "english": false,
+    "ionic": false,
+    "contains": [
+     " = "
+    ]
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-02-english-states",
+  "mode": "validate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "英文一律箭头，且必须标 (s)/(l)/(g)/(aq)"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "CO3^2- + 2H+ -> H2O + CO2",
+    "english": true,
+    "ionic": false,
+    "contains": [
+     " → ",
+     "(aq)",
+     "H₂O(l)",
+     "CO₂(g)"
+    ]
+   },
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "H+ + OH- -> H2O",
+    "english": true,
+    "ionic": false,
+    "contains": [
+     " → ",
+     "H⁺(aq)",
+     "OH⁻(aq)",
+     "H₂O(l)"
+    ]
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-03-reversible",
+  "mode": "validate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "可逆反应中英都用可逆符号 ⇌"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "N2 + 3H2 -> 2NH3",
+    "english": false,
+    "ionic": false,
+    "contains": [
+     " ⇌ ",
+     "N₂",
+     "H₂",
+     "NH₃"
+    ]
+   },
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "N2 + 3H2 -> 2NH3",
+    "english": true,
+    "ionic": false,
+    "contains": [
+     " ⇌ ",
+     "(g)"
+    ]
+   },
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "2NO2 -> N2O4",
+    "english": false,
+    "ionic": false,
+    "contains": [
+     " ⇌ "
+    ]
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-04-ionic-spectators-removed",
+  "mode": "validate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "离子式要消去两边都出现的旁观离子"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "eq_format",
+    "vessel": "v",
+    "required": true,
+    "rule": "2NaOH + H2SO4 -> Na2SO4 + 2H2O",
+    "english": true,
+    "ionic": true,
+    "contains": [
+     "H⁺(aq)",
+     "OH⁻(aq)",
+     "H₂O(l)"
+    ]
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-05-conditions",
+  "mode": "validate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "反应条件写在连接符上方，要译成教科书用语"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "eq_condition",
+    "vessel": "v",
+    "required": true,
+    "rule": "2H2O2 -> 2H2O + O2",
+    "english": false,
+    "expect": "催化剂"
+   },
+   {
+    "kind": "eq_condition",
+    "vessel": "v",
+    "required": true,
+    "rule": "2H2O2 -> 2H2O + O2",
+    "english": true,
+    "expect": "catalyst"
+   },
+   {
+    "kind": "eq_condition",
+    "vessel": "v",
+    "required": true,
+    "rule": "CaCO3 -> CaO + CO2",
+    "english": false,
+    "expect": "加热"
+   },
+   {
+    "kind": "eq_condition",
+    "vessel": "v",
+    "required": true,
+    "rule": "CaCO3 -> CaO + CO2",
+    "english": true,
+    "expect": "heat"
+   },
+   {
+    "kind": "eq_condition",
+    "vessel": "v",
+    "required": true,
+    "rule": "H+ + OH- -> H2O",
+    "english": false,
+    "expect": ""
+   }
+  ]
+ },
+ {
+  "case_id": "EQ-06-real-reaction",
+  "mode": "simulate",
+  "source": {
+   "feature": "方程式标签",
+   "note": "真实反应要能弹出标签"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker",
+    "water_ml": 100
+   }
+  ],
+  "actions": [
+   {
+    "op": "add_g",
+    "id": "na2co3",
+    "g": 2
+   },
+   {
+    "op": "add_ml",
+    "id": "hcl",
+    "ml": 10
+   },
+   {
+    "op": "settle"
+   }
+  ],
+  "probes": [
+   "co2"
+  ],
+  "asserts": [
+   {
+    "kind": "present",
+    "vessel": "v",
+    "required": true,
+    "species": "co2",
+    "min": 0.00001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-01-K2O-lattice",
+  "mode": "validate",
+  "source": {
+   "note": "真题：由 Born-Haber 循环求 K2O 晶格能"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "atomisation",
+    "vessel": "v",
+    "required": true,
+    "el": "K",
+    "expect": 89
+   },
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "le",
+    "nodes": [
+     "elem",
+     "ions",
+     "solid"
+    ],
+    "edges": [
+     [
+      "elem",
+      "ions",
+      1920,
+      "manual"
+     ],
+     [
+      "elem",
+      "solid",
+      -361,
+      "manual"
+     ],
+     [
+      "ions",
+      "solid",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "le",
+    "expect": -2281,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-02-MgCl-disproportionation",
+  "mode": "validate",
+  "source": {
+   "note": "真题：2MgCl(s) → Mg(s) + MgCl2(s)"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "dh",
+    "nodes": [
+     "MgCl_s",
+     "elements",
+     "Mg_MgCl2"
+    ],
+    "edges": [
+     [
+      "MgCl_s",
+      "elements",
+      212,
+      "manual"
+     ],
+     [
+      "elements",
+      "Mg_MgCl2",
+      -642,
+      "manual"
+     ],
+     [
+      "Mg_MgCl2",
+      "MgCl_s",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "dh",
+    "expect": 430,
+    "tol": 0.000001
+   },
+   {
+    "id": "REV",
+    "kind": "numeric",
+    "got": -430,
+    "expect": -430,
+    "tol": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-03-MgCl-lattice",
+  "mode": "validate",
+  "source": {
+   "note": "真题：求 MgCl 的晶格能"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "le",
+    "nodes": [
+     "elem",
+     "ions",
+     "solid"
+    ],
+    "edges": [
+     [
+      "elem",
+      "ions",
+      655,
+      "manual"
+     ],
+     [
+      "elem",
+      "solid",
+      -106,
+      "manual"
+     ],
+     [
+      "ions",
+      "solid",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "le",
+    "expect": -761,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-04-Br2-vaporisation",
+  "mode": "validate",
+  "source": {
+   "note": "真题：Br2(l) → 2Br(g)，求 ΔH_vap"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "bond_energy",
+    "vessel": "v",
+    "required": true,
+    "a": "Br",
+    "b": "Br",
+    "order": 1,
+    "expect": 193
+   },
+   {
+    "kind": "atomisation",
+    "vessel": "v",
+    "required": true,
+    "el": "Br",
+    "expect": 112
+   },
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "vap",
+    "nodes": [
+     "Br2_l",
+     "Br_g",
+     "Br2_g"
+    ],
+    "edges": [
+     [
+      "Br2_l",
+      "Br_g",
+      224,
+      "manual"
+     ],
+     [
+      "Br_g",
+      "Br2_g",
+      -193,
+      "manual"
+     ],
+     [
+      "Br2_g",
+      "Br2_l",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "vap",
+    "expect": -31,
+    "tol": 0.000001
+   },
+   {
+    "id": "VAP",
+    "kind": "numeric",
+    "got": 31,
+    "expect": 31,
+    "tol": 1e-9
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-05-ZnBr2-formation",
+  "mode": "validate",
+  "source": {
+   "note": "真题：求 ZnBr2(s) 的生成焓"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "atomisation",
+    "vessel": "v",
+    "required": true,
+    "el": "Zn",
+    "expect": 131
+   },
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "dhf",
+    "nodes": [
+     "elem",
+     "ions",
+     "solid"
+    ],
+    "edges": [
+     [
+      "elem",
+      "ions",
+      2343,
+      "manual"
+     ],
+     [
+      "ions",
+      "solid",
+      -2678,
+      "manual"
+     ],
+     [
+      "elem",
+      "solid",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "dhf",
+    "expect": -335,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-06-MgF2-lattice",
+  "mode": "validate",
+  "source": {
+   "note": "真题：求 MgF2(s) 的晶格能"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "bond_energy",
+    "vessel": "v",
+    "required": true,
+    "a": "F",
+    "b": "F",
+    "order": 1,
+    "expect": 158
+   },
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "le",
+    "nodes": [
+     "elem",
+     "ions",
+     "solid"
+    ],
+    "edges": [
+     [
+      "elem",
+      "ions",
+      1953,
+      "manual"
+     ],
+     [
+      "elem",
+      "solid",
+      -1102,
+      "manual"
+     ],
+     [
+      "ions",
+      "solid",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "le",
+    "expect": -3055,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-07-CaCl2-W",
+  "mode": "validate",
+  "source": {
+   "note": "真题：CaCl2 循环的 W（元素 → 气态离子）"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "bond_energy",
+    "vessel": "v",
+    "required": true,
+    "a": "Cl",
+    "b": "Cl",
+    "order": 1,
+    "expect": 242
+   },
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "W",
+    "nodes": [
+     "elem",
+     "ions",
+     "solid",
+     "aq"
+    ],
+    "edges": [
+     [
+      "elem",
+      "ions",
+      1719,
+      "manual"
+     ],
+     [
+      "elem",
+      "solid",
+      -795,
+      "manual"
+     ],
+     [
+      "solid",
+      "aq",
+      -83,
+      "manual"
+     ],
+     [
+      "ions",
+      "aq",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "W",
+    "expect": -2597,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-07-CaCl2-check",
+  "mode": "validate",
+  "source": {
+   "note": "真题：验证 W 与由水合焓算出的值一致"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "id": "W1",
+    "kind": "numeric",
+    "got": 1719,
+    "expect": 1719,
+    "tol": 0.000001
+   },
+   {
+    "id": "Z1",
+    "kind": "numeric",
+    "got": -2597,
+    "expect": -2597,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-08-S8-atomisation",
+  "mode": "validate",
+  "source": {
+   "note": "真题：由镭/硫数据求 S8(s) → 8S(g)"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "atomisation",
+    "vessel": "v",
+    "required": true,
+    "el": "S",
+    "expect": 223
+   },
+   {
+    "id": "S1",
+    "kind": "numeric",
+    "got": 223,
+    "expect": 223,
+    "tol": 0.000001
+   },
+   {
+    "id": "S2",
+    "kind": "numeric",
+    "got": 1784,
+    "expect": 1784,
+    "tol": 0.000001
+   }
+  ]
+ },
+ {
+  "case_id": "HESS-ION-neutralisation",
+  "mode": "validate",
+  "source": {
+   "note": "离子式焓变：验证 H+ / OH- 这类离子能正确参与 Hess 回路"
+  },
+  "vessels": [
+   {
+    "id": "v",
+    "kind": "beaker"
+   }
+  ],
+  "actions": [],
+  "asserts": [
+   {
+    "kind": "hess_edges",
+    "vessel": "v",
+    "required": true,
+    "as": "neut",
+    "nodes": [
+     "H_aq_OH_aq",
+     "H2O_l",
+     "H2O_g"
+    ],
+    "edges": [
+     [
+      "H_aq_OH_aq",
+      "H2O_l",
+      -57.3,
+      "manual"
+     ],
+     [
+      "H2O_l",
+      "H2O_g",
+      -44,
+      "manual"
+     ],
+     [
+      "H2O_g",
+      "H_aq_OH_aq",
+      0,
+      "unknown"
+     ]
+    ]
+   },
+   {
+    "kind": "var",
+    "vessel": "v",
+    "required": true,
+    "name": "neut",
+    "expect": 101.3,
+    "tol": 0.000001
+   },
+   {
+    "id": "IONF",
+    "kind": "numeric",
+    "got": -285.8,
+    "expect": -285.8,
+    "tol": 1e-9
+   }
+  ]
+ }
+]

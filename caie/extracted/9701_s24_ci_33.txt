@@ -1,0 +1,269 @@
+
+===== PAGE 1 =====
+This document has 8 pages. Any blank pages are indicated.
+DC (CJ) 319197/4
+© UCLES 2024 [Turn over
+*1134618231*
+CHEMISTRY 9701/33
+Paper 3 Advanced Practical Skills 1 May/June 2024
+CONFIDENTIAL INSTRUCTIONS
+This document gives details of how to prepare for and administer the practical exam.
+The information in this document and the identity of any materials supplied by Cambridge International 
+are confidential and must NOT reach candidates either directly or indirectly.
+The supervisor must complete the report at the end of this document and return it with the scripts.
+INSTRUCTIONS
+ ● If you have any queries regarding these confidential instructions, contact Cambridge International 
+stating the centre number, the syllabus and component number and the nature of the query. 
+email info@cambridgeinternational.org 
+phone +44 1223 553554
+Cambridge International AS & A Level
+===== PAGE 2 =====
+2
+9701/33/CI/M/J/24© UCLES 2024
+General information about practical exams
+Centres must follow the guidance on science practical exams given in the Cambridge Handbook.
+Safety
+Supervisors must follow national and local regulations relating to safety and first aid.
+Only those procedures described in the question paper should be attempted.
+Supervisors must inform candidates that materials and apparatus used in the exam should be treated 
+with caution. Suitable eye protection should be used where necessary.
+The following hazard codes are used in these confidential instructions, where relevant:
+C corrosive MH moderate hazard
+HH health hazard T acutely toxic
+F flammable O oxidising
+N hazardous to the aquatic environment
+Hazard data sheets relating to substances used in this exam should be available from your chemical 
+supplier.
+Before the exam
+ ● The packets containing the question papers must not be opened before the exam.
+ ● It is assumed that standard school laboratory facilities, as indicated in the Guide to Planning 
+Practical Science, will be available.
+ ● Spare materials and apparatus for the tasks set must be available for candidates, if required. 
+During the exam
+ ● It must be made clear to candidates at the start of the exam that they may request spare materials 
+and apparatus for the tasks set.
+ ● Where specified, the supervisor must perform the experiments and record the results as instructed. 
+This must be done out of sight of the candidates, using the same materials and apparatus as the 
+candidates.
+ ● Any assistance provided to candidates must be recorded in the supervisor’s report.
+ ● If any materials or apparatus need to be replaced, for example, in the event of breakage or loss, 
+this must be recorded in the supervisor’s report.
+After the exam
+ ● The supervisor must complete a report for each practical session held and each laboratory used.
+ ● Each packet of scripts returned to Cambridge International must contain the following items:
+ – the scripts of the candidates specified on the bar code label provided
+ – the supervisor’s results relevant to these candidates
+ – the supervisor’s reports relevant to these candidates
+ – seating plans for each practical session, referring to each candidate by candidate number
+ – the attendance register.
+===== PAGE 3 =====
+3
+9701/33/CI/M/J/24© UCLES 2024 [Turn over
+Specific information for this practical exam
+During the exam, the supervisor ( not the invigilator) must do all the experiments and record the 
+results on a spare copy of the question paper, clearly labelled ‘supervisor’s results’.
+If chemicals are prepared in more than one batch, clearly labelled supervisor’s results must be 
+provided for each batch. The candidates using each batch must be listed on the supervisor’s report.
+Apparatus
+The apparatus listed must be provided to each candidate.
+1 × 25 cm3 pipette 
+1 × pipette filler
+1 × 50 cm3 burette
+2 × 150 cm3 or 250 cm3 conical flask
+1 × 25 cm3 measuring cylinder
+1 × burette stand and clamp
+1 × 100 cm3 beaker
+1 × 250 cm3 beaker
+1 × funnel (for filling burette)
+1 × white tile
+1 × thermometer (–10 °C to +110 °C at 1 °C)
+1 × plastic or cardboard cup, capacity approximately 150 cm3
+1 × glass rod
+2 × teat/dropping pipette
+1 × spatula
+1 × Bunsen burner
+1 × heat-proof mat
+1 × test-tube holder
+2 × boiling tube
+1 × hard-glass test-tube
+8 × test-tube*
+1 × test-tube rack 
+balance, single-pan, direct reading, minimum accuracy 0.01 g (1 per 8–12 candidates) weighing to 200 g
+1 × wash bottle containing distilled water
+1 × pen for labelling glassware
+paper towels
+red and blue litmus papers
+aluminium foil 
+wooden splints
+the apparatus normally used in the centre for use with limewater in testing for carbon dioxide
+*Candidates are expected to rinse and reuse test-tubes where possible.
+Additional test-tubes should be available.
+===== PAGE 4 =====
+4
+9701/33/CI/M/J/24© UCLES 2024
+Materials
+The materials listed in the table must be provided to each candidate. 
+label per 
+candidate
+identity notes
+FA 1 120 cm3 0.0950 mol dm–3 sodium hydroxide Dissolve 3.80 g of NaOH [C] in each dm3 of solution. 
+FA 2 120 cm3 0.0500 mol dm–3 sulfuric acid Prepare 1.0 mol dm–3 H2SO4 [MH] as described in the current syllabus. 
+Then dilute 50.0 cm3 of this solution to 1.00 dm3.
+FA 3 [F][MH] [HH] 5 cm3 bromophenol blue indicator See preparation instructions in the current syllabus.
+FA 4 [MH] 7.5 g ammonium bromide and sodium 
+chloride
+Grind together NH4Br [MH] and NaCl to make a homogeneous mixture 
+of mass ratio 3 : 2. 
+Provide 7.5 ± 0.1 g of the mixture in a stoppered container.
+FA 5 2.0 g zinc carbonate and potassium iodide Mix ZnCO3 and KI thoroughly in the mass ratio of 2 : 1. Provide in a 
+stoppered container.
+Any form of basic zinc carbonate is suitable.
+FA 7 [F][MH] 5 cm3 propanone Provide in a stoppered container.
+FA 8 [F][MH] 5 cm3 propanal Provide in a stoppered container.
+FA 9 [MH] 5 cm3 2.0 mol dm–3 propanoic acid Dilute 149 cm3 of CH3CH2COOH [F][C][MH] to 1 dm3. Provide in a 
+stoppered container.
+Alternatively use 120 cm3 of glacial ethanoic acid [C][F] diluted to 1 dm3.
+sodium 
+chlorate(I) 
+[C][N]
+2 cm3 aqueous sodium chlorate(I) Prepare by diluting domestic / commercial bleach [C][N] with an equal 
+volume of water. Check the concentration is suitable by ensuring the 
+solution decolourises litmus paper. 
+May be supplied as sodium hypochlorite.
+Provide in a stoppered container.
+copper(II) sulfate 
+[C][N]
+5 cm3 0.2 mol dm–3 copper(II) sulfate Dissolve 49.9 g of CuSO4•5H2O [C][MH][N] in each dm3 of solution. 
+sodium
+thiosulfate
+20 cm3 0.100 mol dm–3 sodium thiosulfate Dissolve 24.82 g of Na2S2O3•5H2O in each dm3 of solution.
+distilled water 50 cm3 distilled water Supplied in a wash bottle.
+sodium 
+carbonate [MH]
+1.0 g sodium carbonate Provide 0.9 –1.1 g of Na2CO3 in a stoppered container. 
+Any hydrated version is also suitable.
+===== PAGE 5 =====
+5
+9701/33/CI/M/J/24© UCLES 2024 [Turn over
+Materials
+The materials listed in the table must be provided to each candidate. 
+label per 
+candidate
+identity notes
+FA 1 120 cm3 0.0950 mol dm–3 sodium hydroxide Dissolve 3.80 g of NaOH [C] in each dm3 of solution. 
+FA 2 120 cm3 0.0500 mol dm–3 sulfuric acid Prepare 1.0 mol dm–3 H2SO4 [MH] as described in the current syllabus. 
+Then dilute 50.0 cm3 of this solution to 1.00 dm3.
+FA 3 [F][MH] [HH] 5 cm3 bromophenol blue indicator See preparation instructions in the current syllabus.
+FA 4 [MH] 7.5 g ammonium bromide and sodium 
+chloride
+Grind together NH4Br [MH] and NaCl to make a homogeneous mixture 
+of mass ratio 3 : 2. 
+Provide 7.5 ± 0.1 g of the mixture in a stoppered container.
+FA 5 2.0 g zinc carbonate and potassium iodide Mix ZnCO3 and KI thoroughly in the mass ratio of 2 : 1. Provide in a 
+stoppered container.
+Any form of basic zinc carbonate is suitable.
+FA 7 [F][MH] 5 cm3 propanone Provide in a stoppered container.
+FA 8 [F][MH] 5 cm3 propanal Provide in a stoppered container.
+FA 9 [MH] 5 cm3 2.0 mol dm–3 propanoic acid Dilute 149 cm3 of CH3CH2COOH [F][C][MH] to 1 dm3. Provide in a 
+stoppered container.
+Alternatively use 120 cm3 of glacial ethanoic acid [C][F] diluted to 1 dm3.
+sodium 
+chlorate(I) 
+[C][N]
+2 cm3 aqueous sodium chlorate(I) Prepare by diluting domestic / commercial bleach [C][N] with an equal 
+volume of water. Check the concentration is suitable by ensuring the 
+solution decolourises litmus paper. 
+May be supplied as sodium hypochlorite.
+Provide in a stoppered container.
+copper(II) sulfate 
+[C][N]
+5 cm3 0.2 mol dm–3 copper(II) sulfate Dissolve 49.9 g of CuSO4•5H2O [C][MH][N] in each dm3 of solution. 
+sodium
+thiosulfate
+20 cm3 0.100 mol dm–3 sodium thiosulfate Dissolve 24.82 g of Na2S2O3•5H2O in each dm3 of solution.
+distilled water 50 cm3 distilled water Supplied in a wash bottle.
+sodium 
+carbonate [MH]
+1.0 g sodium carbonate Provide 0.9 –1.1 g of Na2CO3 in a stoppered container. 
+Any hydrated version is also suitable.
+Note: Small amounts of SO2 [C][T], which can cause respiratory distress in some people, may be produced. The laboratory must be well ventilated.
+label per 
+candidate
+identity notes
+dilute hydrochloric acid 10 cm3 2.0 mol dm–3 HCl
+See preparation instructions in the current 
+syllabus. 
+If necessary, each of these reagents can be 
+provided as a communal supply for groups of up 
+to 6 candidates. 
+Invigilators must be alert to the risk of 
+contamination and the opportunity for 
+malpractice when using a communal supply.
+dilute nitric acid [C] 10 cm3 2.0 mol dm–3 HNO3
+dilute sulfuric acid [MH] 10 cm3 1.0 mol dm–3 H2SO4
+aqueous ammonia [C][MH][N] 10 cm3 2.0 mol dm–3 NH3
+aqueous sodium hydroxide [C] 10 cm3 2.0 mol dm–3 NaOH
+aqueous barium chloride 
+or 
+aqueous barium nitrate
+10 cm3 0.1 mol dm–3 BaCl 2 
+or 
+0.1 mol dm–3 Ba(NO3)2
+limewater [MH] 10 cm3 saturated aqueous calcium hydroxide, Ca(OH)2
+aqueous silver nitrate 10 cm3 0.05 mol dm–3 AgNO3
+acidified aqueous potassium 
+manganate(VII) [MH]
+10 cm3 0.01 mol dm–3 KMnO4 in 0.5 mol dm–3 H2SO4
+ ● An excess of at least 10% of each material must be prepared to cover accidental loss.
+ ● All solutions must be thoroughly mixed.
+ ● If you are unable to source any of these chemicals, you must contact Cambridge International as far as possible in advance of the exam for advice.
+ ● Materials must be labelled only as specified in the ‘label’ column. The identities of chemicals labelled with letter codes, e.g. FA 1, may be 
+different from their descriptions in the question paper. Candidates must use the descriptions given in the question paper. For example, 
+candidates may be supplied with sulfuric acid, labelled as FA 1, but be told in the question paper that FA 1 is phosphoric acid.
+===== PAGE 6 =====
+6
+9701/33/CI/M/J/24© UCLES 2024
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE
+===== PAGE 7 =====
+7
+9701/33/CI/M/J/24© UCLES 2024 [Turn over
+Supervisor’s report
+Syllabus and component number /
+Centre number 
+Centre name  ............................................................................................................................................
+Time of the practical session  ...................................................................................................................
+Laboratory name/number  ........................................................................................................................
+Give details of any difficulties experienced by the centre or by candidates (include the relevant 
+candidate names and candidate numbers).
+You must include:
+ ● any difficulties experienced by the centre in the preparation of materials
+ ● any difficulties experienced by candidates, e.g. due to faulty materials or apparatus
+ ● any specific assistance given to candidates.
+===== PAGE 8 =====
+8
+9701/33/CI/M/J/24© UCLES 2024
+If chemicals have been prepared in more than one batch, list the candidates using each batch.
+Declaration
+1 Each packet that I am returning to Cambridge International contains all of the following items:
+ ● the scripts of the candidates specified on the bar code label provided
+ ● the supervisor’s results relevant to these candidates
+ ● the supervisor’s reports relevant to these candidates
+ ● seating plans for each practical session, referring to each candidate by candidate number
+ ● the attendance register.
+2 Where the practical exam has taken place in more than one practical session, I have clearly 
+labelled the supervisor’s results, supervisor’s reports and seating plans with the time and laboratory 
+name/number for each practical session.
+3 I have included details of difficulties relating to each practical session experienced by the centre or 
+by candidates.
+4 I have reported any other adverse circumstances affecting candidates, e.g. illness, bereavement or 
+temporary injury, directly to Cambridge International on a special consideration form.
+Signed  ................................................................................................................................. (supervisor)
+Name (in block capitals)  ..........................................................................................................................

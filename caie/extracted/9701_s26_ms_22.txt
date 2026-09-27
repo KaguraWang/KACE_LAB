@@ -1,0 +1,1178 @@
+
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 24 printed pages. 
+ 
+© Cambridge University Press & Assessment 2026 
+ 
+[Turn over 
+ 
+Cambridge International AS & A Level 
+ 
+CHEMISTRY 9701/22 
+Paper 2 AS Level Structured Questions May/June 2026 
+MARK SCHEME 
+Maximum Mark: 60 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme contains the instructions and marking guidance that our examiners used to mark 
+candidate responses for this component.  
+ 
+Before they start marking, examiners complete a standardisation process. They review a range of candidate 
+responses and discuss the mark scheme in detail to agree which answers can and cannot be accepted. 
+Examiners award marks where it is clear that candidate responses have met the requirements of the mark 
+scheme. These requirements may vary between different components or different versions of the same 
+component, depending on the exact requirements of the question and the candidate responses seen during 
+the standardisation process.  
+ 
+Sometimes, our mark schemes may allow marks to be awarded to responses which contain elements that 
+are factually incorrect or for content not covered by the syllabus. We do this in response to the demands of a 
+specific question to support candidates and make sure that our assessments are fair. However, these 
+allowances should not be used as a guide for teaching and learning.  
+ 
+We cannot discuss the mark scheme with schools, and we recommend that schools read the mark scheme 
+together with the assessment material and the Principal Examiner Report for Teachers.  
+ 
+ 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 2 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 2 of 24  
+ 
+General marking principles 
+ 
+All examiners must apply these marking principles when marking candidate responses.  
+ 
+1 Examiners must award marks for each response in line with: 
+ 
+• the specific content defined in the mark scheme  
+• the specific skills defined in the mark scheme or in the level descriptions  
+• the standard of response required as exemplified by the standardisation scripts. 
+2 Examiners must award whole marks (not half marks, or other fractions). 
+3 Examiners must award marks positively. This means that: 
+ 
+• marks are not deducted for errors or omissions 
+• marks are awarded for correct/valid answers as defined in the mark scheme and also for other valid answers which go beyond the 
+scope of the syllabus and mark scheme referring to your team leader as appropriate  
+• the quality of spelling, punctuation and grammar are judged only when the mark scheme indicates that these features are specifically 
+assessed in the question. However, the meaning of all responses must be unambiguous. 
+4 Examiners must consistently apply the requirements of the mark scheme and any rules for what to do when candidates have not followed 
+instructions correctly. 
+5 Examiners must use the full range of marks defined in the mark scheme, unless limited by the quality of the candidate responses seen. 
+6 Examiners must award marks according to the mark scheme and must not award marks with grade thresholds or grade descriptions in 
+mind. 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 3 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 3 of 24  
+ 
+Science-Specific Marking Principles 
+ 
+1 Examiners should consider the context and scientific use of any keywords when awarding marks. Although keywords may be present, marks 
+should not be awarded if the keywords are used incorrectly.  
+2 The examiner should not choose between contradictory statements given in the same question part, and credit should not be awarded for 
+any correct statement that is contradicted within the same question part. Wrong science that is irrelevant to the question should be ignored. 
+3 Although spellings do not have to be correct, spellings of syllabus terms must allow for clear and unambiguous separation from other 
+syllabus terms with which they may be confused (e.g. ethane / ethene, glucagon / glycogen, refraction / reflection). 
+4 The error carried forward (ecf) principle should be applied, where appropriate. If an incorrect answer is subsequently used in a scientifically 
+correct way, the candidate should be awarded these subsequent marking points. Further guidance will be included in the mark scheme 
+where necessary and any exceptions to this general principle will be noted. 
+5 ‘List rule’ guidance 
+ 
+For questions that require n responses (e.g. State two reasons …): 
+ 
+• The response should be read as continuous prose, even when numbered answer spaces are provided. 
+• Any response marked ignore in the mark scheme should not count towards n. 
+• Incorrect responses should not be awarded credit but will still count towards n. 
+• Read the entire response to check for any responses that contradict those that would otherwise be credited. Credit should not be 
+awarded for any responses that are contradicted within the rest of the response. Where two responses contradict one another, this 
+should be treated as a single incorrect response. 
+• Non-contradictory responses after the first n responses may be ignored even if they include incorrect science. 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 4 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 4 of 24  
+ 
+6 Calculation specific guidance 
+ 
+Correct answers to calculations should be given full credit even if there is no working or incorrect working, unless the question states ‘show 
+your working’.  
+ 
+For questions in which the number of significant figures required is not stated, credit should be awarded for correct answers when rounded 
+by the examiner to the number of significant figures given in the mark scheme. This may not apply to measured values.  
+ 
+For answers given in standard form (e.g. a  10n) in which the convention of restricting the value of the coefficient (a) to a value between 1 
+and 10 is not followed, credit may still be awarded if the answer can be converted to the answer given in the mark scheme.  
+ 
+Unless a separate mark is given for a unit, a missing or incorrect unit will normally mean that the final calculation mark is not awarded. 
+Exceptions to this general principle will be noted in the mark scheme. 
+7 Guidance for chemical equations 
+ 
+Multiples / fractions of coefficients used in chemical equations are acceptable unless stated otherwise in the mark scheme.  
+ 
+State symbols given in an equation should be ignored unless asked for in the question or stated otherwise in the mark scheme. 
+ 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 5 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 5 of 24  
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the 
+standardisation process on how and when to use annotations. The purpose of annotations is to inform the standardisation and monitoring 
+processes and guide the supervising examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may 
+not be a direct correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an 
+indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation Meaning 
+ Correct point or mark awarded 
+ Incorrect point or mark not awarded 
+ Unclear 
+ Information missing or insufficient for credit 
+ Benefit of the doubt given 
+ Contradiction in response otherwise markworthy, mark not given 
+ Part of the correct answer has been seen. Full credit has not been awarded. 
+ Error carried forward applied 
+ Incorrect or insufficient point ignored while marking the rest of the response 
+ Rounding error 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 6 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 6 of 24  
+ 
+Annotation Meaning 
+ Repetition 
+ Blank page or part of script seen 
+ Error in number of significant figures 
+ Transcription error 
+ 
+Mark scheme abbreviations 
+ 
+R reject the response 
+A accept the response 
+I ignore the response 
+ecf    error carried forward 
+BOD   benefit of doubt given 
+ora or reverse argument 
+owtte   or words to that extent 
+underline actual word given must be used by candidate (grammatical variants excepted) 
+( ) the word / phrase in brackets is not required but sets the context 
+max indicates the maximum number of marks that can be given 
+M marking point 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 7 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 7 of 24  
+ 
+Question Answer Marks Guidance 
+1(a)(i) 4 / four 1 BOD (1s22s2)2p4 
+1(a)(ii) 2p  
+ 
+AND   
+ 
+   
+1 A 2p4 for 2p 
+I p alone 
+I shading but it must have a node 
+I axes 
+I orientation 
+I ignore subscripts px py pz 
+1(b)  
+ 
+2 M1 correct charges 
+M1 A −2 for O ion and +1 / 1+ for Li ion 
+ 
+M2 all else fully correct  
+ 
+I symbols for Li and O  
+ 
+A any symbol for electrons 
+ 
+Max 1 for incorrect identification of type of 
+bonding as covalent as long as all else 
+correct 
+ 
+x✓ 
+ 
+Max 1 for any ionic compound with a 
+positively charged species and a 
+negatively charged species 
++ 2– 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 8 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 8 of 24  
+ 
+Question Answer Marks Guidance 
+1(c)(i) sodium oxide 1 I formulas 
+BOD sodium 
+1(c)(ii) Li2O + H2O → 2LiOH 1 A 2Li+ + 2OH− for 2LiOH 
+BOD LiHO 
+I equations with water as both a reactant 
+and a product 
+1(c)(iii) M1 phosphorus (V) chloride / PCl5 
+ 
+ 
+ 
+M2 aluminium chloride / AlCl3 
+2 M1 A phosphorus pentachloride 
+M1 I phosphorus chloride / phosphorus 
+trichoride  
+M1 I phosphorus alone 
+ 
+M2 A Al2Cl6 
+M2 A aluminium alone / aluminium 
+trichloride / aluminium(III) chloride 
+M2 I incorrect aluminium chloride formula 
+ 
+I MgCl2 / magnesium chloride / magnesium 
+I sulfur chlorides / sulfur 
+R silicon chlorides / silicon 
+R NaCl / Na 
+R any period 3 chloride with additional 
+elements 
+R any chloride not from period 3 
+1(d) nitrogen dioxide OR NO2 1 A nitrogen(IV) oxide 
+I nitrogen oxide alone  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 9 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 9 of 24  
+ 
+Question Answer Marks Guidance 
+1(e)(i) M1 high pressure OR ⩾ 200 atm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M2 iron catalyst / Fe catalyst  
+2 A answers on either line 
+M1 BOD equivalent pressure of ⩾ 150 atm 
+or equivalent in alternative units with 
+appropriate conversion 
+M1 A ⩾ 15 000 kPa / ⩾ 150 bar 
+M1 I ATP  
+M1 I numbers with no units  
+ 
+M2 A alternative correct named catalysts 
+e.g. Co (consult TL if necessary) 
+M2 BOD Fe(II) catalyst / Fe2+ 
+catalyst / Fe3+ catalyst / iron oxide catalyst 
+M2 BOD magnetite catalyst 
+M2 I Ni 
+M2 I promoters 
+M2 R Pt / platinum / vanadium oxide  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 10 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 10 of 24  
+ 
+Question Answer Marks Guidance 
+1(e)(ii)  
+ 
+change in rate  M1 increases ……. 
+explanation   M2 more particles have E ⩾ EA    
+   M3 so greater frequency of effective collisions. 
+3 I yield / Le Chatelier arguments 
+ 
+M1 might be seen in explanation if not on 
+first answer line 
+M1 A it takes less time to reach equilibrium 
+M2 A more particles have energy greater 
+than / equal to the activation energy / EA 
+M2 R particles have more activation 
+energy  
+M2 I particles have more energy  
+M2 I atoms / reactants 
+M3 A more effective collisions per unit time 
+/increased rate of effective collisions 
+M3 I higher chance / probability of more 
+successful collisions 
+M3 I more collisions / more effective 
+collisions alone 
+effective = successful 
+particles = molecules  
+activation energy = sufficient / enough 
+energy to react 
+ 
+ 
+ 
+ 
+   
+Question Answer Marks Guidance 
+2(a)(i) curve x = electron  
+ 
+AND  
+ 
+curve y = proton 
+1  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 11 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 11 of 24  
+ 
+Question Answer Marks Guidance 
+2(a)(ii) particles in y are deflected less because they have larger mass  1 ecf name given for particles in curve y 
+have the heavier mass. 
+ 
+Assume ‘they’ = y = particles of y unless 
+explicitly refer to ‘x’ in answer 
+ 
+A they are heavier 
+A higher mass / charge ratio 
+A greater weight 
+A they have greater momentum 
+A (particles in) x are lighter 
+I ‘electrons have negligible mass’ 
+(comparison required) 
+I lower charge density 
+I density 
+I protons are larger  
+I kinetic energy 
+R protons have greater charge density 
+2(b)(i) (atom) A and (atom) B 
+ 
+OR 
+ 
+(atom) A and (atom) C  
+1 A 6 and 17 OR 6 and 14 
+A carbon and chlorine OR carbon and 
+silicon 
+2(b)(ii) (atom) B and (atom) C 1 A 17 and 14 
+A chlorine and silicon 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 12 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 12 of 24  
+ 
+Question Answer Marks Guidance 
+2(b)(iii) M1 atom A has (one) fewer (electron) shell(s) (so decreased shielding effect) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M2 (so) more attraction of nucleus for outer/valence electrons / outer or valent 
+shell  
+ 
+OR 
+ 
+In atom C the effect of more protons / increased nuclear charge is less 
+significant than / outweighed by the (increased shielding) effect of the 
+additional shell ora = ✔✔ 
+2 Subject of question is A, so ‘it’ = A 
+A reverse argument for atom C 
+ 
+I subshells / orbitals 
+I incorrect identities of atoms A, B and C 
+M1 A more shells down group  
+shell = energy level = quantum level 
+If number of shells is given, it must be 
+correct (atom A=2 and atom C=3) 
+M1 A atom A has outer electrons in a 
+lower energy shell 
+M1 I distance from the nucleus 
+M1 I reference to one fewer outer/valence 
+shell 
+ 
+M2 A more attraction of protons to the 
+outer/valence electrons 
+M2 BOD pull for attraction 
+    
+Question Answer Marks Guidance 
+3(a)(i) H2SO4 + NaCl → NaHSO4 + HCl  
+ 
+OR  
+ 
+H2SO4 + 2NaCl → Na2SO4 + 2HCl 
+1 A Cl─+  H2SO4 →   HCl   +   HSO4– 
+A 2Cl–  +  H2SO4  →  2HCl   +   SO42– 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 13 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 13 of 24  
+ 
+Question Answer Marks Guidance 
+3(a)(ii) M1 H2SO4 acid AND Cl – base 
+ 
+M2 H2SO4 donates proton(s) AND Cl – accepts protons  
+OR H2SO4 gives / transfers protons to Cl – 
+2 proton = hydrogen ion 
+I general definition of BL acids and bases.  
+ 
+Cl – = Cl in NaCl   
+I HCl is base/protons given to HCl  
+ 
+Alternative if neither M1 nor M2 can be 
+awarded: 
+• H2SO4 acid 
+• Cl– base 
+• H2SO4 donates proton(s) 
+• Cl– accepts proton(s)   
+  ✓✓ 
+3(b) M1 (steamy fumes)  HBr 
+ 
+M2 (brown vapour) Br2 
+ 
+M3 (pungent gas) SO2 
+3 If formula given, I name. 
+If no formula given, I name once only and 
+then A correct name. 
+I state symbols 
+M1 I HCl  
+M2 I Br 
+M3 I Br2 and / or HBr  
+3(c) (brown vapour is made when) HBr / bromide (anions) are oxidised (by H2SO4) 1 A H2SO4 / S (in H2SO4) is reduced by 
+HBr / Br− / Br in NaBr / Br in HBr 
+A bromide / Br- loses electrons  
+A Br– oxidised by S (VI) (in H2SO4) 
+A Br– /HBr / Br in NaBr reduces S(VI) (to 
+S(IV)) 
+I displacement 
+I oxidation products  
+I oxidation numbers unless they are 
+specifying the S(VI) in H2SO4 
+R bromine is oxidised by sulfuric acid 
+For VI allow 6+ / 6 / +6 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 14 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 14 of 24  
+ 
+Question Answer Marks Guidance 
+3(d) H2SO4 is not (a) strong enough (oxidising agent) to oxidise Cl – / NaCl  / HCl  
+ 
+OR 
+ 
+Cl – is not (a) strong enough (reducing agent) to reduce H2SO4 / S (in sulfuric 
+acid) 
+1 A HBr / Br – is a stronger reducing agent 
+than HCl/ Cl –  
+A reducing ability of halides increases 
+down the group 
+ 
+Cl – = HCl / NaCl / Cl in NaCl / Cl in 
+HCl / chloride  
+Strong enough = good enough 
+Not strong enough oxidising agent = can’t 
+oxidise 
+ 
+I bond energy arguments 
+I reactivity arguments if not linked to redox 
+I electronegativity arguments 
+I reduction product e.g. H2S 
+ 
+A H2SO4 is (a) strong enough (oxidising 
+agent) to oxidise Br – 
+A Br – is (a) strong enough (reducing 
+agent) to reduce H2SO4  / S (in sulfuric 
+acid) / sulfate ions 
+Br – = HBr / NaBr / Br in NaBr / Br in 
+HBr / bromide 
+ 
+R HCl is a stronger oxidising agent than 
+H2SO4 
+R Cl– is a stronger oxidising agent than 
+H2SO4  
+R NaCl  is a stronger oxidising agent than 
+H2SO4 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 15 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 15 of 24  
+ 
+Question Answer Marks Guidance 
+4(a)(i) PCl5 OR SOCl2 OR HCl OR PCl3 OR equivalent names 1 A thionyl chloride or sulfur oxide dichloride 
+for SOCl2 
+A phosphorus pentachloride or 
+phosphorus trichloride  
+BOD SOCl2 (aq) 
+A conc. HCl  / concentrated hydrochloric 
+acid 
+A hydrogen chloride / HCl (g) 
+I hydrochloric acid alone / HCl (aq) / dilute 
+HCl 
+I NaCl / KCl and conc. H2SO4 /conc. H3PO4 
+R PCl5 (aq) 
+4(a)(ii) catalyst  
+ 
+OR 
+ 
+dehydrating agent 
+1 A causes dehydration 
+A speeds up / increases rate of reaction 
+and remains unchanged owtte 
+A lowers activation energy / EA 
+I heterogenous / homogenous  
+I acid  
+R redox 
+4(a)(iii) 
+H2C=C(CH3)2  OR 
+H
+C C
+H
+CH3
+CH3  OR  
+1 A any unambiguous structure 
+I C4H8 
+4(b)(i) colour of mixture at start of reaction …………orange 
+ 
+AND 
+ 
+colour of mixture after the reaction …………green 
+1 A any shade of orange 
+A any shade of green 
+BOD blue / grey for green  
+BOD brown for green (as dichromate is in 
+excess)  
+4(b)(ii)  0.005 OR 5  10–3 1 I 1 / 200 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 16 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 16 of 24  
+ 
+Question Answer Marks Guidance 
+4(b)(iii) 1.875  10−3 1 A 1.88  10−3 OR 1.9  10−3 
+A 2  10−3 with appropriate working 
+R 1.880  10−3 OR 1.90  10−3 OR 2.0  
+10−3 OR 1.87  10−3  
+4(c)(i) 3C5H12O4 + 5Cr2O72– + 40H+ → 3C5H6O6 + 10Cr3+ + 29H2O 
+ 
+M1 5Cr2O72−  
+M2 fully correct equation 
+2  
+4(c)(ii) HOCH2CH(OH)C(OH)(CH3)CH2OH OR (HOCH2)2C(OH)(CHOHCH3) 
+ 
+OH
+OH
+OH OH
+                               OR             
+OHOH
+OH
+OH  
+ 
+ molecular formula C5H12O4 
+ 2 primary alcohol groups 
+ 1 secondary alcohol group 
+ 1 tertiary alcohol group    ✓✓ 
+2 A unambiguous structure  
+I any name attempted 
+ 
+Max 1 all correct but 1 or more connectivity 
+issue e.g. C−H−O 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 17 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 17 of 24  
+ 
+Question Answer Marks Guidance 
+5(a) structure of product systematic name of product 
+CH3(CH2)5Cl 1-chlorohexane 
+CH3(CH2)3CHClCH3 2-chlorohexane 
+CH3(CH2)3CH2ClCH2Cl 1,2 dichlorohexane 
+CH3(CH2)10CH3 dodecane 
+CH3(CH2)3CH(CH3)CH(CH3)(CH2)3CH3 5,6-dimethyldecane 
+ 
+2 Max 1 for consistently incorrect alkane 
+stem that has correct idea of 1-chloro and 
+2-chloro.  
+ 
+Max 1 6-chlorohexane and 5-
+chlorohexane. 
+ 
+Max 1 for consistent errors e.g. 1-
+chlorhexane and 2-chlorhexane OR 1-
+clorohexane and 2-clorohexane OR 
+chloro-1-hexane and chloro-2-hexane 
+ 
+A missing hyphen 
+5(b)(i) (species) with one or more unpaired electrons 1 BOD species with (an) unpaired 
+electron(s) 
+I lone / single / free / odd number of 
+electrons (in valence shell) 
+I species with specified number (except 1) 
+unpaired electrons 
+BOD species with one or two unpaired 
+electrons 
+R it is an unpaired electron  
+ 
+BOD species = atom, ion, particle, 
+molecule, substance, element, compound 
+5(b)(ii) homolytic (fission) 1 BOD homolytical  
+A homolysis 
+I covalent  
+I photolytic 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 18 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 18 of 24  
+ 
+Question Answer Marks Guidance 
+5(b)(iii) M1 CH3(CH2)4CH3 + Cl → CH3(CH2)3CHCH3 + HCl 
+ 
+M2 CH3(CH2)3CHCH3 + Cl2 → CH3(CH2)3CHClCH3 + Cl  
+2 Independent marks 
+ 
+A radicals with or without   
+M1 I alkyl radical as C6H13 OR 
+CH3(CH2)5 
+ 
+I position of the dot 
+ 
+BOD CH3(CH2)3CH3CH OR 
+CH3(CH2)3CCH3H 
+ 
+M2 A ecf on their alkyl structure from M1 
+(even if M2 does not balance) 
+M2 A alkyl radical as C6H13 OR 
+CH3(CH2)5 
+M2 ecf use of anion/cation 
+5(b)(iv) M1 CH3(CH2)4CH3 + Cl → CH3(CH2)4CH2 + HCl 
+ 
+M2 CH3(CH2)4CH2 + CH3(CH2)4CH2 → CH3(CH2)10CH3 
+ 
+OR 
+ 
+      2CH3(CH2)4CH2 → CH3(CH2)10CH3 
+2 Independent marks 
+ 
+A radicals with or without  
+ 
+M1 A CH3(CH2)5 
+M1 I alkyl radical as C6H13  
+ 
+I position of the dot 
+ 
+M2 A alkyl radical as C6H13 OR 
+CH3(CH2)5 
+M2 ecf use of anion/cation 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 19 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 19 of 24  
+ 
+Question Answer Marks Guidance 
+5(c) number of alkyl / methyl groups 1 A number of C atoms bonded to the 
+central carbon / branches / R groups  
+BOD number of alkyl groups bonded to the 
+carbocation 
+I number of C atoms bonded to the 
+carbocation 
+I number of C atoms 
+I number of ethyl/propyl groups 
+I number of hydrogens 
+I inductive effect 
+I tertiary>secondary>primary stability 
+I carbocation stability 
+    
+Question Answer Marks Guidance 
+6(a)(i) 
+O
+OH
+O
+OH
+ 
+1 A any unambiguous cis / Z structure of P 
+I connectivity  
+I trans structure 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 20 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 20 of 24  
+ 
+Question Answer Marks Guidance 
+6(a)(ii) M1 limited / restricted / lack of / no rotation about the pi bond /  bond of C=C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M2 (two) different groups attached to each C of the C=C / each end of the 
+C=C 
+2 M1  
+A limited / restricted / lack of / no rotation 
+about the C=C 
+reference to C=C needs to be made once 
+only  
+BOD C−C double bond 
+I double bond (there is a C=O also in the 
+molecule) 
+I movement 
+rotate = twist = spin 
+R (compound) P has a chiral carbon 
+ 
+M2 
+each = both 
+A different atoms / functional groups / H 
+and COOH / species 
+I each side (of the C=C) 
+R different compounds / molecules 
+6(b)(i) M1 steam / H2O (g) 
+ 
+ 
+M2 H3PO4 (catalyst) / phosphoric (V) acid (catalyst) 
+2 M1 A water and then temperature ⩾100 °C 
+(temperature might be seen on conditions 
+line)  
+ 
+M2  
+A H3PO4 (catalyst) / phosphoric (V) acid 
+(catalyst) / sulfuric acid (catalyst) / H2SO4 
+(catalyst) on reagent line 
+A orthophosphoric acid / phosphoric 
+acid / sulfuric acid 
+I heat under reflux / heat alone 
+I pressure 
+I state symbols  
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 21 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 21 of 24  
+ 
+Question Answer Marks Guidance 
+6(b)(ii)                                        M1                                     M2 
+ 
+ 
+2 COOH = CO2H 
+A C2H3O2 
+ 
+M1 4 correct groups around central C in 
+any orientation (might be seen on ‘isomer 
+2’) 
+ 
+M2 enantiomer of their M1 structure (does 
+not have to be shown as its mirror image).  
+ 
+ 
+ 
+M2 R bonds in the plane that are opposite 
+to each other 
+I bond shapes that are not associated with 
+the chiral carbon. 
+I bond angles 
+I connectivity 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 22 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 22 of 24  
+ 
+Question Answer Marks Guidance 
+6(c)(i) M1 (molecular ion peak at) 116   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M2 has the same (116) molecular mass (as P) 
+2 M1 
+A the peak to be identified on the spectrum  
+A the peak furthest to the right / the peak 
+with the highest m/e value 
+I an unquantified peak between 110 and 
+120 
+I 99 for HOOCCH=CHCO+ 
+I 71 for C3H3O2+ 
+R any other peak except 99 and 71 
+ 
+M2  
+look at structures at the top of the page for 
+evidence of the Mr of P = 116 
+I AMU 
+M+ ion peak = molecular ion peak = M 
+peak 
+Molecular mass = Mr = RFM = molar mass 
+A The molecular mass (of P) is 116 ✔✔ 
+unless contradicted 
+R relative atomic mass / Ar 
+6(c)(ii) M1 (m / e = 45) COOH+ 
+ 
+ 
+ 
+M2 (m / e = 99) HOOCCHCHCO+ / HOOCCH=CHCO+ 
+2 Max 1 for both correct structures with no + 
+charge OR – charge OR  OR no charges 
+OR dots  
+BOD sticks on fragment e.g. –COOH+ 
+A CO2H+ / CHO2+ 
+ 
+ 
+I C4H3O3 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 23 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 23 of 24  
+ 
+Question Answer Marks Guidance 
+6(c)(iii) M1 Br2 (aq) / bromine water 
+ 
+M2 orange / brown to colourless in S (not R) 
+ 
+ 
+ 
+OR  
+ 
+ 
+ 
+M1 Na2CO3 / sodium carbonate / NaHCO3 / sodium hydrogencarbonate 
+ 
+M2 fizzing / effervescence in R (not S) 
+2 R capitalisation once e.g. KMNO4 
+ 
+M2 observation dependent on 
+unambiguous attempt at M1 reagent  
+e.g. M1 Br  M2 decolourises S ✓ 
+OR M1 K2Cr2O7 / Cr2O72– (no acid) ^ M2 
+(orange) to green ✓ 
+OR M1 NaCO3  M2 bubbles in R ✓ etc 
+M2 I alkene for S / carboxylic acid for R but 
+A alcohol for S 
+ 
+M1 A bromine / Br2  
+M1 A aqueous iodine / aqueous I2 / iodine 
+water NOT iodine alone 
+M1 R iodoform  
+ 
+M2 A decolourises 
+M2 A yellow to colourless  
+M2 R red 
+ 
+M2 A bubbles 
+M2 I limewater (turns milky) 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C
+
+===== PAGE 24 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 24 of 24  
+ 
+Question Answer Marks Guidance 
+6(c)(iii)   Alternatives: 
+ 
+M1 acidified potassium dichromate / H+ 
+AND K2Cr2O7  
+M1 BOD H+ / Cr2O72− 
+M2 (orange) to green with S (not R)  
+ 
+M1 potassium permanganate / KMnO4  
+M1 BOD potassium manganate 
+M1 BOD MnO4− 
+M2 decolorises / (purple) to colourless 
+(solution) / brown ppt with S (not R) 
+M2 A green solution formed if alkaline 
+KMnO4 used 
+ 
+M1 addition of named alcohol and (conc) 
+sulfuric acid OR named alcohol and 
+catalyst 
+M2 sweet smell with R (not S) 
+ 
+M1 addition of named carboxylic acid and 
+(conc) sulfuric acid OR named carboxylic 
+acid AND catalyst 
+M2 sweet smell with S (and not R) 
+ 
+M1 named acid-base indicator  
+M2 appropriate colour change with R (and 
+not S) 
+ 
+M1 A Mg / magnesium 
+M2 A faster bubbles with R (comparison 
+required) 
+ 
+PapaCambridge
+·  papacambridge.com
+9701/22 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/22 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-9A1EDC198C

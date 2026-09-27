@@ -1,0 +1,421 @@
+
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 13 printed pages. 
+ 
+© Cambridge University Press & Assessment 2024 
+ 
+[Turn over
+ 
+Cambridge International AS & A Level 
+ 
+CHEMISTRY 9701/22 
+Paper 2 AS Level Structured Questions May/June 2024 
+MARK SCHEME 
+Maximum Mark: 60 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which would have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the May/June 2024 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level and Cambridge Pre-U components, and some 
+Cambridge O Level components. 
+ 
+ 
+ 
+===== PAGE 2 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 2 of 13 
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They should be applied alongside the 
+specific content of the mark scheme or generic level descriptions for a question. Each question paper and mark scheme will also comply with these 
+marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+ the specific content of the mark scheme or the generic level descriptors for the question 
+ the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+ the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+ marks are awarded for correct/valid answers, as defined in the ma rk scheme. However, credit is given for valid answers which go beyond 
+the scope of the syllabus and mark scheme, referring to your Team Leader as appropriate 
+ marks are awarded when candidates clearly demonstrate what they know and can do 
+ marks are not deducted for errors 
+ marks are not deducted for omissions 
+ answers should only be judged on the quality of spelling, punctuation and grammar when these features are specifically assesse d by the 
+question as indicated by the mark scheme. The meaning, however, should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in the application of generic level 
+descriptors. 
+===== PAGE 3 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 3 of 13 
+ 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question (however; the use of the full mark range may 
+be limited according to the quality of the candidate responses seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be awarded with grade thresholds or 
+grade descriptors in mind. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 4 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 4 of 13 
+ 
+ 
+ 
+Science-Specific Marking Principles 
+ 
+1 Examiners should consider the context and scientific use of any keywords when awarding marks. Although keywords may be present, marks 
+should not be awarded if the keywords are used incorrectly.  
+2 The examiner should not choose between contradictory statements given in the same question part, and credit should not be awa rded for 
+any correct statement that is contradicted within the same question part. Wrong science that is irrelevant to the question should be ignored. 
+3 Although spellings do not have to be correct, spellings of syllabus terms must allow for clear and unambiguous separation fro m other 
+syllabus terms with which they may be confused (e.g. ethane / ethene, glucagon / glycogen, refraction / reflection). 
+4 The error carried forward (ecf) principle should be applied, where appropriate. If an incorrect answer is subsequently used i n a scientifically 
+correct way, the candidate should be awarded these subsequent marking points. Further guidance will be included in the mark scheme 
+where necessary and any exceptions to this general principle will be noted. 
+5 ‘List rule’ guidance 
+ 
+For questions that require n responses (e.g. State two reasons …): 
+ 
+ The response should be read as continuous prose,  even when numbered answer spaces are provided. 
+ Any response marked ignore in the mark scheme should not count towards n. 
+ Incorrect responses should not be awarded credit but will still count towards n. 
+ Read the entire response to check for any responses that cont radict those that would otherwise be credited. Credit should not be 
+awarded for any responses that are contradicted within the rest of the response. Where two responses contradict one another, this 
+should be treated as a single incorrect response. 
+ Non-contradictory responses after the first n responses may be ignored even if they include incorrect science. 
+===== PAGE 5 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 5 of 13 
+ 
+6 Calculation specific guidance 
+ 
+Correct answers to calculations should be given full credit even if there is no working or incorrect working, unless the question states ‘show 
+your working’.  
+ 
+For questions in which the number of significant figures required is not stated, credit should be awarded for correct answers when rounded 
+by the examiner to the number of significant figures given in the mark scheme. This may not apply to measured values.  
+ 
+For answers given in standard form (e.g. a  10n) in which the convention of restricting the value of the coefficient (a) to a value between 1 
+and 10 is not followed, credit may still be awarded if the answer can be converted to the answer given in the mark scheme.  
+ 
+Unless a separate mark is given for a unit, a missing or incorrect unit will normally mean that the final calculation mark is not awarded. 
+Exceptions to this general principle will be noted in the mark scheme. 
+7 Guidance for chemical equations 
+ 
+Multiples / fractions of coefficients used in chemical equations are acceptable unless stated otherwise in the mark scheme.  
+ 
+State symbols given in an equation should be ignored unless asked for in the question or stated otherwise in the mark scheme. 
+ 
+ 
+  
+===== PAGE 6 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 6 of 13 
+ 
+Question Answer Marks 
+1(a) Mg2+ 24 12 10 
+Al3+ 27 13 10 
+ 
+4 correct = 2 marks 
+2 or 3 correct = 1 mark 
+0 or 1 correct = 0 marks 
+2 
+1(b) M1 it / Al 3+ is smaller (compared to Mg2+)  
+M2 greater nuclear attraction for remaining electrons 
+M3 same shielding effect AND greater nuclear charge 
+3 
+1(c) 
+ 
+ 
+labelled diagram shows: 
+ regular arrangement of minimum of 2  2 circles containing + for positive ions 
+ AND surrounded by (sea of) delocalised electrons 
+1 
+1(d)(i) large amount of energy required to break bonds in giant covalent structure 1 
+delocalised electrons 
+positively charged ions 
+===== PAGE 7 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 7 of 13 
+ 
+Question Answer Marks 
+1(d)(ii) 
+ 
+ 
+M1 all 3 melting points lower than Mg 
+M2 show melting point Cl < P < S 
+2 
+1(e)(i) Na solid 10 –14 
+S gas 0 –4 
+ 
+4 correct = 2 marks 
+2 or 3 correct = 1 mark 
+0 or 1 correct = 0 marks 
+2 
+1(e)(ii) acid –base OR neutralisation 1 
+1(e)(iii) P 4O10 + 6H2O → 4H3PO4 1 
+1(f)(i) reacts with both acids and bases  OR shows both acidic and basic behaviour 1 
+1(f)(ii) Al (OH)3 + NaOH → NaAl (OH)4 1 
+
+===== PAGE 8 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 8 of 13 
+ 
+Question Answer Marks 
+2(a) 
+ 
+ 
+All three correct (2 marks) or two correct (1 mark): 
+ profile for endothermic reaction (include ‘hump’) 
+ arrow representing EA  
+ arrow representing ∆H OR (+) 27.2                        
+2 
+2(b)(i) no more fizzing / effervescence stops  1 
+2(b)(ii) M1 calculate Q from = 50  4.18  (26.2 – 19.6)) = 1379.(4) 
+M2 Use M1 to find energy change when 1 mol Na2CO3 / 2 mol HCl reacts  
+M1 ÷ 0.04 = 34485  
+M3 express Q as ∆H(1) in kJ mol–1 =  – (value for M2) ൊ 1000 
+= –34.5 kJ mol–1 
+ 
+Alternative method 
+M1 evidence of use Q = mc∆T = 50  4.18 / 1000  (26.2 – 19.6) = 1.3794   
+M2 Use M1 to find energy change when 1 mol Na2CO3 / 2 mol HCl reacts 
+M1 ÷ 0.04 = 34.485  
+M3 express Q as ∆H(1) in kJ mol –1 = – (value for M2) (expressed in kJ) 
+= –34.5 kJ mol–1 
+3 
+NaCl + H2O + CO2 
+===== PAGE 9 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 9 of 13 
+ 
+Question Answer Marks 
+2(b)(iii) Using answer from 2(b)(ii) 
+(=) 2∆H2 – (∆H1) 
+(=) 2  27.2 – (2b(ii)) 
+2  27.2 – (–34.50) = (+) 88.9 kJ mol–1 
+ 
+All three correct (2 marks) or two correct (1 mark): 
+ (27.2) – (–34.5) OR (27.2) – (2b(ii))  
+ 2  × 27.2 and 1 × 2b(ii) 
+ calculate correctly their expression  
+ 
+Using alternative value of ∆H1 = –38.4 kJ mol-1  
+∆Hr = (+)92.8 kJ mol–1 = 2 marks 
+2 
+2(c) Ca(NO 3)2 → CaO + 2NO2 + ½O2 
+ 
+M1 correct formula for calcium nitrate: Ca(NO3)2   
+M2 correct balanced equation 
+2 
+Question Answer Marks 
+3(a) M1 rates of forward and reverse / backward reactions are equal  
+M2 no change in measurable properties OR concentration of reactants AND products remain constant 
+2 
+3(b)(i) M1 change to appearance of the mixture: (goes) darker red / more red 
+M2 change to relative concentration of Fe3+(aq): decreases 
+M3 change to the value of equilibrium constant, Kc: constant / none 
+3 
+===== PAGE 10 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 10 of 13 
+ 
+Question Answer Marks 
+3(b)(ii) Method 1 
+M1 conc of initial conc of Fe3+ and SCN– = 0.0020 (mol dm-3) 
+M2 at equilibrium the conc of Fe3+ and SCN– are (M1 – 0.000423) 
+M3 use 0.000423 ൊ (M1 – 0.000423)2 to calculate Kc = 170(.089) 
+M4 units = mol–1 dm3 OR dm3 mol-1  
+ 
+Method 2 
+M1 no mol FeSCN2+ = 4.23  10–4  25 / 1000 = 1.0575  10–5 
+M2 no mol Fe3+ and SCN– are (5  10–5 – M1) = 3.9425  10–5 
+M3 0.000423 ൊ (M2  1000 / 25)2 = 170(.089) 
+M4 units = mol–1 dm3 OR dm3 mol–1  
+4 
+3(c) full electronic configuration of Fe3+ 1s2 2s2 2p6 3s2 3p6 3d5  1 
+3(d) 
+ 
+M1 6 electrons between C and N AND 2 electrons between C and S  
+M2 3 lone pairs around S AND none around C AND 1 lone pair around N 
+2 
+Question Answer Marks 
+4(a) Three-dimensional stereoisomers of CH 3(CH2)5CHBrCH3 
+ 
+M1 correct representation of left-hand answer as 3d structure of one of the enantiomers of CH3(CH2)5CHBrCH3  
+M2 correct representation of 3d structure of the second enantiomer of CH3(CH2)5CHBrCH3  
+2 
+
+===== PAGE 11 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 11 of 13 
+ 
+Question Answer Marks 
+4(b) 
+ 
+(+ NaBr OR Br– ) 
+ 
+M1 correct dipole (+C—Br –) AND curly arrow from bond of C—Br to Br (or just beyond) 
+M2 correct intermediate ALLOW R for –(CH2)5CH3  
+M3 curly arrow from lone pair on OH– to the C of intermediate (or suitable position where C–OH bond is made) 
+ 
+If SN2 mechanism shown: 
+Apply SN2 mechanism mark scheme only if mechanism shows OH / NaOH species attacking the reactant and no OH  
+M1 correct dipole (+C—Br –) AND curly arrow from bond of C—Br to Br of reactant (or just beyond)  
+NOT M2 
+M3 curly arrow from lone pair on :OH— to the appropriate C of the reactant  
+3 
+===== PAGE 12 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 12 of 13 
+ 
+Question Answer Marks 
+4(c) Chemical 
+test 
+observation with 
+2-bromooctane 
+observation 
+with 
+octan-2-ol 
+observation with 
+CH3(CH2)5CHCH2 
+Br2 in the 
+dark 
+  orange  / brown to 
+colourless   
+PCl 5  steamy 
+fumes 
+ 
+AgNO3(aq)  cream precipitate 
+OR  
+off white precipitate  
+  
+ 
+6 correct answers = 3 marks 
+4 or 5 correct answers = 2 marks 
+2 or 3 correct answers = 1 mark 
+0 or 1 correct answer = 0 marks 
+3 
+4(d)(i) elimination 1 
+4(d)(ii) NaOH  / sodium hydroxide in ethanol  1 
+4(e)(i) 
+ 
+0 2 6 
+ 
+3 correct answers = 2 marks 
+2 correct answers = 1 mark 
+0 or 1 correct answers = 0 marks 
+2 
+===== PAGE 13 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2024 
+ 
+© Cambridge University Press & Assessment 2024 Page 13 of 13 
+ 
+Question Answer Marks 
+4(e)(ii) M1 presence of a 𝜋 bond 
+ 
+M2 limited rotation of C=C bond  
+ 
+M3 EITHER 
+two different groups on each / both double bonded carbon atoms 
+OR 
+two different atoms on each / both double bonded carbon atom 
+OR 
+one H / atom and one alkyl group on each / both double bonded carbon atom 
+3 
+ 

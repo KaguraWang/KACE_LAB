@@ -1,0 +1,43 @@
+# Unity/Tuanjie generated files (at any nested project level)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+/.vs/
+/.idea/
+/tmp/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+
+# Separate student project: explicitly outside this teacher baseline
+/Student/
+
+# Local AI configuration and credentials; keep the original files on disk
+**/ai_config.json
+**/ai_config.json.meta
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+
+# Root-level screenshots and transient test output; source artwork is in Assets/ArtExports
+/_*.png
+/preview*.png
+/player_preview.png
+/1459
+/1469
+/173
+/2266
+__pycache__/
+*.pyc

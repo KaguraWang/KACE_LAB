@@ -1,0 +1,942 @@
+
+===== PAGE 1 =====
+This document has 12 pages.
+ [Turn over
+Cambridge International AS & A Level
+CHEMISTRY 9701/33
+Paper 3 Advanced Practical Skills 1 May/June 2024
+ 2 hours
+You must answer on the question paper.
+You will need: The materials and apparatus listed in the confidential instructions
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen or correction fluid.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMATION
+ ● The total mark for this paper is 40.
+ ● The number of marks for each question or part question is shown in  
+brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the  
+question paper.
+ ● Notes for use in qualitative analysis are provided in the  
+question paper.
+DC (PQ) 319195/5
+© UCLES 2024
+*5696216429*
+Session
+Laboratory
+For Examiner’s Use
+1
+2
+3
+Total
+,
+	,
+* 0019656615801 *
+¬Wz> 3mIsaM¢Z{FpW
+¬z\_L¤ALXu~WZP¢O
+¥ue5¥U¥EUEe5U
+
+===== PAGE 2 =====
+2
+9701/33/M/J/24© UCLES 2024
+Quantitative analysis
+Read through the whole method before starting any practical work. Where appropriate, prepare a table 
+for your results in the space provided.
+Show the precision of the apparatus you used in the data you record.
+Show your working and appropriate significant figures in the final answer to each step of your calculations.
+1 When ammonium compounds are heated with sodium hydroxide or calcium hydroxide, ammonia 
+is liberated. The ionic equation for the reaction is shown.
+NH4
++ + OH−  NH3 + H2O
+ FA 1 is prepared by heating 10.0 cm3 of aqueous ammonium chloride, NH4Cl (aq), with 25.0 cm3 of 
+2.00 mol dm−3 sodium hydroxide, NaOH. The sodium hydroxide is in excess. The reaction mixture 
+is cooled and diluted to 250 cm3 with distilled water.
+ You will determine the concentration of the aqueous solution of ammonium chloride by titrating the 
+remaining sodium hydroxide from the preparation of FA 1 with a known concentration of sulfuric acid.
+2NaOH(aq) + H2SO4(aq)  Na2SO4(aq) + 2H2O(l)
+ FA 2 is 0.0520 mol dm−3 sulfuric acid, H2SO4. 
+ FA 3 is bromophenol blue indicator.
+ (a) Method
+ ● Fill the burette with FA 2.
+ ● Pipette 25.0 cm3 of FA 1 into a conical flask.
+ ● Add a few drops of FA 3 to the conical flask.
+ ● Perform a rough titration and record your burette readings in the space below.
+ The rough titre is .............................. cm3.
+ ● Carry out as many accurate titrations as you think necessary to obtain consistent results.
+ ● Make sure any recorded results show the precision of your practical work.
+ ● Record, in a suitable form in the space below , all your burette readings and the volume 
+of FA 2 added in each accurate titration.
+  Results
+ [7]
+I
+II
+III
+IV
+V
+VI
+VII
+* 0019656615802 *
+,
+	,
+ĬÕú¾Ġ³íÉóáęÍĢÛùÈî×
+ĬúÚàÉĨÅÞßČü¼ĢĞĠÚ×Ă
+ĥåµĕõõåµÕÕĕĕąÕåĥĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 3 =====
+3
+9701/33/M/J/24© UCLES 2024 [Turn over
+ (b) From your accurate titration results, calculate a suitable mean value to use in your calculations. 
+Show clearly how you obtain the mean value.
+ 25.0 cm3 of FA 1 required .............................. cm3 of FA 2. [1]
+ (c) Calculations
+  (i) Give your answers to (c)(ii), (c)(iii), (c)(iv) and (c)(v) to an appropriate number of 
+significant figures. [1]
+  (ii) Calculate the amount, in mol, of sulfuric acid present in the volume of FA 2 in (b).
+ amount of H2SO4 = .............................. mol [1]
+  (iii) Use your answer to (c)(ii) to calculate the amount, in mol, of sodium hydroxide in 
+25.0 cm3 of FA 1.
+ amount of NaOH = .............................. mol [1]
+  (iv) Use your answer to (c)(iii) and the information given to calculate the amount, in mol, of 
+sodium hydroxide that reacted with the ammonium chloride when FA 1 was prepared.
+ amount of NaOH that reacted with NH4Cl = .............................. mol [2]
+  (v) Use your answer to (c)(iv) and the information given to calculate the concentration, in 
+mol dm−3, of the ammonium chloride solution used to prepare FA 1.
+ concentration of NH4Cl =  .......................................... mol dm−3 [1]
+ (d) When ammonia gas is prepared by heating one of its salts with calcium hydroxide, it can be 
+dried by passing it through a drying agent. 
+  Drying agents for gases include calcium oxide, calcium sulfate, concentrated sulfuric acid 
+and phosphorus(V) oxide.
+  Select one of these drying agents and suggest why it is not suitable for drying ammonia gas.
+...................................................... is not suitable because ......................................................
+ ............................................................................................................................................. [1]
+ [Total: 15]
+* 0019656615803 *
+,
+	,
+Ĭ×ú¾Ġ³íÉóáęÍĢÛûÈî×
+ĬúÙßÁĢÉÎÚîąí¶Ė¼ÚçĂ
+ĥåÅÕµĕÅÕÅåÅĕąµÅåąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 4 =====
+4
+9701/33/M/J/24© UCLES 2024
+2 A sample of ammonium bromide has been accidentally mixed with another salt.
+ A student suggests that the percentage purity of the ammonium bromide can be determined by 
+measuring the change in temperature when a solution is prepared. The enthalpy change when the 
+sample dissolves in water, ΔH, can then be calculated and compared with the literature value for 
+ammonium bromide. You will carry out the student’s experiment. 
+ FA 4 is ammonium bromide, NH4Br, mixed with another salt. 
+ (a) Method
+ ● Support the cup in the 250 cm3 beaker.
+ ● Use the 25 cm3 measuring cylinder to transfer 25.0 cm3 of distilled water into the cup.
+ ● Place the thermometer in the water and tilt the cup, if necessary , so that the bulb of the  
+thermometer is fully covered. Record the temperature of the water in the space for results.
+ ● Weigh the container with FA 4. Record the mass.
+ ● Add all of FA 4 to the water in the cup.
+ ● Stir the mixture gently so that FA 4 dissolves.
+ ● Measure and record the minimum temperature reached.
+ ● Calculate and record the change in temperature.
+ ● Weigh the container with any residual FA 4. Record the mass.
+ ● Calculate and record the mass of FA 4 added to the cup.
+  Results
+ [4]
+ (b) (i) Calculate the energy change, in J, for the reaction.
+ energy change = .............................. J [1]
+  (ii) When one mole of ammonium brom ide dissolves in water the enthalpy change, ΔH, is 
++16.8 kJ mol−1.
+   Use this value to calculate the amount, in mol, of ammonium bromide in the 25.0 cm3 of 
+solution FA 4 used in your experiment.
+   Assume that the enthalpy change when the other salt dissolves in water is 0 kJ mol−1.
+ amount of NH4Br in 25.0 cm3 = .............................. mol [1]
+I
+II
+III
+IV
+* 0019656615804 *
+,
+	,
+ĬÕú¾Ġ³íÉóáęÍĢÙùÈð×
+ĬúÙÞÁĬ»ÛÝôþöĘºĚÊÏĂ
+ĥĕĕÕõĕÅõåąµĕÅµĥåĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 5 =====
+5
+9701/33/M/J/24© UCLES 2024 [Turn over
+  (iii) Calculate the mass, in g, of ammonium bromide in your sample.
+   (If you were unable to calculate the amount of ammonium bromide in (b)(ii), then assume 
+it is 2.06 × 10−2 mol. This may not be the correct answer.)
+ mass of NH4Br in sample = .............................. g [1] 
+   (iv) Hence calculate the percentage by mass of ammonium bromide in your sample.
+ % by mass of NH4Br = .............................. % [1]
+ (c) Another student states that this method is not accurate as the enthalpy change when the 
+other salt dissolves in water could be exothermic.
+  Suggest how the calculated value in (b)(iv) would change if the other salt dissolves in water 
+exothermically. Explain your answer. 
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ (d) The maximum uncertainty in a single thermometer reading is ±0.5 ºC.
+  
+  Calculate the maximum percentage error in your temperature change recorded in (a).
+  Show your working.
+ maximum percentage error = .............................. % [1]
+ [Total: 10]
+* 0019656615805 *
+,
+	,
+Ĭ×ú¾Ġ³íÉóáęÍĢÙûÈð×
+ĬúÚÝÉĞ·ëÜĆó³ÄÂ¾ÊßĂ
+ĥĕĥĕµõåĕµõĥĕÅÕąĥąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 6 =====
+6
+9701/33/M/J/24© UCLES 2024
+Qualitative analysis
+For each test you should record all your observations in the spaces provided.
+Examples of observations include:
+ ● colour changes seen
+ ● the formation of any precipitate and its solubility (where appropriate) in an excess of the reagent 
+added
+ ● the formation of any gas and its identification (where appropriate) by a suitable test.
+You should record clearly at what stage in a test an observation is made.
+Where no change is observed, you should write ‘no change’.
+Where reagents are selected for use in a test, the name or correct formula of the element or compound 
+must be given.
+If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must 
+be used.
+Rinse and reuse test-tubes and boiling tubes where possible.
+No additional tests should be attempted.
+3 (a) FA 5 is a mixture containing two cations and two anions. Three of the ions are listed in the 
+Qualitative analysis notes.
+  (i) Carry out the following tests and record your observations in Table 3.1.
+Table 3.1
+test observations
+Test 1
+Heat a spatula measure of FA 5 in 
+a hard-glass test-tube.
+Test 2
+Put a 2 cm depth of dilute nitric acid 
+in a boiling tube. Add a spatula 
+measure of FA 5.
+Dilute the solution from Test 2 with an equal volume of distilled water. 
+Keep the resulting solution for use in (a)(ii). This solution is FA 6.
+ [3]
+* 0019656615806 *
+,
+	,
+ĬÙú¾Ġ³íÉóáęÍĢÜûÅî×
+ĬúÙÝÆĨÏáÔāĂÊäºßĢÏĂ
+ĥÅÅĕµÕåµõĕÅĕąÕååÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 7 =====
+7
+9701/33/M/J/24© UCLES 2024 [Turn over
+  (ii) Carry out the following tests using a 1 cm depth of FA  6  in a test-tube for each test.  
+Record your observations in Table 3.2.
+Table 3.2
+test observations
+Test 1
+Add a 1 cm depth of sodium 
+chlorate(I), 
+then
+add aqueous sodium thiosulfate 
+dropwise.
+Test 2
+Add aqueous sodium hydroxide.
+Test 3
+Add aqueous ammonia.
+Test 4
+Add a 1 cm depth of aqueous 
+copper(II) sulfate, 
+then
+add aqueous sodium thiosulfate 
+dropwise until no further change 
+occurs.
+Test 5
+Add a few drops of aqueous silver 
+nitrate,
+then
+add aqueous ammonia until no 
+further change occurs.
+ [4]
+* 0019656615907 *
+,
+
+,
+ĬÛù¿Ġ³íÉóáęÍĢÛûÅî×
+ĬúÙßÉīàÇãĄîíěúßÒçĂ
+ĥõĥÕµõąÕĕĕĥĕÅĕåĥĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 8 =====
+8
+9701/33/M/J/24© UCLES 2024
+  (iii) FA 5 reacts with nitric acid to make FA 6 in Test 2 in Table 3.1.
+   State a change you would see in one of the observations in Table 3.2 if hydrochloric acid 
+had been used to prepare FA 6.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (iv) Use your observations in (a)(i) and (a)(ii) to identify the formulae of three of the ions 
+present in FA 5.
+   Formulae of ions present are ......................... and ......................... and ......................... .
+ [2]
+ (b) FA 7, FA 8  and FA  9  are each known to be propan-1-ol, propanal, propanoic acid or 
+propanone. No two liquids are identical. 
+  (i) You will carry out tests to identify samples of FA 7, FA 8 and FA 9.
+   Test 1 has been carried out for you.
+   Carry out Test 2 and record your observations in Table 3.3.
+Table 3.3
+test
+observations
+FA 7 FA 8 FA 9
+Test 1
+Put a 1 cm depth in a test-
+tube. Add a few drops of 
+2,4-dinitrophenylhydrazine 
+(2,4-DNPH reagent).
+orange precipitate orange precipitate no change
+Test 2
+Put a 1 cm depth in a test-
+tube. Add a small spatula 
+measure of solid sodium 
+carbonate.
+ [1]
+  (ii) State what you can deduce from Tests 1 and 2 in Table 3.3 about the functional group 
+present in each of FA 7, FA 8 and FA 9.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0019656615908 *
+,
+
+	,
+ĬÙù¿Ġ³íÉóáęÍĢÙùÅð×
+ĬúÙÞÉġÎÂØþõö¹ÖýÂÏĂ
+ĥÅµÕõõąõõµĕĕąĕąĥõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 9 =====
+9
+9701/33/M/J/24© UCLES 2024
+  (iii) Describe a test to identify FA 7 and FA 8 using the reagents provided.
+   Carry out your test. Record your observations and conclusions.
+test  ....................................................................................................................................
+ ...........................................................................................................................................
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+FA 7 is ...................................................... . 
+FA 8 is ...................................................... .
+ [2]
+ [Total: 15]
+* 0019656615909 *
+,
+
+
+,
+ĬÛù¿Ġ³íÉóáęÍĢÙûÅð×
+ĬúÚÝÁħÒ²áüČ³ĝÞÙÂßĂ
+ĥÅÅĕµĕĥĕĥÅÅĕąõĥåĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 10 =====
+10
+9701/33/M/J/24© UCLES 2024
+Qualitative analysis notes
+1 Reactions of cations
+cation reaction with
+NaOH(aq) NH3(aq)
+aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+ammonium, NH4
++(aq) no ppt.
+ammonia produced on warming
+–
+barium, Ba2+(aq) faint white ppt. is observed unless 
+[Ba2+(aq)] is very low
+no ppt.
+calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very 
+low
+no ppt.
+chromium(III), Cr3+(aq) grey-green ppt. soluble in excess 
+giving dark green solution
+grey-green ppt. insoluble in excess
+copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess 
+giving dark blue solution
+iron(II), Fe2+(aq) green ppt. turning brown on 
+contact with air
+insoluble in excess
+green ppt. turning brown on 
+contact with air
+insoluble in excess
+iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+manganese(II), 
+Mn2+(aq)
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+2 Reactions of anions
+anion reaction
+carbonate, CO3
+2– CO2 liberated by dilute acids
+chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+nitrate, NO3
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil
+nitrite, NO2
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+decolourises acidified aqueous KMnO4
+sulfate, SO4
+2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+gives white ppt. with high [Ca2+(aq)]
+sulfite, SO3
+2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+decolourises acidified aqueous KMnO4
+thiosulfate, S2O3
+2–(aq) gives off-white / pale yellow ppt. slowly with H+
+* 0019656615910 *
+,
+
+,
+ĬÙù¿Ġ³íÉóáęÍĢÜùÇî×
+ĬúÜÞÄģÖØÚąîÐÕØĩúçĂ
+ĥĕÕĕõõåõÕąĕÕąµąĥÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 11 =====
+11
+9701/33/M/J/24© UCLES 2024
+3 Tests for gases
+gas test and test result
+ammonia, NH3 turns damp red litmus paper blue
+carbon dioxide, CO2 gives a white ppt. with limewater
+hydrogen, H2 ‘pops’ with a lighted splint
+oxygen, O2 relights a glowing splint
+4 Tests for elements
+element test and test result
+iodine, I2 gives blue-black colour on addition of starch solution
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.022 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0019656615911 *
+,
+
+,
+ĬÛù¿Ġ³íÉóáęÍĢÜûÇî×
+ĬúÛÝÌĥÚèßóăęāà­ú×Ă
+ĥĕåÕµĕÅĕÅõÅÕąÕĥåÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 12 =====
+12
+9701/33/M/J/24© UCLES 2024
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3456789 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+* 0019656615912 *
+,
+
+,
+ĬÙù¿Ġ³íÉóáęÍĢÚùÇð×
+ĬúÛàÌğìáÜíČĒãĄďĪßĂ
+ĥåõÕõĕÅµåÕµÕÅÕÅåÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

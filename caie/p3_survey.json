@@ -1,0 +1,165 @@
+[
+  {
+    "paper": "9701/33/M/J/24",
+    "year": "s24",
+    "comp": "33",
+    "qp_pages": 12,
+    "chars": 19444,
+    "fa_in_qp": [
+      "FA 1 is prepared by heating 10.0 cm3 of aqueous ammonium chloride, NH4Cl (aq), with 25.0 cm3 of",
+      "FA 2 is 0.0520 mol dm−3 sulfuric acid, H2SO4.",
+      "FA 3 is bromophenol blue indicator.",
+      "FA 4 is ammonium bromide, NH4Br, mixed with another salt.",
+      "FA 5 is a mixture containing two cations and two anions. Three of the ions are listed in the",
+      "FA 7 is ...................................................... .",
+      "FA 8 is ...................................................... ."
+    ],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.05",
+      "0.0500",
+      "0.0950",
+      "0.1",
+      "0.100",
+      "0.2",
+      "0.5",
+      "1.0",
+      "2.0"
+    ],
+    "questions": []
+  },
+  {
+    "paper": "9701/34/M/J/24",
+    "year": "s24",
+    "comp": "34",
+    "qp_pages": 12,
+    "chars": 19928,
+    "fa_in_qp": [],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.05",
+      "0.0900",
+      "0.1",
+      "0.10",
+      "0.20",
+      "0.5",
+      "0.50",
+      "1.0",
+      "2.0"
+    ],
+    "questions": []
+  },
+  {
+    "paper": "9701/33/M/J/25",
+    "year": "s25",
+    "comp": "33",
+    "qp_pages": 16,
+    "chars": 19790,
+    "fa_in_qp": [
+      "FA 1 is aqueous hydrogen peroxide, H2O2.",
+      "FA 2 is 0.0300 mol dm–3 potassium manganate(VII), KMnO4.",
+      "FA 3 is 1.0 mol dm–3 sulfuric acid, H2SO4.",
+      "FA 1 is aqueous hydrogen peroxide, H2O2.",
+      "FA 5 is manganese(IV) oxide, MnO2.",
+      "FA 5 is acting as  .......................................................................................................... [1]"
+    ],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.0300",
+      "0.05",
+      "0.1",
+      "0.10",
+      "0.2",
+      "0.5",
+      "1.0",
+      "1.00",
+      "2.0"
+    ],
+    "questions": [
+      "2"
+    ]
+  },
+  {
+    "paper": "9701/34/M/J/25",
+    "year": "s25",
+    "comp": "34",
+    "qp_pages": 12,
+    "chars": 18881,
+    "fa_in_qp": [],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.0100",
+      "0.05",
+      "0.0500",
+      "0.1",
+      "0.2",
+      "0.5",
+      "1.0",
+      "1.00",
+      "2.0",
+      "2.00"
+    ],
+    "questions": []
+  },
+  {
+    "paper": "9701/33/M/J/26",
+    "year": "s26",
+    "comp": "33",
+    "qp_pages": 12,
+    "chars": 25099,
+    "fa_in_qp": [
+      "FA 1 is magnesium, Mg.",
+      "FA 2 is a carboxylic acid, RCH2COOH. R does not contain an acidic hydrogen.",
+      "FA 3 is 0.0950 mol dm−3 sodium hydroxide, NaOH.",
+      "FA 4 is 15.28 g dm−3 monosubstituted carboxylic acid, R’CHZCOOH.",
+      "FA 5 is thymolphthalein indicator.",
+      "FA 2 is unsaturated."
+    ],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.05",
+      "0.050",
+      "0.095",
+      "0.1",
+      "0.100",
+      "0.20",
+      "0.25",
+      "0.5",
+      "1.0",
+      "2.0"
+    ],
+    "questions": []
+  },
+  {
+    "paper": "9701/34/M/J/26",
+    "year": "s26",
+    "comp": "34",
+    "qp_pages": 12,
+    "chars": 23142,
+    "fa_in_qp": [],
+    "equations": [],
+    "ci_concentrations": [],
+    "ci_molarities": [
+      "0.01",
+      "0.0140",
+      "0.05",
+      "0.1",
+      "0.100",
+      "0.5",
+      "0.50",
+      "1.0",
+      "2.0"
+    ],
+    "questions": []
+  }
+]

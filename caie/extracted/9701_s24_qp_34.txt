@@ -1,0 +1,903 @@
+
+===== PAGE 1 =====
+ [Turn over
+This document has 12 pages.
+*0747438136*
+Cambridge International AS & A Level
+DC (DE) 319183/4
+© UCLES 2024
+CHEMISTRY 9701/34
+Paper 3 Advanced Practical Skills 2 May/June 2024
+ 2 hours
+You must answer on the question paper.
+You will need: The materials and apparatus listed in the confidential instructions
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen or correction fluid.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMATION
+ ● The total mark for this paper is 40.
+ ● The number of marks for each question or part question is shown in  
+brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the  
+question paper.
+ ● Notes for use in qualitative analysis are provided in the  
+question paper.
+Session
+Laboratory
+For Examiner’s Use
+1
+2
+3
+Total
+,
+,
+* 0019655525001 *
+¬Wz> 3mGuY=z<F W
+¬yW^?¤0vfu{gK¢_
+¥uEU5Ue5Eeee5eueU
+
+===== PAGE 2 =====
+2
+9701/34/M/J/24© UCLES 2024
+Quantitative analysis
+Read through the whole method before starting any practical work. Where appropriate, prepare a table 
+for your results in the space provided.
+Show the precision of the apparatus you used in the data you record.
+Show your working and appropriate significant figures in the final answer to each step of your calculations.
+1 In this experiment you will determine the relative formula mass, M r , of a basic metal carbonate, 
+MCO3•M(OH)2, by a titration method.
+ FB 1 is the basic metal carbonate MCO3•M(OH)2.
+ FB 2 is a solution containing hydrochloric acid, HCl , and MCl 2, prepared using FB 1 as follows.
+ ● 22.50 g of FB 1, MCO3•M(OH)2, is weighed out.
+ ● 100.0 cm3 of 5.00 mol dm–3 hydrochloric acid (a small excess) is added to FB 1.
+ ● The mixture is left to allow FB 1 to react completely.
+MCO3•M(OH)2(s) + 4HCl (aq)    2MCl 2(aq) + CO2(g) + 3H2O(l)
+ ● The resulting solution is made up to 1.00 dm3 with distilled water.
+ ● This solution is FB 2.
+ FB 3 is potassium hydroxide, KOH, of concentration 5.05 g dm–3.
+ FB 4 is thymolphthalein indicator.
+ (a) Method
+ ● Fill the burette with FB 2.
+ ● Pipette 25.0 cm3 of FB 3 into a conical flask.
+ ● Add a few drops of FB 4 to the conical flask.
+ ● Perform a rough titration and record your burette readings in the space below.
+ The rough titre is .............................. cm3.
+ ● Carry out as many accurate titrations as you think necessary to obtain consistent results.
+ ● Make sure any recorded results show the precision of your practical work.
+ ● Record, in a suitable form in the space below , all your burette readings and the volume 
+of FB 2 added in each accurate titration.
+ [7]
+I
+II
+III
+IV
+V
+VI
+VII
+* 0019655525002 *
+,
+,
+ĬÕú¾Ġ³íÇõÙđ½ú¹āÈĞ×
+ĬùÕÝ¾Ĩ¼ĔÍČýÌóü¸ÚçĂ
+ĥåÕÕõµĥÕõĥõĥµĥĥµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 3 =====
+3
+9701/34/M/J/24© UCLES 2024 [Turn over
+ (b) From your accurate titration results, calculate a suitable mean value to use in your calculations. 
+Show clearly how you obtain the mean value.
+ 25.0 cm3 of FB 3 required .............................. cm3 of FB 2. [1]
+ (c) Calculations
+  (i) Give your answers to (c)(ii), (c)(iii) and (c)(iv) to an appropriate number of significant 
+figures. [1]
+  (ii) Calculate the amount, in mol, of potassium hydroxide present in 25.0 cm3 of FB 3.
+ amount of KOH = .............................. mol [1]
+  (iii) Give the ionic equation for the reaction of hydrochloric acid with potassium hydroxide 
+during the titration. Include state symbols.
+ ...........................................................................................................................................
+   Hence calculate the concentration, in mol dm–3, of hydrochloric acid in FB 2.
+ concentration of HCl = .............................. mol dm–3
+[2]
+  (iv)  Use the information about FB 2 and your answer to (c)(iii) to calculate the relative 
+formula mass, Mr , of MCO3•M(OH)2.
+ Mr of MCO3•M(OH)2 = .............................. [2]
+ (d) A student suggested that the procedure used in (a) would be more accurate if the mass of 
+FB 1 used to prepare solution FB 2 is doubled. No other change to the procedure is made.
+  Explain why the student is not correct.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ [Total: 15]
+* 0019655525003 *
+,
+,
+Ĭ×ú¾Ġ³íÇõÙđ½ú¹ăÈĞ×
+ĬùÖÞÆĢ¸ĤìîôýçĄĤÚ×Ă
+ĥååĕµÕąµĥĕåĥµąąõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 4 =====
+4
+9701/34/M/J/24© UCLES 2024
+2 In this experiment you will determine the relative atomic mass, A r , of metal M by thermal 
+decomposition of the same basic metal carbonate, MCO3•M(OH)2, FB 1.
+ (a) Method
+ ● Weigh the empty crucible with its lid. Record the mass in the results section.
+ ● Transfer all of the FB 1 from the container into the crucible.
+ ● Weigh the crucible, lid and FB 1. Record the mass.
+ ● Calculate the mass of FB 1 used. Record this mass in the space for other results.
+ ● Place the crucible and contents on a pipe-clay triangle.
+ ● Heat the crucible gently, with the lid on, for approximately 1 minute.
+ ● Heat strongly, with the lid off, for a further 5 minutes.
+ ● Replace the lid and leave the crucible to cool for at least 5 minutes.
+During the cooling period, you may wish to begin work on Question 3.
+ ● When the crucible is cool, weigh the crucible with its lid and contents. Record the mass.
+ ● Place the crucible and contents on the pipe-clay triangle. Remove the lid.
+ ● Heat strongly for a further 2 minutes.
+ ● Replace the lid and leave the crucible to cool for at least 5 minutes.
+ ● When the crucible is cool, reweigh the crucible with its lid and contents. Record the 
+mass.
+ ● Calculate the mass of residue obtained. Record this mass in the space for other results.
+  Results 
+  mass of empty crucible and lid  = ..........................
+  mass of crucible, lid and FB 1 (before heating)  = ..........................
+  mass of crucible, lid and FB 1 (after first heating)  = ..........................
+  mass of crucible, lid and FB 1 (after second heating) = ..........................
+  Other results
+ [4]
+ (b) Calculations
+  (i) When FB 1 undergoes thermal decomposition, the products are the metal oxide, MO, 
+carbon dioxide and water vapour.
+   Give the equation for the thermal decomposition of FB 1. Include state symbols.
+ ..................................................................................................................................... [1]
+I
+II
+III
+IV
+* 0019655525004 *
+,
+,
+ĬÕú¾Ġ³íÇõÙđ½ú»āÈĠ×
+ĬùÖßÆĬÆĥÏôûĆąàÂÊßĂ
+ĥĕõĕõÕąĕąµÕĥõąåõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 5 =====
+5
+9701/34/M/J/24© UCLES 2024 [Turn over
+  (ii) The amount, in mol, of carbon dioxide produced is given by the following formula.
+amount of CO2 = mass loss during heating
+(Mr of CO2 + Mr of H2O)
+   Calculate the amount, in mol, of carbon dioxide produced in (a).
+ amount of CO2 = .............................. mol [1]
+  (iii) Calculate the relative formula mass, Mr , of the basic metal carbonate.
+ Mr of MCO3•M(OH)2 = .............................. [1]
+  (iv) Use your answer to (b)(iii) to calculate the relative atomic mass, Ar , of metal M.
+   Show your working.
+ Ar of M = .............................. [1]
+ (c) (i) Explain why the headings for the third and fourth readings in the results section in (a) are 
+not suitable.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) State whether or not your experiment would be more accurate if the crucible and its 
+contents were heated for a third time. Explain your answer by referring to your results 
+in (a).
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (iii) A student carries out the experiments in Questions 1 and 2. The student expects the 
+value of the Mr of MCO3•M(OH)2 obtained by thermal decomposition in Question 2 to be 
+more accurate than the value of the Mr obtained by titration in Question 1.
+   State one reason why the student expects the ex periment in Question 2 to be more 
+accurate.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ [Total: 11]
+* 0019655525005 *
+,
+,
+Ĭ×ú¾Ġ³íÇõÙđ½ú»ăÈĠ×
+ĬùÕà¾ĞÊĕêĆĆÃÑØĖÊÏĂ
+ĥĕąÕµµĥõĕÅąĥõĥÅµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 6 =====
+6
+9701/34/M/J/24© UCLES 2024
+Qualitative analysis
+For each test you should record all your observations in the spaces provided.
+Examples of observations include:
+ ● colour changes seen
+ ● the formation of any precipitate and its solubility (where appropriate) in an ex cess of the 
+reagent added
+ ● the formation of any gas and its identification (where appropriate) by a suitable test.
+You should record clearly at what stage in a test an observation is made.
+Where no change is observed, you should write ‘no change’.
+Where reagents are selected for use in a test, the name or correct formula of the element or compound 
+must be given.
+If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must 
+be used.
+Rinse and reuse test-tubes and boiling tubes where possible.
+No additional tests should be attempted.
+3 (a) FB 5 is a compound containing one cation and one anion, both of which are listed in the 
+Qualitative analysis notes.
+  (i) Heat a small spatula measure of FB 5 in a hard-glass test-tube until no further change 
+occurs.
+   Record your observations.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+  (ii) Describe another test to positively identify the cation in FB 5.
+   Carry out your test and record your observations.
+test  ....................................................................................................................................
+observations  ......................................................................................................................
+ [1]
+* 0019655525006 *
+,
+,
+ĬÙú¾Ġ³íÇõÙđ½úºăÅĞ×
+ĬùÖàÁĨâďâā÷º±à÷ĢßĂ
+ĥÅåÕµĕĥÕÕååĥµĥĥõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 7 =====
+7
+9701/34/M/J/24© UCLES 2024 [Turn over
+  (iii) Put a 1 cm depth of dilute hydrochloric acid in a test-tube. Add a small spatula measure 
+of FB 5.
+   Record your observations.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+  (iv) Deduce the formula of FB 5.
+   FB 5 is .............................. . [1]
+Question 3 continues on page 8.
+* 0019655525107 *
+,
+,
+ĬÛù¿Ġ³íÇõÙđ½ú¹ăÅĞ×
+ĬùÖÞ¾īÑùÑĄċýĊĠ÷Ò×Ă
+ĥõąĕµµÅµµåąĥõåĥµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 8 =====
+8
+9701/34/M/J/24© UCLES 2024
+ (b) You will devise chemical tests to distinguish between the two possible identities giv en for 
+each of compounds FB 6, FB 7, FB 8 and FB 9.
+  In each case you should:
+ ● use a 1 cm depth of the solution of the unknown compound in a test-tube
+ ● use a boiling tube if you need to warm a mixture
+ ● use a spatula measure of the unknown solid
+ ● record details of your test(s) and your observations
+ ● state your conclusion about the identity of the compound.
+  (i) FB 6 is either aqueous chromium(III) sulfate or aqueous iron(II) sulfate.
+ FB 6 is  ....................................................... . [2]
+  (ii) FB 7 is either dilute hydrobromic acid or dilute nitric acid.
+   If you select a test that gives a negative result, then you must carry out a further test that 
+gives a positive result.
+ FB 7 is  ....................................................... . [2]
+  (iii) FB 8 is either magnesium carbonate or zinc carbonate.
+ FB 8 is  ....................................................... . [2]
+* 0019655525108 *
+,
+	,
+ĬÙù¿Ġ³íÇõÙđ½ú»āÅĠ×
+ĬùÖß¾ġãðæþĄĆìÄÕÂßĂ
+ĥÅÕĕõµÅĕÕąõĥµåÅµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 9 =====
+9
+9701/34/M/J/24© UCLES 2024
+  (iv) FB 9 is either aqueous methanol or aqueous ethanol.
+   Note: FB 9 is flammable and should not be heated with a flame.
+   (When carrying out your test you may need to leave the reaction mixture to stand.)
+ FB 9 is  ....................................................... . [2]
+ [Total: 14]
+* 0019655525109 *
+,
+
+,
+ĬÛù¿Ġ³íÇõÙđ½ú»ăÅĠ×
+ĬùÕàÆħßĀÓüíÃð¼āÂÏĂ
+ĥÅåÕµÕåõÅõåĥµÅåõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 10 =====
+10
+9701/34/M/J/24© UCLES 2024
+Qualitative analysis notes
+1 Reactions of cations
+cation reaction with
+NaOH(aq) NH3(aq)
+aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+ammonium, NH4
++(aq) no ppt.
+ammonia produced on warming
+–
+barium, Ba2+(aq) faint white ppt. is observed unless 
+[Ba2+(aq)] is very low
+no ppt.
+calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very 
+low
+no ppt.
+chromium(III), Cr3+(aq) grey-green ppt. soluble in excess 
+giving dark green solution
+grey-green ppt. insoluble in excess
+copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess 
+giving dark blue solution
+iron(II), Fe2+(aq) green ppt. turning brown on 
+contact with air
+insoluble in excess
+green ppt. turning brown on 
+contact with air
+insoluble in excess
+iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+manganese(II), 
+Mn2+(aq)
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+2 Reactions of anions
+anion reaction
+carbonate, CO3
+2– CO2 liberated by dilute acids
+chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+nitrate, NO3
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil
+nitrite, NO2
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+decolourises acidified aqueous KMnO4
+sulfate, SO4
+2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+gives white ppt. with high [Ca2+(aq)]
+sulfite, SO3
+2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+decolourises acidified aqueous KMnO4
+thiosulfate, S2O3
+2–(aq) gives off-white / pale yellow ppt. slowly with H+
+* 0019655525110 *
+,
+,
+ĬÙù¿Ġ³íÇõÙđ½úºāÇĞ×
+Ĭù×ßÇģëĪìąċàÈÂ±ú×Ă
+ĥĕµÕõµĥĕõµõåµąÅµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 11 =====
+11
+9701/34/M/J/24© UCLES 2024
+3 Tests for gases
+gas test and test result
+ammonia, NH3 turns damp red litmus paper blue
+carbon dioxide, CO2 gives a white ppt. with limewater
+hydrogen, H2 ‘pops’ with a lighted splint
+oxygen, O2 relights a glowing splint
+4 Tests for elements
+element test and test result
+iodine, I2 gives blue-black colour on addition of starch solution
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.022 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0019655525111 *
+,
+,
+ĬÛù¿Ġ³íÇõÙđ½úºăÇĞ×
+ĬùØà¿ĥçĚÍóöĩĔºĥúçĂ
+ĥĕÅĕµÕąõĥÅååµĥåõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 12 =====
+12
+9701/34/M/J/24© UCLES 2024
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3456789 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+* 0019655525112 *
+,
+,
+ĬÙù¿Ġ³íÇõÙđ½ú¼āÇĠ×
+ĬùØÝ¿ğÕďêííĢ²ĖÇĪÏĂ
+ĥåĕĕõÕąÕąĥÕåõĥąõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

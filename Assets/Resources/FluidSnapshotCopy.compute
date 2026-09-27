@@ -1,0 +1,28 @@
+#pragma kernel Copy4 COPY4
+#pragma kernel Copy8 COPY8
+#pragma kernel Copy12 COPY12
+#pragma kernel Copy32 COPY32
+#pragma kernel Copy48 COPY48
+
+// Bit-preserving structured-buffer copies. ComputeBuffer does not have the
+// GraphicsBuffer CopySource/CopyDestination API; no CPU readback is needed.
+#if defined(COPY4)
+typedef uint Element;
+#elif defined(COPY8)
+typedef uint2 Element;
+#elif defined(COPY12)
+typedef uint3 Element;
+#elif defined(COPY32)
+struct Element { uint4 a; uint4 b; };
+#else
+struct Element { uint4 a; uint4 b; uint4 c; };
+#endif
+StructuredBuffer<Element> Source;
+RWStructuredBuffer<Element> Destination;
+int Count;
+#define COPY_BODY if(id.x < Count) Destination[id.x] = Source[id.x];
+[numthreads(64,1,1)] void Copy4(uint3 id:SV_DispatchThreadID) { COPY_BODY }
+[numthreads(64,1,1)] void Copy8(uint3 id:SV_DispatchThreadID) { COPY_BODY }
+[numthreads(64,1,1)] void Copy12(uint3 id:SV_DispatchThreadID) { COPY_BODY }
+[numthreads(64,1,1)] void Copy32(uint3 id:SV_DispatchThreadID) { COPY_BODY }
+[numthreads(64,1,1)] void Copy48(uint3 id:SV_DispatchThreadID) { COPY_BODY }

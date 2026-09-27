@@ -1,0 +1,965 @@
+
+===== PAGE 1 =====
+ [Turn over
+Cambridge International AS & A Level
+*8361971631*
+DC (WW/SW) 339915/3
+© UCLES 2025
+This document has 16 pages. Any blank pages are indicated.
+CHEMISTRY 9701/22
+Paper 2 AS Level Structured Questions May/June 2025
+ 1 hour 15 minutes
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen or correction fluid.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMATION
+ ● The total mark for this paper is 60.
+ ● The number of marks for each question or part question is shown in brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the question paper.
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE^|6W
+¬LtYxMxm8F<9rs
+¥¥UuU55EuEu¥U
+
+===== PAGE 2 =====
+2
+9701/22/M/J/25© UCLES 2025
+1 (a) Diamond and graphite are both crystalline solids made from carbon atoms. Graphite conducts 
+electricity. Diamond does not conduct electricity.
+  (i) Name the type of lattice structure present in the crystalline solids diamond and graphite.
+ ..................................................................................................................................... [1]
+  (ii) Explain how graphite conducts electricity.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (iii) Explain why diamond does not conduct electricity.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ (b) Separate samples of phosphorus( V) chloride and silicon(IV) chloride are each added to an 
+excess of cold water.
+  (i) Write an equation for each reaction.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+  (ii) Describe the appearance of phosphorus( V) chloride and silicon(IV) chloride at room 
+temperature.
+phosphorus(V) chloride  .....................................................................................................
+silicon(IV) chloride  ............................................................................................................
+ [2]
+  (iii) Compare the appearance of the mixtures produced when each reaction is complete.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (c) Some oxides are amphoteric.
+  (i) Describe what is meant by amphoteric.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) Identify the formula of a Period 3 oxide that is amphoteric.
+ ..................................................................................................................................... [1]
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú¸þ×
+ĬÌĖóÜĩôöæĉċÛîÂĉÊûĂ
+ĥµÅĕµµÅÕµõÅąąµåµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+9701/22/M/J/25© UCLES 2025 [Turn over
+ (d) The melting points of different oxides are shown in Table 1.1.
+Table 1.1
+oxide melting point / °C force of attraction broken during melting
+SO2  –73
+H2O    0
+SiO2 1610
+Na2O 1132
+MgO 2852
+  (i) Complete Table 1.1 by identifying the strongest force of attraction in each oxide that is 
+broken during melting. Use the abbreviations below.
+   i.d. = instantaneous dipole–induced dipole
+   p.d. = permanent dipole–permanent dipole
+   H = hydrogen bond
+   C = covalent bond
+   I = ionic bond
+ [3]
+  (ii) A student suggests the following hypothesis.
+The stronger the covalent bond between atoms in non‑metal oxides, 
+the higher the melting point.
+   Use Table 1.1 to deduce if this hypothesis is true or false or if there is not enough 
+information to make a conclusion. Explain your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ [Total: 16]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßü¸þ×
+ĬÌĕôÔğðĆÓïöĎêºÍÊċĂ
+ĥµµÕõÕåµåąĕąąÕÅõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+9701/22/M/J/25© UCLES 2025
+2 A sample of iron contains three different isotopes and has a relative atomic mass, Ar, of 55.8.
+ (a) (i) Define relative atomic mass.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+  (ii) Table 2.1 shows the abundances of two of the isotopes present in the sample of iron.
+Table 2.1
+isotope relative isotopic mass abundance / %
+54Fe 53.9  6.0
+56Fe 55.9 91.9
+   Use Table 2.1 to calculate the relative isotopic mass of the third isotope of iron in the 
+sample. Show your working.
+ relative isotopic mass = .............................. [2]
+ (b) Deduce the number of pairs of electrons in the 3d sub‑shell in an iron(II) ion.
+ ............................................................................................................................................. [1]
+ (c) Sketch the shape of the lowest energy orbital in the shell with principal quantum number 
+n = 2.
+ [1]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝú¸Ā×
+ĬÌĕñÔĥþăèñíĕČĖïÚóĂ
+ĥąĥÕµÕåĕÅåĥąÅÕĥõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+9701/22/M/J/25© UCLES 2025 [Turn over
+ (d) Complete Table 2.2 to show information about particles in one ion of 56Fe3+.
+Table 2.2
+particle number of particles present in 
+one ion of 56Fe3+
+electrons
+30
+ [2]
+ (e) The atomic radius of iron is 1.26 × 10–10 m.
+  Suggest the change to the radius, if any , after an iron atom reacts to produce an Fe 3+ ion. 
+Explain your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ [Total: 10]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü¸Ā×
+ĬÌĖòÜģĂóÑćĄÔÐĞëÚăĂ
+ĥąĕĕõµÅõÕÕµąÅµąµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+9701/22/M/J/25© UCLES 2025
+3 (a) C3H6 reacts with HBr(g) in an addition reaction.
+  (i) Define addition reaction.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) Complete Fig. 3.1 to show the mechanism for the addition reaction between C 3H6 and 
+HBr to produce 2‑bromopropane. Include charges, dipoles, lone pairs of electrons and 
+curly arrows, as appropriate.
+H C
+CH3
+Br
+CH3
+H Br
+C
+H
+H3C
+H
+H
+C
+Fig. 3.1
+ [4]
+  (iii) Explain why the major product of this reaction is 2‑bromopropane rather than 
+1‑bromopropane.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàüµþ×
+ĬÌĕò×ĩĪùÙĄñé°ĖÊòóĂ
+ĥÕµĕõĕÅÕĕµĕąąµåõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+9701/22/M/J/25© UCLES 2025 [Turn over
+ (b) H2(g) and nickel are added to alkene X. Fig. 3.2 shows how the concentration of X changes 
+with time.
+0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+200 400
+time / s
+600
+concentration
+of X / mol dm–3
+Fig. 3.2
+  (i) Use Fig. 3.2 to identify the limiting reagent in this reaction. Explain your answer.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) Use Fig. 3.2 to describe how the gradient changes as the reaction proceeds. State what 
+this shows about the rate during this reaction.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàúµþ×
+ĬÌĖñÏğĦĉàöĀĠĬĞĎòăĂ
+ĥÕÅÕµõåµąÅÅąąÕÅµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+9701/22/M/J/25© UCLES 2025
+ (c) Hydrocarbon Y contains two C=C groups. There are no other functional groups present.
+  Y reacts with an excess of H 2(g) to produce hexane, C6H14.
+Table 3.1
+bond energy / kJ mol–1
+C−C 350
+C=C 610
+C≡C 840
+H−H 436
+C−H 410
+  Use Table 3.1 to calculate the enthalpy change per mole of C6H14 produced in this reaction.
+ enthalpy change = .............................. kJ mol–1 [2]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞüµĀ×
+ĬÌĖôÏĥĘĀÛüćħÊÂ°ĢûĂ
+ĥĥĕÕõõåĕĥĥµąÅÕĥµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+9701/22/M/J/25© UCLES 2025 [Turn over
+ (d) Hydrocarbon Y reacts with H2(g).
+  Fig. 3.3 shows the distribution of energies of H 2(g) at temperature T.
+  Area A represents the number of molecules with energy greater than or equal to the activation 
+energy, EA, at temperature T.
+EA energy
+area A
+number of
+molecules
+Fig. 3.3
+  (i) Annotate Fig. 3.3 to show the effect of adding nickel to Y and H2(g) at temperature T. [1]
+  (ii) Area B (not labelled on Fig. 3.3) represents the number of molecules with energy greater 
+than or equal to the activation energy when nickel is added at temperature T.
+   State the dif ference, if any , between areas A and B. Explain the significance of your 
+answer on the rate of hydrogenation of Y. Give your answer in terms of collisions.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (e) Alkene Z contains two C=C bonds. Z reacts with an ex cess of hot concentrated acidified 
+KMnO4 to produce only CH3COCH3, HOOCCH2COOH, CO2 and H2O.
+  Suggest the structure of Z.
+ [2]
+ [Total: 16]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞúµĀ×
+ĬÌĕó×ģĜðÞþúâĎºĬĢċĂ
+ĥĥĥĕµĕÅõõĕĥąÅµąõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+9701/22/M/J/25© UCLES 2025
+4 (a) Propanoic acid, CH 3CH2COOH, reacts with reducing agent Q to produce propan‑1‑ol, 
+CH3CH2CH2OH.
+  (i) Suggest the formula of reducing agent Q.
+ ..................................................................................................................................... [1]
+  (ii) Complete the equation to show the reduction of propanoic acid to propan‑1‑ol.
+   Use [H] to represent one atom of hydrogen from Q.
+......CH3CH2COOH + ......[H]   ................................................................................... [1]
+ (b) Propan‑1‑ol is converted to compound T in a three‑step synthesis.
+  In step 1, SOCl 2 is added to propan‑1‑ol to produce compound E.
+  In step 2, E reacts with a suitable reagent to produce butanenitrile.
+  In step 3, butanenitrile is heated with NaOH(aq).
+  (i) Name the type of reaction that occurs in step 1.
+ ..................................................................................................................................... [1]
+  (ii) Identify the reagent and conditions required in step 2.
+ ..................................................................................................................................... [1]
+  (iii) Construct an equation to describe the reaction of butanenitrile with NaOH(aq) in step 3.
+ ..................................................................................................................................... [2]
+  (iv) Name the type of reaction that occurs in step 3.
+ ..................................................................................................................................... [1]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßü·þ×
+ĬÌėôÖħĐĚÕóĀ½æÄÜÚăĂ
+ĥµõĕõõąĕÅÕµÅÅõĥµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+9701/22/M/J/25© UCLES 2025 [Turn over
+ (c) Compounds A, B and C belong to the alcohol homologous series. Each molecule of A, B and C 
+contains four saturated carbon atoms.
+  (i) Identify the type of hybridisation shown in the saturated carbon atoms of all alcohols.
+ ..................................................................................................................................... [1]
+  (ii) Identify the gas produced when Na(s) is added to separate samples of each alcohol.
+ ..................................................................................................................................... [1]
+  (iii)  Describe the role of Na(s) when it reacts with alcohols.
+ ..................................................................................................................................... [1]
+ (d) Table 4.1 shows the results of two tests on separate samples of A, B and C.
+Table 4.1
+compound heat under reflux with 
+acidified K2Cr2O7
+warm with
+alkaline I2(aq)
+A remains orange no visible change
+B orange to green no visible change
+C orange to green pale yellow precipitate
+  (i) Deduce the structure of A.
+ [1]
+  (ii) Deduce a possible name for B.
+ ..................................................................................................................................... [1]
+  (iii) Deduce the identity of C.
+ ..................................................................................................................................... [1]
+ [Total: 13]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßú·þ×
+ĬÌĘóÎġĔĪäąñČò¼ĀÚóĂ
+ĥµąÕµĕĥõÕåĥÅÅĕąõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+9701/22/M/J/25© UCLES 2025
+5 The structure of vitamin C is shown in Fig. 5.1.
+O
+vitamin C
+HO
+HO
+HO
+OH
+O
+Fig. 5.1
+ (a) Deduce the empirical formula of vitamin C.
+ ............................................................................................................................................. [1]
+ (b) The mass of vitamin C present in 150.0 g of lemon is found in an experiment.
+  stage 1  All the vitamin C in 150.0 g of lemon is extracted and dissolved in water to make 
+100.0 cm3 of solution L.
+  stage 2  A 25.0 cm3 sample of solution L is titrated with 5.00 × 10–3 mol dm–3 I2(aq).
+O
+O
+HO
+HO
+O
+OO
+vitamin C M
+I2   + +  2I–  +  2H+
+HO
+HO
+HO
+OH
+O
+Fig. 5.2
+  Exactly 36.65 cm3 of I2(aq) reacts with the 25.0 cm3 sample of solution L.
+  [M r: vitamin C, 176]
+  (i) Calculate the amount, in mol, of I2(aq) added in the titration.
+ amount of I2(aq) = .............................. mol [1]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝü·Ā×
+ĬÌĘòÎīĢğ×ċúăÔĘÞÊċĂ
+ĥąÕÕõĕĥÕµąĕÅąĕåõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+9701/22/M/J/25© UCLES 2025
+  (ii) Use your answer to (b)(i) to calculate the percentage by mass of vitam in C present in 
+150.0 g of lemon.
+   (If you were unable to calculate a value for the amount of I 2(aq) in (b)(i), use the value 
+7.65 × 10–4 mol. This is not the correct value.)
+ percentage by mass = ..............................% [2]
+  (iii) The progress of the reaction of vitamin C with I 2(aq) to produce M is monitored using 
+infrared spectroscopy.
+   Table 5.1 indicates the presence of some absorptions in the infrared spectrum of vitamin C.
+   Complete Table 5.1 to predict which of these absorptions, if any , are present in the 
+infrared spectrum of M.
+Table 5.1
+absorption / cm–1 present in spectrum 
+of vitamin C
+present in spectrum 
+of M
+1500–1680 ✓
+2850–2950 ✓
+3200–3650 ✓
+ [1]
+Table 5.2
+bond functional groups containing the bond characteristic infrared absorption range
+(in wavenumbers) / cm–1   
+C–O hydroxy, ester 1040–1300
+C=C aromatic compound, alkene 1500–1680
+C=O amide
+carbonyl, carboxyl
+ester
+1640–1690 
+1670–1740 
+1710–1750
+C≡N nitrile 2200–2250
+C–H alkane 2850–2950
+N–H amine, amide 3300–3500
+O–H carboxyl
+hydroxy
+2500–3000
+3200–3650
+ [Total: 5]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝú·Ā×
+ĬÌėñÖĝĞďâíćÆĈĠúÊûĂ
+ĥąåĕµõąµåõÅÅąõÅµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+9701/22/M/J/25© UCLES 2025
+BLANK PAGE
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞù¶Ă×
+ĬÌĘó×ģđħÔûĄĩìµîúóĂ
+ĥååÕõĕÅĕÅĥÅąÅµĥõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+9701/22/M/J/25© UCLES 2025
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.02 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+speciﬁc heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞû¶Ă×
+ĬÌėôÏĥčėåýíàð½êúăĂ
+ĥåÕĕµõåõÕĕĕąÅÕąµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+9701/22/M/J/25© UCLES 2025
+To avoid the issue of disclosure of answer‑related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3456789 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàù¶Ą×
+ĬÌėñÏğğĒÒăöçÎġČĪûĂ
+ĥĕąĕõõåÕµµĥąąÕåµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

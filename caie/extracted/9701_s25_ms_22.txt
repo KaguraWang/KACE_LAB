@@ -1,0 +1,472 @@
+
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 14 printed pages. 
+ 
+© Cambridge University Press & Assessment 2025 
+ 
+[Turn over 
+ 
+Cambridge International AS & A Level 
+ 
+CHEMISTRY 9701/22 
+Paper 2 AS Level Structured Questions May/June 2025 
+MARK SCHEME 
+Maximum Mark: 60 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which woul d have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the May/June 2025 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level components, and some Cambridge O Level 
+components. 
+ 
+ 
+ 
+===== PAGE 2 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 2 of 14  
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They should be applied alongside the 
+specific content of the mark scheme or generic level descriptions for a question. Each question paper and mark scheme will also comply with these 
+marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+• the specific content of the mark scheme or the generic level descriptors for the question 
+• the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+• the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+• marks are awarded for correct/valid answers, as defined in the mark scheme. However, credit is given for valid answers which go beyond 
+the scope of the syllabus and mark scheme, referring to your Team Leader as appropriate 
+• marks are awarded when candidates clearly demonstrate what they know and can do 
+• marks are not deducted for errors 
+• marks are not deducted for omissions 
+• answers should only be judged on the quality of spelling, punctuation and grammar when these features are specifically assessed by the 
+question as indicated by the mark scheme. The meaning, however, should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in the application of generic level 
+descriptors. 
+===== PAGE 3 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 3 of 14  
+ 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question (however; the use of the full mark range may 
+be limited according to the quality of the candidate responses seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be awarded with grade thresholds or 
+grade descriptors in mind. 
+ 
+ 
+Science-Specific Marking Principles 
+ 
+1 Examiners should consider the context and scientific use of any keywords when awarding marks. Although keywords may be present, marks 
+should not be awarded if the keywords are used incorrectly.  
+2 The examiner should not choose between contradictory statements given in the same question part, and credit should not be awarded for 
+any correct statement that is contradicted within the same question part. Wrong science that is irrelevant to the question should be ignored. 
+3 Although spellings do not have to be correct, spellings of syllabus terms must allow for clear and unambiguous separation from other 
+syllabus terms with which they may be confused (e.g. ethane / ethene, glucagon / glycogen, refraction / reflection). 
+4 The error carried forward (ecf) principle should be applied, where appropriate. If an incorrect answer is subsequently used in a scientifically 
+correct way, the candidate should be awarded these subsequent marking points. Further guidance will be included in the mark scheme 
+where necessary and any exceptions to this general principle will be noted. 
+5 ‘List rule’ guidance 
+ 
+For questions that require n responses (e.g. State two reasons …): 
+ 
+• The response should be read as continuous prose, even when numbered answer spaces are provided. 
+• Any response marked ignore in the mark scheme should not count towards n. 
+• Incorrect responses should not be awarded credit but will still count towards n. 
+• Read the entire response to check for any responses that contradict those that would otherwise be credited. Credit should not be 
+awarded for any responses that are contradicted within the rest of the response. Where two responses contradict one another, this 
+should be treated as a single incorrect response. 
+• Non-contradictory responses after the first n responses may be ignored even if they include incorrect science. 
+===== PAGE 4 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 4 of 14  
+ 
+6 Calculation specific guidance 
+ 
+Correct answers to calculations should be given full credit even if there is no working or incorrect working, unless the question states ‘show 
+your working’.  
+ 
+For questions in which the number of significant figures required is not stated, credit should be awarded for correct answers when rounded 
+by the examiner to the number of significant figures given in the mark scheme. This may not apply to measured values.  
+ 
+For answers given in standard form (e.g. a  10n) in which the convention of restricting the value of the coefficient (a) to a value between 1 
+and 10 is not followed, credit may still be awarded if the answer can be converted to the answer given in the mark scheme.  
+ 
+Unless a separate mark is given for a unit, a missing or incorrect unit will normally mean that the final calculation mark is not awarded. 
+Exceptions to this general principle will be noted in the mark scheme. 
+7 Guidance for chemical equations 
+ 
+Multiples / fractions of coefficients used in chemical equations are acceptable unless stated otherwise in the mark scheme.  
+ 
+State symbols given in an equation should be ignored unless asked for in the question or stated otherwise in the mark scheme. 
+ 
+ 
+  
+===== PAGE 5 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 5 of 14  
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the 
+standardisation process on how and when to use annotations. The purpose of annotations is to inform the standardisation and monitoring 
+processes and guide the supervising examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may 
+not be a direct correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an 
+indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation Meaning 
+ Correct point or mark awarded 
+ Incorrect point or mark not awarded 
+ Unclear 
+ Information missing or insufficient for credit 
+ Benefit of the doubt given 
+ Contradiction in response otherwise markworthy, mark not given 
+ Part of the correct answer has been seen. Full credit has not been awarded. 
+ Error carried forward applied 
+ Incorrect or insufficient point ignored while marking the rest of the response 
+ Benefit of the doubt not applied in this instance 
+
+===== PAGE 6 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 6 of 14  
+ 
+Annotation Meaning 
+ Rounding error 
+ Repetition 
+ Blank page or part of script seen 
+ Error in number of significant figures 
+ Transcription error 
+ 
+ 
+  
+
+===== PAGE 7 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 7 of 14  
+ 
+Question Answer Marks 
+1(a)(i) (both) giant molecular  1 
+1(a)(ii) delocalised electrons move through the structure  
+OR delocalised electrons move through / between the layers  
+1 
+1(a)(iii) no delocalised electrons (to carry charge through the structure) 
+OR all (4) outer electrons are used in bonding 
+1 
+1(b)(i) PCl5 +4H2O → H3PO4 + 5HCl 1 
+SiCl4 + 2H2O → SiO2 + 4HCl 1 
+1(b)(ii) M1 phosphorus(V) chloride white / yellow solid    
+ 
+M2 silicon(IV) chloride colourless liquid  
+2 
+1(b)(iii) M1 (phosphorus(V) chloride) produces colourless solution  
+ 
+M2 silicon(IV) chloride produces white suspension / white precipitate (in a colorless liquid / mixture / solution) 
+2 
+1(c)(i) species behaves as acid and base 
+OR species reacts with (both) acid and base  
+1 
+1(c)(ii) Al2O3 1 
+1(d)(i)  
+ 
+ 
+SO2 –73 pd 
+H2O 0 H 
+SiO2 1600 C 
+Na2O 1132 I 
+MgO 2852 I 
+3 
+===== PAGE 8 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 8 of 14  
+ 
+Question Answer Marks 
+1(d)(ii) Evaluate hypotheses based on the information candidates have given in the table 
+ 
+M1 not enough information 
+ 
+M2 SO2 and / or H2O break intermolecular forces   
+OR SO2 and / or H2O does not break covalent bonds  
+OR only SiO2 breaks covalent bonds  
+2 
+   
+Question Answer Marks 
+2(a)(i) route 1  
+M1 average (weighted) mass of (an) atom(s) (of an element)  
+OR average (weighted) mass of the isotope(s) (of an element) 
+ 
+M2 compared to the mass of the unified atomic mass unit  
+OR on a scale in which a carbon-12 atom / isotope has a mass of exactly 12 (units)  
+OR on a scale in which the mass of a carbon-12 atom/isotope is exactly 12 (units) 
+OR compared to 
+1
+12  mass of one atom of C-12 
+ 
+route 2  
+M1 average mass of one mol of isotopes / atoms (of an element) 
+ 
+M2 relative / compared to 
+1
+12  of the mass of one mol of C-12 atoms/isotopes 
+OR when the mass of one mol C-12 atoms / isotopes is exactly 12 (000) g 
+2 
+2(a)(ii) M1 relative abundance of unknown isotope  = (100 – 91.9 – 6.0) = 2.1% 
+ 
+M2 55.8 = (53.9  6.0 + 55.9  91.9 + ?  M1) / 100 = 56.9  
+2 
+2(b) 1 (pair) 1 
+===== PAGE 9 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 9 of 14  
+ 
+Question Answer Marks 
+2(c) 
+ 
+1 
+2(d) 
+ 
+species present in an ion of 56-Fe3+ number 
+electrons M1 23 
+M2 neutrons 30 
+ 
+2 
+2(e) M1 smaller / decreases 
+ 
+M2 loss of outer / valence shell (of electrons)  
+OR loss of electrons so increase in (force of) attraction from nucleus 
+OR loss of electrons so increase nuclear attraction 
+2 
+   
+Question Answer Marks 
+3(a)(i) two (or more) reactants / molecules react to make (only) one product  1 
+===== PAGE 10 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 10 of 14  
+ 
+Question Answer Marks 
+3(a)(ii) 
+H Br
+C C
+CH3
+H H
+H
+d+ d-
+C
++
+CH3
+CH3
+H
+Br
+–
+H C
+Br
+CH3
+CH3
+ 
+ 
+M1 curly arrow from = of C=C to H (of HBr)  
+M2 curly arrow from bond of Hd+—Br d– to Brd– (dipole is essential) 
+M3 correct intermediate  
+M4 curly arrow from lone pair of Br– to C+ of intermediate drawn 
+4 
+3(a)(iii) M1(2-bromopropane is made from the) more stable intermediate / carbocation 
+ 
+M2 (due to positive) inductive effect of more alkyl groups (attached to the C+ / central carbon atom) 
+OR (due to) greater (positive) inductive effect of 2 methyl groups (rather than 1 ethyl group) 
+2 
+3(b)(i) H2 / hydrogen AND some X / alkene left(over) / remains (at the end of this reaction) 1 
+3(b)(ii) link the significance of gradient values to rate AND describe either the decrease in rate or the decrease in gradient 
+ 
+as the gradient decreases the rate decreases 
+OR rate decreases until the reaction stops when gradient = 0 
+1 
+===== PAGE 11 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 11 of 14  
+ 
+Question Answer Marks 
+3(c) method 1 – breaking all bonds in molecules  
+ 
+(2  610) + (2  436) + (10  410) + (3  350) – (14  410) – (5  350) 
+ 
+• energy involved when all bonds are broken = (7242) 
+• energy involved when all bonds are made = (7490) 
+• energy to break bonds – energy to make bonds 
+ 
+= (7242 – 7490) = –248 
+ 
+method 2 – ignore any bonds that do not change from reactants to products 
+  
+(2  610) + (2  436) – (4  410) – (2  350) 
+ 
+• energy involved when all bonds are broken = (2092) 
+• energy involved when all bonds are made = (2340) 
+• energy to break bonds – energy to make bonds 
+ 
+(2092 – 2340) = –248 
+ 
+2 
+3(d)(i) EA shown on Fig. 3.3 to the left of original (on the x axis) 
+ 
+ 
+1 
+
+===== PAGE 12 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 12 of 14  
+ 
+Question Answer Marks 
+3(d)(ii) M1 it / (area) B larger AND rate (reaction / hydrogenation) increases  
+OR (area) B identified by shading or labelling on Fig 3.3 AND rate (reaction / hydrogenation) increases in prose 
+ 
+M2 increase in the frequency of effective / successful collisions 
+OR increase in rate of effective / successful collisions  
+2 
+3(e) 
+H2C=CHCH2CH=C(CH3)2  ✓✓       ✓✓       H2CCHCH2CHC(CH3)2  ✓✓    
+ 
+M1  H2C=C…. on one end of their molecule 
+OR …C=C(CH3)2 on one end of their molecule     
+OR …C=CHCH2CH=C… in the middle of their molecule 
+ 
+M2 correct structure 
+2 
+   
+Question Answer Marks 
+4(a)(i) LiAl H4 1 
+4(a)(ii) CH3CH2CO2H + 4[H] → CH3CH2CH2OH + H2O 1 
+4(b)(i) substitution 1 
+4(b)(ii) KCN / potassium cyanide in ethanol / C2H5OH AND heat  1 
+4(b)(iii) CH3CH2CH2CN + NaOH + H2O → CH3CH2CH2CO2Na + NH3           
+OR 
+CH3CH2CH2CN + NaOH + 2H2O → CH3CH2CH2CO2Na + NH4OH  
+ 
+M1 correct organic product (as molecule or anion) 
+M2 rest of equation is correct 
+2 
+4(b)(iv) (alkaline) hydrolysis 1 
+4(c)(i) sp3 1 
+
+===== PAGE 13 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 13 of 14  
+ 
+Question Answer Marks 
+4(c)(ii) hydrogen / H2 1 
+4(c)(iii) (It / Na) reduces A / B / C / the alcohol (group)  
+OR (it / Na behaves as) reducing agent  
+OR (it / Na) donates electrons to A / B / C / the alcohol (group)  
+1 
+4(d)(i) (CH3)3COH   1 
+4(d)(ii) butan-1-ol OR (2) methylpropan-1-ol  1 
+4(d)(iii) butan-2-ol OR CH3CH2CH(OH)CH3.     1 
+   
+Question Answer Marks 
+5(a) C3H4O3 1 
+5(b)(i) 5.00  10–3  36.65 / 1000  
+= 1.833  10–4 / 1.8325  10–4 
+1 
+5(b)(ii) M1  expression and / or correct calculation to show how the amount of vitamin C in 150 g of lemon peel is calculated 
+1.8325  10-4 mol  176  4  
+ 
+M2 correct calculation based on (M1 / 150)  100  = 0.086(%)    
+Using 1.8325  10-4  for M1, M2 = 0.086 OR 0.087(%) 
+ 
+Alternative answer using 7.65  10-4: 
+M1 7.65  10-4  176  4 = 0.5386 / 0.539 
+M2 correct calculation based on (M1 / 150)  100 = 0.359 / 0.36 (%) 
+2 
+===== PAGE 14 =====
+9701/22 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2025  
+ 
+© Cambridge University Press & Assessment 2025 Page 14 of 14  
+ 
+Question Answer Marks 
+5(b)(iii) 
+ 
+absorption / cm–1 present in 
+spectrum of 
+vitamin C 
+present in spectrum of M 
+1500–1680  ✓  / – / blank 
+2850–2950  ✓ ✓ 
+3200–3650  ✓ ✓ 
+1 
+ 

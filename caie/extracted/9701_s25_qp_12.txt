@@ -1,0 +1,1193 @@
+
+===== PAGE 1 =====
+ 
+ 
+This document has 16 pages. 
+IB25 06_9701_12/5RP  
+© UCLES 2025 
+ [Turn over
+ 
+*1956815279*
+Cambridge International AS & A Level 
+  
+ 
+CHEMISTRY 9701/12 
+ 
+Paper 1 Multiple Choice  May/June 2025 
+ 
+ 1 hour 15 minutes 
+ 
+You must answer on the multiple choice answer sheet. 
+ 
+You will need: Multiple choice answer sheet 
+ Soft clean eraser 
+ Soft pencil (type B or HB is recommended) 
+  
+ 
+INSTRUCTIONS  
+ There are forty questions on this paper. Answer all questions.  
+ For each question there are four possible answers A, B, C and D. Choose the one you consider correct 
+and record your choice in soft pencil on the multiple choice answer sheet.  
+ Follow the instructions on the multiple choice answer sheet. 
+ Write in soft pencil. 
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the 
+spaces provided unless this has been done for you. 
+ Do not use correction fluid. 
+ Do not write on any bar codes. 
+ You may use a calculator. 
+ 
+ 
+INFORMATION 
+ The total mark for this paper is 40. 
+ Each correct answer will score one mark. 
+ Any rough working should be done on this question paper. 
+ The Periodic Table is printed in the question paper. 
+ Important values, constants and standards are printed in the question paper. 
+ 
+===== PAGE 2 =====
+2 
+© UCLES 2025 9701/12/M/J/25  
+1 Consider the following statements. 
+ 
+1 Silicon dioxide has a higher melting point than sulfur dioxid e. 
+2 Ammonia has a higher boiling point than phosphine, PH 3. 
+ 
+Which statements are correct? 
+A both statement 1 and statement 2 
+B statement 1 only 
+C statement 2 only 
+D neither statement 1 nor statement 2 
+ 
+ 
+2 How many neutrons are contained in an atom of iron with a mass  number of 60? 
+A 26 B 3 0  C 3 4  D 60 
+ 
+ 
+3 The diagram shows a Boltzmann distribution of molecular energi es for a gaseous reaction at two 
+different temperatures and two different activation energies. 
+ 
+proportion
+of molecules
+energy / kJ mol–1
+EA(1) EA(2)
+T1
+T2
+ 
+ 
+Which combination of temperature and activation energy will give the highest reaction rate? 
+A T1 and EA(1) B T1 and EA(2) C T2 and EA(2) D T2 and EA(1) 
+ 
+ 
+===== PAGE 3 =====
+3  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+4 The reaction between sulfur dioxide and oxygen has the equatio n shown. 
+ 
+ 2 S O 2(g)  +  O2(g)    2SO3(g) H = –197 kJ mol–1 
+ 
+1.0 mol of SO 2 and 1.0  mol of O 2 are placed in a closed container and heated to a constant 
+temperature. 
+ 
+At this temperature, 0.8 mol of SO3 are present in the equilibrium mixture. 
+ 
+Which statement is correct? 
+A The equilibrium partial pressure of SO 2 is greater than the equilibrium partial pressure of O2. 
+B Kp has units of mol dm–3. 
+C At a lower temperature, the equilibrium amount of SO 3 is lower than 0.8 mol. 
+D The mole fraction of SO 3 is less than 0.8. 
+ 
+ 
+5 ‘Red lead’ is a red pigment with the formula Pb 3O4. Every formula unit of ‘red lead’ is the same. 
+ 
+Each formula unit contains three lead ions and four oxide ions.  Lead has two different oxidation 
+states in ‘red lead’. 
+ 
+What are the oxidation states of lead in ‘red lead’? 
+A +1 and +2 B +1 and +3 C +2 and +4 D +2 and +6 
+ 
+ 
+6 Some standard enthalpy of combustion data are given. 
+ 
+substance standard enthalpy change 
+of combustion / kJ mol–1 
+C(s) –394 
+H2(g) –286 
+CH3OH(l) –726 
+ 
+Using these data, what is the enthalpy change of formation of methanol? 
+A –240  kJ mol–1 B – 4 6 kJ mol–1 C 4 6  kJ mol–1 D 240  kJ mol–1 
+ 
+ 
+7 Which row is correct? 
+ 
+ smallest 
+bond angle  largest 
+bond angle 
+A H2O NH 3 B F 3 
+B BF3 N H 3 H 2O 
+C NH3 H 2O BF 3 
+D H2O BF 3 N H 3 
+===== PAGE 4 =====
+4 
+© UCLES 2025 9701/12/M/J/25  
+8 In the Haber process, the reaction between the two gaseous reac tants requires the use of a 
+catalyst that contains a transition element. 
+ 
+What is the metal and in which mole ratio do the gases react? 
+ 
+ metal mole ratio 
+A Fe 1  : 2 
+B Fe 1  : 3 
+C V 1  : 2 
+D V 1  : 3 
+ 
+ 
+9 Aqueous hydrogen peroxide, H 2O2, decomposes into water and oxygen in the presence of a 
+suitable catalyst. 
+ 
+50 cm3 of a 0.50  mol dm–3 solution of hydrogen peroxide produced 120  cm3 of oxygen in 
+2.0 minutes. 
+ 
+The volume of gas was measured at room conditions. 
+ 
+What is the average rate of decomposition of hydrogen peroxide during this 2.0 minute period? 
+A 0.000083  mol dm–3
+ s–1 
+B 0.00083  mol dm–3
+ s–1 
+C 0.0017  mol dm–3
+ s–1 
+D 0 . 1 0 mol dm–3
+ s–1 
+ 
+ 
+10 The average intermolecular forces in water are much stronger t han the average intermolecular 
+forces in steam. 
+ 
+The average intermolecular forces in ice are slightly stronger than the average intermolecular 
+forces in water. 
+ 
+Enthalpy changes are associated with the equilibrium processes shown. 
+ 
+ H 2O(l)    H2O(g) Hb 
+ H 2O(s)    H2O(l) Hm 
+ 
+Which statements are correct? 
+ 
+1 Hb and Hm are both negative. 
+2 Hb is greater than Hm. 
+3 The intermolecular forces in ice and water are of the same ty pe. 
+ 
+A 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only 
+ 
+ 
+===== PAGE 5 =====
+5  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+11 An experiment is carried out to determine the value of x in hydrated lithium hydroxide, 
+LiOH•xH2O. A sample of the solid is heated in a crucible over a Bunsen flame. 
+ 
+Complete dehydration takes place; decomposition does not occur. 
+ 
+mass of empty crucible / g = Q 
+mass of crucible with LiOH•xH2O / g = R 
+mass of crucible and residue after heating / g = S 
+ 
+Which equation gives the correct value of x? 
+A 
+18
+– RS  B 
+18
+– SR  C 
+)–18(
+)–23.9(
+QS
+SR  D 
+)–18(
+)–23.9(
+QS
+RS  
+ 
+ 
+12 A sample of an ideal gas occupies 240  cm3 at 37 °C and 100 kPa. 
+ 
+How many moles of gas are present in the sample? 
+A 9.32  10–6 B 9 . 3 2   10–3 C 0.0781 D 78.1 
+ 
+ 
+===== PAGE 6 =====
+6 
+© UCLES 2025 9701/12/M/J/25  
+13 Under certain conditions, CC l 4 and H2O react as shown. The activation energy for the reaction is 
++62 kJ mol–1. 
+ 
+ C C l 4  +  2H2O    CO2  +  4HCl H = –61.5 kJ mol–1 
+ 
+Which enthalpy profile diagram best fits this reaction? 
+ 
+enthalpy
+reaction path
+A
+CCl 4  +  2H2O
+CO2  +  4HCl enthalpy
+reaction path
+B
+CCl 4  +  2H2O
+CO2  +  4HClenthalpy
+reaction path
+C
+CCl 4  +  2H2O
+CO2  +  4HCl
+enthalpy
+reaction path
+D
+CCl 4  +  2H2O
+CO2  +  4HCl
+ 
+ 
+ 
+===== PAGE 7 =====
+7  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+14 A helium ion contains two protons, two neutrons and one electr on. 
+ 
+This helium ion and a proton are passed separately through a uniform electric field. 
+ 
+The particles are travelling at the same velocity. 
+ 
+Which arrow describes the path of each particle? 
+ 
++–
+15
+24
+3
+ 
+ 
+ helium ion proton 
+A 1 2 
+B 2 1 
+C 4 5 
+D 5 4 
+ 
+ 
+15 The skeletal formulae of arginine and lysine are shown. 
+ 
+arginine
+H2N
+NH2
+OH
+NH O
+lysine
+H2N
+NH2
+OH
+O
+N
+H
+ 
+ 
+Which row is correct? 
+ 
+ substance empirical formula Mr 
+A arginine C 3H7N2O 174 
+B arginine C 3H8N2O 176 
+C lysine C 3H7NO 144 
+D lysine C 3H8NO 146 
+ 
+ 
+===== PAGE 8 =====
+8 
+© UCLES 2025 9701/12/M/J/25  
+16 The oxide and chloride of an element X are separately mixed wi th water. The two resulting 
+solutions have the same effect on litmus. 
+ 
+What could element X be? 
+A Al B Ca C Na D P 
+ 
+ 
+17 Why do the halogens become less volatile as Group 17 is descen ded? 
+A The halogen–halogen bond energy decreases. 
+B The halogen–halogen bond energy increases. 
+C The number of electrons in each molecule increases. 
+D The van der Waals’ forces between molecules become weaker. 
+ 
+ 
+18 Compound M is a white solid. It is the chloride of a Period 3 element. 
+ 
+Information about some reactions starting with compound M is given in the table. 
+ 
+reaction observation 
+compound M + non-polar solvent colourless solution 
+compound M added a little at a time to water 
+ 
+steamy fumes, Q 
+colourless solution, R 
+fumes Q tested with moist blue litmus paper paper turns red 
+solution R + a few drops of NaOH(aq) 
++ excess NaOH(aq) 
+white precipitate 
+dissolves to give a colourless solution 
+ 
+What is compound M? 
+A aluminium chloride 
+B magnesium chloride 
+C phosphorus pentachloride 
+D sodium chloride 
+ 
+ 
+19 Which statement about strontium and its compounds is correct? 
+A Strontium hydroxide is more soluble than barium hydroxide. 
+B Strontium sulfate is more soluble than magnesium sulfate. 
+C Strontium nitrate has a lower thermal stability than calcium n itrate. 
+D Strontium is a stronger reducing agent than magnesium. 
+ 
+ 
+===== PAGE 9 =====
+9  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+20 Sodium bromide is warmed with concentrated sulfuric acid. 
+ 
+Which row describes the change in the oxidation number of the s ulfur and the role of the bromide 
+ions in the reaction? 
+ 
+ 
+change in 
+oxidation number 
+of sulfur 
+role of 
+bromide ions 
+A +6 to +4 oxidising agent 
+B +6 to +4 reducing agent 
+C +4 to 0 oxidising agent 
+D +4 to 0 reducing agent 
+ 
+ 
+21 A reaction occurs when ammonium chloride is added to calcium h ydroxide. 
+ 
+What is the role of the ammonium ions in this reaction? 
+A a c i d  
+B base 
+C oxidising agent 
+D reducing agent 
+ 
+ 
+22 Elements Y and Z are both in Period 3. Element Y has the small est atomic radius in Period 3. 
+ 
+There are only two elements in Period 3 that have a lower melting point than element Z. 
+ 
+Elements Y and Z react together to form compound R. 
+ 
+Which compound could be R? 
+A M g Cl 2 B M g S  C N a 2S D P C l 3 
+ 
+ 
+23 1 . 0 g of each of four different compounds of Group 2 elements are t hermally decomposed. The 
+residue in each decomposition is the oxide of the Group 2 element. 
+ 
+The volume of gas produced from each reaction is measured at room conditions. 
+ 
+Which substance produces the greatest volume of gas? 
+A calcium carbonate 
+B calcium nitrate 
+C strontium carbonate 
+D strontium nitrate 
+ 
+ 
+===== PAGE 10 =====
+10 
+© UCLES 2025 9701/12/M/J/25  
+24 Sulfur dioxide in the atmosphere can form acid rain. This occu rs in two steps. 
+ 
+1 oxidation of SO 2 to SO3 
+2 formation of dilute H 2SO4 
+ 
+Which row identifies the atmospheric catalyst for step 1 and the reagent for step 2? 
+ 
+ catalyst reagent 
+A O2 H 2O 
+B O2 O 2 
+C NO2 H 2O 
+D NO2 O 2 
+ 
+ 
+25 Which statement about the mechanism of an S N1 reaction of a halogenoalkane is correct? 
+A A nucleophile is substituted by an electrophile. 
+B One intermediate is formed from two reacting molecules. 
+C The intermediate is stabilised by adjacent alkyl groups. 
+D The intermediate is uncharged. 
+ 
+ 
+26 The repeat unit of a polymer is shown. 
+ 
+n
+C
+H
+H
+C
+Cl
+H
+C
+H
+H
+C
+OH
+H
+ 
+ 
+Three statements about this polymer are listed. 
+ 
+1 Its disposal is hazardous because it produces toxic gases whe n burned. 
+2 Two different monomers are used to make this polymer. 
+3 The monomer for this polymer is 3-chlorobut-2-ene-1-ol. 
+ 
+Which statements are correct? 
+A 1 and 2 B 1 and 3 C 1  o n l y  D 2  o n l y  
+ 
+ 
+===== PAGE 11 =====
+11  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+27 Methanoic acid, HCO 2H, has acidic properties similar to those of other carboxylic a cids. In 
+addition, it can be oxidised by the same oxidising agents that are capable of oxidising aldehydes. 
+ 
+Which pair consists of two compounds that will give the same ob servations with Fehling’s 
+reagent? 
+A HCO2H and CH3CO2H 
+B HCO2H and CH3CO2CH3 
+C HCO2H and CH3CH2COCH3 
+D HCO 2H and CH3CH2CHO 
+ 
+ 
+28 Which row gives pentanenitrile as one product? 
+ 
+Br
+halogenoalkane reagents and
+conditions
+heat with HCN
+heat with KCN using
+ethanol as solvent
+heat with HCN
+heat with KCN using
+ethanol as solvent
+Br
+A
+BrB
+C
+BrD
+ 
+ 
+ 
+29 An ester, R'CO 2R", is hydrolysed in alkaline conditions. R' and R" are different alkyl groups. 
+ 
+Which row identifies the two products formed? 
+ 
+ product 1 product 2 
+A R'CO2H R"OH 
+B R'CO2
+– R " O H  
+C R'CO2H R"O – 
+D R'CO2
+– R " O – 
+ 
+ 
+30 Which compound cannot be oxidised by acidified potassium dichromate( VI) solution but does 
+react with sodium metal? 
+A ( C H3)3COH 
+B C H 3COCH2CH3 
+C C H 3CH2CH2CH2OH 
+D C H 3CH2CH(OH)CH3 
+ 
+===== PAGE 12 =====
+12 
+© UCLES 2025 9701/12/M/J/25  
+31 Butan-2-one reacts with alkaline I2(aq). An excess of dilute sulfuric acid is then added to the 
+reaction mixture. 
+ 
+The organic products of this reaction sequence are triiodomethane and product M. 
+ 
+What is product M? 
+A ethanoate ion 
+B ethanoic acid 
+C propanoate ion 
+D propanoic acid 
+ 
+ 
+32 Four reagents are listed. 
+ 
+1 aqueous KC l 
+2 dilute HC l 
+3 liquid SOC l 2 
+4 solid PC l 5 
+ 
+Which reagents, when added to ethanol, will rapidly produce a gas that turns blue litmus red? 
+A 1 and 2 B 1 and 3 C 2 and 4 D 3 and 4 
+ 
+ 
+33 Four drops of 1-chlorobutane, 1-bromobutane and 1-iodobutane a re put separately into three 
+test-tubes containing 1.0  cm3 o f  a q u e o u s  s i l v e r  n i t r a t e  a t  6 0 °C. In each case, a hydrolysis 
+reaction occurs. 
+ 
+H2O(l)  +  R–X(l)  +  Ag+(aq)    R–OH(aq)  +  AgX(s)  +  H+(aq) 
+ 
+R represents C4H9 and X represents the halogen atom. 
+ 
+The rate of formation of cloudiness in the test-tubes is in the order RCl < RBr < RI. 
+ 
+Why is this? 
+A The bond energy of R–X decreases from RCl to RI. 
+B The first ionisation energy of the halogen decreases from Cl to I. 
+C The solubility of AgX(s) decreases from AgCl to AgI. 
+D The R–X bond polarity decreases from RCl to RI. 
+ 
+ 
+===== PAGE 13 =====
+13  
+ 
+© UCLES 2025 9701/12/M/J/25 [Turn over 
+34 Propanoic acid reacts with LiA l H4 to give organic product P. 
+ 
+Methanoic acid reacts with organic product P, in the presence o f a few drops of concentrated 
+sulfuric acid, to give organic product Q. 
+ 
+What are the skeletal formulae of the two organic products? 
+ 
+ organic product P organic product Q 
+A OH 
+O
+O
+B OH 
+O
+O
+C O 
+O
+O
+D O 
+O
+O
+ 
+ 
+35 Samples of the gases CH 3Cl and Cl 2 are mixed together and irradiated with ultraviolet light. 
+ 
+Which compound is produced by a termination step in the reaction? 
+A H C l B C H 2=CH2 C C H 2Cl CH2Cl D H 2 
+ 
+ 
+36 Propan-1-ol, C 3H7O H ,  i s  d e h y d r a t e d  b y  p a s s i n g  i t s  v a p o u r  o v e r  h o t  a l u m i n i u m  o x i de to give a 
+hydrocarbon. 
+ 
+Which structural formula represents the product obtained when t h e  h y d r o c a r b o n  r e a c t s  w i t h  
+bromine? 
+ 
+HC
+H
+H
+H
+H
+H
+H
+C C Br
+A
+HC
+H
+H
+Br
+H
+H
+H
+C C H
+B
+HC
+H
+H
+H
+H
+Br
+H
+C C Br
+C
+HC
+H
+H
+Br
+H
+Br
+H
+C C H
+D
+ 
+ 
+===== PAGE 14 =====
+14 
+© UCLES 2025 9701/12/M/J/25  
+37 Alkane S has molecular formula C 4H10. 
+ 
+S reacts with Cl 2(g) in the presence of sunlight to produce only two different m onochloroalkanes, 
+C4H9Cl. Both of these monochloroalkanes are treated with hot ethanoli c KOH. They both produce 
+the same alkene T, and no other organic products. 
+ 
+What is produced when T is treated with hot concentrated acidified KMnO4? 
+A C O 2 and CH3CH2CO2H 
+B C O 2 and CH3COCH3 
+C HCO 2H and CH3COCH3 
+D C H 3CO2H only 
+ 
+ 
+38 Including structural isomers and stereoisomers, how many isome rs are there of C2H2Br2? 
+A 2  B 3  C 4  D 5  
+ 
+ 
+39 Which compound exhibits stereoisomerism? 
+A 1,1-dichloropropene 
+B 2,3-dichloropropene 
+C 1,2-dichloropropane 
+D 1,3-dichloropropane 
+ 
+ 
+40 The mass spectrum of CH 3Cl shows a molecular ion peak, M +, at the m / e value of 50 with a 
+relative abundance of 18.0%. 
+ 
+Other peaks are present in the mass spectrum. 
+ 
+What is seen in the mass spectrum at the m / e value of 52? 
+A a peak with relative abundance of 4.5% 
+B a peak with relative abundance of 6.0% 
+C a peak with relative abundance of 18.0% 
+D a peak with relative abundance of 54.0% 
+ 
+ 
+===== PAGE 15 =====
+15  
+ 
+ 
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to tra ce copyright holders, but if any items requiring clearance have  unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity. 
+ 
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced on line in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series. 
+ 
+Cambridge Assessment International Education is part of Cambrid ge Assessment. Cambridge Assessment is the brand name of the Un iversity of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge. 
+ 
+© UCLES 2025 9701/12/M/J/25  
+Important values, constants and standards 
+ 
+molar gas constant R = 8.31 J K–1
+ mol–1 
+Faraday constant F = 9.65  104
+ C mol–1 
+Avogadro constant L = 6.022  1023
+ mol–1 
+electronic charge e = –1.60  10–19
+ C 
+molar volume of gas 
+ 
+Vm = 22.4 dm3
+ mol–1 at s.t.p. (101 kPa and 273 K) 
+Vm = 24.0 dm3
+ mol–1 at room conditions 
+ionic product of water Kw = 1.00  10–14
+ mol2
+ dm–6 (at 298 K (25 C)) 
+specific heat capacity of water c = 4.18 kJ kg–1
+ K–1 (4.18 J g–1
+ K–1) 
+ 
+===== PAGE 16 =====
+16 
+© UCLES 2025 9701/12/M/J/25  
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3 4 5 6 7 8 9 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+ 
+ 

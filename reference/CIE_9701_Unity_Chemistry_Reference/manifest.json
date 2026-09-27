@@ -1,0 +1,13 @@
+{
+  "title": "CIE 9701 AS + A2 Unity Chemistry Reference",
+  "files": [
+    "README.md",
+    "chemicals_core.csv",
+    "qualitative_analysis.csv",
+    "organic_families.md",
+    "reaction_rules.md",
+    "unity_schema.md",
+    "sources.md"
+  ],
+  "note": "Core reference pack for a Unity chemistry-reaction simulator."
+}

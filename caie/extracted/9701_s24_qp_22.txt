@@ -1,0 +1,966 @@
+
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ [Turn over
+Cambridge International AS & A Level
+CHEMISTRY 9701/22
+Paper 2 AS Level Structured Questions May/June 2024
+ 1 hour 15 minutes
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen or correction fluid.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMA TION
+ ● The total mark for this paper is 60.
+ ● The number of marks for each question or part question is shown in brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the question paper.
+*9218288759*
+DC (PQ/SW) 324893/3
+© UCLES 2024
+,
+,
+* 0019655306501 *
+¬O. 3mG{YMª6zU W
+¬x`@¤;xhxIPt4
+¥E5¥u¥5E¥e5U
+
+===== PAGE 2 =====
+2
+9701/22/M/J/24© UCLES 2024
+1 (a) Complete Table 1.1 using relevant information from the Periodic Table.
+Table 1.1
+nucleon number proton number number of electrons
+Mg2+ 24
+Al 3+ 27
+ [2]
+ (b) State and explain the difference in the ionic radius of Al 3+ compared to Mg2+.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ (c) Draw a labelled diagram to show the structure and bonding in sodium.
+ [1]
+ (d) Fig. 1.1 shows the variation in melting point of some Period 3 elements in their standard 
+states at room temperature and pressure.
+2000
+2500
+1500
+1000
+500
+0
+Na Mg Al Si
+element
+melting
+point / K
+P S Cl
+Fig. 1.1 
+* 0019655306502 *
+,
+,
+ĬÍĊ®Ġ³íÇûÙāÍĪ·ü×Ğ×
+ĬĜöß½Ĩ¯ĒÏòĂæàæÄ±¼Ă
+ĥÅÕĕõõåĕÕõÕÕąąąĥĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 3 =====
+3
+9701/22/M/J/24© UCLES 2024 [Turn over
+  (i) Explain why Si has a high melting point.   
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) Complete Fig. 1.1 to show the variation in the melting points of the elements P, S and Cl.
+ [2]
+ (e) Two Period 3 elements react with an excess of oxygen at room pressure.
+  (i) Complete Table 1.2.
+Table 1.2
+1 2 3
+Period 3 element
+state of oxide at  
+room temperature and 
+pressure
+approximate pH of 
+solution made when 
+oxide is added to water
+Na
+S
+ [2]
+  (ii) The solutions made in column 3 of Table 1.2 are mixed together.
+   Name the type of reaction that occurs.
+ ..................................................................................................................................... [1]
+  (iii) Write an equation to describe the reaction between P4O10 and an excess of water.
+ ..................................................................................................................................... [1]
+ (f)  Aluminium hydroxide is amphoteric.
+  (i) Explain what is meant by amphoteric.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) Write an equation to describe the reaction that occurs when aluminium hydroxide, 
+Al (OH)3, reacts with NaOH(aq).
+ ..................................................................................................................................... [1]
+ [Total: 15]
+* 0019655306503 *
+,
+,
+ĬÏĊ®Ġ³íÇûÙāÍĪ·ú×Ğ×
+ĬĜõàÅĢ³ĢêĈïģüÎĘ±ÌĂ
+ĥÅåÕµĕÅõÅąąÕąĥĥåąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 4 =====
+4
+9701/22/M/J/24© UCLES 2024
+2 Separate samples of Na2CO3 and NaHCO3 react with HCl (aq) to produce the same products, as 
+shown in Table 2.1.
+Table 2.1
+reaction equation ∆H / kJ mol–1
+1 Na2CO3 + 2HCl  2NaCl + H2O + CO2 ∆H1
+2 NaHCO3 + HCl  NaCl + H2O + CO2 ∆H2 = +27.2
+ (a) Complete the reaction pathway diagram in Fig. 2.1 for reaction 2.
+  Label the diagram to show the enthalpy change, ∆H2, and the activation energy, EA.
+NaHCO3 + HCl
+energy
+/ kJ mol–1
+progress of reaction
+Fig. 2.1
+ [2]
+ (b) The value for ∆H1 is determined by experiment using the following method.
+• 50.0 cm3 of 2.00 mol dm–3 HCl (aq) is added to a polystyrene cup. 
+• The initial temperature of the acid is recorded as 19.6 °C.
+• 0.0400 mol of Na2CO3 is added and the mixture is stirred. 
+• All the solid Na2CO3 disappears and a colourless solution is produced.
+  The maximum temperature recorded during the reaction is 26.2 °C. 
+  (i) Describe one other observation that shows the reaction is complete. 
+ ..................................................................................................................................... [1]
+* 0019655306504 *
+,
+,
+ĬÍĊ®Ġ³íÇûÙāÍĪµü×Ġ×
+ĬĜõÝÅĬÁħÍĊøĬÚò¶á´Ă
+ĥõõÕõĕÅÕååõÕÅĥÅåĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 5 =====
+5
+9701/22/M/J/24© UCLES 2024 [Turn over
+  (ii) Calculate the value of ∆H1 in kJ mol–1. 
+   Assume the specific heat capacity of the reaction mixture is the same as for water and 
+no heat is lost to the surroundings.
+   Show your working. 
+ ∆H1 = .............................. kJ mol–1 [3]
+  (iii) Thermal decomposition occurs when NaHCO3 is heated.
+ reaction 3 2NaHCO3    Na2CO3  +  H2O  +  CO2
+   Calculate the enthalpy change for reaction 3, ∆H r , using the data in Table 2.1 and the 
+value of ∆H1 calculated in (b)(ii).
+   (If you were unable to calculate a value for ∆H1 in (b)(ii), assume the enthalpy change is 
+–38.4 kJ mol–1. This is not the correct value.)
+ ∆Hr = .............................. kJ mol–1 [2]
+ (c) Z is a salt that contains a Period 4 element from Group 2. When Z is heated brown gas forms.
+  Identify the formula of Z and use it to write an equation for the reaction. 
+ ............................................................................................................................................. [2]
+ [Total: 10]
+* 0019655306505 *
+,
+,
+ĬÏĊ®Ġ³íÇûÙāÍĪµú×Ġ×
+ĬĜöÞ½Ğ½ėìðĉÝþĊĢáÄĂ
+ĥõąĕµõåµµÕåÕÅąåĥąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 6 =====
+6
+9701/22/M/J/24© UCLES 2024
+3 (a) Describe what is meant by dynamic equilibrium. 
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ (b) Reaction 4 describes the reversible reaction between yellow Fe 3+(aq) and colourless 
+SCN–(aq) to produce red FeSCN2+(aq).
+ reaction 4 Fe3+(aq)   +   SCN–(aq)      FeSCN2+(aq)
+ yellow colourless red
+  An equilibrium mixture contains Fe 3+(aq), SCN –(aq) and FeSCN 2+(aq). A few colourless 
+crystals of soluble KSCN(s) are added. The mixture is then left until it reaches equilibrium 
+again. The temperature of both equilibrium mixtures is the same.
+  (i) Deduce the changes that occur, if any, in the equilibrium mixture after KSCN(s) is added 
+compared to the original equilibrium mixture.
+• change in appearance
+ ....................................................................................................................................
+• change in relative concentration of Fe3+(aq) 
+ ....................................................................................................................................
+• change in value of the equilibrium constant, Kc
+ ....................................................................................................................................
+ [3]
+* 0019655306506 *
+,
+,
+ĬÑĊ®Ġ³íÇûÙāÍĪ¸úÖĞ×
+ĬĜõÞÂĨåčäûüØĞòăĉ´Ă
+ĥååĕµÕåĕõµąÕąąąåÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 7 =====
+7
+9701/22/M/J/24© UCLES 2024 [Turn over
+  (ii) The expression for the equilibrium constant, Kc, for reaction 4 is shown.
+Kc = 
+[FeSCN2+(aq)]
+[Fe3+(aq)] × [SCN–(aq)]
+   5.00 × 10–5 mol of Fe 3+(aq) and 5.00 × 10–5 mol of SCN –(aq) are added together and 
+allowed to reach equilibrium. The total volume of the mixture is 25.0 cm3.
+   At equilibrium the concentration of FeSCN2+(aq) is 4.23 × 10–4 mol dm–3.
+   Calculate the equilibrium constant, Kc, for reaction 4.
+   Include the units in your answer.
+ Kc = ..............................
+ units .............................. 
+ [4]
+* 0019655306507 *
+,
+,
+ĬÓĊ®Ġ³íÇûÙāÍĪ¸üÖĞ×
+ĬĜöÝÊĢéĝÕýąđºĊ×ĉÄĂ
+ĥåÕÕõµÅõĥÅÕÕąĥĥĥÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 8 =====
+8
+9701/22/M/J/24© UCLES 2024
+ (c) Determine the full electronic configuration of Fe3+.
+ ............................................................................................................................................. [1]
+ (d) SCN–(aq) is colourless.
+  Complete the dot-and-cross diagram in Fig. 3.1 to show the arrangement of outer electrons in 
+an SCN– ion.
+S C N
+–
+Fig. 3.1
+ [2]
+ [Total: 12]
+* 0019655306508 *
+,
+	,
+ĬÑĊ®Ġ³íÇûÙāÍĪ¶úÖĠ×
+ĬĜöàÊĬÛĬâăþĚĜæõę¼Ă
+ĥĕąÕµµÅÕąĥåÕÅĥÅĥÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 9 =====
+9
+9701/22/M/J/24© UCLES 2024 [Turn over
+BLANK PAGE
+* 0019655306609 *
+,
+
+,
+ĬÓĉ¯Ġ³íÇûÙāÍĪµúÖĠ×
+ĬĜöÞÅħìþÑĂòÝãĦõéÄĂ
+ĥååĕµĕĥµĥĥąÕąåÅåĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 10 =====
+10
+9701/22/M/J/24© UCLES 2024
+4 CH3(CH2)5CHBrCH3 exists as a pair of stereoisomers.
+ (a)  Draw the three-dimensional structures of the two stereoisomers of CH 3(CH2)5CHBrCH3. 
+R can be used to represent CH3(CH2)5.
+ [2]
+ (b) A sample of CH 3(CH2)5CHBrCH3 reacts with NaOH to make CH 3(CH2)5CH(OH)CH3 in an 
+SN1 mechanism. 
+  Complete Fig. 4.1 to show the mechanism for the reaction of CH 3(CH2)5CHBrCH3 and NaOH. 
+  Include charges, dipoles, lone pairs of electrons and curly arrows, as appropriate.
+CH3(CH2)5 BrC
+H
+CH3
+CH3(CH2)5 OHC
+H
+CH3
+Fig. 4.1 
+ [3]
+ (c) Separate samples of CH 3(CH2)5CHBrCH3, CH 3(CH2)5CH(OH)CH3 and CH 3(CH2)5CHCH2 
+are tested with different reagents. 
+  Complete Table 4.1. If no reaction occurs, write × in the relevant box.
+Table 4.1
+reagent added observation with 
+CH3(CH2)5CHBrCH3
+observation with 
+CH3(CH2)5CH(OH)CH3
+observation with 
+CH3(CH2)5CHCH2
+Br2(l) in the dark
+PCl 5(s)
+AgNO3(aq)
+ [3]
+* 0019655306610 *
+,
+,
+ĬÑĉ¯Ġ³íÇûÙāÍĪ¸üØĞ×
+ĬĜøÝÈģàĬêïĈÂěĐÅđÌĂ
+ĥõµĕõõåÕÕåÕĕąĥåĥÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 11 =====
+11
+9701/22/M/J/24© UCLES 2024 [Turn over
+ (d)  CH3(CH2)5CHBrCH3 is heated with D to produce three different molecules, E, F and G.
+FE G
+Fig. 4.2
+  (i) Name the type of reaction. 
+ ..................................................................................................................................... [1] 
+  (ii) Identify D and the conditions used.
+ ..................................................................................................................................... [1] 
+ (e) (i)  Both σ and π bonds are present in a molecule of E as a result of dif ferent types of 
+hybridisation in the carbon atoms. 
+   Complete Table 4.2 to show the number of carbon atoms with each type of hybridisation 
+in a molecule of E.
+Table 4.2
+number of carbon atoms
+sp hybridised sp2 hybridised sp3 hybridised
+FE G
+ [2]
+  (ii)  Describe the essential feature of an unbranched hydrocarbon that causes its molecules 
+to show stereoisomerism. Explain how this feature leads to stereoisomerism.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3] 
+ [Total: 15]
+* 0019655306611 *
+,
+,
+ĬÓĉ¯Ġ³íÇûÙāÍĪ¸úØĞ×
+ĬĜ÷ÞÀĥäĜÏĉùć¿Ĩđđ¼Ă
+ĥõÅÕµĕÅµÅÕąĕąąÅåÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 12 =====
+12
+9701/22/M/J/24© UCLES 2024
+5 Compound W has molecular formula C4H10O. It contains only one functional group.
+ (a) Table 5.1 shows the two peaks with the greatest m / e values in the mass spectrum of W.
+Table 5.1
+m / e relative abundance
+74 50
+75 x
+  (i) Calculate the relative abundance, x, of the peak at m / e = 75 using the information from 
+Table 5.1.
+ x = .............................. [1]
+  (ii) The mass spectrum of W also shows peaks at m / e = 29 and m / e = 59. 
+   Suggest the molecular formulae of these fragments.
+   m / e = 29 ..............................
+   m / e = 59 ..............................
+ [2]
+ (b) A sample of W, C4H10O, is heated under reflux with an excess of acidified K2Cr2O7 until there 
+is no further reaction. Only one organic product, X, is present in the mixture at the end of the 
+reaction.
+  Fig. 5.1 shows the infrared spectrum of W.
+0
+20
+40
+60
+80
+100
+35004000 3000 2500 2000
+wavenumber / cm–1
+transmittance / %
+1500 1000 500
+A
+Fig. 5.1
+* 0019655306612 *
+,
+,
+ĬÑĉ¯Ġ³íÇûÙāÍĪ¶üØĠ×
+ĬĜ÷ßÀğÒčìćòĀĝÌ³āÄĂ
+ĥÅĕÕõĕÅĕåõõĕÅąĥåÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 13 =====
+13
+9701/22/M/J/24© UCLES 2024 [Turn over
+  Fig. 5.2 shows the infrared spectrum of X. 
+0
+20
+40
+60
+80
+100
+wavenumber / cm–1
+transmittance / %
+35004000 3000 2500 2000 1500 1000 500
+B
+Fig. 5.2
+Table 5.2
+bond functional groups containing the bond characteristic infrared absorption range
+(in wavenumbers) / cm–1   
+C–O hydroxy, ester 1040–1300
+C=C aromatic compound, alkene 1500–1680
+C=O amide
+carbonyl, carboxyl
+ester
+1640–1690 
+1670–1740 
+1710–1750
+C≡N nitrile 2200–2250
+C–H alkane 2850–2950
+N–H amine, amide 3300–3500
+O–H carboxyl
+hydroxy
+2500–3000
+3200–3650
+  (i) Absorption A is shown in Fig. 5.1.
+   Absorption B is shown in Fig. 5.2.
+   Complete Table 5.3 using the information given in Fig. 5.1, Fig. 5.2 and Table 5.2. 
+Table 5.3
+absorption bond functional group 
+containing the bond
+A
+B
+ [1]
+* 0019655306613 *
+,
+,
+ĬÓĉ¯Ġ³íÇûÙāÍĪ¶úØĠ×
+ĬĜøàÈĩÎĝÍñÿÉ¹´ħā´Ă
+ĥÅĥĕµõåõµąåĕÅĥąĥÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 14 =====
+14
+9701/22/M/J/24© UCLES 2024
+  (ii) Use the information in (a) and (b)(i) to draw the structure of X in the box in Fig. 5.3.
+C4H10O
+W
+X
+acidified
+K2Cr2O7
++
+Fig. 5.3
+ [1] 
+ (c)  Y is a structural isomer of W. 
+  Both W and Y produce colourless bubbles when sodium is added to them.
+  Y does not react when heated with acidified K 2Cr2O7.
+  Y does not react when warmed with alkaline I 2(aq).
+  (i)  Name the functional group present in Y.
+ ..................................................................................................................................... [1] 
+  (ii) Complete the equation to describe the reaction of W or Y with sodium.
+   ..........C 4H10O + ..........Na  ........................................................................................ [1]
+  (iii) Draw the structure of Y.
+ [1]
+ [Total: 8]
+* 0019655306614 *
+,
+,
+ĬÍĉ¯Ġ³íÇûÙāÍĪµùÕĢ×
+ĬĜ÷ÞÅħáĕß÷ČĦĕĩģ±¼Ă
+ĥĥĥÕõĕĥÕÕĕåÕąåååąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 15 =====
+15
+9701/22/M/J/24© UCLES 2024
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.022 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+speciﬁc heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0019655306615 *
+,
+,
+ĬÏĉ¯Ġ³íÇûÙāÍĪµûÕĢ×
+ĬĜøÝ½ġÝĥÚāõãÁđ·±ÌĂ
+ĥĥĕĕµõąµÅĥõÕąÅÅĥĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+===== PAGE 16 =====
+16
+9701/22/M/J/24© UCLES 2024
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3456789 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+* 0019655306616 *
+,
+,
+ĬÍĉ¯Ġ³íÇûÙāÍĪ·ùÕĤ×
+ĬĜøà½īÏĤÝÿîìģ­ĕá´Ă
+ĥÕÅĕõõąĕåÅąÕÅÅĥĥąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

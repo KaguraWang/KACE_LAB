@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "smoke-1",
+    "mode": "simulate",
+    "vessels": [ { "id": "v1", "kind": "beaker", "water_ml": 20 } ],
+    "actions": [
+      { "op": "add_g", "vessel": "v1", "id": "zn", "g": 2.0 },
+      { "op": "add_ml", "vessel": "v1", "id": "hcl", "ml": 8 },
+      { "op": "settle", "vessel": "v1" }
+    ],
+    "probes": ["h2"],
+    "asserts": [
+      { "id": "A1", "kind": "present", "vessel": "v1", "species": "Zn2+" },
+      { "id": "A2", "kind": "equation_balanced", "equation": "Zn + 2H+ -> Zn2+ + H2" }
+    ]
+  },
+  {
+    "case_id": "smoke-2-badcharge",
+    "mode": "validate",
+    "vessels": [ { "id": "v1", "kind": "beaker", "water_ml": 20 } ],
+    "actions": [],
+    "asserts": [
+      { "id": "B1", "kind": "equation_balanced", "equation": "MnO4- + 8H+ + 5Fe2+ -> Mn2+ + 5Fe3+ + 4H2O" },
+      { "id": "B2", "kind": "equation_balanced", "equation": "Fe2+ -> Fe3+ + e-" }
+    ]
+  }
+]

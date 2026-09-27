@@ -1,0 +1,1034 @@
+
+===== PAGE 1 =====
+This document has 12 pages.
+ [Turn over
+Cambridge International AS & A Level
+Session
+Laboratory
+For Examiner’s Use
+1
+2
+3
+Total
+*4291957710*
+DC (WW) 350747/3
+© Cambridge University Press & Assessment 2026
+CHEMISTRY 9701/33
+Paper 3 Advanced Practical Skills 1 May/June 2026
+ 2 hours
+You must answer on the question paper.
+You will need: The materials and apparatus listed in the confidential instructions
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen. Do not use correction fluid or tape.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMATION
+ ● The total mark for this paper is 40.
+ ● The number of marks for each question or part question is shown  
+in brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the  
+question paper.
+ ● Notes for use in qualitative analysis are provided in the  
+question paper.
+,	,
+* 0000800000001 *
+¬Wz> 4mHuOªE]z6W
+¬?zR¡«Zsw`ªY¢
+¥55UuUEu¥U¥EU
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 2 =====
+2
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+Quantitative analysis
+Read through the whole method before starting any practical work. Where appropriate, prepare a 
+table for your results in the space provided.
+Show the precision of the apparatus you used in the data you record.
+Show your working and appropriate significant figures in the answer to each step of your calculations.
+1 Magnesium reacts with different acids, including organic acids, to form a salt and hydrogen. You 
+will measure the volume of hydrogen formed when a known mass of magnesium reacts with 
+excess carboxylic acid.
+ FA 1 is magnesium, Mg.
+ FA 2 is a carboxylic acid, RCH2COOH. R does not contain an acidic hydrogen.
+ (a) Method
+• Weigh the container with FA 1. Record the mass in the space for results.
+• Fill the tub with water to a depth of approximately 5 cm.
+• Fill the 250 cm3 measuring cylinder completely with water. Holding a piece of paper 
+towel firmly over the top, invert the measuring cylinder and place it in the water in 
+the tub.
+• Remove the paper towel and clamp the inverted measuring cylinder so the open end is 
+in the water just above the base of the tub.
+• Use the 50 cm3 measuring cylinder to transfer 50.0 cm3 of FA 2 into the flask labelled X. 
+Check that the bung fits tightly into the neck of flask X, clamp flask X and place the end 
+of the delivery tube into the inverted 250 cm3 measuring cylinder.
+• Remove the bung from the neck of the flask. Add all the FA 1 to the acid in the flask 
+and replace the bung immediately. Remove the flask from the clamp and swirl it to mix 
+the contents.
+• Replace the flask in the clamp and leave until the fizzing stops. Swirl the 
+flask occasionally.
+• Weigh the container with any residual FA 1. Record the mass.
+• Calculate and record the mass of FA 1 that reacts with the acid.
+• When no more gas is collected, record the final volume of gas produced to the 
+nearest cm3.
+You may wish to start Question 2 or Question 3 while the gas is being collected.
+Keep FA 2 for use in Question 3.
+  Results
+ [3]
+I
+II
+III
+* 0000800000002 *
+,	,
+ĬÕú¾Ġ´íÈõÏĪÅĊàü¸þ×
+Ĭÿ½ùÓĥğċáþāÃêĔĩÚđĂ
+ĥĥåÕµµąĕååÕÅąĕąÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 3 =====
+3
+9701/33/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+ (b) Calculations
+  (i) Calculate the amount, in mol, of magnesium added to flask X.
+ amount of Mg =  ..................................................  mol [1]
+  (ii) Write an ionic equation for the reaction between magnesium and the carboxylic acid. 
+Include state symbols.
+ ..................................................................................................................................... [1]
+  (iii) Calculate the volume, in cm3, of hydrogen expected to form in the reaction.
+ volume of H2 =  .................................................. cm3 [1]
+ (c) A student carries out the method in 1(a). The volume of hydrogen collected is smaller 
+than expected.
+  Suggest two reasons why the student collected a smaller volume of hydrogen 
+than expected.
+reason 1  ....................................................................................................................................
+ ...................................................................................................................................................
+reason 2  ....................................................................................................................................
+ ...................................................................................................................................................
+ [2]
+ (d) State the uncertainty in a single balance reading for the balance you used in 1(a).
+ uncertainty = ±  ............................................................  g
+  Hence, calculate the maximum percentage error in the mass of magnesium, FA 1, used.
+ maximum percentage error =  ......................................................% [1]
+[Total: 9]
+* 0000800000003 *
+,	,
+Ĭ×ú¾Ġ´íÈõÏĪÅĊàú¸þ×
+Ĭÿ¾úÛģģûØüðĆîĬ­ÚġĂ
+ĥĥÕĕõÕĥõµÕąÅąõĥĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 4 =====
+4
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+2 Carboxylic acids may have other atoms or groups substituted for hydrogen in the chain. 
+R’CHZCOOH is the monosubstituted acid of R’CH2COOH, where Z is a halogen. R’ may be H 
+or CnH2n+1.
+ You will carry out a titration using sodium hydroxide of known concentration to find the relative 
+molecular mass, Mr , of the monosubstituted carboxylic acid, R’CHZCOOH.
+R’CHZCOOH(aq) + NaOH(aq)  R’CHZCOONa(aq) + H2O(l)
+ The end-point is the appearance of the first permanent blue colour. Assume that the sodium 
+hydroxide is too dilute for any significant hydrolysis of the halogen.
+ FA 3 is 0.0950 mol dm−3 sodium hydroxide, NaOH.
+ FA 4 is 15.28 g dm−3 monosubstituted carboxylic acid, R’CHZCOOH.
+ FA 5 is thymolphthalein indicator.
+ (a) Method
+• Fill the burette with FA 3.
+• Pipette 25.0 cm3 of FA 4 into a conical flask.
+• Add a few drops of FA 5 to the same conical flask.
+• Perform a rough titration and record your burette readings.
+ rough titre =  ........................................................  cm3
+• Carry out as many accurate titrations as you think necessary to obtain 
+consistent results.
+• Make sure any recorded results show the precision of your practical work.
+• Record in a suitable form all your burette readings and the volume of FA 3 added in 
+each accurate titration.
+[7]
+ (b) From your accurate titration results, calculate a suitable mean value to use in your 
+calculations. Show clearly how you obtain the mean value.
+ 25.0 cm3 of FA 4 required  ..................................... cm3 of FA 3. [1]
+I
+II
+III
+IV
+V
+VI
+VII
+* 0000800000004 *
+,	,
+ĬÕú¾Ġ´íÈõÏĪÅĊÞü¸Ā×
+Ĭÿ¾ûÛĩđîãö÷ýÐÈďÊęĂ
+ĥÕąĕµÕĥÕÕõõÅÅõÅĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 5 =====
+5
+9701/33/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+ (c) Calculations
+  (i) Give your answers to 2(c)(ii), 2(c)(iii) and 2(c)(iv) to an appropriate number of 
+significant figures. [1]
+  (ii) Calculate the amount, in mol, of sodium hydroxide in the volume of FA 3 in 2(b).
+ amount of NaOH =  ................................................... mol [1]
+  (iii) Calculate the concentration, in mol dm–3, of the monosubstituted carboxylic acid in FA 4.
+ concentration of R’CHZCOOH =  ..........................................  mol dm–3 [1]
+  (iv) Calculate the relative molecular mass, Mr , of the monosubstituted carboxylic acid 
+in FA 4.
+   Show your working.
+ Mr of R’CHZCOOH =  ......................................................... [1]
+ (d) (i) A fresh sample of FA 4 reacts with excess hot aqueous sodium hydroxide. The resulting 
+solution is neutralised with nitric acid. This solution is FA 6.
+   Carry out a test on FA 6 to determine the identity of Z.
+reagents  ............................................................................................................................
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+identity of Z ................................................................
+ [2]
+  (ii) Suggest why nitric acid is added to make FA 6 before carrying out your test in 2(d)(i).
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ (e) Use your answers to 2(c)(iv) and 2(d)(i) to calculate the relative formula mass of group R’.
+  Hence, identify group R’ in FA 4.
+ relative formula mass of R’ =  ...............................................................
+ R’ in FA 4  ...............................................................
+ [2]
+* 0000800000005 *
+,	,
+Ĭ×ú¾Ġ´íÈõÏĪÅĊÞú¸Ā×
+Ĭÿ½üÓğčþÖĄĊÌČ°ËÊĩĂ
+ĥÕõÕõµąµÅąåÅÅĕåÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 6 =====
+6
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+ (f) Two students correctly carry out the method in 2(a) using the same concentrations of FA 3 
+and FA 4 in separate experiments. The difference between the students’ mean accurate 
+titres is 0.35 cm3.
+  Suggest why the students identify the same R’ group.
+  (Do not attempt a calculation.)
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+[Total: 18]
+* 0000800000006 *
+,	,
+ĬÙú¾Ġ´íÈõÏĪÅĊßúµþ×
+Ĭÿ¾üÐĥõĈÎćû±ĬÈêĢęĂ
+ĥąÕÕõĕąĕąĥąÅąĕąĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 7 =====
+7
+9701/33/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+Qualitative analysis
+For each test, you should record all your observations in the spaces provided.
+Examples of observations include:
+• colour changes seen
+• the formation of any precipitate and its solubility (where appropriate) in an excess of the 
+reagent added
+• the formation of any gas and its identification (where appropriate) by a suitable test.
+You should record clearly at what stage in a test an observation is made.
+Where no change is observed, you should write ‘no change’.
+Where reagents are selected for use in a test, the name or correct formula of the element or 
+compound must be given.
+If any solution is warmed, a boiling tube must be used. If any solid is heated, a hard-glass test-tube 
+must be used.
+Rinse and reuse test-tubes and boiling tubes where possible.
+No additional tests should be attempted.
+3 Half-fill the 250 cm3 beaker with water and place it on a tripod and gauze. Heat the water until 
+boiling then switch off your Bunsen burner. This is your hot water-bath.
+ (a) Some organic acids contain an unsaturated hydrocarbon group.
+  Carry out an experiment using the reagents supplied to determine whether the R group in 
+FA 2 is unsaturated.
+  Record your test, observations and conclusion.
+test  ............................................................................................................................................
+observations  .............................................................................................................................
+ ...................................................................................................................................................
+conclusion  .................................................................................................................................
+ [2]
+* 0000800000007 *
+,	,
+ĬÛú¾Ġ´íÈõÏĪÅĊßüµþ×
+Ĭÿ½ûØģùøëñĆø°°îĢĩĂ
+ĥąåĕµõĥõĕĕÕÅąõĥÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 8 =====
+8
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+ (b) FA 7 and FA 8 are aqueous solutions of ionic compounds.
+  FA 7 contains one cation and two anions.
+  FA 8 contains one cation and one anion.
+  Three of the five ions are listed in the Qualitative analysis notes.
+  (i) Carry out the following tests and record your observations in Table 3.1.
+   Use a 1 cm depth of FA 7 or FA 8 in a test-tube for each test.
+ Table 3.1
+test
+observations
+FA 7 FA 8
+Test 1
+Add aqueous sodium 
+hydroxide, 
+then
+pour the mixture into a 
+boiling tube and heat 
+gently, 
+then
+add a piece of 
+aluminium foil.
+Test 2
+Add aqueous ammonia.
+Test 3
+Add aqueous 
+copper(II) sulfate.
+Test 4
+Add aqueous barium 
+chloride or aqueous barium 
+nitrate, 
+then
+add nitric acid.
+Test 5
+Add aqueous silver nitrate.
+Test 6
+Add FA 8 until in excess.
+ [7]
+* 0000800000008 *
+,		,
+ĬÙú¾Ġ´íÈõÏĪÅĊÝúµĀ×
+Ĭÿ½úØĩċñÐïýïĎĔÐòđĂ
+ĥµõĕõõĥÕõµåÅÅõÅÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 9 =====
+9
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+  (ii) Identify the cations in FA 7 and FA 8. If you are unable to positively identify an ion or 
+ions, write ‘unknown’.
+    cation in FA 7 .................................. cation in FA 8 ..................................
+ [1]
+  (iii) Suggest the possible identities of the anions in FA 7. Give reasons for your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+  (iv) Identify the anion in FA 8.
+ anion in FA 8 ..............................  [1]
+[Total: 13]
+* 0000800000009 *
+,	
+,
+ĬÛú¾Ġ´íÈõÏĪÅĊÝüµĀ×
+Ĭÿ¾ùÐğćāéĉôºÊĬČòġĂ
+ĥµąÕµĕąµĥÅõÅÅĕåĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 10 =====
+10
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+Qualitative analysis notes
+Reactions of cations
+cation
+reaction with
+NaOH(aq) NH3(aq)
+aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+ammonium, NH4
++(aq) no ppt.
+ammonia produced on warming
+–
+barium, Ba2+(aq) faint white ppt. is observed unless 
+[Ba2+(aq)] is very low
+no ppt.
+calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is 
+very low
+no ppt.
+chromium(III), Cr3+(aq) grey-green ppt. soluble in excess 
+giving dark green solution
+grey-green ppt. insoluble in excess
+copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess 
+giving dark blue solution
+iron(II), Fe2+(aq) green ppt. turning brown on 
+contact with air
+insoluble in excess
+green ppt. turning brown on 
+contact with air
+insoluble in excess
+iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+manganese(II),
+Mn2+(aq)
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+Reactions of anions
+anion reaction
+carbonate, CO3
+2– CO2 liberated by dilute acids
+chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+nitrate, NO3
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil
+nitrite, NO2
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+decolourises acidified aqueous KMnO4
+sulfate, SO4
+2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+gives white ppt. with high [Ca2+(aq)]
+sulfite, SO3
+2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+decolourises acidified aqueous KMnO4
+thiosulfate, S2O3
+2–(aq) gives off-white / pale yellow ppt. slowly with H+
+* 0000800000010 *
+,	,
+ĬÙú¾Ġ´íÈõÏĪÅĊàú·þ×
+ĬÿÀúÍīăħÒøĆÕòĒ¼ÊĩĂ
+ĥĥĕÕõõÅÕÕąåąÅÕÅÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 11 =====
+11
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (Cambridge University Press & Assessment) to trace copyright holders, but if any items requiring clearance 
+have unwittingly been included, the publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in our Copyright 
+Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download at www.cambridgeinternational.org after the live 
+examination series.
+Cambridge International Education is the name of our awarding body and a part of Cambridge University Press & Assessment, which is a department of the 
+University of Cambridge.
+Tests for gases
+gas test and test result
+ammonia, NH3 turns damp red litmus paper blue
+carbon dioxide, CO2 gives a white ppt. with limewater
+hydrogen, H2 ‘pops’ with a lighted splint
+oxygen, O2 relights a glowing splint
+Tests for elements
+element test and test result
+iodine, I2 gives blue-black colour on addition of starch solution
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.022 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0000800000011 *
+,	,
+ĬÛú¾Ġ´íÈõÏĪÅĊàü·þ×
+Ĭÿ¿ùÕĝÿėçĂûĔæĪĠÊęĂ
+ĥĥĥĕµĕåµÅõõąÅµåĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09
+
+===== PAGE 12 =====
+12
+9701/33/M/J/26© Cambridge University Press & Assessment 2026
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+34567891 01 11 2
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+* 0000800000012 *
+,	,
+ĬÙú¾Ġ´íÈõÏĪÅĊÞú·Ā×
+Ĭÿ¿üÕħíĒÔĀôěĈÆ¾ÚġĂ
+ĥÕµĕõĕåĕåÕąąąµąĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge
+·  papacambridge.com
+9701/33 Question Paper June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/33 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-93A3FA2C09

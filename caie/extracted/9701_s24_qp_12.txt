@@ -1,0 +1,1140 @@
+
+===== PAGE 1 =====
+ 
+ 
+This document has 16 pages. 
+IB24 06_9701_12/2RP  
+© UCLES 2024 
+ [Turn over
+ 
+*5996956340*
+Cambridge International AS & A Level 
+  
+ 
+CHEMISTRY 9701/12 
+ 
+Paper 1 Multiple Choice  May/June 2024 
+ 
+ 1 hour 15 minutes 
+ 
+You must answer on the multiple choice answer sheet. 
+ 
+You will need: Multiple choice answer sheet 
+ Soft clean eraser 
+ Soft pencil (type B or HB is recommended) 
+  
+ 
+INSTRUCTIONS  
+ There are forty questions on this paper. Answer all questions.  
+ For each question there are four possible answers A, B, C and D. Choose the one you consider correct 
+and record your choice in soft pencil on the multiple choice answer sheet.  
+ Follow the instructions on the multiple choice answer sheet. 
+ Write in soft pencil. 
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the 
+spaces provided unless this has been done for you. 
+ Do not use correction fluid. 
+ Do not write on any bar codes. 
+ You may use a calculator. 
+ 
+ 
+INFORMATION 
+ The total mark for this paper is 40. 
+ Each correct answer will score one mark. 
+ Any rough working should be done on this question paper. 
+ The Periodic Table is printed in the question paper. 
+ Important values, constants and standards are printed in the question paper. 
+ 
+===== PAGE 2 =====
+2 
+© UCLES 2024 9701/12/M/J/24  
+1 Which pair of formulae is correct? 
+A A g 2CO3 and (NH4)3NO3 
+B K 2HCO3 and Zn3(PO4)2 
+C A g H C O3 and K3PO4 
+D Z n C O3 and (NH4)2PO4 
+ 
+ 
+2 How many molecules are present in 62  g of solid white phosphorus, P4? 
+A L B 2L C 2
+L  D 4
+L  
+ 
+ 
+3 The first eight successive ionisation energies for two elements  of Period 3 of the Periodic Table 
+are shown in the graphs. 
+ 
+012345678
+electron removed
+ionisation
+energy
+012345678
+electron removed
+ionisation
+energy
+ 
+ 
+What is the formula of the ionic compound formed from these elements? 
+A M g Cl 2 B C a B r2 C N a 2S D K 2Se 
+ 
+ 
+4 In which pairs are both species free radicals? 
+ 
+1 C l and O 
+2 C l 
+– and O2– 
+3 C l and O– 
+4 C l 
++ and O2+ 
+ 
+A 1, 3 and 4 B 1 and 3 only C 1  o n l y  D 2  o n l y  
+ 
+ 
+===== PAGE 3 =====
+3  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+5 Which shape is correctly p redicted by VSEPR theory? 
+ 
+ number of bonded 
+electron pairs 
+number of 
+lone pairs shape 
+A 2 2 linear 
+B 2 2 tetrahedral 
+C 3 1 pyramidal 
+D 3 1 trigonal planar 
+ 
+ 
+6 In which species does the underlined atom have an incomplete o uter shell? 
+A B F 3 B C H 3
+– C F 2O D H 3O+ 
+ 
+ 
+7 In this question it should be assumed that nitrogen behaves as an ideal gas under the conditions 
+stated. 
+ 
+Which volume is occupied by 1.00 g of nitrogen at 50.0 C and at a pressure of 120 kPa? 
+A 0.124  dm3 B 0 . 7 9 9 dm3 C 1 . 6 0 dm3 D 22.4  dm3 
+ 
+ 
+8 Consider the following four compounds. 
+ 
+1 (CH 3)3CH 
+2 CH 3CH2CH2OH 
+3 CH 3CH2CH2SH 
+4 CH 3CH2CH2CH3 
+ 
+What is the order of increasing boiling point of the compounds (lowest first)? 
+A 1  4  2  3 
+B 1  4  3  2 
+C 4  1  2  3 
+D 4  1  3  2 
+ 
+ 
+===== PAGE 4 =====
+4 
+© UCLES 2024 9701/12/M/J/24  
+9 Ethane can react with fluorine to produce 1,2-difluoroethane, C2H4F2. 
+ 
+ C 2H6  +  2F2    C2H4F2  +  2HF H = –960 kJ mol–1 
+ 
+bond energy 
+/ kJ mol–1 
+C–H 410 
+C–C 350 
+F–F 158 
+H–F 562 
+ 
+What is the bond energy of the C–F bond in 1,2-difluoroethane? 
+A 407 kJ mol–1 B 474 kJ mol–1 C 486 kJ mol–1 D 972 kJ mol–1 
+ 
+ 
+10 Which equation has an enthalpy change equal to the standard en thalpy of formation of  
+sodium oxide? 
+A Na(s)  +  4
+1 O2(g)    2
+1 Na2O(s) 
+B Na(s)  +  O 2(g)    Na2O(s) 
+C 2Na(s)  +  2
+1 O2(g)    Na2O(s) 
+D 4Na(s)  +  O 2(g)    2Na2O(s) 
+ 
+ 
+11 Nitrogen dioxide reacts with water. 
+ 
+2NO2  +  H2O    HNO2  +  HNO3 
+ 
+Which statement about this reaction is correct? 
+A Both products are formed because oxygen atoms gain electrons. 
+B Nitrogen atoms undergo disproportionation. 
+C The oxidation number of hydrogen is increased. 
+D Water acts as an oxidising agent. 
+ 
+ 
+===== PAGE 5 =====
+5  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+12 Phosphorus reacts with concentrated sulfuric acid to produce p hosphoric acid, sulfur dioxide  
+and water. 
+ 
+aH2SO4  +  bP    cH3PO4  +  dSO2  +  eH2O 
+ 
+a, b, c, d and e are all whole numbers. 
+ 
+The equation can be balanced by using oxidation numbers. 
+ 
+What is the value of the sum a + b + c + d + e? 
+A 10 B 1 4  C 1 5  D 16 
+ 
+ 
+13 The volume of ammonia produced against time is measured in two experiments. 
+ 
+ N 2(g)  +  3H2(g)    2NH3(g) ∆ H = –92 kJ mol–1 
+ 
+In experiment 1, 3  mol of H 2(g) and 1  mol of N 2(g) react together at 45  C  a n d  a  p r e s s u r e  o f  
+200 atm. 
+ 
+A graph showing the volume of ammonia produced against time is plotted. 
+ 
+Experiment 2 is then performed. Experiment 2 differs from experiment 1 in one condition only. 
+ 
+volume
+of NH3
+0
+0 time
+experiment 1
+experiment 2
+ 
+ 
+How does experiment 2 differ from experiment 1? 
+A An iron catalyst is present in experiment 2. 
+B 2  mol of helium gas is present in the reaction mixture in experiment 2. 
+C A pressure of 250  atm is used in experiment 2. 
+D A temperature of 600  C is used in experiment 2. 
+ 
+ 
+14 Which reaction has an equilibrium constant, Kp, that has no units? 
+A H2(g)  +  I2(g)    2HI(g) 
+B 3H2(g)  +  N2(g)    2NH3(g) 
+C 2NO2(g)    N2O4(g) 
+D 2SO2(g)  +  O2(g)    2SO3(g) 
+ 
+ 
+===== PAGE 6 =====
+6 
+© UCLES 2024 9701/12/M/J/24  
+15 Gas Q decomposes slowly at room temperature. 
+ 
+Q(g)    X(g)  +  Z(g) 
+ 
+The Boltzmann distribution curve for gas Q at room temperature is shown. 
+ 
+energy
+number of
+particles
+Ea
+0
+0
+ 
+ 
+Which change occurs when a catalyst is added to gas Q? 
+A The peak of the curve moves to the right on the diagram. 
+B The number of particles with enough energy to decompose increa ses. 
+C The kinetic energy of the unreacted particles increases. 
+D The value of Ea decreases, moving the vertical dotted line to the right on the diagram. 
+ 
+ 
+16 Which statement is correct? 
+A Aluminium chloride has a giant ionic lattice of Al 
+3+ and Cl 
+– ions. 
+B Sodium chloride dissolves in water, forming hydrogen chloride and sodium hydroxide. 
+C The strong covalent bonds in silicon chloride prevent it from reacting with water. 
+D When phosphorus(V) chloride is added to water, the resulting solution conducts electricity. 
+ 
+ 
+17 A mixture of calcium carbonate, calcium nitrate, strontium car bonate and strontium nitrate is 
+thermally decomposed. The decomposition reaction of each substa nce goes to completion. Each 
+substance is anhydrous. 
+ 
+How many different products are formed? 
+A 4  B 5  C 7  D 8  
+ 
+ 
+===== PAGE 7 =====
+7  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+18 W is a solid that reacts with water to produce an alkaline sol ution. 
+ 
+The addition of two drops of dilute H2SO4 to this alkaline solution produces a white precipitate. 
+ 
+What could be the identity of solid W? 
+A magnesium hydroxide 
+B magnesium oxide 
+C barium oxide 
+D phosphorus oxide 
+ 
+ 
+19 Chlorine gas is reacted with cold aqueous sodium hydroxide. 
+ 
+Which statement is correct for this reaction? 
+A Chlorine is both oxidised and reduced. 
+B Chlorine is neither oxidised nor reduced. 
+C Chlorine is oxidised but not reduced. 
+D Chlorine is reduced but not oxidised. 
+ 
+ 
+20 Sodium is added to water to form solution Y. The pH of solution Y is measured. 
+ 
+When powdered substance X is added to solution Y, the pH falls. 
+ 
+Which two compounds could each be substance X? 
+A M g Cl 2 and Al (OH)3 
+B M g Cl 2 and K2O 
+C N a Cl and Al (OH)3 
+D N a Cl and K2O 
+ 
+ 
+===== PAGE 8 =====
+8 
+© UCLES 2024 9701/12/M/J/24  
+21 The table shows statements about some of the properties of halo gens and their compounds and 
+explanations for these properties. 
+ 
+Which row shows a correct statement about the property and a co rrect explanation for the 
+statement? 
+ 
+ statement explanation 
+A iodine is a solid at room temperature the I–I bond strength is high 
+B 
+ 
+ 
+the decomposition of hydrogen iodide 
+is more endothermic than the 
+decomposition of hydrogen chloride 
+chlorine is more 
+reactive than iodine 
+ 
+C 
+ 
+when chlorine is bubbled into aqueous 
+potassium iodide, a purple solution is seen 
+chlorine is a stronger 
+oxidising agent than iodine 
+D 
+ 
+when concentrated sulfuric acid is added to 
+solid potassium iodide, a purple vapour is seen 
+iodide ions are being oxidised 
+to iodine by the sulfuric acid 
+ 
+ 
+22 Which statement describes a property of an ammonium ion? 
+A An aqueous ammonium ion is a weak Brønsted –Lowry base. 
+B Aqueous ammonium sulfate reacts with dilute hydrochloric acid to make ammonia gas. 
+C An ammonium ion has a pyramidal shape with an H–N–H bond angle  of 107. 
+D The four N–H covalent bonds in an ammonium ion are identical t o each other. 
+ 
+ 
+23 Catalytic converters are fitted in the exhaust systems of many  cars. 
+ 
+Gas X: 
+ 
+● causes acid rain if it is released into the air 
+● is removed from car exhaust fumes by a catalytic converter. 
+ 
+What is gas X? 
+A carbon dioxide 
+B carbon monoxide 
+C hydrocarbon vapour 
+D nitrogen dioxide 
+ 
+ 
+===== PAGE 9 =====
+9  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+24 In the general formula of which class of compound is the ratio  of hydrogen atoms to carbon 
+atoms the highest? 
+A alcohols 
+B aldehydes 
+C carboxylic acids 
+D halogenoalkanes 
+ 
+ 
+25 Which statement is correct? 
+A Adding sodium oxide to water gives a lower pH solution than ad ding silicon oxide to water. 
+B The oxidation state of sodium in its chloride is higher than t he oxidation state of silicon in its 
+chloride. 
+C The atomic radius of sodium is larger than that of silicon. 
+D The melting point of the chloride of sodium is lower than the melting point of the chloride of 
+silicon. 
+ 
+ 
+26 Z is a gaseous hydrocarbon which has a density of 3.50  10–3
+ g cm–3 under room conditions. 
+ 
+Z reacts with an excess of hot concentrated acidified KMnO 4. Only one type of carboxylic acid is 
+formed in this reaction. 
+ 
+What is Z? 
+A but-2-ene 
+B 2,3-dimethylbut-2-ene 
+C hex-2-ene 
+D hex-3-ene 
+ 
+ 
+27 Compound X can be oxidised to compound Y. 
+ 
+Compound Y gives a yellow precipitate with alkaline I2(aq). 
+ 
+What is compound X? 
+A butan-1-ol 
+B butan-2-ol 
+C methylpropan-1-ol 
+D methylpropan-2-ol 
+ 
+ 
+===== PAGE 10 =====
+10 
+© UCLES 2024 9701/12/M/J/24  
+28 Aqueous NaOH reacts with 1-bromopropane to give propan-1-ol. 
+ 
+What should be included in a diagram of the first step in the mechanism? 
+A a curly arrow from a lone pair on the OH – ion to the C+ atom of 1-bromopropane 
+B a curly arrow from the C + atom of 1-bromopropane to the OH– ion 
+C a curly arrow from the C–Br bond to the C atom 
+D the homolytic fission of the C–Br bond 
+ 
+ 
+29 In which reaction is the organic compound oxidised? 
+A CH3CH2CH2CHO  +  Tollens’ reagent 
+B CH3CH2CH2CHO  +  LiAl H4 
+C C H 3CH2CH2OH  +  concentrated H3PO4 
+D CH3CO2C2H5  +  dilute H2SO4 
+ 
+ 
+30 1 mole of each of the following four compounds is reacted sepa rately with: 
+ 
+● an excess of sodium 
+● an excess of sodium carbonate. 
+ 
+Which compound produces the same volume of gas with each of the two reagents? 
+ 
+AB
+OH
+O
+C
+H
+O
+HO HO
+D
+OH
+O
+O
+HO
+HO
+OH
+ 
+ 
+ 
+31 Which reaction will distinguish between propan-1-ol and propan -2-ol? 
+A warming with acidified KMnO4 
+B warming with acidified K2Cr2O7 
+C dehydration, followed by reaction with Br2(aq) 
+D mild oxidation, followed by reaction with Fehling’s reagent 
+ 
+ 
+===== PAGE 11 =====
+11  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+32 Compound T has the skeletal formula shown. 
+ 
+compound T
+ 
+ 
+Which structure is a structural isomer of compound T? 
+ 
+A B CD
+ 
+ 
+ 
+33 The diagram shows a simplified structure of coenzyme Q 10. 
+ 
+O
+O
+H
+n
+coenzyme Q10
+CH3O
+CH3O
+ 
+ 
+Which row describes the structure of coenzyme Q10 correctly? 
+ 
+ the coenzyme is number of  bonds 
+in one molecule 
+A an aldehyde n + 2 
+B an aldehyde n + 4 
+C a ketone n + 2 
+D a ketone n + 4 
+ 
+ 
+34 The molecule of limonene, C 10H16, contains a 6-membered ring. This is the only cyclic component  
+in its structure. 
+ 
+Which volume of hydrogen, at room conditions, is required to re act completely with the C=C 
+double bonds in one mole of limonene? 
+A 1 2  dm3 B 2 4  dm3 C 4 8  dm3 D 7 2  dm3 
+ 
+ 
+===== PAGE 12 =====
+12 
+© UCLES 2024 9701/12/M/J/24  
+35 1-bromopropane reacts with hot ethanolic NaOH. 
+ 
+What is the molecular formula of the product in this reaction? 
+A C 3H6 B C 3H8 C C 3H7O D C 3H8O 
+ 
+ 
+36 A sample of pent-2-en-4-ol, C 5H10O, contains all the possible stereoisomers of this compound. 
+ 
+How many stereoisomers are there in the sample? 
+A 2  B 3  C 4  D 5  
+ 
+ 
+37 Which pair of reagents reacts to form a product with a chiral carbon atom? 
+A C H 3CH=CH2  +  HBr 
+B ( C H3)2C=O  +  NaBH4 
+C C H 3CH2CHO  +  HCN 
+D C H 3COOH  +  CH3CH2OH 
+ 
+ 
+38 The diagrams show the structures of two esters, X and Y, that are formed in ripening apples. 
+ 
+ester Yester X
+O
+O O
+O
+ 
+ 
+Which carboxylic acids are formed when these esters are hydrolysed by H2SO4(aq)? 
+ 
+ ester X ester Y 
+A CH3COOH CH 3CH2COOH 
+B CH3COOH CH 3CH2CH(CH3)COOH 
+C CH3CH(CH3)CH2COOH CH 3CH2COOH 
+D CH3CH(CH3)CH2COOH CH 3CH2CH(CH3)COOH 
+ 
+ 
+===== PAGE 13 =====
+13  
+ 
+© UCLES 2024 9701/12/M/J/24 [Turn over 
+39 An addition polymer is made from monomer Z. 
+ 
+CH2 CH C
+O
+monomer Z
+OCH2CH3 
+ 
+What is the structure of the polymer made from this monomer? 
+ 
+A
+B
+C
+D
+CH CH C
+O
+CH CH C O
+O
+CH2 CH C
+OCH2CH3
+O
+CH2 CH
+C
+O
+OCH2CH3
+n
+n
+n
+n
+ 
+ 
+ 
+===== PAGE 14 =====
+14 
+© UCLES 2024 9701/12/M/J/24  
+40 Compound X reacts with acidified K 2Cr2O7 to form compound Y. 
+ 
+The infrared spectrum of compound Y is shown. 
+ 
+100
+50
+0
+transmittance
+4000 3000 2000
+wavenumber / cm–1
+1500 1000 500
+ 
+ 
+bond functional groups containing the bond characteristic infrared absorption range
+(in wavenumbers) / cm–1
+C–O hydroxy, ester 1040–1300
+C=O amide
+carbonyl, carboxyl
+ester
+1640–1690
+1670–1740
+1710–1750
+C=C aromatic compound, alkene 1500–1680
+C–H alkane 2850–2950
+O–H carboxyl
+hydroxy
+2500–3000
+3200–3600
+N–H amine, amide 3300–3500
+C≡N nitrile 2200–2250
+ 
+ 
+What is the identity of compound X? 
+A propan-1-ol 
+B propan-2-ol 
+C propanone 
+D propanoic acid 
+ 
+ 
+===== PAGE 15 =====
+15  
+ 
+ 
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to tra ce copyright holders, but if any items requiring clearance have  unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity. 
+ 
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced on line in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series. 
+ 
+Cambridge Assessment International Education is part of Cambrid ge Assessment. Cambridge Assessment is the brand name of the Un iversity of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge. 
+ 
+© UCLES 2024 9701/12/M/J/24  
+Important values, constants and standards 
+ 
+molar gas constant R = 8.31 J K–1
+ mol–1 
+Faraday constant F = 9.65  104
+ C mol–1 
+Avogadro constant L = 6.022  1023
+ mol–1 
+electronic charge e = –1.60  10–19
+ C 
+molar volume of gas 
+ 
+Vm = 22.4 dm3
+ mol–1 at s.t.p. (101 kPa and 273 K) 
+Vm = 24.0 dm3
+ mol–1 at room conditions 
+ionic product of water Kw = 1.00  10–14
+ mol2
+ dm–6 (at 298 K (25 C)) 
+specific heat capacity of water c = 4.18 kJ kg–1
+ K–1 (4.18 J g–1
+ K–1) 
+ 
+===== PAGE 16 =====
+16 
+© UCLES 2024 9701/12/M/J/24  
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3 4 5 6 7 8 9 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.4
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+ 
+ 

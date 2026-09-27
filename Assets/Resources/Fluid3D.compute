@@ -1,0 +1,156 @@
+#pragma kernel Predict
+#pragma kernel Density
+#pragma kernel Correct
+#pragma kernel ApplyCorrection
+#pragma kernel Velocity
+#pragma kernel Viscosity
+#pragma kernel CommitViscosity
+#pragma kernel ViscosityWeights
+#pragma kernel ClearCells
+#pragma kernel IndexCells
+#pragma kernel ClearField
+#pragma kernel Splat
+#pragma kernel ResolveField
+#define SOLID_MESH_BVH 1
+#include "SolidMeshDistance.cginc"
+#include "FluidBoundaryKernel.cginc"
+RWStructuredBuffer<float3> P;
+RWStructuredBuffer<float3> X;
+RWStructuredBuffer<float3> V;
+RWStructuredBuffer<float3> D;
+RWStructuredBuffer<float> L;
+RWStructuredBuffer<float4> BoundaryContribution;
+RWStructuredBuffer<float4> BoundaryPlane;
+StructuredBuffer<float> Profile;
+RWStructuredBuffer<int> Field;
+RWStructuredBuffer<int> OccupiedBounds;
+RWStructuredBuffer<int> CellHead;
+RWStructuredBuffer<int> CellNext;
+RWStructuredBuffer<uint> NeighborVisits;
+RWTexture3D<float> Volume;
+RWTexture3D<float> SurfaceVolume;
+int Count; int3 Grid;
+int3 CellGrid;int CellCount,AuditAllPairs;
+float Dt,H,H2,Poly,Spiky,ParticleVolume,Spacing,VesselHeight,VesselFloor;
+float3 Acceleration,Gravity,GridMin,GridSize;
+float Stir,Bubble,Kernel,Weight,ViscosityStrength;
+float Radius(float y){float q=saturate(y/VesselHeight)*512;int a=min(511,(int)q);return lerp(Profile[a],Profile[a+1],q-a);}
+float3 Project(float3 p){
+ float margin=Spacing*0.22;p.y=clamp(p.y,VesselFloor+margin,VesselHeight-margin);
+ for(int k=0;k<6;k++){
+  float r=Radius(p.y),d=length(p.xz),slope=(Radius(p.y+0.002)-Radius(p.y-0.002))/0.004;
+  float n=sqrt(1+slope*slope),distance=(r-d)/n;
+  if(distance>=margin)break;
+  float move=margin-distance;
+  if(d>1e-5)p.xz-=min(d,move/n)*p.xz/d;
+  p.y=clamp(p.y+move*slope/n,VesselFloor+margin,VesselHeight-margin);
+ }
+ float radial=length(p.xz),limit=max(0,Radius(p.y)-margin);
+ if(radial>limit&&radial>1e-8)p.xz*=limit/radial;
+ return p;
+}
+float W(float r2){float q=max(0,H2-r2);return Poly*q*q*q;}
+float3 Grad(float3 d){float r=length(d);if(r<1e-5||r>=H)return 0;return d*(Spiky*(H-r)*(H-r)/r*ParticleVolume);}
+int3 Cell(float3 p){return clamp((int3)floor((p-GridMin)/H),0,CellGrid-1);}
+int CellIndex(int3 c){return (c.z*CellGrid.y+c.y)*CellGrid.x+c.x;}
+[numthreads(256,1,1)]void ClearCells(uint i:SV_DispatchThreadID){if(i<(uint)CellCount)CellHead[i]=-1;}
+[numthreads(128,1,1)]void IndexCells(uint i:SV_DispatchThreadID){
+ if(i>=Count)return;int previous;InterlockedExchange(CellHead[CellIndex(Cell(X[i]))],(int)i,previous);CellNext[i]=previous;
+}
+void SumDensity(float3 p,int j,inout float density,inout float denom,inout float3 sum){
+ float3 d=p-X[j];float r2=dot(d,d);if(r2>=H2)return;density+=ParticleVolume*W(r2);float3 g=Grad(d);denom+=dot(g,g);sum+=g;
+}
+void SumCorrection(float3 p,uint i,int j,inout float3 delta){
+ if(i==(uint)j)return;float3 d=p-X[j];float r2=dot(d,d);if(r2>=H2)return;
+ float q=W(r2)/W(H2*0.09);float pressure=-0.0001*Spacing*Spacing*q*q*q*q;delta+=(L[i]+L[j]+pressure)*Grad(d);
+}
+[numthreads(128,1,1)]void Predict(uint i:SV_DispatchThreadID){if(i>=Count)return;float3 p=P[i];float3 force=Gravity-Acceleration;
+ force+=float3(-p.z,0,p.x)*Stir*4;force.y+=min(2,Bubble)*exp(-dot(p.xz,p.xz)/max(0.001,GridSize.x*GridSize.x*0.04))*2;
+ V[i]+=force*Dt;X[i]=Project(ProjectSolidMeshes(Project(p+V[i]*Dt),Spacing*.12));
+ float4 surface=SolidCount>0?SolidNearestSurface(X[i],H):float4(0,0,0,H);
+ BoundaryPlane[i]=float4(surface.xyz,dot(X[i],surface.xyz)-surface.w);
+}
+[numthreads(128,1,1)]void Density(uint i:SV_DispatchThreadID){if(i>=Count)return;float density=0,denom=0;float3 sum=0,p=X[i];
+ uint visits=0;
+ if(AuditAllPairs!=0){for(int j=0;j<Count;j++){SumDensity(p,j,density,denom,sum);visits++;}}
+ else {
+  int3 c=Cell(p),lo=max(0,c-1),hi=min(CellGrid-1,c+1);
+  for(int z=lo.z;z<=hi.z;z++)for(int y=lo.y;y<=hi.y;y++)for(int x=lo.x;x<=hi.x;x++)
+   for(int j=CellHead[CellIndex(int3(x,y,z))];j>=0;j=CellNext[j]){SumDensity(p,j,density,denom,sum);visits++;}
+ }
+ NeighborVisits[i]=visits;
+ float boundary=min(p.y-VesselFloor,min(VesselHeight-p.y,Radius(p.y)-length(p.xz)));
+ float wallContribution=0.42*pow(saturate(1-boundary/H),2);
+ // Linearize the closest tangent plane once per 90 Hz solver tick, then
+ // reevaluate its analytic kernel at the corrected position each iteration.
+ // Exact mesh collision projection still runs after every correction.
+ float4 plane=BoundaryPlane[i];
+ float4 solidContribution=SolidBoundaryKernelFromSurface(float4(plane.xyz,max(0,dot(p,plane.xyz)-plane.w)),H);
+ // A local tangent plane is an approximation at curved solids. Use the
+ // dominant boundary rather than double counting a solid against the vessel.
+ if(solidContribution.w<=wallContribution)solidContribution=0;
+ BoundaryContribution[i]=solidContribution;sum+=solidContribution.xyz;
+ float constraint=max(0,density+max(wallContribution,solidContribution.w)-1);
+ L[i]=-constraint/(denom+dot(sum,sum)+0.01/(Spacing*Spacing));}
+[numthreads(128,1,1)]void Correct(uint i:SV_DispatchThreadID){if(i>=Count)return;float3 delta=0,p=X[i];
+ if(AuditAllPairs!=0){for(int j=0;j<Count;j++)SumCorrection(p,i,j,delta);}
+ else {
+  int3 c=Cell(p),lo=max(0,c-1),hi=min(CellGrid-1,c+1);
+  for(int z=lo.z;z<=hi.z;z++)for(int y=lo.y;y<=hi.y;y++)for(int x=lo.x;x<=hi.x;x++)
+   for(int j=CellHead[CellIndex(int3(x,y,z))];j>=0;j=CellNext[j])SumCorrection(p,i,j,delta);
+ }
+ delta+=L[i]*BoundaryContribution[i].xyz;
+ D[i]=delta*min(1,Spacing*0.25/max(length(delta),1e-6));}
+[numthreads(128,1,1)]void ApplyCorrection(uint i:SV_DispatchThreadID){if(i<Count)X[i]=Project(ProjectSolidMeshes(Project(X[i]+D[i]),Spacing*.12));}
+float ViscosityWeight(uint i){
+ float weight=0;float3 p=X[i];
+ if(AuditAllPairs!=0){for(int j=0;j<Count;j++){float3 delta=p-X[j];weight+=ParticleVolume*W(dot(delta,delta));}}
+ else{
+  int3 c=Cell(p),lo=max(0,c-1),hi=min(CellGrid-1,c+1);
+  for(int z=lo.z;z<=hi.z;z++)for(int y=lo.y;y<=hi.y;y++)for(int x=lo.x;x<=hi.x;x++)
+   for(int j=CellHead[CellIndex(int3(x,y,z))];j>=0;j=CellNext[j]){float3 delta=p-X[j];weight+=ParticleVolume*W(dot(delta,delta));}
+ }
+ return max(1,weight);
+}
+[numthreads(128,1,1)]void Velocity(uint i:SV_DispatchThreadID){if(i>=Count)return;float3 v=(X[i]-P[i])/Dt;V[i]=v*min(1,4/max(length(v),1e-6));P[i]=X[i];L[i]=ViscosityWeight(i);}
+[numthreads(128,1,1)]void ViscosityWeights(uint i:SV_DispatchThreadID){if(i<Count)L[i]=ViscosityWeight(i);}
+float3 PairViscosity(uint i,int j){
+ float3 delta=X[i]-X[j];float weight=ParticleVolume*W(dot(delta,delta))/max(L[i],L[j]);
+ return weight*(V[j]-V[i]);
+}
+[numthreads(128,1,1)]void Viscosity(uint i:SV_DispatchThreadID){
+ if(i>=Count)return;float3 change=0;
+ if(AuditAllPairs!=0){for(int j=0;j<Count;j++)change+=PairViscosity(i,j);}
+ else{
+  int3 c=Cell(X[i]),lo=max(0,c-1),hi=min(CellGrid-1,c+1);
+  for(int z=lo.z;z<=hi.z;z++)for(int y=lo.y;y<=hi.y;y++)for(int x=lo.x;x<=hi.x;x++)
+   for(int j=CellHead[CellIndex(int3(x,y,z))];j>=0;j=CellNext[j])change+=PairViscosity(i,j);
+ }
+ // Symmetric pair weights conserve equal-mass momentum. Their row sum is
+ // <= 1, so strength in [0,1] gives a convex, energy-nonincreasing blend.
+ // Read only V and write D to avoid cross-thread in-place velocity races.
+ D[i]=V[i]+saturate(ViscosityStrength)*change;
+}
+[numthreads(128,1,1)]void CommitViscosity(uint i:SV_DispatchThreadID){if(i<Count)V[i]=D[i];}
+[numthreads(256,1,1)]void ClearField(uint i:SV_DispatchThreadID){
+ if(i<(uint)(Grid.x*Grid.y*Grid.z))Field[i]=0;
+ if(i<3)OccupiedBounds[i]=Grid[i];else if(i<6)OccupiedBounds[i]=0;
+}
+[numthreads(128,1,1)]void Splat(uint i:SV_DispatchThreadID){if(i>=Count)return;float3 p=P[i],center=(p-GridMin)/GridSize*(Grid-1);int3 reach=(int3)ceil(Kernel/GridSize*(Grid-1));
+ int3 lo=max(0,(int3)center-reach),hi=min(Grid-1,(int3)center+reach);
+ InterlockedMin(OccupiedBounds[0],lo.x);InterlockedMin(OccupiedBounds[1],lo.y);InterlockedMin(OccupiedBounds[2],lo.z);
+ InterlockedMax(OccupiedBounds[3],hi.x);InterlockedMax(OccupiedBounds[4],hi.y);InterlockedMax(OccupiedBounds[5],hi.z);
+ for(int z=lo.z;z<=hi.z;z++)for(int y=lo.y;y<=hi.y;y++)for(int x=lo.x;x<=hi.x;x++){
+  float3 samplePos=GridMin+float3(x,y,z)/(Grid-1)*GridSize;float q=1-dot(samplePos-p,samplePos-p)/(Kernel*Kernel);
+  if(q>0)InterlockedAdd(Field[(z*Grid.y+y)*Grid.x+x],(int)(Weight*q*q*q*65536));
+ }}
+[numthreads(4,4,4)]void ResolveField(uint3 i:SV_DispatchThreadID){if(any(i>=(uint3)Grid))return;
+ float3 p=GridMin+(float3)i/(Grid-1)*GridSize;float value=Field[(i.z*Grid.y+i.y)*Grid.x+i.x]/65536.0;
+ if(p.y<VesselFloor||p.y>VesselHeight||length(p.xz)>Radius(p.y))value=0;
+ // Preserve the particle kernel for interpolation. The renderer clips the
+ // interpolated sample against the exact mesh, rather than interpolating a
+ // grid of zeroed solid voxels and eroding adjacent liquid a second time.
+ SurfaceVolume[i]=value;
+ if(value>0&&InsideAnySolid(p))value=0;
+ Volume[i]=value;
+}

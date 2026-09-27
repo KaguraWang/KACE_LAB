@@ -1,0 +1,25 @@
+#pragma kernel Classify
+#pragma kernel ProjectAudit
+#pragma kernel BoundaryAudit
+#define SOLID_MESH_BVH 1
+#include "SolidMeshDistance.cginc"
+#include "FluidBoundaryKernel.cginc"
+StructuredBuffer<float3> AuditPoints;
+RWStructuredBuffer<uint> AuditInside;
+RWStructuredBuffer<float3> AuditProjected,AuditReference;
+RWStructuredBuffer<float4> AuditBoundary,AuditNearest;
+float AuditMargin;
+int AuditPointCount;
+[numthreads(64,1,1)]void BoundaryAudit(uint id:SV_DispatchThreadID){
+ if(id>=AuditPointCount)return;
+ AuditNearest[id]=SolidNearestSurface(AuditPoints[id],AuditMargin);
+ AuditBoundary[id]=SolidBoundaryKernel(AuditPoints[id],AuditMargin);
+}
+[numthreads(64,1,1)]void Classify(uint id:SV_DispatchThreadID){
+ if(id<AuditPointCount)AuditInside[id]=InsideAnySolid(AuditPoints[id])?1:0;
+}
+[numthreads(64,1,1)]void ProjectAudit(uint id:SV_DispatchThreadID){
+ if(id>=AuditPointCount)return;
+ AuditProjected[id]=ProjectSolidMeshes(AuditPoints[id],AuditMargin);
+ AuditReference[id]=ProjectSolidMeshesLinear(AuditPoints[id],AuditMargin);
+}

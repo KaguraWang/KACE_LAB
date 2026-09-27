@@ -1,0 +1,101 @@
+================================================================================
+9701/33/M/J/24
+================================================================================
+
+── Q2：未匹配到开头
+
+── Q3：未匹配到开头
+
+================================================================================
+9701/34/M/J/24
+================================================================================
+
+── Q2：未匹配到开头
+
+── Q3：未匹配到开头
+
+================================================================================
+9701/33/M/J/25
+================================================================================
+
+── Q2 开头：You will now determine the concentration of a solution of hydrogen peroxide by a different method.
+   2  You will now determine the concentration of a solution of hydrogen peroxide by a different method.
+   Hydrogen peroxide decomposes slowly into water and oxygen at room temperature. This reaction
+   is exothermic. When a catalyst is added, the decomposition is fast and there is a measurable
+   temperature rise.
+   H2O2(aq)    H2O(l) + 1
+   2O2(g)    ΔH = −98.2 kJ mol−1
+   FA 1 is aqueous hydrogen peroxide, H2O2.
+   FA 5 is manganese(IV) oxide, MnO2.
+   (a) Method
+   Experiment 1
+   • Support one of the cups in the 250 cm3 beaker.
+   • Use the 50 cm3 measuring cylinder to add 25.0 cm3 of FA 1 to the cup.
+   • Place the thermometer in the FA  1 and tilt the cup, if necessary , so that the bulb of the
+   thermometer is fully covered. Record the temperature in the space for results.
+   • Add a heaped spatula measure of FA 5 to the solution in the cup.
+   • Stir constantly until the maximum temperature is reached. Record this temperature.
+   • Calculate and record the temperature rise.
+   • Rinse and dry the thermometer.
+   Experiment 2
+   • Support the second cup in the 250 cm3 beaker.
+   • Use the 50 cm3 measuring cylinder to add 40.0 cm3 of FA 1 to the second cup.
+   • Measure and record the initial temperature of the solution.
+   • Add a heaped spatula measure of FA 5 to the solution in the second cup.
+   • Stir constantly until the maximum temperature is reached. Record this temperature.
+   • Calculate and record the temperature rise.
+   Keep FA 5 for use in Question 3.
+   Results
+   [5]
+   I
+   II
+   III
+   IV
+   V
+   * 0000800000006 *
+   ,	,
+   ĬÑĊ®Ġ´íÈõÏĪÅĊßüµþ×
+   ĬÌùúÎīĔĨàýĂÃďÛ¯±ąĂ
+   ĥĕµÕµÕĥµÅµåÅąÕÅĕµÕ
+   DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN
+   ===== PAGE 7 =====
+   7
+   9701/33/M/J/25© UCLES 2025 [Turn over
+   (b) Calculations
+   (i) Calculate the energy change, in J, in Experiment 2.
+   energy change = .............................. J [1]
+   (ii) Use the information given and your answer to (b)(i) to calculate the concentration, in
+   mol dm–3, of hydrogen peroxide in FA 1.
+   concentration of H2O2 in FA 1 = .............................. mol dm–3 [2]
+   (c) The concentration of hydrogen peroxide in FA  1 calculated using the method given for
+   Question 1 is more accurate than that using the method given for Question 2.
+   (i) Heat loss is a large source of error when carrying out the method for Question 2.
+   Describe and explain the effect of heat loss on the value of the concentration of hydrogen
+   peroxide calculated.
+   ........................................................................
+
+── Q3：未匹配到开头
+
+================================================================================
+9701/34/M/J/25
+================================================================================
+
+── Q2：未匹配到开头
+
+── Q3：未匹配到开头
+
+================================================================================
+9701/33/M/J/26
+================================================================================
+
+── Q2：未匹配到开头
+
+── Q3：未匹配到开头
+
+================================================================================
+9701/34/M/J/26
+================================================================================
+
+── Q2：未匹配到开头
+
+── Q3：未匹配到开头

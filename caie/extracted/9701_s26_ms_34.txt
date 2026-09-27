@@ -1,0 +1,947 @@
+
+===== PAGE 1 =====
+ 
+                                                                    
+ 
+ 
+ 
+ 
+This document consists of 20 printed pages. 
+ 
+© Cambridge University Press & Assessment 2026 
+ 
+[Turn over 
+ 
+Cambridge International AS & A Level 
+ 
+CHEMISTRY 9701/34 
+Paper 3 Advanced Practical Skills 2 May/June 2026 
+MARK SCHEME 
+Maximum Mark: 40 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme contains the instructions and marking guidance that our examiners used to mark 
+candidate responses for this component.  
+ 
+Before they start marking, examiners complete a standardisation process. They review a range of candidate 
+responses and discuss the mark scheme in detail to agree which answers can and cannot be accepted. 
+Examiners award marks where it is clear that candidate responses have met the requirements of the mark 
+scheme. These requirements may vary between different components or different versions of the same 
+component, depending on the exact requirements of the question and the candidate responses seen during 
+the standardisation process.  
+ 
+Sometimes, our mark schemes may allow marks to be awarded to responses which contain elements that 
+are factually incorrect or for content not covered by the syllabus. We do this in response to the demands of a 
+specific question to support candidates and make sure that our assessments are fair. However, these 
+allowances should not be used as a guide for teaching and learning.  
+ 
+We cannot discuss the mark scheme with schools, and we recommend that schools read the mark scheme 
+together with the assessment material and the Principal Examiner Report for Teachers.  
+ 
+ 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 2 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 2 of 20  
+ 
+General marking principles 
+ 
+All examiners must apply these marking principles when marking candidate responses.  
+ 
+1 Examiners must award marks for each response in line with: 
+ 
+• the specific content defined in the mark scheme  
+• the specific skills defined in the mark scheme or in the level descriptions  
+• the standard of response required as exemplified by the standardisation scripts. 
+2 Examiners must award whole marks (not half marks, or other fractions). 
+3 Examiners must award marks positively. This means that: 
+ 
+• marks are not deducted for errors or omissions 
+• marks are awarded for correct/valid answers as defined in the mark scheme and also for other valid answers which go beyond the 
+scope of the syllabus and mark scheme referring to your team leader as appropriate  
+• the quality of spelling, punctuation and grammar are judged only when the mark scheme indicates that these features are specifically 
+assessed in the question. However, the meaning of all responses must be unambiguous. 
+4 Examiners must consistently apply the requirements of the mark scheme and any rules for what to do when candidates have not followed 
+instructions correctly. 
+5 Examiners must use the full range of marks defined in the mark scheme, unless limited by the quality of the candidate responses seen. 
+6 Examiners must award marks according to the mark scheme and must not award marks with grade thresholds or grade descriptions in 
+mind. 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 3 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 3 of 20  
+ 
+Science-Specific Marking Principles 
+ 
+1 Examiners should consider the context and scientific use of any keywords when awarding marks. Although keywords may be present, marks 
+should not be awarded if the keywords are used incorrectly.  
+2 The examiner should not choose between contradictory statements given in the same question part, and credit should not be awarded for 
+any correct statement that is contradicted within the same question part. Wrong science that is irrelevant to the question should be ignored. 
+3 Although spellings do not have to be correct, spellings of syllabus terms must allow for clear and unambiguous separation from other 
+syllabus terms with which they may be confused (e.g. ethane / ethene, glucagon / glycogen, refraction / reflection). 
+4 The error carried forward (ecf) principle should be applied, where appropriate. If an incorrect answer is subsequently used in a scientifically 
+correct way, the candidate should be awarded these subsequent marking points. Further guidance will be included in the mark scheme 
+where necessary and any exceptions to this general principle will be noted. 
+5 ‘List rule’ guidance 
+ 
+For questions that require n responses (e.g. State two reasons …): 
+ 
+• The response should be read as continuous prose, even when numbered answer spaces are provided. 
+• Any response marked ignore in the mark scheme should not count towards n. 
+• Incorrect responses should not be awarded credit but will still count towards n. 
+• Read the entire response to check for any responses that contradict those that would otherwise be credited. Credit should not be 
+awarded for any responses that are contradicted within the rest of the response. Where two responses contradict one another, this 
+should be treated as a single incorrect response. 
+• Non-contradictory responses after the first n responses may be ignored even if they include incorrect science. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 4 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 4 of 20  
+ 
+6 Calculation specific guidance 
+ 
+Correct answers to calculations should be given full credit even if there is no working or incorrect working, unless the question states ‘show 
+your working’.  
+ 
+For questions in which the number of significant figures required is not stated, credit should be awarded for correct answers when rounded 
+by the examiner to the number of significant figures given in the mark scheme. This may not apply to measured values.  
+ 
+For answers given in standard form (e.g. a  10n) in which the convention of restricting the value of the coefficient (a) to a value between 1 
+and 10 is not followed, credit may still be awarded if the answer can be converted to the answer given in the mark scheme.  
+ 
+Unless a separate mark is given for a unit, a missing or incorrect unit will normally mean that the final calculation mark is not awarded. 
+Exceptions to this general principle will be noted in the mark scheme. 
+7 Guidance for chemical equations 
+ 
+Multiples / fractions of coefficients used in chemical equations are acceptable unless stated otherwise in the mark scheme.  
+ 
+State symbols given in an equation should be ignored unless asked for in the question or stated otherwise in the mark scheme. 
+ 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 5 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 5 of 20  
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the 
+standardisation process on how and when to use annotations. The purpose of annotations is to inform the standardisation and monitoring 
+processes and guide the supervising examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may 
+not be a direct correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an 
+indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation Meaning 
+ Correct point or mark awarded 
+ Incorrect point or mark not awarded 
+ Information missing or insufficient for credit 
+ Benefit of the doubt given 
+ Contradiction in response otherwise markworthy, mark not given 
+ Error in number of decimal places 
+ Error carried forward applied 
+ Incorrect or insufficient point ignored while marking the rest of the response 
+ Rounding error 
+ Repeat error 
+ or / Blank page or part of script seen 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 6 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 6 of 20  
+ 
+Annotation Meaning 
+ Error in number of significant figures 
+ Transcription error 
+ 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 7 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 7 of 20  
+ 
+Mark Scheme abbreviations 
+ 
+/   alternative responses for the same marking point 
+R reject the response 
+A accept the response 
+I ignore the response 
+ecf    error carried forward 
+AVP   any valid point 
+ora or reverse argument 
+AW   alternative wording 
+underline actual word given must be used by candidate (grammatical variants excepted) 
+( ) the word / phrase in brackets is not required but sets the context 
+max indicates the maximum number of marks that can be given 
+M marking point 
+ppt precipitate 
+sf significant figures 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 8 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 8 of 20  
+ 
+Accuracy marks must be recorded on the spreadsheet provided, on an accuracy grid or on a blank part of the Supervisor’s script. If using a 
+spreadsheet or accuracy grid, this must be printed and stapled inside the Supervisor script. The relevant Supervisor results must be written and 
+ringed on each candidate script. 
+When awarding the accuracy (Q) mark in Question 1, record: 
+• candidate number 
+• candidate titre 
+• difference from supervisor,  
+• mark awarded 
+• any adjustment (spread adjustment (SA), 50-adjustment (50-A) or rough titration adjustment (RTA)) 
+ 
+When awarding accuracy marks in Question 2 record: 
+• candidate mass of FB 6 
+• candidate mass loss 
+• mark awarded 
+ 
+In either question, where more than half the candidates score no marks against the supervisor value, please contact your team leader (TL). 
+ 
+Reject either a rounding error (RE) or a transcription error (TE) only once in the paper.  Note: Reject REs only in ‘correctly calculates’. 
+Reject fractions in place of decimal answers only once in the paper. 
+ 
+Practical issues at a centre sometimes mean that candidates cannot access all of the marks. In such cases, contact your TL. Candidate 
+marks may need to be scaled.  
+ 
+Restarts: In calculations sections of quantitative analysis questions, candidates may gain credit in a question part by using either a previous 
+incorrect answer or they may ‘restart’ the calculation using their experimental data correctly. Annotate either ‘ecf’ or ‘allow: restart’. 
+ 
+ 
+  
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 9 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 9 of 20  
+ 
+Question  Answer Marks Guidance 
+1(a) I The following data are recorded: 
+• two burette readings and titre for the rough titration 
+and 
+• initial and final burette readings for two (or more) accurate 
+titrations 
+1 Headings and units are not required for this mark. Must 
+be red pen on page 2. 
+A Rough titration readings may be labelled in the 
+accurate table. 
+I errors in values for rough titration, e.g. an initial 
+reading of 50, incorrect subtractions, etc. 
+II Titre values recorded for accurate titrations and correct 
+headings and units in a single accurate titration table  
+• initial/start and (burette) reading/volume 
+• final/end and (burette) reading/volume 
+• titre or volume used/added or FB 1 used/added 
+• unit: / cm3 or (cm3) or in cm3 (for each heading) or cm3 unit 
+given for each volume recorded. 
+1 A ‘vol’ or ‘V’ or ‘value’ for ‘reading / volume’. 
+R if initial and final burette readings do not match the 
+data (A 50 as initial volume). 
+R ‘difference’ or ‘amount’ or ‘change’ or ‘titrate’ (for titre). 
+R ml / cc. 
+I ‘total’ (titre). 
+I Headings relating to solution turning yellow. 
+III All accurate burette readings recorded to 0.05 cm3 1 R if:  
+• 50(.00) is used as an initial burette reading 
+• More than one final burette reading is 50(.00) 
+• Any burette reading is greater than 50(.00). 
+ 
+The requirement to record to 0.05 applies to burette 
+readings, including 0.00 cm3 (if this was the initial 
+reading), but it does not apply to the titre. 
+IV The final accurate titre recorded must be within 0.10 cm3 of 
+any other accurate titre 
+1 R if these two titres are derived from any burette 
+readings recorded as integers (apart from initial 0 cm3) 
+R if titre values not calculated but A BOD if all initial 
+burette readings are 0(.00). 
+I any reading labelled rough. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 10 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 10 of 20  
+ 
+Question  Answer Marks Guidance 
+1(a) Accuracy (Q) marks 
+Round burette readings to the nearest 0.05 cm3. Check and correct titre subtractions where necessary.  
+ 
+Examiner selects the best mean titre, using the following hierarchy: 
+• two (or more) accurate identical titres (ignoring any that are labelled ‘rough’), then 
+• two (or more) accurate titres within 0.05 cm3, then 
+• two (or more) accurate titres within 0.10 cm3, etc 
+ 
+Calculate the difference () between the candidate’s mean titre and the supervisor’s mean titre.  
+Write and ring supervisor’s value next to the accurate titration table for each candidate.  
+Also write the candidate’s mean value (calculated by examiner) and difference between supervisor’s and candidate’s value, . 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 11 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 11 of 20  
+ 
+Question  Answer Marks Guidance 
+1(a) Award accuracy Q marks as follows:  A spread adjustment (SA) is required if titres selected 
+(by examiner) differ ⩾ 1.00 cm3. 
+A 50-adjustment (50-A) is required if 50.(00) is used as 
+initial volume. Use mean of final volume or actual titre 
+(whichever gives the better Q score). 
+A rough titration adjustment (RTA) is required if only 
+a rough titration was carried out. Use the rough titre to 
+award Q marks. 
+If an adjustment is required:  
+V Award if  ⩽ 0.30 cm3 
+VI Award if  ⩽.0.20 cm3 
+VII Not available. 
+ 
+If only one accurate titration was carried out, use it to 
+award Q marks as normal. 
+A (BOD) accuracy marks from titre values with no 
+readings shown. 
+ 
+For Supervisor’s mean titre ⩾ 50.00 cm3: 
+3 marks: 0.30, 2 marks: 0.50, 1 mark: 0.80 cm3 
+ 
+For Supervisor’s mean titre ⩽ 10.00 cm3: 
+3 marks: 0.10, 2 marks: 0.15, 1 mark: 0.25 cm3 
+ 
+For Supervisor’s mean titre ⩽ 5.00 cm3: 
+3 marks not available, 2 marks: 0.05, 1 mark: 0.10 cm3 
+ 
+Adjustments apply as above. 
+V Award if  ⩽ 0.50 cm3 1 
+VI Award if  ⩽.0.30 cm3 1 
+VII Award if  ⩽ 0.20 cm3 1 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 12 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 12 of 20  
+ 
+Question  Answer Marks Guidance 
+1(b) Correctly calculates mean titre 
+• Candidate must take the average of two (or more) titres 
+that are within a total spread of not more than 0.20 cm3. 
+• Working/explanation must be shown or ticks must be put 
+next to the two (or more) accurate readings selected. 
+• The mean should be quoted to 2 dp and be rounded to 
+nearest 0.01 cm3. (e.g. 26.675 cm3 must be rounded to 
+26.68 cm3) 
+1 A mean expressed to 1 dp, if all accurate burette 
+readings were given to 1 dp or a mix of 1 dp and 
+integers and the mean is exactly correct.  
+ 
+e.g. if titres are 26.0 and 26.2: mean = 26.1 is correct 
+e.g. if titres are 26.0 and 26.1: mean = 26.1 is wrong 
+(should be 26.05 cm3) 
+ 
+A ecf if in (a) no readings but only titre values given or 
+no titre calculated and initial reading is 0.(00) cm3. 
+ 
+R this mark if: 
+• The rough titre was used to calculate the mean. 
+• The candidate did only one accurate titration. 
+• Burette readings were incorrectly subtracted to 
+obtain any of the accurate titre values. 
+• All burette readings used to calculate the mean 
+were recorded as integers. 
+1(c)(i) All answers given to parts (ii), (iii) and (iv) recorded to 3 or 4 
+sf. 
+1 Answers must be given for all three question parts. 
+If no value on the answer line, accept final calculated 
+value in the working. 
+Some relevant working is required for at least one 
+question part. 
+1(c)(ii) M1 Correctly displays 
+Mr = (39.1 + 126.9 + 3  16) = 214 
+1 A number string. 
+R either 39 or 127. 
+M2 Correctly uses 
+amount of IO3- = 3.35 / 214  25 / 1000 = 3.91(4)  10–4 
+1 A ecf from incorrect Mr. 
+A 3.91(4)  10–4 with no working seen for M2. 
+R M2 if no Mr used in calculation. 
+R M2 Rounding to 1 or 2 sf shown during a 2-part 
+calculation (not correct use). 
+1(c)(iii) Correctly uses 
+amount of S2O32- = 6  1(c)(ii)  
+1 No working required if answer to 3 sf or more. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 13 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 13 of 20  
+ 
+Question  Answer Marks Guidance 
+1(c)(iv) Correctly uses 
+Concentration = 1(c)(iii)  1000 / 1(b) 
+1 No working required if answer to 3 sf or more. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 14 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 14 of 20  
+ 
+Question  Answer Marks Guidance 
+2(a)(i) I Unambiguous headings and correctly displayed units in the 
+space provided  
+• (Mass of) crucible (+ lid) 
+• (Mass of) crucible (+ lid) + FB 6 (or contents before 
+heating) 
+• (Mass of) crucible (+ lid) + residue / MX2 / (anhydrous) metal 
+salt/ anhydrous FB 6 / contents (after heating / after 
+cooling) 
+• (Mass of) FB 6 
+• (Mass of) residue / MX2 / (anhydrous) metal salt / anhydrous 
+FB 6 contents (after heating / after cooling) 
+• (Mass) loss / lost / change in mass / mass of water 
+And 
+ 
+Units must be ‘/’ or ‘in’ or ‘()’ AND g or ‘grams’ in column 
+headings or with every entry 
+1 Use of lid must be consistent. 
+There must be something in the crucible after heating. 
+Mass before and after heating must be unambiguous 
+If multiple data sets provided, use first set. 
+R weight for mass. 
+R gram, gr, / (g), (/g). 
+R starting/initial mass; ending/final mass only.  
+R ‘FB 6’ alone after heating. 
+R incorrect display of units unless R in 1(a). 
+ 
+A balance readings to 4 dp. 
+A 1 dp readings if the supervisor report states ‘1 dp 
+balance only’. 
+R if heated more than once. I heating to 1 min.  
+II Three required weighings recorded in the space provided 
+and 
+all weighings recorded to the same number of decimal places 
+(2 or 3); 
+1 A trailing zeros to be missing from calculated masses. 
+A M3 from figures alongside method but do not look 
+ahead to calculations. 
+If candidate has heated more than once they should use 
+the greatest mass loss. 
+R if mass lost and mass of residue are transposed. 
+III Correct subtractions to give masses of FB 6, residue and 
+mass loss 
+and 
+values are correctly labelled 
+1 If candidate has heated more than once use the 
+greatest mass loss. 
+Write CMR and ringed SMR on each script. 
+If default value is required use 
+Default value for BaCl2.2H2O = 6.79. 
+Default value for CaCl2.2H2O = 4.09. 
+This must be discussed with TL. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 15 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 15 of 20  
+ 
+Question  Answer Marks Guidance 
+2(a)(i) IV Accuracy (Q) mark 
+Calculate candidate’s mass ratio (CMR) (to 2 dp)  
+= mass FB 6 /mass lost 
+Calculate supervisor’s mass ratio (SMR) (to 2 dp)  
+= mass FB 6 /mass lost 
+ 
+Award IV if the candidate mass ratio is within 7% of the 
+supervisor mass ratio i.e., CMR range = 0.93 SMR to 1.07 
+SMR 
+1  
+2(a)(ii) Anion test 
+ 
+M1 (Add) water to dissolve the residue / add water to make a 
+solution 
+1 A use of nitric acid for water. 
+A testing FB 6. 
+R use of sulfuric or hydrochloric acid to make solution 
+(M1 and M2). 
+I 'residue' (aq) an alternative to dissolving. 
+M2 (use of) silver nitrate / AgNO3 and white precipitate 
+(observed) 
+1 I Ag+ for AgNO3, but ecf to M3.  
+I addition of nitric acid.  
+R M2 if any other reagents used, but I KMnO4. 
+R if ppt is soluble in silver nitrate / excess. 
+M3 (use of) ammonia / NH3 and correct conclusion = Cl–
+ / chloride 
+1 M3 is dependent attempt at M2. 
+R Br– / bromide (no ecf). 
+R Cl2. 
+I Cl. 
+I observation with ammonia / NH3. 
+2(b)(i) correctly calculates n(H2O)  
+n(H2O) = mass loss/18  
+and 
+answer given to 2 – 4 sf 
+1 A Mass loss derived from either the weighings or from 
+the masses of FB 6 and residue. 
+If candidate has confused mass of residue with mass 
+loss in (a), mark ecf. 
+A Re-start. 
+A no working if answer to 3 – 4 sf. 
+R incorrect sf once only within 2(b). 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 16 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 16 of 20  
+ 
+Question  Answer Marks Guidance 
+2(b)(ii) Correct use of (b)(i) to find Mr of MX2 
+Mr = [ (mass of residue x 2)/2(b)(i) ] 
+and 
+answer given to 2 – 4 sf 
+1  
+A Mr= [ (mass of residue)/((b)(i) ÷ 2) ] 
+A Mr= [ (mass of FB 6)/((b)(i) ÷ 2) ] – 36 
+ 
+If candidate has confused mass of residue with mass 
+loss in (a), mark ecf.  
+A Re-start. 
+A no working if answer to 3 – 4 sf. 
+2(b)(iii) Ar = 2(b)(ii) – 2  correct Ar of halide ion in 2(a)(ii) 
+and 
+answer given to 2 – 4 sf 
+and 
+M = correct choice of Group 2 metal 
+and 
+cation has 2+ charge  
+1 put dot on Ar if correct. 
+ecf from incorrect halide in 2(a)(ii). 
+A ecf from non-halide X- ion in 2(a)(ii). 
+A Ar in working.  
+A absence of display of the decimal in any Ar (e.g. 80 
+for 79.9) if already R in 1(c)(ii). 
+A name of Group 2 metal (with / without charge). 
+R if no use of (a)(ii) and (b)(ii). 
+R if (b)(ii) not derived from experimental results. 
+If ecf results in a negative Ar A with 'not possible to 
+identify M2+ or Be2+. 
+Ar M 
+< 16.7 Be 
+16.7 ⩽ Ar < 32.2 Mg 
+32.2 ⩽ Ar < 63.9 Ca 
+63.9 ⩽ Ar < 112.5 Sr 
+112.5 ⩽ Ar < 250 Ba 
+> 250 Ra  
+ 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 17 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 17 of 20  
+ 
+Question  Answer Marks Guidance 
+2(c)(i) Correct expression 
+ 
+(|(Actual Mr MX2 – 2(b)(ii))| ÷ Actual Mr MX2)  100 
+1 A ecf from whole number Ar (e.g. 24 for Mg, 80 for Br) 
+in 2(b)(iii). 
+A Expression with |(Actual Mr MX2 – 2(b)(ii))| evaluated 
+(and rest of expression correct). 
+A correct number strings for actual MX2. 
+A any valid mathematical method to calculate 
+percentage error. 
+R if (b)(ii) not derived from experiment results. 
+I answer but A to confirm missing  100. 
+A ecf for any formula identified in 2(b)(ii) from table.  
+ 
+M Mr(MCl2) Mr(MBr2) Mr(MI2) 
+Be 80 168.8 262.8 
+Mg 95.3 184.1 278.1 
+Ca 111.1 199.9 293.9 
+Sr 158.6 247.4 341.4 
+Ba 208.3 297.1 391.1 
+ 
+2(c)(ii) Heat to constant mass 1 I use a balance to more dp. 
+I use more mass of FB 6. 
+I heat for longer. 
+I use a desiccator. 
+I Repeat experiment. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 18 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 18 of 20  
+ 
+Question  Answer Marks Guidance 
+FB 7 = KMnO4 FB 8 = mix of Na2SO3 and NH4Cl FB 9 = H2SO4 
+3(a)(i) • (FB 7) starting colour (dark) purple 
+• solid jumps/moves around 
+• black residue  
+• (gas) relights glowing splint 
+• (gas produced is) Oxygen / O2 
+2 blob 1 A purple-black. 
+blob 2 A spitting. 
+blob 3 A black solid or black powder for residue if 
+clearly at the end. 
+blob 4 A glowing splint relights with a pop. 
+blob 4 A glowing splint glows more brightly. 
+blob 1 and 3 I form a purple solid.  
+R blobs 4 and 5 if another incorrect positive gas test. 
+R precipitate (CON 1 blob). 
+I vapour / effervescence / black gas / black fumes / black 
+smoke / solid melts / condensation / solid pops / solid 
+crackles. 
+I intermediate colours of solids, e.g. green. 
+ 
+'black solid / powder jumping' = 1 blob. 
+'purple solid jumping' = 2 blobs. 
+ 
+2 blobs = 1 mark – max 2. 
+3(a)(ii) O / Oxygen is oxidised and Mn / Manganese is reduced 
+ 
+ 
+ 
+or 
+ 
+ 
+O is oxidised to O2 (gas) or O (is oxidised from) -2 to 0 
+ 
+or 
+ 
+Mn is reduced to K2MnO4 / MnO2 or Mn (is reduced) from +7 to 
++6 / +4 
+1 A oxidation number increases / loses electrons = 
+oxidised. 
+A oxidation number decreases / gain electrons = 
+reduced.  
+R K oxidised or reduced. 
+R disproportionation. 
+ 
+ 
+A (bod) O2– (is oxidised) to O / O2 but R O(2–) ion / oxide 
+ion (is oxidised). 
+ 
+I Manganate / MnO4– is reduced.  
+R Manganate / MnO4– is oxidised. 
+I Mn (is reduced) to +3 / +2. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 19 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 19 of 20  
+ 
+Question  Answer Marks Guidance 
+3(b)(i) test observations 
+ FB 8 FB 9 
+Test 1 
++KMnO4 
+purple / KMnO4 and 
+turns 
+colourless / decolouri
+sed* 
+no change or  
+(KMnO4) remains 
+purple / does not 
+decolourise* 
+ 
+ 
+ 
+Test 2 
++ Mg 
+no change* effervescence* 
+‘Pops’ with a lighted 
+splint* 
+exothermic / tube gets 
+warm* 
+Test 3 
++ Ba2+ 
+ 
+white ppt* 
+ 
+white ppt* 
+Test 4 
++ thiosulfate 
+no change* (off-)white 
+ / cream / (pale) yellow 
+ppt* 
+forms slowly* 
+2* = 1 mark 
+5 2 blobs = 1 mark – max 5. 
+R ‘No observation’ first time seen. 
+R ‘–’ every time seen. 
+ 
+Test 1 must describe what is happening to the KMnO4 
+(not to the solution to which it is added).  
+ 
+Test 1 I black / brown precipitate. 
+Test 1 FB 8 R (solution) remains colourless / colourless 
+solution forms (alone). 
+Test 1 FB 9 R purple / pink solution formed (alone). 
+ 
+Test 2 A effervescence for FB 8 if it is clear there is 
+more / greater / faster reaction with FB 9. 
+R any other positive gas tests (CON blob). 
+FB 8 I test for hydrogen. 
+I Mg dissolves. 
+ 
+I solid, residue, particles for ppt first time seen, then A 
+I cloudy / milky solutions (if ppt also present). 
+Test 3 R soluble in excess every time. 
+Test 3 R addition of acid once, then ecf but R if ppt with 
+FB 9 is soluble. 
+If sulfuric acid, R every time. 
+Test 3 R addition of KMnO4 once, then ecf.  
+ 
+Test 4 with FB 9 A 'no change' initially and  
+(off-)white / cream / pale yellow ppt**. 
+A white solution / milky / cloudy forms slowly*. 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2
+
+===== PAGE 20 =====
+9701/34 Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+May/June 2026  
+ 
+© Cambridge University Press & Assessment 2026 Page 20 of 20  
+ 
+Question  Answer Marks Guidance 
+3(b)(ii) M1: Use of NaOH and no ppt / no change reported 1 I use of ammonia / KMnO4 in a separate test. 
+I flame tests. 
+A no ppt anywhere in 3(b)(ii). 
+A 'no observation' if R in 3(b)(i). 
+R any other tests. 
+M2: warm the mixture 1 A heat. 
+A if ammonia added. 
+R use of aluminium. 
+R if NaOH not added. 
+M3: gas/NH3 turns (red) litmus blue 1 A if aluminium used I positive hydrogen test. 
+There must be some reference to gas before testing 
+with litmus paper to award M3. 
+R if NaOH not added. 
+R any other positive gas tests. 
+3(b)(iii) M1 Cation = NH4+/ ammonium 1 R if 3(b)(ii) not attempted. 
+M2 Anions = unknown and SO32−/ sulfite 1 Anions: 
+A unknown and unknown. 
+A Nitrite and sulfate. 
+R if Tests 1 and 3 in 3(b)(i) not attempted. 
+3(b)(iv) H2SO4 1 Stand alone mark. 
+3(b)(v) 2H+(aq) + Mg(s) → Mg2+(aq) + H2(g) 
+or 
+Ba2+(aq) + SO42−(aq) → BaSO4(s) 
+or 
+S2O32–(aq) + 2H+(aq) → S(s) + SO2(g) + H2O(l) 
+1 If H2SO3 in 3(b)(iv) A: 
+Ba2+(aq) + SO32−(aq) → BaSO3(s) 
+ 
+PapaCambridge
+·  papacambridge.com
+9701/34 Mark Scheme June 2026
+ Downloaded from PapaCambridge - https://papacambridge.com/
+9701/34 Mark Scheme June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-576A5741B2

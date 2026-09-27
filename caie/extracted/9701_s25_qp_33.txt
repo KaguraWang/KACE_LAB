@@ -1,0 +1,964 @@
+
+===== PAGE 1 =====
+This document has 16 pages. Any blank pages are indicated.
+ [Turn over
+Cambridge International AS & A Level
+CHEMISTRY 9701/33
+Paper 3 Advanced Practical Skills 1 May/June 2025
+ 2 hours
+You must answer on the question paper.
+You will need: The materials and apparatus listed in the confidential instructions
+INSTRUCTIONS
+ ● Answer all questions.
+ ● Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ● Write your name, centre number and candidate number in the boxes at the top of the page.
+ ● Write your answer to each question in the space provided.
+ ● Do not use an erasable pen or correction fluid.
+ ● Do not write on any bar codes.
+ ● You may use a calculator.
+ ● You should show all your working and use appropriate units.
+INFORMATION
+ ● The total mark for this paper is 40.
+ ● The number of marks for each question or part question is shown in  
+brackets [ ].
+ ● The Periodic Table is printed in the question paper.
+ ● Important values, constants and standards are printed in the  
+question paper.
+ ● Notes for use in qualitative analysis are provided in the  
+question paper.
+*7090175514*
+DC (PQ) 338076/3
+© UCLES 2025
+Session
+Laboratory
+For Examiner’s Use
+1
+2
+3
+Total
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE]|6W
+¬L||T~}ly~N¥u@1
+¥eUU5eUU5eeUU
+
+===== PAGE 2 =====
+2
+9701/33/M/J/25© UCLES 2025
+Quantitative analysis
+Read through the whole method before starting any practical work. Where appropriate, prepare a table 
+for your results in the space provided.
+Show the precision of the apparatus you used in the data you record.
+Show your working and appropriate significant figures in the answer to each step of your calculations.
+1 Hydrogen peroxide, H2O2, reacts rapidly with acidified potassium manganate(VII), KMnO4.
+5H2O2(aq)  +  2MnO4
+–(aq)  +  6H+(aq)    5O2(g)  +  8H2O(l)  +   2Mn2+(aq)
+ You will determine the concentration of a solution of hydrogen peroxide. You will first dilute the 
+solution and then carry out a titration with acidified potassium manganate(VII).
+ FA 1 is aqueous hydrogen peroxide, H2O2.
+ FA 2 is 0.0300 mol dm–3 potassium manganate(VII), KMnO4.
+ FA 3 is 1.0 mol dm–3 sulfuric acid, H2SO4.
+ (a) Method
+  Dilution of FA 1
+• Pipette 25.0 cm3 of FA 1 into the 250 cm3 volumetric flask.
+• Add distilled water to make 250 cm3 of solution.
+• Shake the flask thoroughly.
+• Label this diluted solution of hydrogen peroxide FA 4.
+  T itration
+• Fill the burette with FA 2.
+• Rinse the 25.0 cm3 pipette with distilled water and then with FA 4.
+• Pipette 25.0 cm3 of FA 4 into a conical flask.
+• Use the 25 cm3 measuring cylinder to add 10 cm3 of FA 3 to the conical flask.
+• Perform a rough titration and record your burette readings in the space below.
+ The rough titre is = .............................. cm3.
+• Carry out as many accurate titrations as you think necessary to obtain consistent results.
+• Make sure your recorded results show the precision of your practical work.
+• Record, in a suitable form in the space for results, all your burette readings and the 
+volume of FA 2 added in each accurate titration.
+Keep FA 1 for use in Questions 2 and 3.
+Keep FA 2 for use in Question 3.
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàú¸þ×
+ĬÌúûÑīĊīÓĈü±ÍÿðĉýĂ
+ĥõÅÕõõĥµĥõõÅąÕÅÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 3 =====
+3
+9701/33/M/J/25© UCLES 2025 [Turn over
+  Results
+ [7]
+ (b) From your accurate titration results, calculate a suitable mean value to use in your calculations. 
+Show clearly how you obtain the mean value.
+ 25.0 cm3 of FA 4 required .............................. cm3 of FA 2. [1]
+ (c) Calculations
+  (i) Give your answers to (c)(ii), (c)(iii) and (c)(iv) to an appropriate number of significant 
+figures. [1]
+  (ii) Calculate the amount, in mol, of manganate(VII) ions in the volume of FA 2 in (b).
+ amount of MnO4
+– = .............................. mol [1]
+  (iii) Calculate the amount, in mol, of hydrogen peroxide in 25.0 cm3 of FA 4.
+ amount of H2O2 = .............................. mol [1]
+  (iv) Calculate the concentration, in mol dm–3, of hydrogen peroxide in FA 1.
+ concentration of H2O2 in FA 1 = .............................. mol dm–3 [1]
+I
+II
+III
+IV
+V
+VI
+VII
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàü¸þ×
+ĬÌùüÙĝĆěæòąøĉ÷ìĉíĂ
+ĥõµĕµĕąÕõąåÅąµåĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 4 =====
+4
+9701/33/M/J/25© UCLES 2025
+ (d) A student suggests that the experiment would be more accurate if a 10 cm3 pipette is used to 
+measure FA 3 in place of the measuring cylinder.
+  State whether the student’ s suggestion is correct. Explain your answer.
+  Include a calculation as part of your explanation.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ [2]
+ [Total: 14]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞú¸Ā×
+ĬÌùùÙħøĎÑðþïëÛĊęąĂ
+ĥÅĥĕõĕąõĕåÕÅÅµąĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 5 =====
+5
+9701/33/M/J/25© UCLES 2025 [Turn over
+BLANK PAGE
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÞü¸Ā×
+ĬÌúúÑġüĞèĊóºïãÎęõĂ
+ĥÅĕÕµõĥĕąÕąÅÅÕĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 6 =====
+6
+9701/33/M/J/25© UCLES 2025
+2  You will now determine the concentration of a solution of hydrogen peroxide by a different method.
+ Hydrogen peroxide decomposes slowly into water and oxygen at room temperature. This reaction 
+is exothermic. When a catalyst is added, the decomposition is fast and there is a measurable 
+temperature rise.
+ 
+H2O2(aq)    H2O(l) + 1
+2O2(g)    ΔH = −98.2 kJ mol−1
+ FA 1 is aqueous hydrogen peroxide, H2O2. 
+ FA 5 is manganese(IV) oxide, MnO2.
+ (a) Method
+  Experiment 1
+• Support one of the cups in the 250 cm3 beaker.
+• Use the 50 cm3 measuring cylinder to add 25.0 cm3 of FA 1 to the cup.
+• Place the thermometer in the FA  1 and tilt the cup, if necessary , so that the bulb of the 
+thermometer is fully covered. Record the temperature in the space for results.
+• Add a heaped spatula measure of FA 5 to the solution in the cup.
+• Stir constantly until the maximum temperature is reached. Record this temperature.
+• Calculate and record the temperature rise.
+• Rinse and dry the thermometer. 
+  Experiment 2
+• Support the second cup in the 250 cm3 beaker.
+• Use the 50 cm3 measuring cylinder to add 40.0 cm3 of FA 1 to the second cup.
+• Measure and record the initial temperature of the solution.
+• Add a heaped spatula measure of FA 5 to the solution in the second cup.
+• Stir constantly until the maximum temperature is reached. Record this temperature.
+• Calculate and record the temperature rise.
+Keep FA 5 for use in Question 3.
+  Results
+ [5]
+I
+II
+III
+IV
+V
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßüµþ×
+ĬÌùúÎīĔĨàýĂÃďÛ¯±ąĂ
+ĥĕµÕµÕĥµÅµåÅąÕÅĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 7 =====
+7
+9701/33/M/J/25© UCLES 2025 [Turn over
+ (b) Calculations
+  (i) Calculate the energy change, in J, in Experiment 2.
+ energy change = .............................. J [1]
+  (ii) Use the information given and your answer to (b)(i) to calculate the concentration, in 
+mol dm–3, of hydrogen peroxide in FA 1.
+ concentration of H2O2 in FA 1 = .............................. mol dm–3 [2]
+ (c) The concentration of hydrogen peroxide in FA  1 calculated using the method given for 
+Question 1 is more accurate than that using the method given for Question 2.
+  (i) Heat loss is a large source of error when carrying out the method for Question 2.  
+Describe and explain the effect of heat loss on the value of the concentration of hydrogen 
+peroxide calculated.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+  (ii) A student suggests that calculating the concentration of hydrogen perox ide using the 
+method in Question 2 would be less accurate when the concentration is lower.
+   Suggest whether the student is correct. Explain your answer.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ [Total: 10]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßúµþ×
+ĬÌúùÖĝĐĘÙûïĆËãī±õĂ
+ĥĕÅĕõµąÕÕÅõÅąµåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 8 =====
+8
+9701/33/M/J/25© UCLES 2025
+Qualitative analysis
+For each test you should record all your observations in the spaces provided.
+Examples of observations include:
+• colour changes seen
+• the formation of any precipitate and its solubility (where appropriate) in an excess of the reagent 
+added
+• the formation of any gas and its identification (where appropriate) by a suitable test.
+You should record clearly at what stage in a test an observation is made.
+Where no change is observed, you should write ‘no change’.
+Where reagents are selected for use in a test, the name or correct formula of the element or compound 
+must be given.
+If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must 
+be used.
+Rinse and reuse test-tubes and boiling tubes where possible.
+No additional tests should be attempted.
+3 (a) (i) Transfer a 2 cm depth of FA  2, KMnO 4, into a test-tube. Add the same volume of 
+aqueous sodium hydroxide followed by a small spatula measure of FA 5, MnO2. Stir for 
+approximately 30 seconds then filter the mixture into a second test-tube.
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+   Add dilute sulfuric acid to the filtrate until no further change.
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+ [2]
+  (ii) Transfer a 1 cm depth of aqueous iron(II) sulfate into a boiling tube. Add the same depth 
+of dilute sulfuric acid followed by a very small spatula measure of FA 5, MnO2. Carefully 
+warm the mixture using a Bunsen burner for about 20 seconds. Filter the warm mixture 
+into a test-tube.
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+   Add aqueous sodium hydroxide dropwise to the filtrate until no further change.
+observations  ......................................................................................................................
+ ...........................................................................................................................................
+ [2]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝüµĀ×
+ĬÌúüÖħĞđÞõøýĩÿÉáýĂ
+ĥåĕĕµµąõµĥąÅÅµąÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 9 =====
+9
+9701/33/M/J/25© UCLES 2025 [Turn over
+  (iii) Suggest a conclusion about the chemical behaviour of FA  5 using your observations in 
+(a)(ii).
+FA 5 is acting as  .......................................................................................................... [1]
+  (iv) Write an ionic equation for the reaction between aqueous sodium hydroxide and the 
+filtrate in (a)(ii). Include state symbols.
+ ..................................................................................................................................... [1]
+Question 3 continues on page 10.
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝúµĀ×
+ĬÌùûÎġĢġÛăĉÌ­÷čáíĂ
+ĥåĥÕõÕĥĕåĕÕÅÅÕĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 10 =====
+10
+9701/33/M/J/25© UCLES 2025
+ (b) FA 6 and FA  7 are both aqueous solutions of salts. Neither solution includes an ion that 
+contains sulfur.
+  FA  6 contains two cations and one anion. Two of the ions are listed in the Qualitative analysis 
+notes.
+  FA  7 contains one cation and one anion. One of the ions is listed in the Qualitative analysis 
+notes.
+  (i) Carry out the following tests and record your observations in Table 3.1.
+   Use a 1 cm depth of FA 6 or FA 7 in a boiling tube for Test 1. Use a 1 cm depth of FA 6 or 
+FA 7 in a test-tube for Tests 2, 3 and 4. 
+Table 3.1
+test
+observations
+FA 6 FA 7
+Test 1
+Add aqueous sodium 
+hydroxide, 
+then
+warm gently.
+Test 2
+Add acidified aqueous KMnO4 
+dropwise until no further 
+change.
+Test 3
+Add an equal volume of FA 1, 
+H2O2,  
+then
+add a few drops of starch 
+solution.
+Test 4
+Add aqueous sodium 
+carbonate.
+ [6]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàü·þ×
+ĬÌûüÏĥĦćäîïçąýÝęõĂ
+ĥõõÕµµåõĕÕąąÅĕąÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 11 =====
+11
+9701/33/M/J/25© UCLES 2025
+  (ii) The anion in FA 6 does not contain nitrogen. Select one further reagent to identify the 
+anion present in FA 6.
+   Carry out a test with this reagent and record your observations in Table 3.2.
+ Table 3.2
+reagent observations
+ [1]
+  (iii) Give the formulae of the ions present in FA  6 and FA 7. If you are unable to identify an 
+ion from your tests, write ‘unknown.’
+   The ions present in FA 6 are ......................... and ......................... and ......................... .
+   The ions present in FA 7 are ......................... and ......................... .
+ [3]
+ [Total: 16]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàú·þ×
+ĬÌüû×ģĪ÷ÕČĂĢÑõùęąĂ
+ĥõąĕõÕÅĕąåÕąÅõĥĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 12 =====
+12
+9701/33/M/J/25© UCLES 2025
+BLANK PAGE
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞü·Ā×
+ĬÌüú×ĩĜòâĆĉĩóÙÛĉíĂ
+ĥÅÕĕµÕÅµĥąåąąõÅĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 13 =====
+13
+9701/33/M/J/25© UCLES 2025
+BLANK PAGE
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞú·Ā×
+ĬÌûùÏğĘĂ×ôøàçáÿĉýĂ
+ĥÅåÕõµåÕõõõąąĕåÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 14 =====
+14
+9701/33/M/J/25© UCLES 2025
+Qualitative analysis notes
+1 Reactions of cations
+cation reaction with
+NaOH(aq) NH3(aq)
+aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+ammonium, NH4
++(aq) no ppt.
+ammonia produced on warming
+–
+barium, Ba2+(aq) faint white ppt. is observed unless 
+[Ba2+(aq)] is very low
+no ppt.
+calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very 
+low
+no ppt.
+chromium(III), Cr3+(aq) grey-green ppt. soluble in excess 
+giving dark green solution
+grey-green ppt. insoluble in excess
+copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess 
+giving dark blue solution
+iron(II), Fe2+(aq) green ppt. turning brown on 
+contact with air
+insoluble in excess
+green ppt. turning brown on 
+contact with air
+insoluble in excess
+iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+manganese(II), 
+Mn2+(aq)
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+2 Reactions of anions
+anion reaction
+carbonate, CO3
+2– CO2 liberated by dilute acids
+chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+nitrate, NO3
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil
+nitrite, NO2
+–(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+decolourises acidified aqueous KMnO4
+sulfate, SO4
+2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+gives white ppt. with high [Ca2+(aq)]
+sulfite, SO3
+2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+decolourises acidified aqueous KMnO4
+thiosulfate, S2O3
+2–(aq) gives off-white / pale yellow ppt. slowly with H+
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝù¶Ă×
+ĬÌüûÎġīúåöóăċüċ¹ąĂ
+ĥĥåĕµÕĥõĕĥõÅÅÕąĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 15 =====
+15
+9701/33/M/J/25© UCLES 2025
+3 Tests for gases
+gas test and test result
+ammonia, NH3 turns damp red litmus paper blue
+carbon dioxide, CO2 gives a white ppt. with limewater
+hydrogen, H2 ‘pops’ with a lighted splint
+oxygen, O2 relights a glowing splint
+4 Tests for elements
+element test and test result
+iodine, I2 gives blue-black colour on addition of starch solution
+Important values, constants and standards
+molar gas constant R = 8.31 J K–1 mol–1
+Faraday constant F = 9.65 × 104 C mol–1
+Avogadro constant L = 6.02 × 1023 mol–1
+electronic charge e = –1.60 × 10–19 C
+molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝû¶Ă×
+ĬÌûüÖħħĊÔĄþÆÏĄÏ¹õĂ
+ĥĥÕÕõµąĕąĕåÅÅµĥÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== PAGE 16 =====
+16
+9701/33/M/J/25© UCLES 2025
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+12 13 14 15 16 17 18
+3456789 10 11 12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.2
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßù¶Ą×
+ĬÌûùÖĝĕÿçþą½íàíéýĂ
+ĥÕąÕµµąµĥµÕÅąµÅÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

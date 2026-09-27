@@ -1,0 +1,1497 @@
+==========================================================================================
+9701/33/M/J/24
+==========================================================================================
+
+──────── Q2 ────────
+开头：A sample of ammonium bromide has been accidentally mixed with another salt.
+  A student suggests that the percentage purity of the ammonium bromide can be determined by
+  measuring the change in temperature when a solution is prepared. The enthalpy change when the
+  sample dissolves in water, ΔH, can then be calculated and compared with the literature value for
+  ammonium bromide. You will carry out the student’s experiment.
+  FA 4 is ammonium bromide, NH4Br, mixed with another salt.
+  (a) Method
+  ● Support the cup in the 250 cm3 beaker.
+  ● Use the 25 cm3 measuring cylinder to transfer 25.0 cm3 of distilled water into the cup.
+  ● Place the thermometer in the water and tilt the cup, if necessary , so that the bulb of the
+  thermometer is fully covered. Record the temperature of the water in the space for results.
+  ● Weigh the container with FA 4. Record the mass.
+  ● Add all of FA 4 to the water in the cup.
+  ● Stir the mixture gently so that FA 4 dissolves.
+  ● Measure and record the minimum temperature reached.
+  ● Calculate and record the change in temperature.
+  ● Weigh the container with any residual FA 4. Record the mass.
+  ● Calculate and record the mass of FA 4 added to the cup.
+  Results
+  [4]
+  (b) (i) Calculate the energy change, in J, for the reaction.
+  energy change = .............................. J [1]
+  (ii) When one mole of ammonium brom ide dissolves in water the enthalpy change, ΔH, is
+  +16.8 kJ mol−1.
+  Use this value to calculate the amount, in mol, of ammonium bromide in the 25.0 cm3 of
+  solution FA 4 used in your experiment.
+  Assume that the enthalpy change when the other salt dissolves in water is 0 kJ mol−1.
+  amount of NH4Br in 25.0 cm3 = .............................. mol [1]
+  I
+  II
+  III
+  IV
+  ,
+  	,
+  ĬÕú¾Ġ³íÉóáęÍĢÙùÈð×
+  ĬúÙÞÁĬ»ÛÝôþöĘºĚÊÏĂ
+  ĥĕĕÕõĕÅõåąµĕÅµĥåĕÕ
+  ===== PAGE 5 =====
+  5
+  9701/33/M/J/24© UCLES 2024 [Turn over
+  (iii) Calculate the mass, in g, of ammonium bromide in your sample.
+  (If you were unable to calculate the amount of ammonium bromide in (b)(ii), then assume
+  it is 2.06 × 10−2 mol. This may not be the correct answer.)
+  mass of NH4Br in sample = .............................. g [1]
+  (iv) Hence calculate the percentage by mass of ammonium bromide in your sample.
+  % by mass of NH4Br = .............................. % [1]
+  (c) Another student states that this method is not accurate as the enthalpy change when the
+  other salt dissolves in water could be exothermic.
+  Suggest how the calculated value in (b)(iv) would change if the other salt dissolves in water
+  exothermically. Explain your answer.
+  ...................................................................................................................................................
+  ...................................................................................................................................................
+  ............................................................................................................................................. [1]
+  (d) The maximum uncertainty in a single thermometer reading is ±0.5 ºC.
+  Calculate the maximum percentage error in your temperature change recorded in (a).
+  Show your working.
+  maximum percentage error = .............................. % [1]
+  [Total: 10]
+  ,
+  	,
+  Ĭ×ú¾Ġ³íÉóáęÍĢÙûÈð×
+  ĬúÚÝÉĞ·ëÜĆó³ÄÂ¾ÊßĂ
+  ĥĕĥĕµõåĕµõĥĕÅÕąĥąÕ
+  ===== PAGE 6 =====
+  6
+  9701/33/M/J/24© UCLES 2024
+  Qualitative analysis
+  For each test you should record all your observations in the spaces provided.
+  Examples of observations include:
+  ● colour changes seen
+  ● the formation of any precipitate and its solubility (where appropriate) in an excess of the reagent
+  added
+  ● the formation of any gas and its identification (where appropriate) by a suitable test.
+  You should record clearly at what stage in a test an observation is made.
+  Where no change is observed, you should write ‘no change’.
+  Where reagents are selected for use in a test, the name or correct formula of the element or compound
+  must be given.
+  If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must
+  be used.
+  Rinse and reuse test-tubes and boiling tubes where possible.
+  No additional tests should be attempted.
+  3 (a) FA 5 is a mixture containing two cations and two anions. Three of the ions are listed in the
+  Qualitative analysis notes.
+  (i) Carry out the following tests and record your observations in Table 3.1.
+  Table 3.1
+  test observations
+  Test 1
+  Heat a spatula measure of FA 5 in
+  a hard-glass test-tube.
+  Test 2
+  Put a 2 cm depth of dilute nitric acid
+  in a boiling tube. Add a spatula
+  measure of FA 5.
+  Dilute the solution from Test 2 with an equal volume of distilled water.
+  Keep the resulting solution for use in (a)(ii). This solution is FA 6.
+  [3]
+  ,
+  	,
+  ĬÙú¾Ġ³íÉóáęÍĢÜûÅî×
+  ĬúÙÝÆĨÏáÔāĂÊäºßĢÏĂ
+  ĥÅÅĕµÕåµõĕÅĕąÕååÕÕ
+  ===== PAGE 7 =====
+  7
+  9701/33/M/J/24© UCLES 2024 [Turn over
+  (ii) Carry out the following tests using a 1 cm depth of FA  6  in a test-tube for each test.
+  Record your observations in Table 3.2.
+  Table 3.2
+  test observations
+  Test 1
+  Add a 1 cm depth of sodium
+  chlorate(I),
+  then
+  add aqueous sodium thiosulfate
+  dropwise.
+  Test 2
+  Add aqueous sodium hydroxide.
+  Test 3
+  Add aqueous ammonia.
+  Test 4
+  Add a 1 cm depth of aqueous
+  copper(II) sulfate,
+  then
+  add aqueous sodium thiosulfate
+  dropwise until no further change
+  occurs.
+  Test 5
+  Add a few drops of aqueous silver
+  nitrate,
+  then
+  add aqueous ammonia until no
+  further change occurs.
+  [4]
+  ,
+  
+  ,
+  ĬÛù¿Ġ³íÉóáęÍĢÛûÅî×
+  ĬúÙßÉīàÇãĄîíěúßÒçĂ
+  ĥõĥÕµõąÕĕĕĥĕÅĕåĥĥÕ
+  ===== PAGE 8 =====
+  8
+  9701/33/M/J/24© UCLES 2024
+  (iii) FA 5 reacts with nitric acid to make FA 6 in Test 2 in Table 3.1.
+  State a change you would see in one of the observations in Table 3.2 if hydrochloric acid
+  had been used to prepare FA 6.
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  (iv) Use your observations in (a)(i) and (a)(ii) to identify the formulae of three of the ions
+  present in FA 5.
+  Formulae of ions present are ......................... and ......................... and ......................... .
+  [2]
+  (b) FA 7, FA 8  and FA  9  are each known to be propan-1-ol, propanal, propanoic acid or
+  propanone. No two liquids are identical.
+  (i) You will carry out tests to identify samples of FA 7, FA 8 and FA 9.
+  Test 1 has been carried out for you.
+  Carry out Test 2 and record your observations in Table 3.3.
+  Table 3.3
+  test
+  observations
+  FA 7 FA 8 FA 9
+  Test 1
+  Put a 1 cm depth in a test-
+  tube. Add a few drops of
+  2,4-dinitrophenylhydrazine
+  (2,4-DNPH reagent).
+  orange precipitate orange precipitate no change
+  Test 2
+  Put a 1 cm depth in a test-
+  tube. Add a small spatula
+  measure of solid sodium
+  carbonate.
+  [1]
+  (ii) State what you can deduce from Tests 1 and 2 in Table 3.3 about the functional group
+  present in each of FA 7, FA 8 and FA 9.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [2]
+  ,
+  
+  	,
+  ĬÙù¿Ġ³íÉóáęÍĢÙùÅð×
+  ĬúÙÞÉġÎÂØþõö¹ÖýÂÏĂ
+  ĥÅµÕõõąõõµĕĕąĕąĥõÕ
+  ===== PAGE 9 =====
+  9
+  9701/33/M/J/24© UCLES 2024
+  (iii) Describe a test to identify FA 7 and FA 8 using the reagents provided.
+  Carry out your test. Record your observations and conclusions.
+  test  ....................................................................................................................................
+  ...........................................................................................................................................
+  observations  ......................................................................................................................
+  ...........................................................................................................................................
+  FA 7 is ...................................................... .
+  FA 8 is ...................................................... .
+  [2]
+  [Total: 15]
+  ,
+  
+  
+  ,
+  ĬÛù¿Ġ³íÉóáęÍĢÙûÅð×
+  ĬúÚÝÁħÒ²áüČ³ĝÞÙÂßĂ
+  ĥÅÅĕµĕĥĕĥÅÅĕąõĥåĥÕ
+  ===== PAGE 10 =====
+  10
+  9701/33/M/J/24© UCLES 2024
+  Qualitative analysis notes
+  1 Reactions of cations
+  cation reaction with
+  NaOH(aq) NH3(aq)
+  aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+  ammonium, NH4
+  +(aq) no ppt.
+  ammonia produced on warming
+  –
+  barium, Ba2+(aq) faint white ppt. is observed unless
+  [Ba2+(aq)] is very low
+  no ppt.
+  calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very
+  low
+  no ppt.
+  chromium(III), Cr3+(aq) grey-green ppt. soluble in excess
+  giving dark green solution
+  grey-green ppt. insoluble in excess
+  copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess
+  giving dark blue solution
+  iron(II), Fe2+(aq) green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+  magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+  manganese(II),
+  Mn2+(aq)
+  off-white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  off-white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+
+──────── Q2 ────────
+开头：Reactions of anions
+  anion reaction
+  carbonate, CO3
+  2– CO2 liberated by dilute acids
+  chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+  bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+  iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+  nitrate, NO3
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil
+  nitrite, NO2
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+  decolourises acidified aqueous KMnO4
+  sulfate, SO4
+  2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+  gives white ppt. with high [Ca2+(aq)]
+  sulfite, SO3
+  2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+  decolourises acidified aqueous KMnO4
+  thiosulfate, S2O3
+  2–(aq) gives off-white / pale yellow ppt. slowly with H+
+  ,
+  
+  ,
+  ĬÙù¿Ġ³íÉóáęÍĢÜùÇî×
+  ĬúÜÞÄģÖØÚąîÐÕØĩúçĂ
+  ĥĕÕĕõõåõÕąĕÕąµąĥÅÕ
+  ===== PAGE 11 =====
+  11
+  9701/33/M/J/24© UCLES 2024
+  3 Tests for gases
+  gas test and test result
+  ammonia, NH3 turns damp red litmus paper blue
+  carbon dioxide, CO2 gives a white ppt. with limewater
+  hydrogen, H2 ‘pops’ with a lighted splint
+  oxygen, O2 relights a glowing splint
+  4 Tests for elements
+  element test and test result
+  iodine, I2 gives blue-black colour on addition of starch solution
+  Important values, constants and standards
+  molar gas constant R = 8.31 J K–1 mol–1
+  Faraday constant F = 9.65 × 104 C mol–1
+  Avogadro constant L = 6.022 × 1023 mol–1
+  electronic charge e = –1.60 × 10–19 C
+  molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+  Vm = 24.0 dm3 mol–1 at room conditions
+  ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+  specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+  ,
+  
+  ,
+  ĬÛù¿Ġ³íÉóáęÍĢÜûÇî×
+  ĬúÛÝÌĥÚèßóăęāà­ú×Ă
+  ĥĕåÕµĕÅĕÅõÅÕąÕĥåÕÕ
+  ===== PAGE 12 =====
+  12
+  9701/33/M/J/24© UCLES 2024
+  Group
+  The Periodic Table of Elements
+  1
+  H
+  hydrogen
+  1.0
+  2
+  He
+  helium
+  4.0
+  12 13 14 15 16 17 18
+  3456789 10 11 12
+  3
+  Li
+  lithium
+  6.9
+  4
+  Be
+  beryllium
+  9.0
+  atomic number
+  atomic symbol
+  Key
+  name
+  relative atomic mass
+  11
+  Na
+  sodium
+  23.0
+  12
+  Mg
+  magnesium
+  24.3
+  19
+
+  ── CI 材料表（前 40 行）──
+  FA 1 120 cm3 0.0950 mol dm–3 sodium hydroxide Dissolve 3.80 g of NaOH [C] in each dm3 of solution.
+  FA 2 120 cm3 0.0500 mol dm–3 sulfuric acid Prepare 1.0 mol dm–3 H2SO4 [MH] as described in the current syllabus.
+  FA 3 [F][MH] [HH] 5 cm3 bromophenol blue indicator See preparation instructions in the current syllabus.
+  FA 4 [MH] 7.5 g ammonium bromide and sodium
+  FA 5 2.0 g zinc carbonate and potassium iodide Mix ZnCO3 and KI thoroughly in the mass ratio of 2 : 1. Provide in a
+  FA 7 [F][MH] 5 cm3 propanone Provide in a stoppered container.
+  FA 8 [F][MH] 5 cm3 propanal Provide in a stoppered container.
+  FA 9 [MH] 5 cm3 2.0 mol dm–3 propanoic acid Dilute 149 cm3 of CH3CH2COOH [F][C][MH] to 1 dm3. Provide in a
+  2 cm3 aqueous sodium chlorate(I) Prepare by diluting domestic / commercial bleach [C][N] with an equal
+  5 cm3 0.2 mol dm–3 copper(II) sulfate Dissolve 49.9 g of CuSO4•5H2O [C][MH][N] in each dm3 of solution.
+  20 cm3 0.100 mol dm–3 sodium thiosulfate Dissolve 24.82 g of Na2S2O3•5H2O in each dm3 of solution.
+  1.0 g sodium carbonate Provide 0.9 –1.1 g of Na2CO3 in a stoppered container.
+  FA 1 120 cm3 0.0950 mol dm–3 sodium hydroxide Dissolve 3.80 g of NaOH [C] in each dm3 of solution.
+  FA 2 120 cm3 0.0500 mol dm–3 sulfuric acid Prepare 1.0 mol dm–3 H2SO4 [MH] as described in the current syllabus.
+  FA 3 [F][MH] [HH] 5 cm3 bromophenol blue indicator See preparation instructions in the current syllabus.
+  FA 4 [MH] 7.5 g ammonium bromide and sodium
+  FA 5 2.0 g zinc carbonate and potassium iodide Mix ZnCO3 and KI thoroughly in the mass ratio of 2 : 1. Provide in a
+  FA 7 [F][MH] 5 cm3 propanone Provide in a stoppered container.
+  FA 8 [F][MH] 5 cm3 propanal Provide in a stoppered container.
+  FA 9 [MH] 5 cm3 2.0 mol dm–3 propanoic acid Dilute 149 cm3 of CH3CH2COOH [F][C][MH] to 1 dm3. Provide in a
+  2 cm3 aqueous sodium chlorate(I) Prepare by diluting domestic / commercial bleach [C][N] with an equal
+  5 cm3 0.2 mol dm–3 copper(II) sulfate Dissolve 49.9 g of CuSO4•5H2O [C][MH][N] in each dm3 of solution.
+  20 cm3 0.100 mol dm–3 sodium thiosulfate Dissolve 24.82 g of Na2S2O3•5H2O in each dm3 of solution.
+  1.0 g sodium carbonate Provide 0.9 –1.1 g of Na2CO3 in a stoppered container.
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3 0.01 mol dm–3 KMnO4 in 0.5 mol dm–3 H2SO4
+==========================================================================================
+9701/34/M/J/24
+==========================================================================================
+
+──────── Q2 ────────
+开头：In this experiment you will determine the relative atomic mass, A r , of metal M by thermal
+  decomposition of the same basic metal carbonate, MCO3•M(OH)2, FB 1.
+  (a) Method
+  ● Weigh the empty crucible with its lid. Record the mass in the results section.
+  ● Transfer all of the FB 1 from the container into the crucible.
+  ● Weigh the crucible, lid and FB 1. Record the mass.
+  ● Calculate the mass of FB 1 used. Record this mass in the space for other results.
+  ● Place the crucible and contents on a pipe-clay triangle.
+  ● Heat the crucible gently, with the lid on, for approximately 1 minute.
+  ● Heat strongly, with the lid off, for a further 5 minutes.
+  ● Replace the lid and leave the crucible to cool for at least 5 minutes.
+  During the cooling period, you may wish to begin work on Question 3.
+  ● When the crucible is cool, weigh the crucible with its lid and contents. Record the mass.
+  ● Place the crucible and contents on the pipe-clay triangle. Remove the lid.
+  ● Heat strongly for a further 2 minutes.
+  ● Replace the lid and leave the crucible to cool for at least 5 minutes.
+  ● When the crucible is cool, reweigh the crucible with its lid and contents. Record the
+  mass.
+  ● Calculate the mass of residue obtained. Record this mass in the space for other results.
+  Results
+  mass of empty crucible and lid  = ..........................
+  mass of crucible, lid and FB 1 (before heating)  = ..........................
+  mass of crucible, lid and FB 1 (after first heating)  = ..........................
+  mass of crucible, lid and FB 1 (after second heating) = ..........................
+  Other results
+  [4]
+  (b) Calculations
+  (i) When FB 1 undergoes thermal decomposition, the products are the metal oxide, MO,
+  carbon dioxide and water vapour.
+  Give the equation for the thermal decomposition of FB 1. Include state symbols.
+  ..................................................................................................................................... [1]
+  I
+  II
+  III
+  IV
+  ,
+  ,
+  ĬÕú¾Ġ³íÇõÙđ½ú»āÈĠ×
+  ĬùÖßÆĬÆĥÏôûĆąàÂÊßĂ
+  ĥĕõĕõÕąĕąµÕĥõąåõąÕ
+  ===== PAGE 5 =====
+  5
+  9701/34/M/J/24© UCLES 2024 [Turn over
+  (ii) The amount, in mol, of carbon dioxide produced is given by the following formula.
+  amount of CO2 = mass loss during heating
+  (Mr of CO2 + Mr of H2O)
+  Calculate the amount, in mol, of carbon dioxide produced in (a).
+  amount of CO2 = .............................. mol [1]
+  (iii) Calculate the relative formula mass, Mr , of the basic metal carbonate.
+  Mr of MCO3•M(OH)2 = .............................. [1]
+  (iv) Use your answer to (b)(iii) to calculate the relative atomic mass, Ar , of metal M.
+  Show your working.
+  Ar of M = .............................. [1]
+  (c) (i) Explain why the headings for the third and fourth readings in the results section in (a) are
+  not suitable.
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  (ii) State whether or not your experiment would be more accurate if the crucible and its
+  contents were heated for a third time. Explain your answer by referring to your results
+  in (a).
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  (iii) A student carries out the experiments in Questions 1 and 2. The student expects the
+  value of the Mr of MCO3•M(OH)2 obtained by thermal decomposition in Question 2 to be
+  more accurate than the value of the Mr obtained by titration in Question 1.
+  State one reason why the student expects the ex periment in Question 2 to be more
+  accurate.
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  [Total: 11]
+  ,
+  ,
+  Ĭ×ú¾Ġ³íÇõÙđ½ú»ăÈĠ×
+  ĬùÕà¾ĞÊĕêĆĆÃÑØĖÊÏĂ
+  ĥĕąÕµµĥõĕÅąĥõĥÅµĕÕ
+  ===== PAGE 6 =====
+  6
+  9701/34/M/J/24© UCLES 2024
+  Qualitative analysis
+  For each test you should record all your observations in the spaces provided.
+  Examples of observations include:
+  ● colour changes seen
+  ● the formation of any precipitate and its solubility (where appropriate) in an ex cess of the
+  reagent added
+  ● the formation of any gas and its identification (where appropriate) by a suitable test.
+  You should record clearly at what stage in a test an observation is made.
+  Where no change is observed, you should write ‘no change’.
+  Where reagents are selected for use in a test, the name or correct formula of the element or compound
+  must be given.
+  If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must
+  be used.
+  Rinse and reuse test-tubes and boiling tubes where possible.
+  No additional tests should be attempted.
+  3 (a) FB 5 is a compound containing one cation and one anion, both of which are listed in the
+  Qualitative analysis notes.
+  (i) Heat a small spatula measure of FB 5 in a hard-glass test-tube until no further change
+  occurs.
+  Record your observations.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [2]
+  (ii) Describe another test to positively identify the cation in FB 5.
+  Carry out your test and record your observations.
+  test  ....................................................................................................................................
+  observations  ......................................................................................................................
+  [1]
+  ,
+  ,
+  ĬÙú¾Ġ³íÇõÙđ½úºăÅĞ×
+  ĬùÖàÁĨâďâā÷º±à÷ĢßĂ
+  ĥÅåÕµĕĥÕÕååĥµĥĥõÅÕ
+  ===== PAGE 7 =====
+  7
+  9701/34/M/J/24© UCLES 2024 [Turn over
+  (iii) Put a 1 cm depth of dilute hydrochloric acid in a test-tube. Add a small spatula measure
+  of FB 5.
+  Record your observations.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [2]
+  (iv) Deduce the formula of FB 5.
+  FB 5 is .............................. . [1]
+  Question 3 continues on page 8.
+  ,
+  ,
+  ĬÛù¿Ġ³íÇõÙđ½ú¹ăÅĞ×
+  ĬùÖÞ¾īÑùÑĄċýĊĠ÷Ò×Ă
+  ĥõąĕµµÅµµåąĥõåĥµõÕ
+  ===== PAGE 8 =====
+  8
+  9701/34/M/J/24© UCLES 2024
+  (b) You will devise chemical tests to distinguish between the two possible identities giv en for
+  each of compounds FB 6, FB 7, FB 8 and FB 9.
+  In each case you should:
+  ● use a 1 cm depth of the solution of the unknown compound in a test-tube
+  ● use a boiling tube if you need to warm a mixture
+  ● use a spatula measure of the unknown solid
+  ● record details of your test(s) and your observations
+  ● state your conclusion about the identity of the compound.
+  (i) FB 6 is either aqueous chromium(III) sulfate or aqueous iron(II) sulfate.
+  FB 6 is  ....................................................... . [2]
+  (ii) FB 7 is either dilute hydrobromic acid or dilute nitric acid.
+  If you select a test that gives a negative result, then you must carry out a further test that
+  gives a positive result.
+  FB 7 is  ....................................................... . [2]
+  (iii) FB 8 is either magnesium carbonate or zinc carbonate.
+  FB 8 is  ....................................................... . [2]
+  ,
+  	,
+  ĬÙù¿Ġ³íÇõÙđ½ú»āÅĠ×
+  ĬùÖß¾ġãðæþĄĆìÄÕÂßĂ
+  ĥÅÕĕõµÅĕÕąõĥµåÅµĥÕ
+  ===== PAGE 9 =====
+  9
+  9701/34/M/J/24© UCLES 2024
+  (iv) FB 9 is either aqueous methanol or aqueous ethanol.
+  Note: FB 9 is flammable and should not be heated with a flame.
+  (When carrying out your test you may need to leave the reaction mixture to stand.)
+  FB 9 is  ....................................................... . [2]
+  [Total: 14]
+  ,
+  
+  ,
+  ĬÛù¿Ġ³íÇõÙđ½ú»ăÅĠ×
+  ĬùÕàÆħßĀÓüíÃð¼āÂÏĂ
+  ĥÅåÕµÕåõÅõåĥµÅåõõÕ
+  ===== PAGE 10 =====
+  10
+  9701/34/M/J/24© UCLES 2024
+  Qualitative analysis notes
+  1 Reactions of cations
+  cation reaction with
+  NaOH(aq) NH3(aq)
+  aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+  ammonium, NH4
+  +(aq) no ppt.
+  ammonia produced on warming
+  –
+  barium, Ba2+(aq) faint white ppt. is observed unless
+  [Ba2+(aq)] is very low
+  no ppt.
+  calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very
+  low
+  no ppt.
+  chromium(III), Cr3+(aq) grey-green ppt. soluble in excess
+  giving dark green solution
+  grey-green ppt. insoluble in excess
+  copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess
+  giving dark blue solution
+  iron(II), Fe2+(aq) green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  iron(III), Fe3+(aq) red-brown ppt. insoluble in excess red-brown ppt. insoluble in excess
+  magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+  manganese(II),
+  Mn2+(aq)
+  off-white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  off-white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+
+──────── Q2 ────────
+开头：Reactions of anions
+  anion reaction
+  carbonate, CO3
+  2– CO2 liberated by dilute acids
+  chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+  bromide, Br –(aq) gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+  iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+  nitrate, NO3
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil
+  nitrite, NO2
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+  decolourises acidified aqueous KMnO4
+  sulfate, SO4
+  2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+  gives white ppt. with high [Ca2+(aq)]
+  sulfite, SO3
+  2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+  decolourises acidified aqueous KMnO4
+  thiosulfate, S2O3
+  2–(aq) gives off-white / pale yellow ppt. slowly with H+
+  ,
+  ,
+  ĬÙù¿Ġ³íÇõÙđ½úºāÇĞ×
+  Ĭù×ßÇģëĪìąċàÈÂ±ú×Ă
+  ĥĕµÕõµĥĕõµõåµąÅµÕÕ
+  ===== PAGE 11 =====
+  11
+  9701/34/M/J/24© UCLES 2024
+  3 Tests for gases
+  gas test and test result
+  ammonia, NH3 turns damp red litmus paper blue
+  carbon dioxide, CO2 gives a white ppt. with limewater
+  hydrogen, H2 ‘pops’ with a lighted splint
+  oxygen, O2 relights a glowing splint
+  4 Tests for elements
+  element test and test result
+  iodine, I2 gives blue-black colour on addition of starch solution
+  Important values, constants and standards
+  molar gas constant R = 8.31 J K–1 mol–1
+  Faraday constant F = 9.65 × 104 C mol–1
+  Avogadro constant L = 6.022 × 1023 mol–1
+  electronic charge e = –1.60 × 10–19 C
+  molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+  Vm = 24.0 dm3 mol–1 at room conditions
+  ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+  specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+  ,
+  ,
+  ĬÛù¿Ġ³íÇõÙđ½úºăÇĞ×
+  ĬùØà¿ĥçĚÍóöĩĔºĥúçĂ
+  ĥĕÅĕµÕąõĥÅååµĥåõÅÕ
+  ===== PAGE 12 =====
+  12
+  9701/34/M/J/24© UCLES 2024
+  To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+  Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download
+  at www.cambridgeinternational.org after the live examination series.
+  Group
+  The Periodic Table of Elements
+  1
+  H
+  hydrogen
+  1.0
+  2
+  He
+  helium
+  4.0
+  12 13 14 15 16 17 18
+  3456789 10 11 12
+  3
+  Li
+  lithium
+  6.9
+  4
+  Be
+  beryllium
+  9.0
+  atomic number
+  atomic symbol
+  Key
+  name
+  relative atomic mass
+  11
+  Na
+  sodium
+  23.0
+  12
+  Mg
+  magnesium
+  24.3
+
+  ── CI 材料表（前 40 行）──
+  FB 1 2.0 g basic zinc carbonate Provide 2.0–2.1 g of ZnCO3•Zn(OH)2 in a stoppered container.
+  FB 2 120 cm3 0.10 mol dm–3 hydrochloric acid Prepare 2.0 mol dm–3 HCl as described in the current syllabus.
+  FB 3 120 cm3 0.0900 mol dm–3 sodium hydroxide Dissolve 3.60 g of NaOH [C] in each dm3 of solution.
+  FB 4
+  5 cm3 thymolphthalein indicator See preparation instructions in current syllabus.
+  FB 5 [MH] 1.0 g ammonium carbonate Provide 1.0–1.1 g of (NH4)2CO3 [MH] in a stoppered container.
+  FB 6 10 cm3 0.20 mol dm–3 chromium(III) potassium
+  FB 7 [C] 10 cm3 1.0 mol dm–3 nitric acid Prepare 2.0 mol dm–3 HNO3 [C] as described in the current syllabus.
+  FB 8 1.0 g zinc carbonate Provide 1.0–1.1 g of ZnCO3 in a stoppered container.
+  FB 9
+  10 cm3 aqueous (50% by volume) ethanol Mix ethanol [F][MH][HH] (or industrial methylated spirits) with an equal
+  5 cm3 0.10 mol dm–3 iodine dissolved in
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3 0.01 mol dm–3 KMnO4 in 0.5 mol dm–3 H2SO4
+==========================================================================================
+9701/33/M/J/25
+==========================================================================================
+
+──────── Q2 ────────
+开头：You will now determine the concentration of a solution of hydrogen peroxide by a different method.
+  Hydrogen peroxide decomposes slowly into water and oxygen at room temperature. This reaction
+  is exothermic. When a catalyst is added, the decomposition is fast and there is a measurable
+  temperature rise.
+  H2O2(aq)    H2O(l) + 1
+  2O2(g)    ΔH = −98.2 kJ mol−1
+  FA 1 is aqueous hydrogen peroxide, H2O2.
+  FA 5 is manganese(IV) oxide, MnO2.
+  (a) Method
+  Experiment 1
+  • Support one of the cups in the 250 cm3 beaker.
+  • Use the 50 cm3 measuring cylinder to add 25.0 cm3 of FA 1 to the cup.
+  • Place the thermometer in the FA  1 and tilt the cup, if necessary , so that the bulb of the
+  thermometer is fully covered. Record the temperature in the space for results.
+  • Add a heaped spatula measure of FA 5 to the solution in the cup.
+  • Stir constantly until the maximum temperature is reached. Record this temperature.
+  • Calculate and record the temperature rise.
+  • Rinse and dry the thermometer.
+  Experiment 2
+  • Support the second cup in the 250 cm3 beaker.
+  • Use the 50 cm3 measuring cylinder to add 40.0 cm3 of FA 1 to the second cup.
+  • Measure and record the initial temperature of the solution.
+  • Add a heaped spatula measure of FA 5 to the solution in the second cup.
+  • Stir constantly until the maximum temperature is reached. Record this temperature.
+  • Calculate and record the temperature rise.
+  Keep FA 5 for use in Question 3.
+  Results
+  [5]
+  I
+  II
+  III
+  IV
+  V
+  ,	,
+  ĬÑĊ®Ġ´íÈõÏĪÅĊßüµþ×
+  ĬÌùúÎīĔĨàýĂÃďÛ¯±ąĂ
+  ĥĕµÕµÕĥµÅµåÅąÕÅĕµÕ
+  ===== PAGE 7 =====
+  7
+  9701/33/M/J/25© UCLES 2025 [Turn over
+  (b) Calculations
+  (i) Calculate the energy change, in J, in Experiment 2.
+  energy change = .............................. J [1]
+  (ii) Use the information given and your answer to (b)(i) to calculate the concentration, in
+  mol dm–3, of hydrogen peroxide in FA 1.
+  concentration of H2O2 in FA 1 = .............................. mol dm–3 [2]
+  (c) The concentration of hydrogen peroxide in FA  1 calculated using the method given for
+  Question 1 is more accurate than that using the method given for Question 2.
+  (i) Heat loss is a large source of error when carrying out the method for Question 2.
+  Describe and explain the effect of heat loss on the value of the concentration of hydrogen
+  peroxide calculated.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  (ii) A student suggests that calculating the concentration of hydrogen perox ide using the
+  method in Question 2 would be less accurate when the concentration is lower.
+  Suggest whether the student is correct. Explain your answer.
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  [Total: 10]
+  ,	,
+  ĬÓĊ®Ġ´íÈõÏĪÅĊßúµþ×
+  ĬÌúùÖĝĐĘÙûïĆËãī±õĂ
+  ĥĕÅĕõµąÕÕÅõÅąµåÕåÕ
+  ===== PAGE 8 =====
+  8
+  9701/33/M/J/25© UCLES 2025
+  Qualitative analysis
+  For each test you should record all your observations in the spaces provided.
+  Examples of observations include:
+  • colour changes seen
+  • the formation of any precipitate and its solubility (where appropriate) in an excess of the reagent
+  added
+  • the formation of any gas and its identification (where appropriate) by a suitable test.
+  You should record clearly at what stage in a test an observation is made.
+  Where no change is observed, you should write ‘no change’.
+  Where reagents are selected for use in a test, the name or correct formula of the element or compound
+  must be given.
+  If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard-glass test-tube must
+  be used.
+  Rinse and reuse test-tubes and boiling tubes where possible.
+  No additional tests should be attempted.
+  3 (a) (i) Transfer a 2 cm depth of FA  2, KMnO 4, into a test-tube. Add the same volume of
+  aqueous sodium hydroxide followed by a small spatula measure of FA 5, MnO2. Stir for
+  approximately 30 seconds then filter the mixture into a second test-tube.
+  observations  ......................................................................................................................
+  ...........................................................................................................................................
+  Add dilute sulfuric acid to the filtrate until no further change.
+  observations  ......................................................................................................................
+  ...........................................................................................................................................
+
+  ── CI 材料表（前 40 行）──
+  FA 1 110 cm3 9 vol hydrogen peroxide Dilute 90 cm3 of freshly opened 100 vol H2O2 [C] or dilute 450 cm3 of
+  FA 2 120 cm3 0.0300 mol dm–3 potassium
+  FA 3 [MH] 50 cm3 1.0 mol dm–3 sulfuric acid See preparation instructions in the current syllabus.
+  FA 5 [MH] 2.5 g manganese(IV) oxide, MnO2 Provide 2.5 ± 0.1 g of powdered MnO2 [MH] in a stoppered container.
+  FA 6 [MH] 10 cm3 0.10 mol dm–3 iron(III) chloride Dissolve 16.2 g FeCl 3 [MH][C] or 27.0 g of FeCl 3•6H2O [MH][C] in
+  500 cm3 of 2.0 mol dm−3 HCl and dilute the solution to 1 dm3.
+  FA 7 10 cm3 0.5 mol dm–3 potassium iodide Dissolve 83.0 g of KI in each dm3 of solution.
+  5 cm3 0.5 mol dm–3 sodium carbonate Dissolve 53.0 g of Na2CO3 [MH] or 143.0 g of Na2CO3•10H2O [MH] in
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3
+==========================================================================================
+9701/34/M/J/25
+==========================================================================================
+
+──────── Q2 ────────
+开头：The reaction between an acid and an alkali is ex othermic. You will carry out a neutralisation
+  experiment to determine the enthalpy change involved.
+  You will mix dif ferent volumes of an acid with a fixed volume of an alkali and measure the
+  temperature rises that occur.
+  FB 4 is aqueous sodium hydroxide, NaOH.
+  FB 5 is 2.00 mol dm–3 hydrochloric acid, HCl .
+  (a) Method
+  • Use the thermometer to measure the initial temperature of FB 4. Record this initial
+  temperature in the space for results.
+  • Support the cup in the 250 cm3 beaker.
+  • Fill one burette with FB 5. Label the burette FB 5.
+  • Fill the other burette with distilled water.
+  Experiment 1
+  • Use the 10 cm3 pipette to transfer 10.0 cm3 of FB 4 into the cup.
+  • Add 9.00 cm3 of distilled water from the burette to the same cup.
+  • Add 1.00 cm3 of FB 5 from the other burette to the same cup.
+  • Stir the mixture and use the thermometer to measure the maximum temperature. If
+  necessary, tilt the cup so that the solution covers the bulb of the thermometer.
+  • Record the maximum temperature in Table 2.1.
+  • Empty, rinse and dry the cup ready for use in further experiments.
+  Further experiments
+  Repeat this method for Experiments 2–5, using 10.0 cm3 of FB 4 and the volumes of water
+  and FB 5 shown in Table 2.1. In each case, measure and record the maximum temperature.
+  Carry out two further experiments, Experiments 6 and 7, which will enable you to determine
+  more precisely the volume of FB 5 that gives the largest maximum temperature. Record your
+  measurements in Table 2.1.
+  Results
+  initial temperature of FB 4 = ........................ ...... °C
+  Table 2.1
+  experiment volume of water
+  / cm3
+  volume of FB 5
+  / cm3
+  maximum
+  temperature / °C
+  1 9.00 1.00
+  2 7.00 3.00
+  3 5.00 5.00
+  4 3.00 7.00
+  5 1.00 9.00
+  6
+  7
+  [4]
+  I
+  II
+  III
+  IV
+  ,	,
+  ĬÕú¾Ġ´íÈõÏĪÅĊàü·Ā×
+  ĬÀČô×ĦüĈäüČĞĕÜĔ±íĂ
+  ĥąąĕõõĥµÕµĕąąõĥõåÕ
+  ===== PAGE 5 =====
+  5
+  9701/34/M/J/25© UCLES 2025 [Turn over
+  (b) (i) Plot a graph of the maximum temperature (y‑axis) against the volume of FB 5 (x‑axis) on
+  the grid. The scale on the y‑axis should be suitable for temperature readings to be 2 °C
+  above the largest maximum temperature.
+  Label any points you consider to be anomalous.
+  Draw two lines of best fit, the first for the increase in maximum temperature and the
+  second for after the largest maximum temperature has been reached. Extrapolate both
+  lines so that they intersect.
+  [4]
+  I II III IV
+  ,	,
+  Ĭ×ú¾Ġ´íÈõÏĪÅĊàú·Ā×
+  ĬÀċóÏĤøøÕþõëÁäÈ±ýĂ
+  ĥąõÕµĕąÕÅÅÅąąĕąµµÕ
+  ===== PAGE 6 =====
+  6
+  9701/34/M/J/25© UCLES 2025
+  (ii) Use the intersection on your graph in (b)(i) to determine the volume of FB 5 required to
+  neutralise 10.0 cm3 of FB 4.
+  volume of FB 5 = .............................. cm3 [1]
+  (c) Calculations
+  (i) Calculate the amount, in mol, of hydrochloric acid in the volume of FB 5 in (b)(ii).
+  (If you were unable to determine an answer to (b)(ii), use 5.10 cm3 as the volume of
+  FB 5. This may not be the correct answer.)
+  amount of HCl = .............................. mol
+  Deduce the amount, in mol, of sodium hydroxide in 10.0 cm3 of FB 4.
+  amount of NaOH = .............................. mol
+  [1]
+  (ii) Calculate the energy change, in J, when the amounts of reagents in (c)(i) neutralise
+  each other. Show your working.
+  energy change = .............................. J [1]
+  (iii) Use your answer to (c)(ii) to calculate the enthalpy change, in kJ mol–1, when one mole
+  of FB 4 is neutralised by one mole of FB 5.
+  enthalpy change = .......... .............................. kJ mol–1 [1]
+  sign value
+  [Total: 12]
+  ,	,
+  ĬÙú¾Ġ´íÈõÏĪÅĊÝú¶þ×
+  ĬÀČóÔĪĐîÍĉĈÒáÜåęíĂ
+  ĥÕÕÕµµąõąåĥąÅĕåõĥÕ
+  ===== PAGE 7 =====
+  7
+  9701/34/M/J/25© UCLES 2025 [Turn over
+  Qualitative analysis
+  For each test you should record all your observations in the spaces provided.
+  Examples of observations include:
+  • colour changes seen
+  • the formation of any precipitate and its solubility (where appropriate) in an excess of the reagent
+  added
+  • the formation of any gas and its identification (where appropriate) by a suitable test.
+  You should record clearly at what stage in a test an observation is made.
+  Where no change is observed, you should write ‘no change’.
+  Where reagents are selected for use in a test, the name or correct formula of the element or compound
+  must be given.
+  If any solution is warmed, a boiling tube must be used. If a solid is heated, a hard‑glass test‑tube must
+  be used.
+  Rinse and reuse test‑tubes and boiling tubes where possible.
+  No additional tests should be attempted.
+  3 (a) (i) FB 6, FB 7 and FB 8 are aqueous solutions of different compounds that each contain at
+  least one oxygen atom.
+  Carry out the following tests and record your observations in Table 3.1. Three of the tests
+  have been done for you. Use a 1 cm depth of solution in a test‑tube for each test.
+  Table 3.1
+  test
+  observations
+  FB 6 FB 7 FB 8
+  Test 1
+  Add a small
+  spatula measure
+  of manganese(IV)
+  oxide.
+  No change. No change.
+  Test 2
+  Add a 1 cm length
+  of magnesium. No change.
+  Test 3
+  Add a few drops
+  of aqueous iron(II)
+  sulfate.
+  [4]
+  ,	,
+  ĬÛú¾Ġ´íÈõÏĪÅĊÝü¶þ×
+  ĬÀċôÜĠĔþìïùėõäñęýĂ
+  ĥÕåĕõÕĥĕĕÕµąÅõÅµõÕ
+  ===== PAGE 8 =====
+  8
+  9701/34/M/J/25© UCLES 2025
+  (ii) Use your observations in Table 3.1 to suggest a possible formula for each of FB 6, FB 7
+  and FB 8.
+  FB 6 ..............................
+  FB 7 ..............................
+  FB 8 ..............................
+  [2]
+  (b) FB 9 contains two anions and two cations, three of which are listed in the Qualitative analysis
+  notes.
+  (i) To a small spatula measure of FB 9 in a test‑tube, add a 2 cm depth of dilute nitric acid.
+  Record your observations.
+  Keep the resulting solution for the test in (b)(ii).
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [2]
+  (ii)  To the solution from (b)(i), add a few drops of aqueous silver nitrate. Then add excess
+  aqueous ammonia. Record your observations.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  ,		,
+  ĬÙú¾Ġ´íÈõÏĪÅĊßú¶Ā×
+  ĬÀċñÜĦĢċÏñòĐ×ĀÓĉõĂ
+  ĥĥõĕµÕĥµõõÅąąõĥµĥÕ
+  ===== PAGE 9 =====
+  9
+  9701/34/M/J/25© UCLES 2025
+  (iii) Make an aqueous solution of FB 9 by adding a 5 cm depth of distilled water to a spatula
+  measure of FB 9 in a test‑tube. Carry out the following tests on the aqueous solution of
+  FB 9 and record your observations in Table 3.2.
+  Table 3.2
+  test observations
+  Test 1
+  To a 1 cm depth in a boiling tube, add
+  aqueous sodium hydroxide,
+  then
+  warm.
+  Test 2
+  To a 1 cm depth in a test‑tube, add a few
+  drops of dilute hydrochloric acid,
+  then add a few drops of aqueous chlorine.
+  Empty and rinse the test‑tube with water
+  immediately after use.
+  [2]
+  (iv) Use your observations in (b)(i), (b)(ii) and Table 3.2 to deduce the formulae of the cations
+  and anions in FB 9. If you are unable to identify an ion, write ‘unknown’.
+  cations .............................. and ..............................
+  anions .............................. and ..............................
+  [2]
+  (v) Write an ionic equation for the reaction in (b)(ii). Include state symbols.
+  ..................................................................................................................................... [1]
+  [T otal:14]
+  ,	
+  ,
+  ĬÛú¾Ġ´íÈõÏĪÅĊßü¶Ā×
+  ĬÀČòÔĤĞûêćÿÙăøćĉąĂ
+  ĥĥąÕõµąÕĥąĕąąĕąõõÕ
+  ===== PAGE 10 =====
+  10
+  9701/34/M/J/25© UCLES 2025
+  Qualitative analysis notes
+  1 Reactions of cations
+  cation reaction with
+  NaOH(aq) NH3(aq)
+  aluminium, Al 3+(aq) white ppt. soluble in excess white ppt. insoluble in excess
+  ammonium, NH4
+  +(aq) no ppt.
+  ammonia produced on warming
+  –
+  barium, Ba2+(aq) faint white ppt. is observed unless
+  [Ba2+(aq)] is very low
+  no ppt.
+  calcium, Ca2+(aq) white ppt. unless [Ca2+(aq)] is very
+  low
+  no ppt.
+  chromium(III), Cr3+(aq) grey‑green ppt. soluble in excess
+  giving dark green solution
+  grey‑green ppt. insoluble in excess
+  copper(II), Cu2+(aq) pale blue ppt. insoluble in excess pale blue ppt. soluble in excess
+  giving dark blue solution
+  iron(II), Fe2+(aq) green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  green ppt. turning brown on
+  contact with air
+  insoluble in excess
+  iron(III), Fe3+(aq) red‑brown ppt. insoluble in excess red‑brown ppt. insoluble in excess
+  magnesium, Mg2+(aq) white ppt. insoluble in excess white ppt. insoluble in excess
+  manganese(II),
+  Mn2+(aq)
+  off‑white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  off‑white ppt. rapidly turning brown
+  on contact with air
+  insoluble in excess
+  zinc, Zn2+(aq) white ppt. soluble in excess white ppt. soluble in excess
+
+──────── Q2 ────────
+开头：Reactions of anions
+  anion reaction
+  carbonate, CO3
+  2– CO2 liberated by dilute acids
+  chloride, Cl –(aq) gives white ppt. with Ag+(aq) (soluble in NH3(aq))
+  bromide, Br –(aq) gives cream / off‑white ppt. with Ag+(aq) (partially soluble in NH3(aq))
+  iodide, I–(aq) gives pale yellow ppt. with Ag+(aq) (insoluble in NH3(aq))
+  nitrate, NO3
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil
+  nitrite, NO2
+  –(aq) NH3 liberated on heating with OH–(aq) and Al foil;
+  decolourises acidified aqueous KMnO4
+  sulfate, SO4
+  2–(aq) gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids);
+  gives white ppt. with high [Ca2+(aq)]
+  sulfite, SO3
+  2–(aq) gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids);
+  decolourises acidified aqueous KMnO4
+  thiosulfate, S2O3
+  2–(aq) gives off‑white / pale yellow ppt. slowly with H+
+  ,	,
+  ĬÙú¾Ġ´íÈõÏĪÅĊÞú¸þ×
+  ĬÀĊñÑĨĪčÑúù¶»þ·±ýĂ
+  ĥµĕÕµÕÅµÕÅÅÅąÕĥµÕÕ
+  ===== PAGE 11 =====
+  11
+  9701/34/M/J/25© UCLES 2025
+  3 Tests for gases
+  gas test and test result
+  ammonia, NH3 turns damp red litmus paper blue
+  carbon dioxide, CO2 gives a white ppt. with limewater
+  hydrogen, H2 ‘pops’ with a lighted splint
+  oxygen, O2 relights a glowing splint
+  4 Tests for elements
+  element test and test result
+  iodine, I2 gives blue‑black colour on addition of starch solution
+  Important values, constants and standards
+  molar gas constant R = 8.31 J K–1 mol–1
+  Faraday constant F = 9.65 × 104 C mol–1
+  Avogadro constant L = 6.02 × 1023 mol–1
+  electronic charge e = –1.60 × 10–19 C
+  molar volume of gas Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+  Vm = 24.0 dm3 mol–1 at room conditions
+  ionic product of water Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+  specific heat capacity of water c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+  ,	,
+  ĬÛú¾Ġ´íÈõÏĪÅĊÞü¸þ×
+  ĬÀĉòÙĢĦĝèĀĈóğöģ±íĂ
+  ĥµĥĕõµåÕÅµĕÅąµąõÅÕ
+  ===== PAGE 12 =====
+  12
+  9701/34/M/J/25© UCLES 2025
+  To avoid the issue of disclosure of answer‑related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+  Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download
+  at www.cambridgeinternational.org after the live examination series.
+  Group
+  The Periodic Table of Elements
+  1
+  H
+  hydrogen
+  1.0
+  2
+  He
+  helium
+  4.0
+  12 13 14 15 16 17 18
+  3456789 10 11 12
+  3
+  Li
+  lithium
+  6.9
+  4
+  Be
+  beryllium
+  9.0
+  atomic number
+  atomic symbol
+  Key
+  name
+  relative atomic mass
+  11
+  Na
+  sodium
+  23.0
+  12
+  Mg
+  magnesium
+  24.3
+  19
+  K
+
+  ── CI 材料表（前 40 行）──
+  FB 1 120 cm3 0.0500 mol dm–3 iron(II) sulfate
+  FB 2 120 cm3 0.0100 mol dm–3 potassium
+  FB 3 [MH] 50 cm3 1.00 mol dm–3 sulfuric acid See preparation instructions in the current syllabus.
+  FB 4 [C] 100 cm3 1.00 mol dm–3 sodium
+  FB 5 60 cm3 2.00 mol dm–3 hydrochloric acid See preparation instructions in the current syllabus.
+  FB 6 [MH] 10 cm3 2.00 mol dm–3 ethanoic acid Use 120 g of glacial ethanoic acid [C][F] diluted to 1.0 dm3.
+  FB 7 [C] 10 cm3 1.00 mol dm–3 sodium
+  FB 8 10 cm3 10 vol hydrogen peroxide Dilute 100 cm3 of 100 vol H2O2 [C] in each dm3 of solution or dilute 500 cm3 of
+  FB 9 [MH] 1 g 0.5 g of anhydrous sodium
+  0.5 g solid manganese(IV) oxide Provide 0.5 g ± 0.1 g of powdered MnO2 [MH] in a stoppered container.
+  5 cm3 aqueous sodium chlorate(I) Prepare by diluting domestic / commercial bleach [C][N] with an equal volume of
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3 0.01 mol dm–3 KMnO4 in
+==========================================================================================
+9701/33/M/J/26
+==========================================================================================
+
+──────── Q2 ────────
+开头：Carboxylic acids may have other atoms or groups substituted for hydrogen in the chain.
+  R’CHZCOOH is the monosubstituted acid of R’CH2COOH, where Z is a halogen. R’ may be H
+  or CnH2n+1.
+  You will carry out a titration using sodium hydroxide of known concentration to find the relative
+  molecular mass, Mr , of the monosubstituted carboxylic acid, R’CHZCOOH.
+  R’CHZCOOH(aq) + NaOH(aq)  R’CHZCOONa(aq) + H2O(l)
+  The end-point is the appearance of the first permanent blue colour. Assume that the sodium
+  hydroxide is too dilute for any significant hydrolysis of the halogen.
+  FA 3 is 0.0950 mol dm−3 sodium hydroxide, NaOH.
+  FA 4 is 15.28 g dm−3 monosubstituted carboxylic acid, R’CHZCOOH.
+  FA 5 is thymolphthalein indicator.
+  (a) Method
+  • Fill the burette with FA 3.
+  • Pipette 25.0 cm3 of FA 4 into a conical flask.
+  • Add a few drops of FA 5 to the same conical flask.
+  • Perform a rough titration and record your burette readings.
+  rough titre =  ........................................................  cm3
+  • Carry out as many accurate titrations as you think necessary to obtain
+  consistent results.
+  • Make sure any recorded results show the precision of your practical work.
+  • Record in a suitable form all your burette readings and the volume of FA 3 added in
+  each accurate titration.
+  [7]
+  (b) From your accurate titration results, calculate a suitable mean value to use in your
+  calculations. Show clearly how you obtain the mean value.
+  25.0 cm3 of FA 4 required  ..................................... cm3 of FA 3. [1]
+  I
+  II
+  III
+  IV
+  V
+  VI
+  VII
+  ,	,
+  ĬÕú¾Ġ´íÈõÏĪÅĊÞü¸Ā×
+  Ĭÿ¾ûÛĩđîãö÷ýÐÈďÊęĂ
+  ĥÕąĕµÕĥÕÕõõÅÅõÅĕĥÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/33 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/33 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-93A3FA2C09
+  ===== PAGE 5 =====
+  5
+  9701/33/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+  (c) Calculations
+  (i) Give your answers to 2(c)(ii), 2(c)(iii) and 2(c)(iv) to an appropriate number of
+  significant figures. [1]
+  (ii) Calculate the amount, in mol, of sodium hydroxide in the volume of FA 3 in 2(b).
+  amount of NaOH =  ................................................... mol [1]
+  (iii) Calculate the concentration, in mol dm–3, of the monosubstituted carboxylic acid in FA 4.
+  concentration of R’CHZCOOH =  ..........................................  mol dm–3 [1]
+  (iv) Calculate the relative molecular mass, Mr , of the monosubstituted carboxylic acid
+  in FA 4.
+  Show your working.
+  Mr of R’CHZCOOH =  ......................................................... [1]
+  (d) (i) A fresh sample of FA 4 reacts with excess hot aqueous sodium hydroxide. The resulting
+  solution is neutralised with nitric acid. This solution is FA 6.
+  Carry out a test on FA 6 to determine the identity of Z.
+  reagents  ............................................................................................................................
+  observations  ......................................................................................................................
+  ...........................................................................................................................................
+  identity of Z ................................................................
+  [2]
+  (ii) Suggest why nitric acid is added to make FA 6 before carrying out your test in 2(d)(i).
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  (e) Use your answers to 2(c)(iv) and 2(d)(i) to calculate the relative formula mass of group R’.
+  Hence, identify group R’ in FA 4.
+  relative formula mass of R’ =  ...............................................................
+  R’ in FA 4  ...............................................................
+  [2]
+  ,	,
+  Ĭ×ú¾Ġ´íÈõÏĪÅĊÞú¸Ā×
+  Ĭÿ½üÓğčþÖĄĊÌČ°ËÊĩĂ
+  ĥÕõÕõµąµÅąåÅÅĕåÕõÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/33 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/33 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-93A3FA2C09
+  ===== PAGE 6 =====
+  6
+  9701/33/M/J/26© Cambridge University Press & Assessment 2026
+  (f) Two students correctly carry out the method in 2(a) using the same concentrations of FA 3
+  and FA 4 in separate experiments. The difference between the students’ mean accurate
+  titres is 0.35 cm3.
+  Suggest why the students identify the same R’ group.
+  (Do not attempt a calculation.)
+  ...................................................................................................................................................
+  ...................................................................................................................................................
+  ............................................................................................................................................. [1]
+  [Total: 18]
+  ,	,
+  ĬÙú¾Ġ´íÈõÏĪÅĊßúµþ×
+  Ĭÿ¾üÐĥõĈÎćû±ĬÈêĢęĂ
+  ĥąÕÕõĕąĕąĥąÅąĕąĕåÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/33 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/33 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-93A3FA2C09
+  ===== PAGE 7 =====
+  7
+  9701/33/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+  Qualitative analysis
+  For each test, you should record all your observations in the spaces provided.
+  Examples of observations include:
+  • colour changes seen
+  • the formation of any precipitate and its solubility (where appropriate) in an excess of the
+  reagent added
+  • the formation of any gas and its identification (where appropriate) by a suitable test.
+  You should record clearly at what stage in a test an observation is made.
+  Where no change is observed, you should write ‘no change’.
+  Where reagents are selected for use in a test, the name or correct formula of the element or
+  compound must be given.
+  If any solution is warmed, a boiling tube must be used. If any solid is heated, a hard-glass test-tube
+  must be used.
+  Rinse and reuse test-tubes and boiling tubes where possible.
+  No additional tests should be attempted.
+
+──────── Q3 ────────
+开头：Half-fill the 250 cm3 beaker with water and place it on a tripod and gauze. Heat the water until
+  boiling then switch off your Bunsen burner. This is your hot water-bath.
+  (a) Some organic acids contain an unsaturated hydrocarbon group.
+  Carry out an experiment using the reagents supplied to determine whether the R group in
+  FA 2 is unsaturated.
+  Record your test, observations and conclusion.
+  test  ............................................................................................................................................
+  observations  .............................................................................................................................
+  ...................................................................................................................................................
+  conclusion  .................................................................................................................................
+  [2]
+  ,	,
+  ĬÛú¾Ġ´íÈõÏĪÅĊßüµþ×
+  Ĭÿ½ûØģùøëñĆø°°îĢĩĂ
+  ĥąåĕµõĥõĕĕÕÅąõĥÕµÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/33 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/33 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-93A3FA2C09
+  ===== PAGE 8 =====
+  8
+  9701/33/M/J/26© Cambridge University Press & Assessment 2026
+  (b) FA 7 and FA 8 are aqueous solutions of ionic compounds.
+  FA 7 contains one cation and two anions.
+  FA 8 contains one cation and one anion.
+  Three of the five ions are listed in the Qualitative analysis notes.
+  (i) Carry out the following tests and record your observations in Table 3.1.
+  Use a 1 cm depth of FA 7 or FA 8 in a test-tube for each test.
+  Table 3.1
+  test
+  observations
+  FA 7 FA 8
+  Test 1
+  Add aqueous sodium
+  hydroxide,
+  then
+  pour the mixture into a
+  boiling tube and heat
+  gently,
+  then
+  add a piece of
+  aluminium foil.
+  Test 2
+  Add aqueous ammonia.
+  Test 3
+  Add aqueous
+  copper(II) sulfate.
+  Test 4
+  Add aqueous barium
+  chloride or aqueous barium
+  nitrate,
+  then
+  add nitric acid.
+  Test 5
+  Add aqueous silver nitrate.
+  Test 6
+  Add FA 8 until in excess.
+  [7]
+  ,		,
+  ĬÙú¾Ġ´íÈõÏĪÅĊÝúµĀ×
+  Ĭÿ½úØĩċñÐïýïĎĔÐòđĂ
+  ĥµõĕõõĥÕõµåÅÅõÅÕåÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/33 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/33 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-93A3FA2C09
+  ===== PAGE 9 =====
+  9
+  9701/33/M/J/26© Cambridge University Press & Assessment 2026
+  (ii) Identify the cations in FA 7 and FA 8. If you are unable to positively identify an ion or
+  ions, write ‘unknown’.
+  cation in FA 7 .................................. cation in FA 8 ..................................
+  [1]
+  (iii) Suggest the possible identities of the anions in FA 7. Give reasons for your answer.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [2]
+  (iv) Identify the anion in FA 8.
+  anion in FA 8 ..............................  [1]
+  [Total: 13]
+
+  ── CI 材料表（前 40 行）──
+  FA 1 [F] 0.17 g magnesium pieces Supply 0.17 ± 0.01 g of Mg pieces [F] in a stoppered container.
+  FA 2 70 cm3 0.25 mol dm–3 sulfuric acid Dilute 250 cm3 of 1.0 mol dm–3 H2SO4 [MH] to 1 dm3. Supply in a
+  FA 3 120 cm3 0.095 mol dm–3 sodium hydroxide Dissolve 3.80 g of NaOH [C] in each dm3 of solution.
+  FA 4 120 cm3 0.100 mol dm–3 hydrochloric acid Dilute 50.0 cm3 of 2.0 mol dm–3 HCl to 1 dm3.
+  FA 5
+  2 cm3 thymolphthalein indicator See preparation instructions in the current syllabus.
+  FA 6 5 cm3 0.20 mol dm–3 potassium bromide Dissolve 23.8 g of KBr in each dm3 of solution.
+  FA 7 15 cm3 0.050 mol dm–3 chromium(III) sulfate with
+  19.6 g of CrK(SO4)2•6H2O [MH] is a suitable alternative to chromium(III)
+  FA 8 [C] 15 cm3 1.0 mol dm–3 sodium hydroxide See preparation instructions in the current syllabus.
+  5 cm3 0.20 mol dm–3 copper(II) sulfate Dissolve 31.9 g of CuSO4 [C][MH][N] or 49.9 g of CuSO4•5H2O [C][MH][N]
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3 0.01 mol dm–3 KMnO4 in 0.5 mol dm–3 H2SO4
+==========================================================================================
+9701/34/M/J/26
+==========================================================================================
+
+──────── Q2 ────────
+开头：You will carry out experiments using the hydrated salt MX2•2H2O and analyse the results to
+  identify M and X.
+  M is the cation of a Group 2 metal.
+  X is the anion of an element in Group 17.
+  When MX2•2H2O is heated, the loss of mass is caused only by the water of
+  crystallisation evaporating.
+  FB 6 is the hydrated salt, MX2•2H2O.
+  (a) Method
+  (i) Thermal decomposition
+  • Weigh the empty crucible with its lid. Record the mass in the results section.
+  • Transfer all the FB 6 from the container into the crucible.
+  • Weigh the crucible, lid and FB 6. Record the mass.
+  • Place the crucible, lid and contents on the pipeclay triangle.
+  • Heat the crucible gently, with the lid on, for approximately 1 minute.
+  • Heat the crucible strongly, with the lid off, for approximately 5 minutes.
+  • Replace the lid and leave the crucible to cool for at least 5 minutes.
+  During the cooling period, you may wish to begin work on Question 3.
+  • When the crucible is cool, weigh the crucible with its lid and contents. Record
+  the mass.
+  • Calculate the mass of FB 6 added to the crucible, the mass of the residue obtained
+  and the mass loss. Record these masses.
+  Results
+  [4]
+  (ii) Anion test
+  • Use a small amount of your residue from 2(a)(i) to carry out a test to identify
+  anion X. Describe how you carry out your test.
+  • Record your observations and conclusion.
+  anion X ..............................
+  [3]
+  I
+  II
+  III
+  IV
+  ,	,
+  ĬÕú¾Ġ´íÈõÏĪÅĊÝù·Ā×
+  ĬĄ°úÍĞùĒëĊĂċğđàĊĩĂ
+  ĥåĕÕõµąĕąÕµÅąµąÕµÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/34 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/34 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-D73FDDC1D9
+  ===== PAGE 5 =====
+  5
+  9701/34/M/J/26© Cambridge University Press & Assessment 2026 [Turn over
+  (b) Calculations
+  (i) Calculate the amount, in mol, of water lost during the thermal decomposition.
+  amount of H2O lost =  ..................................................  mol [1]
+  (ii) Use your answers to 2(a)(i) and 2(b)(i) to calculate the relative formula mass, Mr ,
+  of MX2.
+  Mr of MX2 =  ......................................................... [1]
+  (iii) Use your answers to 2(a)(ii) and 2(b)(ii) to calculate the atomic mass, Ar , of M.
+  Identify cation M.
+  Ar of M =  ...............................................................
+  cation M ..............................
+  [1]
+  (c) (i) Calculate the percentage error in the value for the Mr of MX2 that you calculated in
+  2(b)(ii) compared to the actual value for the Mr of MX2.
+  Show your working.
+  percentage error =  ..................................................... % [1]
+  (ii) Suggest an improvement to the method given in 2(a)(i) to reduce the percentage error
+  in the value of Mr calculated.
+  ...........................................................................................................................................
+  ...........................................................................................................................................
+  ..................................................................................................................................... [1]
+  [Total: 12]
+  ,	,
+  Ĭ×ú¾Ġ´íÈõÏĪÅĊÝû·Ā×
+  ĬĄ¯ùÕĬõĢÎðï¾»ĩüĊęĂ
+  ĥåĥĕµÕĥõĕåĥÅąÕĥĕåÕ
+  DFD
+  PapaCambridge
+  ·  papacambridge.com
+  9701/34 Question Paper June 2026
+  Downloaded from PapaCambridge - https://papacambridge.com/
+  9701/34 Question Paper June 2026 | Source: papacambridge.com
+  Licensed for hosting on papacambridge.com only.
+  Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+  Trace ID: PC-D73FDDC1D9
+  ===== PAGE 6 =====
+  6
+  9701/34/M/J/26© Cambridge University Press & Assessment 2026
+  BLANK PAGE
+  ,	,
+  ĬÙú¾Ġ´íÈõÏĪÅĊàû¶þ×
+  ĬĄ°ùÚĢčĬÖûþ·ÛđęâĩĂ
+
+  ── CI 材料表（前 40 行）──
+  FB 1 150 cm3 0.100 mol dm–3 sodium thiosulfate Dissolve 24.82 g of Na2S2O3•5H2O or 15.82 g of Na2S2O3 in each dm3
+  FB 2 150 cm3 0.0140 mol dm–3 potassium iodate(V) Dissolve 3.00 g of KIO3 [O][MH] in each dm3 of solution.
+  FB 3 [MH] 50 cm3 1.0 mol dm–3 sulfuric acid See preparation instructions in the current syllabus.
+  FB 4 50 cm3 0.50 mol dm–3 potassium iodide Dissolve 83.0 g of KI in each dm3 of solution.
+  FB 5 15 cm3 freshly prepared aqueous starch
+  FB 6 [T] 2.0 g hydrated barium chloride Provide 1.9–2.1 g of BaCl 2•2H2O [T] in a stoppered container.
+  FB 7 [O][MH]
+  0.2 g potassium manganate(VII) Provide 0.2 ± 0.05 g of KMnO4 [O][MH][HH][N] in a stoppered container.
+  FB 8 [MH] 20 cm3 0.05 mol dm–3 ammonium chloride and
+  FB 9 [MH] 10 cm3 1.0 mol dm–3 sulfuric acid See preparation instructions in the current syllabus.
+  10 cm3 0.1 mol dm–3 BaCl 2
+  10 cm3 0.01 mol dm–3 KMnO4 in 0.5 mol dm–3 H2SO4

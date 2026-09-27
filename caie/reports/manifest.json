@@ -1,0 +1,732 @@
+{
+  "spec": "CAIE_9701_China_AS_2024-2026_Automation_Test_Spec.md",
+  "generated_by": "ChemLabUnity SpecRunner + node harness",
+  "generated_at": "2026-09-21T17:40:48.048Z",
+  "zone5_scope": {
+    "note": "中国区(Zone 5) AS 只考 Paper 1/2/3；P1/P2 为组件 12/22，P3 装载 33 与 34 两套以确保不漏场次",
+    "components": [
+      "12",
+      "22",
+      "33",
+      "34"
+    ],
+    "years": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "source_mirror": {
+    "host": "pastpapers.papacambridge.com",
+    "path": "/directories/CAIE/CAIE-pastpapers/upload/",
+    "note": "Cambridge 官网未直接提供批量下载；镜像按精确文件名取得，取回后做过三重匹配（文件名/首页身份/页数）与 SHA-256"
+  },
+  "gate0_gate1": {
+    "required_files": 30,
+    "found": 30,
+    "all_verified": true,
+    "checks_performed": [
+      "能否完整解析(防截断)",
+      "syllabus=9701",
+      "component 一致",
+      "考季一致",
+      "年份一致",
+      "QP/MS/CI 类型一致",
+      "SHA-256",
+      "页数"
+    ],
+    "files": [
+      {
+        "file": "9701_s24_ci_33.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ci",
+        "component": "33",
+        "pages": 8,
+        "bytes": 749698,
+        "sha256": "b7a34eb3b7cabf2ba3dd0ef4073da04fd19894e13acefa2ef91dee4037d05fb6",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_ci_34.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ci",
+        "component": "34",
+        "pages": 8,
+        "bytes": 743165,
+        "sha256": "2372c08992f78fb5441795424746cd96abe1cb5156153a3c35c9103da903f9ed",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_ms_12.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ms",
+        "component": "12",
+        "pages": 3,
+        "bytes": 96581,
+        "sha256": "3ecc773c5809315bd9c2ffb767918a445c7442f1b2df5ae54f4960dd68ee4e03",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_ms_22.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ms",
+        "component": "22",
+        "pages": 13,
+        "bytes": 325594,
+        "sha256": "3d4fb98644a25b4baa4c8b054d497cacf56f8ed7e38dcab8c91283deaf1814f2",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_ms_33.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ms",
+        "component": "33",
+        "pages": 11,
+        "bytes": 241837,
+        "sha256": "51a818b5263c2f80e64b12d3825d9d1587cb0678707418aa50a41d9589ce6538",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_ms_34.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "ms",
+        "component": "34",
+        "pages": 11,
+        "bytes": 255067,
+        "sha256": "0349ce2b18b54629f33e3b64b28fad797dfd7bf135659c053e58c92f17f4c1e0",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_qp_12.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "qp",
+        "component": "12",
+        "pages": 16,
+        "bytes": 395473,
+        "sha256": "3ce0234d2b806d106dc4cb6425303785b394f4a9f94d240a52885bc4def2afd8",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_qp_22.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "qp",
+        "component": "22",
+        "pages": 16,
+        "bytes": 205378,
+        "sha256": "02463479abb9dd19ef2bbc8297bf832f083bc6a52b95977119c3a7260d69580c",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_qp_33.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "qp",
+        "component": "33",
+        "pages": 12,
+        "bytes": 169807,
+        "sha256": "072e30c9c1e02acc1eaa6af038defe36b90283903096d8b497b50aabacca7ceb",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s24_qp_34.pdf",
+        "season": "s",
+        "year": 2024,
+        "kind": "qp",
+        "component": "34",
+        "pages": 12,
+        "bytes": 163987,
+        "sha256": "1bfce168cd0ac6e3e6585b9654b1cbd1150054bc0ce2bd0f2dd599f38470551e",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ci_33.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ci",
+        "component": "33",
+        "pages": 8,
+        "bytes": 772716,
+        "sha256": "dc87247e372068c139a9773f1feebec3331deeec06fa3e87fe0b4f7db7f59be2",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ci_34.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ci",
+        "component": "34",
+        "pages": 8,
+        "bytes": 1984049,
+        "sha256": "58fc95f5179b126adbbc123522271b000527bbc6d0437ffc520a00ab6444b53f",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ms_12.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ms",
+        "component": "12",
+        "pages": 3,
+        "bytes": 167935,
+        "sha256": "00fed045a934cf30f6bad5acd8e22f27a09c37255028989cc894e8276352f712",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ms_22.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ms",
+        "component": "22",
+        "pages": 14,
+        "bytes": 390910,
+        "sha256": "722e570432cdc8cc495c02d68d7d3f1c20129ca75ff5c347847d744fe72cf02d",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ms_33.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ms",
+        "component": "33",
+        "pages": 13,
+        "bytes": 376531,
+        "sha256": "f93d39d9d74a5f8d7655e048b962a9d4fc7708b4d658e97d0d91e822435ce1ce",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_ms_34.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "ms",
+        "component": "34",
+        "pages": 12,
+        "bytes": 344492,
+        "sha256": "28158b21270402587f61777f78085ea3fc533b7e1bdd48edc426c4f77cc18668",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_qp_12.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "qp",
+        "component": "12",
+        "pages": 16,
+        "bytes": 411557,
+        "sha256": "2339574fdacf18bb1ffb5e1ae0eb1a3457ac2be27d85f6d499f1fd60ffe3aa5d",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_qp_22.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "qp",
+        "component": "22",
+        "pages": 16,
+        "bytes": 127221,
+        "sha256": "dea8f17527e2bd62bcca8be4c885f0bb4fe136ee4b7c3f7049129efc6d73ddd5",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_qp_33.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "qp",
+        "component": "33",
+        "pages": 16,
+        "bytes": 127280,
+        "sha256": "be488063559d254b8afbf23c9346005699541d71a15d1919ec562aea422bb291",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s25_qp_34.pdf",
+        "season": "s",
+        "year": 2025,
+        "kind": "qp",
+        "component": "34",
+        "pages": 12,
+        "bytes": 124701,
+        "sha256": "4dfc8868d2f2d5a1dc61d8fdbb4e978ffa34588eccd447c4e2ba6d1a39c18126",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ci_33.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ci",
+        "component": "33",
+        "pages": 8,
+        "bytes": 470580,
+        "sha256": "68820e7304e2bfca41bac97013ef6347cf11656b0a07dc8fb2ecaebd669b0cc5",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ci_34.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ci",
+        "component": "34",
+        "pages": 8,
+        "bytes": 493981,
+        "sha256": "d328a7f210ac4e54d165cd1755b41acdc65c88ad5cd5909fcc347785b7c98dd1",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ms_12.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ms",
+        "component": "12",
+        "pages": 3,
+        "bytes": 329619,
+        "sha256": "d04aa5774e98c67f3c9c295dc5e52d642afba852cd3b5e0b36cb7b7c9d60193e",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ms_22.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ms",
+        "component": "22",
+        "pages": 24,
+        "bytes": 1808115,
+        "sha256": "3b7eea0b962cdc9f1eb1f62d53bb0a8e7b90f709bca70f9077039d4bb3ef4f5a",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ms_33.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ms",
+        "component": "33",
+        "pages": 26,
+        "bytes": 1789791,
+        "sha256": "bd36b47f127ed73d924f0534716f8d9d76c9241f22ebdfc006b9ba75f2f820c4",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_ms_34.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "ms",
+        "component": "34",
+        "pages": 20,
+        "bytes": 1450838,
+        "sha256": "83a2d8dd11f07715d834a858051fc967722b79f578868c460db0625c93325a2d",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_qp_12.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "qp",
+        "component": "12",
+        "pages": 20,
+        "bytes": 1720105,
+        "sha256": "23cf7a42e02aed6a0d54692b222aa80e731a2816ab2b7481593a9f70abfdc194",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_qp_22.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "qp",
+        "component": "22",
+        "pages": 16,
+        "bytes": 560079,
+        "sha256": "1015224233a9be349152a6e9d464e2ba60ba695a27cea8b98e1c9d7a4be65242",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_qp_33.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "qp",
+        "component": "33",
+        "pages": 12,
+        "bytes": 445421,
+        "sha256": "4f4f49a6588e967705e6ddf64db80b04d2c5ac56583bc421779c4932d550fc3e",
+        "status": "OK"
+      },
+      {
+        "file": "9701_s26_qp_34.pdf",
+        "season": "s",
+        "year": 2026,
+        "kind": "qp",
+        "component": "34",
+        "pages": 12,
+        "bytes": 442326,
+        "sha256": "5aafe1d852a9eb4624998324939f71d7405304564acea1a7cd486a15adecd237",
+        "status": "OK"
+      }
+    ]
+  },
+  "gate2_chemistry_core": {
+    "note": "Gate 2 由 caie/spec/cases_all.json 中以 G2- 开头的用例承担",
+    "cases": 24,
+    "passed": 24
+  },
+  "gate3_real_papers": {
+    "note": "P3 定量分析 Q1 逐题执行（用 CI 的真实配制做 ground truth）。P1/P2 未执行，见 coverage_gaps",
+    "executed": 40,
+    "papers_with_extracted_ground_truth": [
+      "9701/33/M/J/24 Q1（返滴定测 NH4Cl）",
+      "9701/33/M/J/25 Q1（KMnO4 滴定 H2O2）",
+      "9701/34/M/J/25 Q1（KMnO4 滴定 Fe2+／铁片含铁量）",
+      "9701/33/M/J/26 Q1（Mg 与酸反应测 H2 体积）",
+      "9701/34/M/J/26 Q1（碘量法测 Na2S2O3）"
+    ]
+  },
+  "papers": [
+    {
+      "season": "s24",
+      "component": "12",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 395473,
+      "sha256": "3ce0234d2b806d106dc4cb6425303785b394f4a9f94d240a52885bc4def2afd8",
+      "ok": true,
+      "subquestions": {
+        "letters": 23,
+        "romans": 0
+      }
+    },
+    {
+      "season": "s24",
+      "component": "12",
+      "kind": "MS",
+      "pages": 3,
+      "bytes": 96581,
+      "sha256": "3ecc773c5809315bd9c2ffb767918a445c7442f1b2df5ae54f4960dd68ee4e03",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s24",
+      "component": "22",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 205378,
+      "sha256": "02463479abb9dd19ef2bbc8297bf832f083bc6a52b95977119c3a7260d69580c",
+      "ok": true,
+      "subquestions": {
+        "letters": 25,
+        "romans": 26
+      }
+    },
+    {
+      "season": "s24",
+      "component": "22",
+      "kind": "MS",
+      "pages": 13,
+      "bytes": 325594,
+      "sha256": "3d4fb98644a25b4baa4c8b054d497cacf56f8ed7e38dcab8c91283deaf1814f2",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s24",
+      "component": "33",
+      "kind": "QP",
+      "pages": 12,
+      "bytes": 169807,
+      "sha256": "072e30c9c1e02acc1eaa6af038defe36b90283903096d8b497b50aabacca7ceb",
+      "ok": true,
+      "subquestions": {
+        "letters": 24,
+        "romans": 28
+      }
+    },
+    {
+      "season": "s24",
+      "component": "33",
+      "kind": "MS",
+      "pages": 11,
+      "bytes": 241837,
+      "sha256": "51a818b5263c2f80e64b12d3825d9d1587cb0678707418aa50a41d9589ce6538",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s24",
+      "component": "33",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 749698,
+      "sha256": "b7a34eb3b7cabf2ba3dd0ef4073da04fd19894e13acefa2ef91dee4037d05fb6",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s24",
+      "component": "34",
+      "kind": "QP",
+      "pages": 12,
+      "bytes": 163987,
+      "sha256": "1bfce168cd0ac6e3e6585b9654b1cbd1150054bc0ce2bd0f2dd599f38470551e",
+      "ok": true,
+      "subquestions": {
+        "letters": 19,
+        "romans": 24
+      }
+    },
+    {
+      "season": "s24",
+      "component": "34",
+      "kind": "MS",
+      "pages": 11,
+      "bytes": 255067,
+      "sha256": "0349ce2b18b54629f33e3b64b28fad797dfd7bf135659c053e58c92f17f4c1e0",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s24",
+      "component": "34",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 743165,
+      "sha256": "2372c08992f78fb5441795424746cd96abe1cb5156153a3c35c9103da903f9ed",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "12",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 411557,
+      "sha256": "2339574fdacf18bb1ffb5e1ae0eb1a3457ac2be27d85f6d499f1fd60ffe3aa5d",
+      "ok": true,
+      "subquestions": {
+        "letters": 6,
+        "romans": 0
+      }
+    },
+    {
+      "season": "s25",
+      "component": "12",
+      "kind": "MS",
+      "pages": 3,
+      "bytes": 167935,
+      "sha256": "00fed045a934cf30f6bad5acd8e22f27a09c37255028989cc894e8276352f712",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "22",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 127221,
+      "sha256": "dea8f17527e2bd62bcca8be4c885f0bb4fe136ee4b7c3f7049129efc6d73ddd5",
+      "ok": true,
+      "subquestions": {
+        "letters": 28,
+        "romans": 36
+      }
+    },
+    {
+      "season": "s25",
+      "component": "22",
+      "kind": "MS",
+      "pages": 14,
+      "bytes": 390910,
+      "sha256": "722e570432cdc8cc495c02d68d7d3f1c20129ca75ff5c347847d744fe72cf02d",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "33",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 127280,
+      "sha256": "be488063559d254b8afbf23c9346005699541d71a15d1919ec562aea422bb291",
+      "ok": true,
+      "subquestions": {
+        "letters": 18,
+        "romans": 21
+      }
+    },
+    {
+      "season": "s25",
+      "component": "33",
+      "kind": "MS",
+      "pages": 13,
+      "bytes": 376531,
+      "sha256": "f93d39d9d74a5f8d7655e048b962a9d4fc7708b4d658e97d0d91e822435ce1ce",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "33",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 772716,
+      "sha256": "dc87247e372068c139a9773f1feebec3331deeec06fa3e87fe0b4f7db7f59be2",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "34",
+      "kind": "QP",
+      "pages": 12,
+      "bytes": 124701,
+      "sha256": "4dfc8868d2f2d5a1dc61d8fdbb4e978ffa34588eccd447c4e2ba6d1a39c18126",
+      "ok": true,
+      "subquestions": {
+        "letters": 26,
+        "romans": 33
+      }
+    },
+    {
+      "season": "s25",
+      "component": "34",
+      "kind": "MS",
+      "pages": 12,
+      "bytes": 344492,
+      "sha256": "28158b21270402587f61777f78085ea3fc533b7e1bdd48edc426c4f77cc18668",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s25",
+      "component": "34",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 1984049,
+      "sha256": "58fc95f5179b126adbbc123522271b000527bbc6d0437ffc520a00ab6444b53f",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "12",
+      "kind": "QP",
+      "pages": 20,
+      "bytes": 1720105,
+      "sha256": "23cf7a42e02aed6a0d54692b222aa80e731a2816ab2b7481593a9f70abfdc194",
+      "ok": true,
+      "subquestions": {
+        "letters": 5,
+        "romans": 0
+      }
+    },
+    {
+      "season": "s26",
+      "component": "12",
+      "kind": "MS",
+      "pages": 3,
+      "bytes": 329619,
+      "sha256": "d04aa5774e98c67f3c9c295dc5e52d642afba852cd3b5e0b36cb7b7c9d60193e",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "22",
+      "kind": "QP",
+      "pages": 16,
+      "bytes": 560079,
+      "sha256": "1015224233a9be349152a6e9d464e2ba60ba695a27cea8b98e1c9d7a4be65242",
+      "ok": true,
+      "subquestions": {
+        "letters": 26,
+        "romans": 33
+      }
+    },
+    {
+      "season": "s26",
+      "component": "22",
+      "kind": "MS",
+      "pages": 24,
+      "bytes": 1808115,
+      "sha256": "3b7eea0b962cdc9f1eb1f62d53bb0a8e7b90f709bca70f9077039d4bb3ef4f5a",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "33",
+      "kind": "QP",
+      "pages": 12,
+      "bytes": 445421,
+      "sha256": "4f4f49a6588e967705e6ddf64db80b04d2c5ac56583bc421779c4932d550fc3e",
+      "ok": true,
+      "subquestions": {
+        "letters": 22,
+        "romans": 19
+      }
+    },
+    {
+      "season": "s26",
+      "component": "33",
+      "kind": "MS",
+      "pages": 26,
+      "bytes": 1789791,
+      "sha256": "bd36b47f127ed73d924f0534716f8d9d76c9241f22ebdfc006b9ba75f2f820c4",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "33",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 470580,
+      "sha256": "68820e7304e2bfca41bac97013ef6347cf11656b0a07dc8fb2ecaebd669b0cc5",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "34",
+      "kind": "QP",
+      "pages": 12,
+      "bytes": 442326,
+      "sha256": "5aafe1d852a9eb4624998324939f71d7405304564acea1a7cd486a15adecd237",
+      "ok": true,
+      "subquestions": {
+        "letters": 23,
+        "romans": 32
+      }
+    },
+    {
+      "season": "s26",
+      "component": "34",
+      "kind": "MS",
+      "pages": 20,
+      "bytes": 1450838,
+      "sha256": "83a2d8dd11f07715d834a858051fc967722b79f578868c460db0625c93325a2d",
+      "ok": true,
+      "subquestions": null
+    },
+    {
+      "season": "s26",
+      "component": "34",
+      "kind": "CI",
+      "pages": 8,
+      "bytes": 493981,
+      "sha256": "d328a7f210ac4e54d165cd1755b41acdc65c88ad5cd5909fcc347785b7c98dd1",
+      "ok": true,
+      "subquestions": null
+    }
+  ],
+  "out_of_scope": [
+    "Paper 1 (MCQ) 与 Paper 2 (结构化) 经用户确认**永久排除**：被测系统是实验仿真器，不做通用推理"
+  ],
+  "coverage_gaps": [
+    "P3 里需要主观作答的小问（误差分析、实验改进建议、机理解释）未被自动化 —— 这类没有可机判的唯一答案",
+    "滴定读数精度（0.05 cm³）、末次 titre 与其它相差 ≤0.10 之类由主管现场判定，未接真实主管数据"
+  ]
+}

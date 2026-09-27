@@ -1,0 +1,1163 @@
+===== PAGE 1 =====
+ 
+ 
+Cambridge Pre-U Revised Syllabus 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cambridge International Advanced Subsidiary and Advanced Level 
+in Chemistry (9701) 
+ 
+ 
+ 
+For use from 2016 in all papers for the above  
+syllabus, except practical examinations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CSTxxx 
+ 
+ 
+** 
+  
+===== PAGE 2 =====
+ 
+2 
+Cambridge Pre-U Revised Syllabus 
+Contents: Tables of Chemical Data 
+ 
+  Page no. 
+ 
+1 Important values, constants and standards 3 
+2 Ionisation energies (1 st, 2nd, 3rd and 4th) of selected elements in kJ mol–1 4  
+3 Bond energies 5 
+4 Standard electrode potential and redox potentials, E at 298K (25 °C) 7 
+5 Atomic and ionic radii 10 
+6 Typical proton ( 1H) chemical shift values (δ) relative to TMS = 0 12 
+7 Typical carbon ( 13C) chemical shift values (δ) relative to TMS = 0 13 
+8 Characteristic infra-red absorption frequencies for some selected bonds 14 
+9 The orientating effect of groups in aromatic substitution reactions 15 
+10 Names, structures and abbreviations of some amino acids 16 
+11 The Periodic Table of Elements 17 
+ 
+ 
+  
+===== PAGE 3 =====
+ 
+3 
+Cambridge Pre-U Revised Syllabus 
+1  Important values, constants and standards 
+ 
+molar gas constant R  = 8.31 J K–1 mol–1 
+the Faraday constant F = 9 . 6 5  × 104 C mol–1 
+the Avogadro constant L  = 6.02 × 1023 mol–1 
+the Planck constant h  = 6 . 6 3  × 10–34 J s 
+speed of light in a vacuum c  = 3.00 × 108 m s–1 
+rest mass of proton, H1
+1  mp  = 1.67 × 10–27 kg 
+rest mass of neutron, n0
+1  mn  = 1.67 × 10–27 kg 
+rest mass of electron, e1
+0
+−  me  = 9.11 × 10–31 kg 
+electronic charge e  = –1.60 × 10–19 C 
+molar volume of gas Vm  = 22.4 dm3 mol–1 at s.t.p. 
+Vm  = 24.0 dm3 mol–1 under room conditions 
+(where s.t.p. is expressed as 101 kPa, 
+approximately, and 273 K [0 °C]) 
+ionic product of water Kw  = 1.00 × 10–14 mol2 dm–6 
+  (at 298  K [25 °C]) 
+specific heat capacity of water  = 4.18  kJ kg–1 K–1 
+ (= 4.18 J g–1 K–1) 
+  
+===== PAGE 4 =====
+ 
+4 
+Cambridge Pre-U Revised Syllabus 
+2  Ionisation energies (1st, 2nd, 3rd and 4th) of selected elements, in kJ mol–1 
+ 
+ 
+ 
+Proton 
+number 
+ 
+First 
+ 
+Second 
+ 
+Third 
+ 
+Fourth 
+H 1 1310 – – – 
+He 2 2370 5250 – – 
+Li 3 519 7300 11800 – 
+Be 4 900 1760 14800 21000 
+B 5 799 2420 3660 25000 
+C 6 1090 2350 4610 6220 
+N 7 1400 2860 4590 7480 
+O 8 1310 3390 5320 7450 
+F 9 1680 3370 6040 8410 
+Ne 10 2080 3950 6150 9290 
+Na 11 494 4560 6940 9540 
+Mg 12 736 1450 7740 10500 
+Al 13 577 1820 2740 11600 
+Si 14 786 1580 3230 4360 
+P 15 1060 1900 2920 4960 
+S 16 1000 2260 3390 4540 
+Cl 17 1260 2300 3850 5150 
+Ar 18 1520 2660 3950 5770 
+K 19 418 3070 4600 5860 
+Ca 20 590 1150 4940 6480 
+Sc 21 632 1240 2390 7110 
+Ti 22 661 1310 2720 4170 
+V 23 648 1370 2870 4600 
+Cr 24 653 1590 2990 4770 
+Mn 25 716 1510 3250 5190 
+Fe 26 762 1560 2960 5400 
+Co 27 757 1640 3230 5100 
+Ni 28 736 1750 3390 5400 
+Cu 29 745 1960 3350 5690 
+Zn 30 908 1730 3828 5980 
+Ga 31 577 1980 2960 6190 
+Br 35 1140 2080 3460 4850 
+Rb 37 403 4632 3900 5080 
+Sr 38 548 1060 4120 5440 
+Ag 47 731 2074 3361 – 
+I 53 1010 1840 2040 4030 
+Cs 55 376 2420 3300 – 
+Ba 56 502 966 3390 – 
+===== PAGE 5 =====
+ 
+5 
+Cambridge Pre-U Revised Syllabus 
+3  Bond Energies 
+ 
+3(a) Bond energies in diatomic molecules (these are exact values) 
+ 
+ Homonuclear Heteronuclear  
+ 
+Bond Energy / kJ  mol–1  Bond Energy / kJ  mol–1 
+HH 436  HF 562 
+DD 442  HCl 431 
+N≡N 944  HBr 366 
+O=O 496  HI 299 
+P≡P 485  C≡O 1077 
+S=S 425    
+FF 158    
+Cl Cl 242    
+BrBr 193    
+II 151    
+ 
+  
+===== PAGE 6 =====
+ 
+6 
+Cambridge Pre-U Revised Syllabus 
+3(b) Bond energies in polyatomic molecules (these are average values) 
+ 
+ Homonuclear Heteronuclear  
+ 
+Bond Energy / kJ  mol–1  Bond Energy / kJ  mol–1 
+CC 350  CH 410 
+C=C 610  CCl 340 
+C≡C 840  CBr 280 
+C….C (benzene) 520  CI 240 
+NN 160  CN 305 
+N=N 410  C=N 610 
+OO 150  C≡N 890 
+SiSi 222  CO 360 
+PP 200  C=O 740 
+SS 264  C=O in CO2 805 
+   NH 390 
+   NCl 310 
+   OH 460 
+   SiCl 359 
+   SiH 320 
+   SiO (in SiO2(s)) 460 
+   Si=O (in SiO2(g)) 640 
+   PH 320 
+   PCl 330 
+   PO 340 
+   P=O 540 
+   SH 347 
+   SCl 250 
+   SO 360 
+   S=O 500 
+===== PAGE 7 =====
+ 
+7 
+Cambridge Pre-U Revised Syllabus 
+4  Standard electrode potential and redox potentials, E  at 298 K (25 
+oC) 
+ 
+For ease of reference, two tables are given: 
+ 
+(a) an extended list in alphabetical order; 
+(b) a shorter list in decreasing order of magnitude, i.e. a redox series. 
+ 
+(a) E  in alphabetical order 
+ 
+Electrode reaction 
+ 
+E / V 
+Ag+ + e– Ag +0.80 
+Al 
+3+ + 3e– Al –1.66 
+Ba2+ + 2e– Ba –2.90 
+Br2 + 2e– 2Br– + 1 . 0 7  
+Ca2+ + 2e– Ca –2.87 
+Cl2 + 2e– 2Cl – +1.36 
+2HOCl + 2H+ + 2e– Cl2 + 2H2O +1.64 
+Cl O– + H2O + 2e– Cl 
+– + 2OH– +0.89 
+Co2+ + 2e– Co –0.28 
+Co3+ + e– Co2+ + 1 . 8 2  
+[Co(NH3)6]2+ + 2e– Co + 6NH3 – 0 . 4 3  
+Cr2+ + 2e– Cr –0.91 
+Cr3+ + 3e– Cr –0.74 
+Cr3+ + e– Cr2+ – 0 . 4 1  
+Cr2O7
+2– + 14H+ + 6e– 2Cr3+ + 7H2O +1.33 
+Cu+ + e– Cu +0.52 
+Cu2+ + 2e– Cu +0.34 
+Cu2+ + e– Cu+ + 0 . 1 5  
+[Cu(NH3)4]2+ + 2e– Cu + 4NH3 – 0 . 0 5  
+F2 + 2e– 2F– + 2 . 8 7  
+Fe2+ + 2e– Fe –0.44 
+Fe3+ + 3e– Fe –0.04 
+Fe3+ + e– Fe2+ + 0 . 7 7  
+[Fe(CN)6]3– + e– [Fe(CN)6]4– + 0 . 3 6  
+Fe(OH)3 + e– Fe(OH)2 + OH– –0.56 
+2H+ + 2e– H2   0.00 
+2H2O + 2e– H2 + 2OH– – 0 . 8 3  
+I2 + 2e– 2I– +0.54 
+K+ + e– K –2.92 
+Li+ + e– Li –3.04 
+Mg2+ + 2e– Mg –2.38 
+Mn2+ + 2e– Mn –1.18 
+Mn3+ + e– Mn2+ +1.49 
+MnO2 + 4H+ + 2e– Mn2+ + 2H2O +1.23 
+MnO4
+– + e– MnO4
+2– + 0 . 5 6  
+MnO4
+– + 4H+ + 3e– MnO2 + 2H2O +1.67 
+MnO4
+– + 8H+ + 5e– Mn2+ + 4H2O +1.52 
+NO3
+– + 2H+ + e– NO2 + H2O +0.81 
+NO3
+– + 3H+ + 2e– HNO2 + H2O +0.94 
+NO3
+– + 10H+ + 8e– NH4
++ + 3H2O +0.87 
+===== PAGE 8 =====
+ 
+8 
+Cambridge Pre-U Revised Syllabus 
+Electrode reaction 
+ 
+E / V 
+Na+ + e– Na –2.71 
+Ni2+ + 2e– Ni –0.25 
+[Ni(NH3)6]2+ + 2e– Ni + 6NH3 – 0 . 5 1  
+H2O2 + 2H+ + 2e– 2H2O +1.77 
+HO2
+– + H2O + 2e– 3OH– + 0 . 8 8  
+O2 + 4H+ + 4e– 2H2O +1.23 
+O2 + 2H2O + 4e– 4OH– + 0 . 4 0  
+O2 + 2H+ + 2e– H2O2 + 0 . 6 8  
+O2 + H2O + 2e– HO2
+– + OH– – 0 . 0 8  
+Pb2+ + 2e– Pb –0.13 
+Pb4+ + 2e– Pb2+ + 1 . 6 9  
+PbO2 + 4H+ + 2e– Pb2+ + 2H2O +1.47 
+SO4
+2– + 4H+ + 2e– SO2 + 2H2O +0.17 
+S2O8
+2–+ 2e– 2SO4
+2– + 2 . 0 1  
+S4O6
+2–+ 2e– 2S2O3
+2– + 0 . 0 9  
+Sn2+ + 2e– Sn –0.14 
+Sn4+ + 2e– Sn2+ + 0 . 1 5  
+V2+ + 2e– V –1.20 
+V3+ + e– V2+ – 0 . 2 6  
+VO2+ + 2H+ + e– V3+ + H2O +0.34 
+VO2
++ + 2H+ + e– VO2+ + H2O +1.00 
+VO3
+– + 4H+ + e– VO2+ + 2H2O +1.00 
+Zn2+ + 2e– Zn –0.76 
+ 
+All ionic states refer to aqueous ions but other state symbols have been omitted. 
+ 
+===== PAGE 9 =====
+ 
+9 
+Cambridge Pre-U Revised Syllabus 
+(b) E  in decreasing order of oxidising power 
+ 
+(a selection only – see also the extended alphabetical list on the previous pages) 
+ 
+Electrode reaction 
+ 
+E / V 
+F2 + 2e– 2F– + 2 . 8 7  
+S2O8
+2–+ 2e– 2SO4
+2– + 2 . 0 1  
+H2O2 + 2H+ + 2e– 2H2O +1.77 
+MnO4
+– + 8H+ + 5e– Mn2+ + 4H2O +1.52 
+PbO2 + 4H+ + 2e– Pb2+ + 2H2O +1.47 
+Cl2 + 2e– 2Cl – +1.36 
+Cr2O7
+2– + 14H+ + 6e– 2Cr3+ + 7H2O +1.33 
+O2 + 4H+ + 4e– 2H2O +1.23 
+Br2 + 2e– 2Br– + 1 . 0 7  
+ClO 
+– + H2O + 2e– Cl 
+– + 2OH– +0.89 
+NO3
+– + 10H+ + 8e– NH4
++ + 3H2O +0.87 
+NO3
+– + 2H+ + e– NO2 + H2O +0.81 
+Ag+ + e– Ag +0.80 
+Fe3+ + e– Fe2+ + 0 . 7 7  
+I2 + 2e– 2I– +0.54 
+O2 + 2H2O + 4e– 4OH– + 0 . 4 0  
+Cu2+ + 2e– Cu +0.34 
+SO4
+2– + 4H+ + 2e– SO2 + 2H2O +0.17 
+Sn4+ + 2e– Sn2+ + 0 . 1 5  
+S4O6
+2–+ 2e– 2S2O3
+2– + 0 . 0 9  
+2H+ + 2e– H2   0.00 
+Pb2+ + 2e– Pb –0.13 
+Sn2+ + 2e– Sn –0.14 
+Fe2+ + 2e– Fe –0.44 
+Zn2+ + 2e– Zn –0.76 
+2H2O + 2e– H2 + 2OH– – 0 . 8 3  
+V2+ + 2e– V –1.20 
+Mg2+ + 2e– Mg –2.38 
+Ca2+ + 2e– Ca –2.87 
+K+ + e– K –2.92 
+  
+===== PAGE 10 =====
+ 
+10 
+Cambridge Pre-U Revised Syllabus 
+5  Atomic and ionic radii 
+ 
+(a) Period 1 atomic  / nm ionic  / nm 
+ single covalent H 0.037 H – 0 . 2 0 8  
+ van der Waals He 0.140  
+(b) Period 2 atomic  / nm ionic  / nm 
+ m e t a l l i c  L i  0 . 1 5 2  L i + 0 . 0 6 0  
+ B e  0 . 1 1 2  B e 2+ 0 . 0 3 1  
+ single covalent B 0.080 B 3+ 0 . 0 2 0  
+ C  0 . 0 7 7  C 4+ 0 . 0 1 5  C 4– 0 . 2 6 0  
+ N  0 . 0 7 4    N 3– 0 . 1 7 1  
+ O  0 . 0 7 3    O 2– 0 . 1 4 0  
+ F  0 . 0 7 2    F – 0.136 
+ van der Waals Ne 0.160  
+(c) Period 3 atomic  / nm ionic  / nm 
+ m e t a l l i c  N a  0 . 1 8 6  N a + 0 . 0 9 5  
+ M g  0 . 1 6 0  M g 2+ 0 . 0 6 5  
+ Al 0.143 A l 
+3+ 0 . 0 5 0  
+ single covalent Si 0.117 Si 4+ 0 . 0 4 1  
+ P  0 . 1 1 0    P 3– 0 . 2 1 2  
+ S  0 . 1 0 4    S 2– 0 . 1 8 4  
+ Cl 0 . 0 9 9    C l – 0 . 1 8 1  
+ van der Waals Ar 0.190  
+(d) Group 2 atomic  / nm ionic  / nm 
+ m e t a l l i c  B e  0 . 1 1 2  B e 2+ 0 . 0 3 1  
+ M g  0 . 1 6 0  M g 2+ 0 . 0 6 5  
+ C a  0 . 1 9 7  C a 2+ 0 . 0 9 9  
+ S r  0 . 2 1 5  S r 2+ 0 . 1 1 3  
+ B a  0 . 2 1 7  B a 2+ 0 . 1 3 5  
+ R a  0 . 2 2 0  R a 2+ 0 . 1 4 0  
+===== PAGE 11 =====
+ 
+11 
+Cambridge Pre-U Revised Syllabus 
+(e) Group 14 atomic  / nm ionic  / nm 
+ single covalent C 0.077 C 4+ 0 . 0 1 5  
+ S i  0 . 1 1 7  S i 4+ 0 . 0 4 1  
+ G e  0 . 1 2 2  G e 2+ 0 . 0 9 3  
+ m e t a l l i c  S n  0 . 1 6 2  S n 2+ 0 . 1 1 2  
+ P b  0 . 1 7 5  P b 2+ 0 . 1 2 0  
+(f) Group 17 atomic  / nm ionic  / nm 
+ single covalent F 0.072 F – 0 . 1 3 6  
+ Cl 0 . 0 9 9  C l– 0 . 1 8 1  
+ B r  0 . 1 1 4  B r – 0 . 1 9 5  
+ I 0 . 1 3 3  I– 0 . 2 1 6  
+ A t  0 . 1 4 0   
+(g) First row transition 
+elements 
+atomic / nm ionic  / nm 
+ m e t a l l i c  S c  0 . 1 6 4    S c 3+ 0 . 0 8 1  
+ T i  0 . 1 4 6  T i 2+ 0 . 0 9 0  T i 3+ 0 . 0 6 7  
+ V  0 . 1 3 5  V 2+ 0 . 0 7 9  V 3+ 0 . 0 6 4  
+ C r  0 . 1 2 9  C r 2+ 0 . 0 7 3  C r 3+ 0.062 
+ M n  0 . 1 3 2  M n 2+ 0 . 0 6 7  M n 3+ 0 . 0 6 2  
+ F e  0 . 1 2 6  F e 2+ 0 . 0 6 1  F e 3+ 0 . 0 5 5  
+ C o  0 . 1 2 5  C o 2+ 0 . 0 7 8  C o 2+ 0 . 0 5 3  
+ N i  0 . 1 2 4  N i 2+ 0 . 0 7 0  N i 3+ 0 . 0 5 6  
+ C u  0 . 1 2 8  C u 2+ 0 . 0 7 3  
+ Z n  0 . 1 3 5  Z n 2+ 0 . 0 7 5  
+  
+===== PAGE 12 =====
+ 
+12 
+Cambridge Pre-U Revised Syllabus 
+6  Typical proton (1H) chemical shift values (δ) relative to TMS = 0 
+ 
+type of 
+proton environment of proton example structures chemical shift 
+range (δ) 
+C–H 
+alkane –CH 3, –CH2–, >CH– 0.9–1.7 
+alkyl next to C=O CH 3–C=O, –CH2–C=O, >CH–C=O 2.2–3.0 
+alkyl next to aromatic 
+ring CH3–Ar, –CH2–Ar, >CH–Ar 2.3–3.0 
+alkyl next to 
+electronegative atom CH3–O, –CH2–O, –CH2–Cl, >CH–Br 3.2–4.0 
+attached to alkyne ≡C–H 1.8–3.1 
+attached to alkene =CH 2, =CH– 4.5–6.0 
+attached to aromatic ring 
+ 
+6.0–9.0 
+aldehyde 
+ 
+9.3–10.5 
+O-H 
+(see 
+note 
+below) 
+alcohol RO–H 0.5–6.0 
+phenol 
+ 
+4.5–7.0 
+carboxylic acid 
+ 
+9.0–13.0 
+N-H 
+(see 
+note 
+below) 
+alkyl amine R–NH– 1.0–5.0 
+aryl amine 
+ 
+3.0–6.0 
+amide 
+ 
+5.0–12.0 
+ 
+Note: δ values for –O-H and –N-H protons can vary depending on solvent and concentration 
+  
+H
+H
+O
+R C
+OH
+OH
+O
+R C
+NH2
+NH
+O
+R C
+===== PAGE 13 =====
+ 
+13 
+Cambridge Pre-U Revised Syllabus 
+7  Typical carbon (13C) chemical shift values (δ) relative to TMS = 0 
+ 
+hybridisation of 
+the carbon 
+atom 
+environment of carbon 
+atom 
+example structures chemical 
+shift range 
+(δ) 
+sp3 alkyl CH3–, –CH2–, –CH< 0–50 
+sp3 next to alkene/arene 
+–CH2–C=C,   
+10–40 
+sp3 next to carbonyl/carboxyl – CH2–COR, –CH2–CO2R 25–50 
+sp3 next to nitrogen – CH2–NH2, –CH2–NR2,  
+–CH2–NHCO 
+30–65 
+sp3 
+next to chlorine 
+(-CH2-Br and -CH2-I are in 
+the same range as alkyl) 
+–CH2–Cl 30–60 
+sp3 next to oxygen – CH2–OH, –CH2–O–CO– 50–70 
+sp2 alkene or arene 
+>C=C<,   
+110–160 
+sp2 carboxyl R– CO2H, R–CO2R 160–185 
+sp2 carbonyl R– CHO, R–CO–R 190–220 
+sp alkyne R–C≡C– 65–85 
+sp nitrile R–C≡N 100–125 
+ 
+  
+CH2
+CC
+C
+CC
+C
+===== PAGE 14 =====
+ 
+14 
+Cambridge Pre-U Revised Syllabus 
+8  Characteristic infra-red absorption frequencies for some selected bonds 
+ 
+bond functional groups 
+containing the bond 
+absorption range (in 
+wavenumbers) /cm–1 
+appearance of peak 
+(s = strong,  
+w = weak) 
+C–O alcohols, ethers, esters 1040–1300 s 
+C=C aromatic compounds, 
+alkenes 1500–1680 w unless conjugated 
+C=O 
+amides, 
+ketones and aldehydes 
+esters,  
+1640–1690 
+1670–1740 
+1710–1750 
+s 
+s 
+s 
+C≡C alkynes 2150–2250 w unless conjugated 
+C≡N nitriles 2200–2250 w 
+C–H alkanes, CH2–H 
+alkenes/arenes, =C–H 
+2850–2950 
+3000–3100 
+s 
+w 
+N–H amines, amides 3300–3500 w 
+O–H 
+carboxylic acids, RCO2–H 
+H–bonded alcohol, RO–H 
+free alcohol, RO–H 
+2500–3000 
+3200–3600 
+3580–3650 
+s and very broad 
+s 
+s and sharp 
+ 
+  
+===== PAGE 15 =====
+ 
+15 
+Cambridge Pre-U Revised Syllabus 
+9  The orientating effect of groups in aromatic substitution reactions. 
+ 
+The position of the incoming group, Y, is determined by the nature of the group, X, already bonded 
+to the ring, and not by the nature of the incoming group Y.  
+ 
+ 
+ 
+X- groups that direct the incoming  
+Y group to the 2- or 4- positions 
+X- groups that direct the incoming  
+Y group to the 3- position 
+–NH2, –NHR or –NR2 – N O 2 
+–OH or –OR –NH 3 
+–NHCOR –CN 
+–CH3, –alkyl –CHO, –COR 
+–Cl –CO2H, –CO2R 
+ 
+ 
+  
+2
+3
+4
+X X
+Y
++ Y 
++ + H+
+===== PAGE 16 =====
+ 
+16 
+Cambridge Pre-U Revised Syllabus 
+10  Names, structures and abbreviations of some amino acids 
+ 
+name 3-letter abbreviation 1-letter symbol 
+structure of side chain R- in 
+ 
+RC H
+NH2
+CO2H 
+alanine Ala A CH 3– 
+aspartic acid Asp D HO 2CCH2– 
+cysteine Cys C HSCH 2– 
+glutamic acid Glu E HO 2CCH2CH2– 
+glycine Gly G H– 
+lysine Lys K H 2NCH2CH2CH2CH2– 
+phenylalanine Phe F CH2
+serine Ser S HOCH 2– 
+tyrosine Tyr Y HO CH 2
+valine Val V 
+CH3
+CH
+CH3
+ 
+ 
+ 
+===== PAGE 17 =====
+ 
+ 
+17
+The Periodic Table of Elements  
+Group 
+1 2  13 14 15 16 17 18 
+   
+Key 
+ 1
+H 
+hydrogen 
+1.0 
+         2 
+He 
+helium 
+4.0 
+3 
+Li 
+lithium 
+6.9 
+4 
+Be 
+beryllium 
+9.0 
+ atomic number 
+atomic symbol 
+name 
+relative atomic mass 
+      5 
+B 
+boron 
+10.8 
+6 
+C 
+carbon 
+12.0 
+7 
+N 
+nitrogen 
+14.0 
+8 
+O 
+oxygen 
+16.0 
+9 
+F 
+fluorine 
+19.0 
+10 
+Ne 
+neon 
+20.2 
+11 
+Na 
+sodium 
+23.0 
+12 
+Mg 
+magnesium 
+24.3 
+ 
+ 
+3 
+ 
+ 
+4 
+ 
+ 
+5 
+ 
+ 
+6 
+ 
+ 
+7 
+ 
+ 
+8 
+ 
+ 
+9 
+ 
+ 
+10 
+ 
+ 
+11 
+ 
+ 
+12 
+13
+Al 
+aluminium 
+27.0 
+14 
+Si 
+silicon 
+28.1 
+15 
+P 
+phosphorus
+31.0 
+16 
+S 
+sulfur 
+32.1 
+17 
+Cl 
+chlorine 
+35.5 
+18 
+Ar 
+argon 
+39.9 
+19 
+K 
+potassium 
+39.1 
+20 
+Ca 
+calcium 
+40.1 
+21 
+Sc 
+scandium 
+45.0 
+22 
+Ti 
+titanium 
+47.9 
+23 
+V 
+vanadium 
+50.9 
+24
+Cr 
+chromium 
+52.0 
+25 
+Mn 
+manganese 
+54.9 
+26 
+Fe 
+iron 
+55.8 
+27 
+Co 
+cobalt 
+58.9 
+28 
+Ni 
+nickel 
+58.7 
+29
+Cu 
+copper 
+63.5 
+30
+Zn 
+zinc 
+65.4 
+31
+Ga 
+gallium 
+69.7 
+32 
+Ge 
+germanium 
+72.6 
+33 
+As 
+arsenic 
+74.9 
+34 
+Se 
+selenium 
+79.0 
+35 
+Br 
+bromine 
+79.9 
+36 
+Kr 
+krypton 
+83.8 
+37 
+Rb 
+rubidium 
+85.5 
+38 
+Sr 
+strontium 
+87.6 
+39 
+Y 
+yttrium 
+88.9 
+40 
+Zr 
+zirconium 
+91.2 
+41 
+Nb 
+niobium 
+92.9 
+42
+Mo 
+molybdenum 
+95.9 
+43 
+Tc 
+technetium 
+– 
+44 
+Ru 
+ruthenium 
+101.1 
+45 
+Rh 
+rhodium 
+102.9 
+46 
+Pd 
+palladium 
+106.4 
+47
+Ag 
+silver 
+107.9 
+48
+Cd 
+cadmium 
+112.4 
+49
+In 
+indium 
+114.8 
+50 
+Sn 
+tin 
+116.7 
+51 
+Sb 
+antimony 
+121.8 
+52 
+Te 
+tellurium 
+127.6 
+53 
+I 
+iodine 
+126.9 
+54 
+Xe 
+xenon 
+131.3 
+55 
+Cs 
+caesium 
+132.9 
+56 
+Ba 
+barium 
+137.3 
+57–71 lanthanoids 
+ 
+72 
+Hf 
+hafnium 
+178.5 
+73 
+Ta 
+tantalum 
+180.9 
+74
+W 
+tungsten 
+183.8 
+75 
+Re 
+rhenium 
+186.2 
+76 
+Os 
+osmium 
+190.2 
+77 
+Ir 
+iridium 
+192.2 
+78 
+Pt 
+platinum 
+195.1 
+79
+Au 
+gold 
+197.0 
+80
+Hg 
+mercury 
+200.6 
+81
+Tl 
+thallium 
+204.4 
+82 
+Pb 
+lead 
+207.2 
+83 
+Bi 
+bismuth 
+209.0 
+84 
+Po 
+polonium 
+– 
+85 
+At 
+astatine 
+– 
+86 
+Rn 
+radon 
+– 
+87 
+Fr 
+francium 
+– 
+88 
+Ra 
+radium 
+– 
+89–103 actinoids 
+ 
+104 
+Rf 
+rutherfordium 
+– 
+105 
+Db 
+dubnium 
+– 
+106 
+Sg 
+seaborgium 
+– 
+107
+Bh 
+bohrium 
+– 
+108 
+Hs 
+hassium 
+– 
+109
+Mt 
+meitnerium 
+– 
+110
+Ds 
+darmstadtium
+– 
+111
+Rg 
+roentgenium 
+– 
+112
+Cr 
+copernicium 
+– 
+ 114 
+Fl 
+flerovium 
+– 
+ 116 
+Lv 
+livermorium 
+– 
+  
+                  
+ 
+lanthanoids 
+57 
+La 
+lanthanum 
+138.9 
+58 
+Ce 
+cerium 
+140.1 
+59 
+Pr praseodymium
+140.9 
+60 
+Nd 
+neodymium 
+144.4 
+61 
+Pm 
+promethium 
+– 
+62 
+Sm 
+samarium 
+150.4 
+63
+Eu 
+europium 
+152.0 
+64 
+Gd 
+gadolinium 
+157.3 
+65
+Tb 
+terbium 
+158.9 
+66
+Dy 
+dysprosium 
+162.5 
+67 
+Ho 
+holmium 
+164.9 
+68
+Er 
+erbium 
+167.3 
+69 
+Tm 
+thulium 
+168.9 
+70 
+Yb 
+ytterbium 
+173.1 
+71 
+Lu 
+lutetium 
+175.0 
+ 
+ 
+actinoids 
+89 
+Ac 
+actinium 
+– 
+90 
+Th 
+thorium 
+232.0 
+91 
+Pa 
+protactinium 
+231.0 
+92 
+U 
+uranium 
+238.0 
+93 
+Np 
+neptunium 
+– 
+94 
+Pu 
+plutonium 
+– 
+95
+Am 
+americium 
+– 
+96 
+Cm 
+curium 
+– 
+97
+Bk 
+berkelium 
+– 
+98
+Cf 
+californium 
+– 
+99 
+Es 
+einsteinium 
+– 
+100 
+Fm 
+fermium 
+– 
+101 
+Md 
+mendelevium 
+– 
+102 
+No 
+nobelium 
+– 
+103
+Lr 
+lawrencium 
+– 
+ 
+===== PAGE 18 =====
+ 
+18 
+BLANK PAGE 
+ 
+  
+===== PAGE 19 =====
+ 
+19 
+BLANK PAGE 
+  
+===== PAGE 20 =====
+ 
+20 
+BLANK PAGE 

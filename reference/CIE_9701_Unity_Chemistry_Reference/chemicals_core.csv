@@ -1,0 +1,125 @@
+﻿formula,中文名,english_name,category,level
+H2,氢气,Hydrogen,element/molecule,AS
+O2,氧气,Oxygen,element/molecule,AS
+N2,氮气,Nitrogen,element/molecule,AS
+H2O,水,Water,molecule,AS
+H+,氢离子,Hydrogen ion,ion,AS
+OH-,氢氧根,Hydroxide,ion,AS
+NH3,氨,Ammonia,base/reagent,AS
+NH4+,铵根,Ammonium,ion,AS
+CO,一氧化碳,Carbon monoxide,gas,AS
+CO2,二氧化碳,Carbon dioxide,gas,AS
+NO,一氧化氮,Nitrogen monoxide,gas,AS
+NO2,二氧化氮,Nitrogen dioxide,gas,AS
+SO2,二氧化硫,Sulfur dioxide,gas,AS
+SO3,三氧化硫,Sulfur trioxide,molecule,AS
+Cl2,氯气,Chlorine,halogen,AS
+Br2,溴,Bromine,halogen,AS
+I2,碘,Iodine,halogen,AS
+HCl,盐酸/氯化氢,Hydrochloric acid / hydrogen chloride,acid,AS
+H2SO4,硫酸,Sulfuric acid,acid,AS
+HNO3,硝酸,Nitric acid,acid,AS
+CH3COOH,乙酸,Ethanoic acid,carboxylic acid,AS
+NaOH,氢氧化钠,Sodium hydroxide,base/reagent,AS
+KOH,氢氧化钾,Potassium hydroxide,base,AS
+H3PO4,磷酸,Phosphoric acid,acid/catalyst,AS
+HClO,次氯酸,Hypochlorous acid,acid,AS
+HNO2,亚硝酸,Nitrous acid,acid,AS/A2
+HCOOH,甲酸,Methanoic acid,carboxylic acid,AS/A2
+H2C2O4,乙二酸/草酸,Ethanedioic acid,dicarboxylic acid,AS/A2
+Na2O,氧化钠,Sodium oxide,oxide,AS
+MgO,氧化镁,Magnesium oxide,oxide,AS
+Al2O3,氧化铝,Aluminium oxide,amphoteric oxide,AS/A2
+SiO2,二氧化硅,Silicon dioxide,oxide,AS
+P4O10,十氧化四磷,Phosphorus(V) oxide,oxide,AS
+NaCl,氯化钠,Sodium chloride,salt,AS
+MgCl2,氯化镁,Magnesium chloride,salt,AS
+AlCl3,氯化铝,Aluminium chloride,halide/Lewis acid,AS/A2
+SiCl4,四氯化硅,Silicon tetrachloride,chloride,AS
+PCl5,五氯化磷,Phosphorus pentachloride,chlorinating reagent,AS/A2
+Mg(OH)2,氢氧化镁,Magnesium hydroxide,hydroxide,AS
+Al(OH)3,氢氧化铝,Aluminium hydroxide,amphoteric hydroxide,AS
+[Al(OH)4]-,四羟基合铝酸根,Tetrahydroxoaluminate,complex ion,AS
+CaO,氧化钙,Calcium oxide,oxide,AS
+Ca(OH)2,氢氧化钙/石灰水,Calcium hydroxide,base/test reagent,AS
+CaCO3,碳酸钙,Calcium carbonate,carbonate/precipitate,AS
+Ca(NO3)2,硝酸钙,Calcium nitrate,nitrate,AS
+CaSO4,硫酸钙,Calcium sulfate,sulfate,AS
+BaSO4,硫酸钡,Barium sulfate,precipitate,AS
+BaCO3,碳酸钡,Barium carbonate,carbonate,AS
+BaCl2,氯化钡,Barium chloride,test reagent,AS
+Ba(NO3)2,硝酸钡,Barium nitrate,test reagent,AS
+NaBr,溴化钠,Sodium bromide,salt,AS
+NaI,碘化钠,Sodium iodide,salt,AS
+KCl,氯化钾,Potassium chloride,salt,AS
+KBr,溴化钾,Potassium bromide,salt,AS
+KI,碘化钾,Potassium iodide,salt/reagent,AS
+AgNO3,硝酸银,Silver nitrate,test reagent,AS
+AgCl,氯化银,Silver chloride,precipitate,AS
+AgBr,溴化银,Silver bromide,precipitate,AS
+AgI,碘化银,Silver iodide,precipitate,AS
+Na2CO3,碳酸钠,Sodium carbonate,salt/reagent,AS
+NaHCO3,碳酸氢钠,Sodium hydrogencarbonate,salt,AS
+NaNO2,亚硝酸钠,Sodium nitrite,reagent,AS/A2
+Na2S2O3,硫代硫酸钠,Sodium thiosulfate,reagent,AS
+K2S2O8,过二硫酸钾,Potassium peroxydisulfate,oxidising reagent,AS/A2
+KMnO4,高锰酸钾,Potassium manganate(VII),oxidising reagent,AS/A2
+K2Cr2O7,重铬酸钾,Potassium dichromate(VI),oxidising reagent,AS/A2
+H2O2,过氧化氢,Hydrogen peroxide,oxidising/reducing reagent,AS
+FeSO4,硫酸亚铁,Iron(II) sulfate,salt/reagent,AS/A2
+CuSO4,硫酸铜(II),Copper(II) sulfate,salt/reagent,AS/A2
+CH4,甲烷,Methane,alkane,AS
+C2H6,乙烷,Ethane,alkane,AS
+C3H8,丙烷,Propane,alkane,AS
+C4H10,丁烷,Butane,alkane,AS
+C2H4,乙烯,Ethene,alkene,AS
+C3H6,丙烯,Propene,alkene,AS
+C2H5Cl,氯乙烷,Chloroethane,halogenoalkane,AS
+C2H5Br,溴乙烷,Bromoethane,halogenoalkane,AS
+C2H5I,碘乙烷,Iodoethane,halogenoalkane,AS
+CH3OH,甲醇,Methanol,alcohol,AS
+C2H5OH,乙醇,Ethanol,alcohol,AS
+CH3CH2CH2OH,丙-1-醇,Propan-1-ol,primary alcohol,AS
+CH3CHOHCH3,丙-2-醇,Propan-2-ol,secondary alcohol,AS
+HCHO,甲醛,Methanal,aldehyde,AS
+CH3CHO,乙醛,Ethanal,aldehyde,AS
+C2H5CHO,丙醛,Propanal,aldehyde,AS
+CH3COCH3,丙酮,Propanone,ketone,AS
+CH3COOCH3,乙酸甲酯,Methyl ethanoate,ester,AS
+CH3COOC2H5,乙酸乙酯,Ethyl ethanoate,ester,AS
+CH3NH2,甲胺,Methylamine,primary amine,AS
+C2H5NH2,乙胺,Ethylamine,primary amine,AS
+CH3CN,乙腈,Ethanenitrile,nitrile,AS
+C2H5CN,丙腈,Propanenitrile,nitrile,AS
+CHI3,三碘甲烷/碘仿,Triiodomethane,precipitate/test product,AS
+NaBH4,硼氢化钠,Sodium borohydride,reducing reagent,AS
+LiAlH4,氢化铝锂,Lithium aluminium hydride,reducing reagent,AS/A2
+PCl3,三氯化磷,Phosphorus trichloride,chlorinating reagent,AS/A2
+SOCl2,亚硫酰氯,Thionyl chloride,chlorinating reagent,AS/A2
+HCN,氰化氢,Hydrogen cyanide,reagent,AS
+KCN,氰化钾,Potassium cyanide,reagent,AS
+C6H6,苯,Benzene,aromatic,A2
+C6H5CH3,甲苯,Methylbenzene,aromatic,A2
+C6H5Cl,氯苯,Chlorobenzene,aromatic halide,A2
+C6H5Br,溴苯,Bromobenzene,aromatic halide,A2
+C6H5NO2,硝基苯,Nitrobenzene,nitroarene,A2
+C6H5NH2,苯胺,Phenylamine,aromatic amine,A2
+C6H5OH,苯酚,Phenol,phenol,A2
+C6H5ONa,苯酚钠,Sodium phenoxide,salt,A2
+C6H5COOH,苯甲酸,Benzoic acid,aromatic carboxylic acid,A2
+C6H5N2+,苯重氮阳离子,Benzenediazonium ion,diazonium ion,A2
+CH3COCl,乙酰氯,Ethanoyl chloride,acyl chloride,A2
+C6H5COCl,苯甲酰氯,Benzoyl chloride,acyl chloride,A2
+[Cu(H2O)6]2+,六水合铜(II)离子,Hexaaquacopper(II),complex ion,A2
+[Cu(NH3)4(H2O)2]2+,四氨二水合铜(II)离子,Tetraamminediaquacopper(II),complex ion,A2
+[CuCl4]2-,四氯合铜(II)酸根,Tetrachlorocuprate(II),complex ion,A2
+[Co(H2O)6]2+,六水合钴(II)离子,Hexaaquacobalt(II),complex ion,A2
+[CoCl4]2-,四氯合钴(II)酸根,Tetrachlorocobaltate(II),complex ion,A2
+[Ag(NH3)2]+,二氨合银(I)离子,Diamminesilver(I),complex ion/Tollens,A2
+MnO4-,高锰酸根,Manganate(VII),ion,A2
+Cr2O7^2-,重铬酸根,Dichromate(VI),ion,A2
+C2O4^2-,草酸根,Ethanedioate / oxalate,ligand/ion,A2
+S2O8^2-,过二硫酸根,Peroxydisulfate,oxidising ion,A2
+Si(CH3)4,四甲基硅烷,Tetramethylsilane (TMS),NMR reference,A2
+CDCl3,氘代氯仿,Deuterated chloroform,NMR solvent,A2
+D2O,重水,Heavy water,NMR reagent,A2
