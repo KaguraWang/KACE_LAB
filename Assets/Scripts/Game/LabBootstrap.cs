@@ -347,7 +347,10 @@ public class LabBootstrap : MonoBehaviour {
     LabUI _ui;
     DeveloperConsole _developerConsole;
     DavidDriver _david;
+    public KPrinter Printer { get; private set; }
     public DeveloperConsole Console => _developerConsole;
+    public VesselView FindVesselView(Vessel model) => _views.Find(v => v != null && v.Model == model);
+    public void ShowHint(string message) { if (_ui != null) _ui.ShowHint(message); }
     public Vessel SelectedVesselForTags => _ui!=null?_ui.SelectedVessel:null;
     public Camera UICam;
     public const int UiLayer = 31;
@@ -406,8 +409,9 @@ public class LabBootstrap : MonoBehaviour {
         BuildUI();
         ChemAudio.Ensure(gameObject);
         Instance = this;
+        Printer = KPrinter.Create(this);
         /* 开发者控制台：界面、日志与命令分发在 DeveloperConsole；这里只注册
-           两条业务命令，并按 InputCaptured 隔离实验台的输入。 */
+           业务命令，并按 InputCaptured 隔离实验台的输入。 */
         _david = DavidDriver.Ensure(gameObject);
         _developerConsole = DeveloperConsole.Create(transform, LabUI.UiFont);
         RegisterConsoleCommands(_developerConsole);
@@ -490,15 +494,17 @@ public class LabBootstrap : MonoBehaviour {
     void Awake() { EnsureInit(); }
 
     /* ================================================================
-       开发者控制台：两条业务命令
+       开发者控制台：业务命令
          · world_speed <0-3>  统一实验时间速率，0 冻结全部实验事件
          · david <0|1>        拖动突进与残影
+         · kprinter <0|1>     固定位置全息打印，默认开启
        非法、越界、非有限值一律拒绝并说明原因，绝不静默钳制。
        ================================================================ */
     void RegisterConsoleCommands(DeveloperConsole console) {
         if (console == null) return;
         console.RegisterCommand("world_speed", argument => { WorldClock.TrySet(argument, out string message); return message; });
         console.RegisterCommand("david", argument => { DavidMode.TrySet(argument, out string message); return message; });
+        console.RegisterCommand("kprinter", argument => { KPrinterMode.TrySet(argument, out string message); return message; });
     }
 
     /* ---------------- 材质 ---------------- */
@@ -906,6 +912,8 @@ public class LabBootstrap : MonoBehaviour {
         // Sync even currently hidden cards so leaving the explicit metered
         // frame can reactivate the normal bench labels next frame.
         foreach (var t in _tags) if (t != null) {
+            // Existing labels return on the next ordinary frame after printing.
+            if (Printer != null && Printer.Busy) { t.gameObject.SetActive(false); continue; }
             t.ExtraLift=0f;t.ScreenOffset=Vector2.zero;t.Sync();
             if(t.RenderVisible)live.Add(t);
         }
@@ -1146,6 +1154,7 @@ public class LabBootstrap : MonoBehaviour {
         /* 容器标签：新容器补 tag，消失的移除 */
         if (_tagRoot != null && LabUI.UiFont != null) {
           if (TagSettings.ShowTags) foreach (var v in Lab.Vessels) {
+                if (Printer != null && Printer.IsPrinting(v)) continue;
                 if (_tags.Any(x => x != null && x.Model == v)) continue;
                 var nt = VesselTag.Create(v, _tagRoot, LabUI.UiFont, Cam);
                 /* 按容器在列表里的位置分层错位 */
@@ -1155,6 +1164,9 @@ public class LabBootstrap : MonoBehaviour {
             for (int i = _tags.Count - 1; i >= 0; i--) {
                 if (_tags[i] == null) { _tags.RemoveAt(i); continue; }
                 if (!Lab.Vessels.Contains(_tags[i].Model)) {
+                    Destroy(_tags[i].gameObject);
+                    _tags.RemoveAt(i);
+                } else if (Printer != null && Printer.IsPrinting(_tags[i].Model)) {
                     Destroy(_tags[i].gameObject);
                     _tags.RemoveAt(i);
                 }
@@ -1189,6 +1201,7 @@ public class LabBootstrap : MonoBehaviour {
             foreach(var eq in _eqTags)if(eq!=null){
                 bool relevant=_framedMetered==null||eq.Ev?.Vessel==_framedMetered||
                     eq.Ev?.Vessel==_framedMetered.AttachedTo;
+                relevant &= Printer == null || !Printer.Busy;
                 if(eq.gameObject.activeSelf!=relevant)eq.gameObject.SetActive(relevant);
             }
             ResolveEquationOverlaps();
@@ -1471,6 +1484,50 @@ public class LabBootstrap : MonoBehaviour {
             if(score<bestScore){bestScore=score;bestYaw=yaw;bestDistance=distance;bestFocus=focus;}
         }
         _yaw=bestYaw;_pitch=.18f;_focus=bestFocus;_distT=_dist=bestDistance;
+        UpdateCamera(0);
+    }
+
+    // One-shot framing puts the complete printing volume above the log and
+    // between the shelves. It never follows the station or locks player input.
+    public void FrameConstruction(Bounds bounds) {
+        var points = new List<Vector3>();
+        for (int mask = 0; mask < 8; mask++) points.Add(bounds.center + Vector3.Scale(bounds.extents,
+            new Vector3((mask & 1) == 0 ? -1 : 1, (mask & 2) == 0 ? -1 : 1, (mask & 4) == 0 ? -1 : 1)));
+        Rect area = _ui != null ? _ui.TagWorkspaceRect() : new Rect(0, 0, Screen.width, Screen.height);
+        float pad = Mathf.Min(24, Mathf.Min(area.width, area.height) * .08f);
+        area = Rect.MinMaxRect(area.xMin + pad, area.yMin + pad, area.xMax - pad, area.yMax - pad);
+        float tan = Mathf.Tan(Cam.fieldOfView * Mathf.Deg2Rad * .5f), aspect = Cam.aspect;
+        var offset = new Vector2(area.center.x / Screen.width * 2 - 1, area.center.y / Screen.height * 2 - 1);
+        float bestScore = float.PositiveInfinity, bestYaw = _yaw, bestDistance = 8;
+        Vector3 bestFocus = bounds.center;
+        for (int candidate = 0; candidate < 12; candidate++) {
+            float yaw = _yaw + candidate * Mathf.PI / 6, pitch = .24f;
+            var backward = new Vector3(Mathf.Sin(yaw) * Mathf.Cos(pitch), Mathf.Sin(pitch), Mathf.Cos(yaw) * Mathf.Cos(pitch));
+            var rotation = Quaternion.LookRotation(-backward, Vector3.up);
+            var right = rotation * Vector3.right; var up = rotation * Vector3.up; var forward = -backward;
+            float distance = Mathf.Max(3, bounds.size.magnitude); Vector3 focus = bounds.center, eye = Vector3.zero;
+            for (int step = 0; step < 100; step++) {
+                focus = bounds.center - right * (offset.x * distance * tan * aspect) - up * (offset.y * distance * tan);
+                eye = focus + backward * distance; bool fits = true;
+                foreach (var point in points) {
+                    var delta = point - eye; float depth = Vector3.Dot(delta, forward);
+                    var pixel = new Vector2((.5f + Vector3.Dot(delta, right) / (2 * depth * tan * aspect)) * Screen.width,
+                        (.5f + Vector3.Dot(delta, up) / (2 * depth * tan)) * Screen.height);
+                    if (depth < Cam.nearClipPlane || !area.Contains(pixel)) { fits = false; break; }
+                }
+                if (fits) break; distance *= 1.08f;
+            }
+            int blocked = 0;
+            foreach (var point in new[] { bounds.center, bounds.center + Vector3.up * bounds.extents.y * .6f,
+                bounds.center - Vector3.up * bounds.extents.y * .6f }) {
+                var ray = point - eye;
+                if (Physics.Raycast(eye, ray.normalized, ray.magnitude, ~0, QueryTriggerInteraction.Ignore)) blocked++;
+            }
+            float score = blocked * 1000 + distance + Mathf.Abs(Mathf.DeltaAngle(_yaw * Mathf.Rad2Deg, yaw * Mathf.Rad2Deg)) * .002f;
+            if (score < bestScore) { bestScore = score; bestYaw = yaw; bestDistance = distance; bestFocus = focus; }
+        }
+        _framedMetered = null;
+        _yaw = bestYaw; _pitch = .24f; _focus = bestFocus; _distT = _dist = bestDistance;
         UpdateCamera(0);
     }
     public void ShowObjectMenu(LabPick.Hit hit, Vector2 screen) {

@@ -5,9 +5,10 @@ Tags {"RenderType"="Opaque"}
 CGPROGRAM
 #pragma surface surf Standard fullforwardshadows
 #pragma target 3.0
+#include "ChemLabPrinter.cginc"
 struct Input {float3 worldPos;};
 fixed4 _Color;half _Metallic,_Smoothness;
-void surf(Input i,inout SurfaceOutputStandard o){o.Albedo=_Color.rgb;o.Metallic=_Metallic;o.Smoothness=_Smoothness;o.Alpha=1;}
+void surf(Input i,inout SurfaceOutputStandard o){KPrinterClip(i.worldPos);o.Albedo=_Color.rgb;o.Metallic=_Metallic;o.Smoothness=_Smoothness;o.Alpha=1;}
 ENDCG
 }
 Fallback "Standard"

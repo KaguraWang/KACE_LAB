@@ -172,6 +172,7 @@ public static class SnapController {
     public static Vessel NearestVessel(Vector3 p, Vessel exclude) {
         Vessel best = null; float bd = Radius;
         foreach (var v in Lab.Vessels) {
+            if (LabBootstrap.Instance?.Printer != null && LabBootstrap.Instance.Printer.IsPrinting(v)) continue;
             if (v == exclude) continue;
             if(MeteredTransfer.IsTool(exclude)&&!MeteredTransfer.CanAttach(exclude,v))continue;
             if (v.AttachedTo != null) continue;               // 不允许叠三层

@@ -24,6 +24,7 @@ Shader "ChemLab/Glass" {
             #include "UnityCG.cginc"
             #include "ChemLabCommon.cginc"
             #include "ChemLabRefraction.cginc"
+            #include "ChemLabPrinter.cginc"
 
             sampler2D _LabGrab;
             float4 _LabGrab_TexelSize;
@@ -53,6 +54,7 @@ Shader "ChemLab/Glass" {
             }
 
             fixed4 frag(v2f i) : SV_Target {
+                KPrinterClip(i.wpos);
                 float3 n = normalize(i.wnor);
                 float3 v = normalize(_WorldSpaceCameraPos - i.wpos);
                 if (dot(n, v) < 0.0) n = -n;

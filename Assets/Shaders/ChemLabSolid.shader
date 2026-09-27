@@ -5,10 +5,12 @@ Tags {"RenderType"="Opaque"}
 CGPROGRAM
 #pragma surface surf Standard fullforwardshadows vertex:vert addshadow
 #pragma target 3.0
+#include "ChemLabPrinter.cginc"
 struct Input {float4 color:COLOR;float3 worldPos;float3 localPos;float2 traits;};
 fixed4 _Color;
 void vert(inout appdata_full v,out Input o){UNITY_INITIALIZE_OUTPUT(Input,o);o.traits=v.texcoord.xy;o.localPos=v.vertex.xyz;o.color=v.color;}
 void surf(Input i,inout SurfaceOutputStandard o){
+    KPrinterClip(i.worldPos);
     float grain=frac(sin(dot(floor(i.localPos*2400),float3(12.989,78.233,37.719)))*43758.5453);
     float coarse=frac(sin(dot(floor(i.localPos*430),float3(39.34,18.71,95.13)))*15473.31);
     float fade=saturate(1-length(fwidth(i.localPos))*1600);

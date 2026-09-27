@@ -5,9 +5,10 @@ Tags {"Queue"="AlphaTest" "RenderType"="TransparentCutout"}
 Cull Back
 CGPROGRAM
 #pragma surface surf Lambert alphatest:_Cutoff addshadow
+#include "ChemLabPrinter.cginc"
 sampler2D _MainTex;fixed4 _Color;
-struct Input {float2 uv_MainTex;float4 color:COLOR;};
-void surf(Input i,inout SurfaceOutput o){o.Albedo=i.color.rgb*_Color.rgb;o.Alpha=tex2D(_MainTex,i.uv_MainTex).a*i.color.a*_Color.a;}
+struct Input {float2 uv_MainTex;float4 color:COLOR;float3 worldPos;};
+void surf(Input i,inout SurfaceOutput o){KPrinterClip(i.worldPos);o.Albedo=i.color.rgb*_Color.rgb;o.Alpha=tex2D(_MainTex,i.uv_MainTex).a*i.color.a*_Color.a;}
 ENDCG
 }
 }

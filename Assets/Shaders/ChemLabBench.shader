@@ -17,6 +17,7 @@ Shader "ChemLab/Bench" {
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #include "ChemLabCommon.cginc"
+            #include "ChemLabPrinter.cginc"
 
             fixed4 _Color;
             float _Grid;
@@ -39,6 +40,7 @@ Shader "ChemLab/Bench" {
             }
 
             fixed4 frag(v2f i) : SV_Target {
+                KPrinterClip(i.wpos);
                 float3 n = normalize(i.wnor);
                 float3 vdir = normalize(_WorldSpaceCameraPos - i.wpos);
                 float3 ldir = normalize(LAB_LIGHT_DIR);

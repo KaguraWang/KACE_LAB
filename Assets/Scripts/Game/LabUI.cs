@@ -219,7 +219,12 @@ public partial class LabUI : MonoBehaviour {
             rt.anchoredPosition = new Vector2(16 + col * 186, -52 - row * 76);
             rt.sizeDelta = new Vector2(178, 68);
             var k = kinds[i].k;
-            var vesselButton=Btn(rt, kinds[i].n+"  "+Vessel.NominalCapacity(k).ToString("0")+" mL", () => { var v = Lab.AddVessel(k); Select(v); CloseCompactDrawers(); });
+            var vesselButton=Btn(rt, kinds[i].n+"  "+Vessel.NominalCapacity(k).ToString("0")+" mL", () => {
+                var printer = Lab3D != null ? Lab3D.Printer : null;
+                if (printer != null) {
+                    if (printer.Request(k, Select)) CloseCompactDrawers();
+                } else { Select(Lab.AddVessel(k)); CloseCompactDrawers(); }
+            });
             vesselButton.gameObject.name="Btn_"+kinds[i].n;
             ApparatusGlyph.Create(vesselButton.transform,k);
             var vesselButtonText = vesselButton.GetComponentInChildren<Text>();
@@ -238,7 +243,12 @@ public partial class LabUI : MonoBehaviour {
             bool reflux=i==1;
             var slot=Node("Ap_"+(reflux?"RefluxKit":"DistillationKit"),root,new Vector2(0,1),new Vector2(0,1),Vector2.zero,Vector2.zero,BG2);
             slot.pivot=new Vector2(0,1);slot.anchoredPosition=new Vector2(16+i*186,-432);slot.sizeDelta=new Vector2(178,34);
-            Btn(slot,(reflux?"回流套件":"蒸馏套件")+" 250 mL",()=>{DistillationView.CreateKit(reflux);CloseCompactDrawers();},BG2,14);
+            Btn(slot,(reflux?"回流套件":"蒸馏套件")+" 250 mL",()=>{
+                var printer = Lab3D != null ? Lab3D.Printer : null;
+                if (printer != null) {
+                    if (printer.RequestKit(reflux, Select)) CloseCompactDrawers();
+                } else { DistillationView.CreateKit(reflux); CloseCompactDrawers(); }
+            },BG2,14);
         }
         float y = -480;
         var info = Node("VesselCard", root, new Vector2(0,1), new Vector2(1,1),
@@ -1144,7 +1154,7 @@ public partial class LabUI : MonoBehaviour {
         if (_selected == null || Lab.Vessels.Count < 2) { Hint("至少需要两个容器才能倾倒"); return; }
         /* 悬停在别的容器上方时，倒进那只容器，量由滑动条决定；
            否则退回默认比例倒在旁边那只里 */
-        var target = _selected.AttachedTo ?? Lab.Vessels.FirstOrDefault(x => x != _selected);
+        var target = _selected.AttachedTo ?? Lab.Vessels.FirstOrDefault(x => x != _selected && (Lab3D?.Printer == null || !Lab3D.Printer.IsPrinting(x)));
         if (target == null) return;
         BeginStagedPour(_selected,target);
     }
@@ -1156,8 +1166,12 @@ public partial class LabUI : MonoBehaviour {
         RefreshVesselPanel();
     }
 
-    void Select(Vessel v) { _selected = v; RefreshVesselPanel(); }
-    public void SelectExternal(Vessel v) { _selected = v; RefreshVesselPanel(); }
+    void Select(Vessel v) {
+        if (Lab3D?.Printer != null && Lab3D.Printer.IsPrinting(v)) { Hint("仪器正在打印，请等待打印完成。"); return; }
+        _selected = v; RefreshVesselPanel();
+    }
+    public void SelectExternal(Vessel v) { Select(v); }
+    public void ShowHint(string message) { Hint(message); }
 
     void Hint(string s) {
         if (_hint == null) return;
