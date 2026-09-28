@@ -9,6 +9,7 @@ public static class LabUiTheme {
     public static readonly Color Card=new Color(1,1,1,.82f);
     public static readonly Color Ink=Color.black;
     public static readonly Color Muted=new Color(.15f,.17f,.18f,1);
+    public static readonly Color Hint=new Color32(0x66,0x66,0x66,0xFF);
     public static readonly Color Accent=new Color32(0x39,0xC5,0xBB,0xFF);
     public static readonly Color Border=new Color(.25f,.27f,.28f,.85f);
     public static void Button(Button button){

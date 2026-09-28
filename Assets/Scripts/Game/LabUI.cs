@@ -972,7 +972,7 @@ public partial class LabUI : MonoBehaviour {
         Label(root, "试剂架", 17, ACC, TextAnchor.UpperLeft,
               new Vector2(0,1), new Vector2(1,1), new Vector2(14,-38), new Vector2(-14,-12));
         Label(root, "拖入容器添加", 12, DIM, TextAnchor.UpperRight,
-              new Vector2(0,1), new Vector2(1,1), new Vector2(14,-36), new Vector2(-14,-14));
+              new Vector2(0,1), new Vector2(1,1), new Vector2(14,-36), new Vector2(-14,-14)).color=LabUiTheme.Hint;
 
         /* 搜索框 */
         var sf = Node("Search", root, new Vector2(0,1), new Vector2(1,1), Vector2.zero, Vector2.zero, BG2);
@@ -1039,6 +1039,7 @@ public partial class LabUI : MonoBehaviour {
               new Vector2(0,1), new Vector2(0,1), new Vector2(14,-30), new Vector2(140,-10));
         _hint = Label(root, "左侧选器材 → 从右侧拖试剂到容器 → 输入数量", 11, DIM, TextAnchor.UpperLeft,
                       new Vector2(0,1), new Vector2(1,1), new Vector2(150,-29), new Vector2(-150,-11));
+        _hint.color=LabUiTheme.Hint;
         var clr = Node("ClearLog", root, new Vector2(1,1), new Vector2(1,1), Vector2.zero, Vector2.zero, BG2);
         var crt = (RectTransform)clr; crt.pivot = new Vector2(1,1);
         crt.anchoredPosition = new Vector2(-12, -8); crt.sizeDelta = new Vector2(76, 26);
@@ -1167,7 +1168,7 @@ public partial class LabUI : MonoBehaviour {
     void ResetHint() {
         if (_hint == null) return;
         _hint.text = "WASD 移动 · 拖空白转视角 · 拽物品移动 · Shift 拖动升降 · E 熄木条 · F 开关本生灯";
-        _hint.color = DIM;
+        _hint.color = LabUiTheme.Hint;
     }
 
     /* ------------------------------------------------------------ 刷新 */

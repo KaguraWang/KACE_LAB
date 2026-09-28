@@ -99,7 +99,9 @@ public partial class LabUI {
         _responsiveLeft.gameObject.AddComponent<LeftPanelScroll>().Configure(_responsiveLeft,items.ToArray());
         var header=Node("LeftStickyHeader",_responsiveLeft,new Vector2(0,1),new Vector2(1,1),
                         new Vector2(0,-44),Vector2.zero,BG);
-        Label(header,"器材架 · 滚动查看操作",14,ACC,TextAnchor.MiddleLeft,
+        const string title="器材架 <color=#666666>· 滚动查看操作</color>";
+        ChemLab.Chem.Localization.RegisterTranslation(title,"Apparatus <color=#666666>· scroll to view controls</color>");
+        Label(header,title,14,ACC,TextAnchor.MiddleLeft,
               Vector2.zero,Vector2.one,new Vector2(14,0),new Vector2(-8,0));
 
         _leftDrawerToggle=Node("LeftDrawerToggle",_canvas.transform,
