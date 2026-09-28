@@ -199,6 +199,10 @@ public class InteractionRegression : MonoBehaviour {
     }
     IEnumerator Start() {
         yield return new WaitForSeconds(2);
+        // These fixtures exercise immediate-placement chemistry workflows.
+        // Default animated placement and occupied-pad rejection are covered by KPrinterAudit.
+        KPrinterMode.TrySet("0", out _);
+        Check("legacy fixtures explicitly use immediate placement", !KPrinterMode.Enabled);
         // Finish the frame-based rack audit before isolated chemistry fixtures
         // publish reaction events; those fixtures are not part of the demo bench.
         var reagentAuditUi=FindObjectOfType<LabUI>();

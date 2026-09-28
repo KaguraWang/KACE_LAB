@@ -76,7 +76,8 @@ public sealed class BilingualUiAudit : MonoBehaviour {
             var ink=text.color;
             bool dark=ink.r<=.3f&&ink.g<=.3f&&ink.b<=.3f;
             bool errorInk=ink.r<=.75f&&ink.r>.35f&&ink.g<.2f&&ink.b<.2f;
-            if(!dark&&!errorInk)lines.Add("PALETTE "+context+" | "+PathOf(text.transform)+" | "+ColorUtility.ToHtmlStringRGBA(ink));
+            bool secondaryInk=((Color32)ink).Equals((Color32)LabUiTheme.Hint);
+            if(!dark&&!errorInk&&!secondaryInk)lines.Add("PALETTE "+context+" | "+PathOf(text.transform)+" | "+ColorUtility.ToHtmlStringRGBA(ink));
             if(context.StartsWith("en-rack-",StringComparison.Ordinal))
                 for(Transform ancestor=text.transform;ancestor!=null;ancestor=ancestor.parent)
                     if(ancestor.name.StartsWith("R_",StringComparison.Ordinal)) {seenReagentCards.Add(ancestor.name.Substring(2));break;}
