@@ -26,11 +26,11 @@ public static class WorldClock {
     /// <summary>Scaled experiment seconds accumulated since the process started.</summary>
     public static double ScaledSeconds { get; private set; }
 
-    public static bool Frozen => Rate <= 0d;
+    public static bool Frozen => Rate <= 0d || StartupBranding.Active;
 
     /// <summary>Scales one real frame step into experiment time.</summary>
     public static float Scale(float realSeconds) {
-        if (realSeconds <= 0f || Rate <= 0d) return 0f;
+        if (realSeconds <= 0f || Frozen) return 0f;
         double scaled = realSeconds * Rate;
         return scaled >= float.MaxValue ? float.MaxValue : (float)scaled;
     }

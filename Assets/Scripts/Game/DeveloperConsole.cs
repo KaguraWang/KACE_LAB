@@ -154,6 +154,7 @@ public sealed class DeveloperConsole : MonoBehaviour {
     }
 
     void Update() {
+        if(StartupBranding.Active)return;
         // The laboratory's LabInput can be gated while this is open, so the
         // console reads its toggle and submit keys from the underlying input.
         if (RawKeyDown(KeyCode.BackQuote)) { Toggle(); _toggleFrame = Time.frameCount; return; }

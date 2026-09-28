@@ -487,7 +487,7 @@ public static class LabInput {
     // pointer or key events at all: no camera pan, no dragging, no menu keys and
     // no dialog shortcuts. The console reads the real device itself, so it keeps
     // working while every LabInput consumer goes quiet.
-    static bool Suppressed=>DeveloperConsole.InputCaptured;
+    static bool Suppressed=>DeveloperConsole.InputCaptured||StartupBranding.Active;
     public static Vector3 mousePosition=>WindowTargetInput.Active?(Vector3)WindowTargetInput.Position:Input.mousePosition;
     public static bool GetMouseButton(int i)=>!Suppressed&&(WindowTargetInput.Active?WindowTargetInput.Button(i):Input.GetMouseButton(i));
     public static bool GetMouseButtonDown(int i)=>!Suppressed&&(WindowTargetInput.Active?WindowTargetInput.Pressed(i):Input.GetMouseButtonDown(i));

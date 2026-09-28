@@ -114,8 +114,16 @@ public partial class LabUI : MonoBehaviour {
 
         var navigation=Node("MainNavigation",_canvas.transform,new Vector2(0,1),Vector2.one,
             new Vector2(12,-46),new Vector2(-12,-6),BG);
-        Label(navigation,"KaceLab",14,INK,TextAnchor.MiddleCenter,
-            new Vector2(.5f,0),new Vector2(.5f,1),new Vector2(-64,0),new Vector2(64,0));
+        var wordmark=new GameObject("KaceLabWordmark",typeof(RectTransform),typeof(RawImage));
+        wordmark.transform.SetParent(navigation,false);
+        var wordmarkImage=wordmark.GetComponent<RawImage>();
+        wordmarkImage.texture=Resources.Load<Texture2D>("Branding/KaceLabWordmark");
+        // Sample the ink bounds without modifying the generated transparent source.
+        wordmarkImage.uvRect=new Rect(51f/2172f,202f/724f,2072f/2172f,357f/724f);
+        wordmarkImage.raycastTarget=false;
+        var wordmarkRect=(RectTransform)wordmark.transform;
+        wordmarkRect.anchorMin=wordmarkRect.anchorMax=new Vector2(.5f,.5f);
+        wordmarkRect.sizeDelta=new Vector2(148,148f*357/2072);
         BuildLeft();
         BuildRight();
         BuildBottom();
