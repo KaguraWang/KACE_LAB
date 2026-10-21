@@ -30,12 +30,31 @@ public static class EqTagSettings {
 
 public class EquationTag : MonoBehaviour {
     public ReactionEvent Ev;
-    /// <summary>错位槽位：同一容器连续发生多个反应时会各弹一个标签，
+    /// <summary>错位槽位：同一容器发生不同反应时会各弹一个标签，
     /// 不错开就会完全叠在一起。</summary>
     public int Slot;
     /// <summary>屏幕排布器写入的像素位移，不改变方程式所属的容器。</summary>
     public Vector2 ScreenOffset;
     double _born;
+    bool _layoutReady, _layoutEnglish, _layoutIonic;
+    VesselTag _vesselTag;
+    readonly Vector3[] _corners = new Vector3[4];
+    public int LayoutBuildCount { get; private set; }
+    public static int CreatedCount { get; private set; }
+    public bool Matches(ReactionEvent ev) {
+        var a=Ev?.Rule;var b=ev?.Rule;
+        return Ev?.Vessel==ev?.Vessel && a!=null && b!=null &&
+            a.Eq==b.Eq && a.Cond==b.Cond && a.Organic==b.Organic &&
+            a.Reversible==b.Reversible && a.Precip==b.Precip && a.Gas==b.Gas &&
+            SameSpecies(a.Reactants,b.Reactants) && SameSpecies(a.Products,b.Products);
+    }
+    static bool SameSpecies(List<Rules.Species> a,List<Rules.Species> b) {
+        if(a.Count!=b.Count)return false;
+        for(int i=0;i<a.Count;i++)if(a[i].Id!=b[i].Id||a[i].Coef!=b[i].Coef||a[i].Raw!=b[i].Raw)return false;
+        return true;
+    }
+    // Presentation coalescing only: never discard or alter chemical reaction extents.
+    public void RefreshEvent(ReactionEvent ev) { Ev=ev;_born=ev.At; }
 
     Canvas _canvas;
     Image _bg;
@@ -52,7 +71,7 @@ public class EquationTag : MonoBehaviour {
         get {
             if (_canvas == null || _cam == null) return new Rect(0, 0, 0, 0);
             var rt = (RectTransform)_canvas.transform;
-            var corners = new Vector3[4];
+            var corners = _corners;
             rt.GetWorldCorners(corners);
             float x0 = float.MaxValue, y0 = float.MaxValue;
             float x1 = float.MinValue, y1 = float.MinValue;
@@ -90,6 +109,7 @@ public class EquationTag : MonoBehaviour {
     }
 
     public static EquationTag Create(ReactionEvent ev, Transform parent, Font font, Camera cam) {
+        CreatedCount++;
         var go = new GameObject("EqTag");
         go.transform.SetParent(parent, false);
         var t = go.AddComponent<EquationTag>();
@@ -161,6 +181,10 @@ public class EquationTag : MonoBehaviour {
 
         bool english = Localization.English;
         var r = Ev.Rule;
+        const float panelH = 30f + 34f + PadY * 2;
+        if (!_layoutReady || _layoutEnglish!=english || _layoutIonic!=EqTagSettings.Ionic) {
+        _layoutReady=true;_layoutEnglish=english;_layoutIonic=EqTagSettings.Ionic;
+        LayoutBuildCount++;
 
         /* ---- 取方程式的三段：条件 / 左侧 / 右侧 ---- */
         string full = EqFormat.Format(r, english, EqTagSettings.Ionic);
@@ -173,14 +197,13 @@ public class EquationTag : MonoBehaviour {
         /* 连接符自己画，宽度跟着条件文字走 */
 
         /* ---- 量文字宽度，连接符按条件长度自适应 ---- */
-        Canvas.ForceUpdateCanvases();
+        // preferredWidth generates the text metrics directly; no global canvas flush.
         float lw = _left.preferredWidth;
         float rw = _right.preferredWidth;
         float cw = _cond.preferredWidth;
         float connW = Mathf.Max(MinConn, cw + 14f);
         float totalW = lw + Gap + connW + Gap + rw;
         float panelW = totalW + PadX * 2;
-        float panelH = 30f + 34f + PadY * 2;      // 条件行 + 方程式行
 
         _conn.Set(conn == "=" ? ConnectorGraphic.Kind.Equals
                 : conn == "⇌" ? ConnectorGraphic.Kind.Equilibrium
@@ -223,6 +246,7 @@ public class EquationTag : MonoBehaviour {
         cr.pivot = new Vector2(0.5f, 0.5f);
         cr.sizeDelta = new Vector2(cw + 8f, 26f);
         cr.anchoredPosition = new Vector2(connCx, condY);
+        }
 
         /* ---- 位置：容器上方，面朝镜头 ---- */
         float worldH = panelH / CanvasUnitsPerWorld;
@@ -236,7 +260,8 @@ public class EquationTag : MonoBehaviour {
         /* 容器标签是永久显示的，方程式标签必须排在它**上方**而不是盖住它。
            容器标签的高度跟行数有关，所以这里现问一次它的顶端世界 Y。 */
         float bottomY = basePos.y + liftY + 1.75f + Slot * 0.62f;
-        var vt = FindVesselTag(Ev.Vessel);
+        if(_vesselTag==null || _vesselTag.Model!=Ev.Vessel)_vesselTag=FindVesselTag(Ev.Vessel);
+        var vt = _vesselTag;
         if (vt != null) bottomY = Mathf.Max(bottomY, vt.TopWorldY + 0.10f + Slot * 0.62f);
         Vector3 center = basePos + Vector3.up * (bottomY - basePos.y + worldH * 0.5f);
         if (_cam == null) _cam = Camera.main;

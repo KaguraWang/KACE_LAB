@@ -244,7 +244,7 @@ public sealed class BilingualUiAudit : MonoBehaviour {
                 yield return new WaitForSeconds(.5f);Sample("en-version-info",true);
                 yield return Capture("version");
                 Check("version popup opens by pointer",version.IsOpen);
-                Check("user specified version and credits preserved",version.DisplayText.Contains("v0.0.2_SE_CESA") && version.DisplayText.Contains("神楽風和") && version.DisplayText.Contains("支持風和谢谢喵"));
+                Check("user specified version and credits preserved",version.DisplayText.Contains(VersionInfo.DisplayVersion) && version.DisplayText.Contains("神楽風和") && version.DisplayText.Contains("支持風和谢谢喵"));
                 Check("English teacher edition displayed",version.DisplayText.Contains("Teacher Edition"));
                 Lang.Set(false);yield return new WaitForSeconds(.5f);Sample("zh-version-info",false);
                 Check("Chinese teacher edition displayed",version.DisplayText.Contains("教师版"));

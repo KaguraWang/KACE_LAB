@@ -27,7 +27,7 @@ public static class KPrinterMode {
 /// <summary>A process-local construction station. Timing is presentation time,
 /// so world_speed 0 does not strand an unfinished instrument.</summary>
 public sealed class KPrinter : MonoBehaviour {
-    public static readonly Vector3 PrintPosition = new Vector3(0f, 0f, -1.65f);
+    public static readonly Vector3 PrintPosition = new Vector3(.25f, 0f, -3.70f);
     public const float Duration = 2.25f;
     public bool Busy => _members.Count > 0;
     public float Progress { get; private set; }

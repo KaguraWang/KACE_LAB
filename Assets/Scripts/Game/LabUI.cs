@@ -134,6 +134,7 @@ public partial class LabUI : MonoBehaviour {
         RefreshReagents();
         BuildLangButton(_canvas.transform);
         BuildCalcButton(_canvas.transform);
+        BuildSettings();
         PrewarmFonts();
         RefreshVesselPanel();
         RefreshLog();
@@ -1433,6 +1434,7 @@ public partial class LabUI : MonoBehaviour {
     public float DesignHeight = DesignH;
 
     void LateUpdate() {
+        if(SettingsOpen){if(LabInput.GetKeyDown(KeyCode.Escape))ShowSettings(false);return;}
         ApplyResponsiveLayout();
         UpdateStagedPour();
         if(IsPouring)return;

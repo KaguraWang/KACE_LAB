@@ -105,7 +105,7 @@ try {
     }
     Send-Target 'INFO'
     $info = Latest '(?m)^INFO at=(\d+),(\d+) open=(True|False) text=(.+)\r*$'
-    Require ($info.Groups[4].Value.Contains('神楽風和') -and $info.Groups[4].Value.Contains('支持風和谢谢喵') -and $info.Groups[4].Value.Contains('v0.0.2_SE_CESA')) 'version information contains user-specified build, author and requested message'
+    Require ($info.Groups[4].Value.Contains('神楽風和') -and $info.Groups[4].Value.Contains('支持風和谢谢喵') -and $info.Groups[4].Value.Contains('v0.1.0_CE_Beta')) 'version information contains user-specified build, author and requested message'
     Send-Target "MOVE $($info.Groups[1].Value) $($info.Groups[2].Value);INFO"
     $info = Latest '(?m)^INFO at=(\d+),(\d+) open=(True|False) text=(.+)\r*$'
     Require ($info.Groups[3].Value -eq 'True') 'hovering the bottom-right information button shows its panel'

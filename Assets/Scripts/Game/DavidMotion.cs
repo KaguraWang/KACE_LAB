@@ -282,8 +282,10 @@ public sealed class DavidDriver : MonoBehaviour {
         _anchorFix = source.position - modelWorld;
         _anchorRotation = source.rotation;
         _intent = intent;
-        _intentLift = intentLift;
-        _offset = new Vector3(modelPosition.x - intent.x, modelLift - intentLift, modelPosition.z - intent.z);
+        // Lock the drag plane once. Feeding the visual lift back from the model
+        // on every frame used to integrate vertical jitter into an upward drift.
+        _intentLift = modelLift;
+        _offset = new Vector3(modelPosition.x - intent.x, 0f, modelPosition.z - intent.z);
         _visual = ModelWorld(modelPosition, modelLift);
         _segments.Clear();
         _segmentIndex = -1;
@@ -296,7 +298,7 @@ public sealed class DavidDriver : MonoBehaviour {
     public void SetIntent(Vector3 position, float lift) {
         if (_phase == Phase.Idle) return;
         _intent = position;
-        _intentLift = lift;
+        // The intent may follow the pointer in X/Z, never the animated model's Y.
         Advance(Time.deltaTime);
         ApplyVisual();
     }
@@ -472,7 +474,6 @@ public sealed class DavidDriver : MonoBehaviour {
             : Mathf.Lerp(DavidMode.MinimumDashUnits, DavidMode.MaximumDashUnits, (float)_random.NextDouble());
         _nextSegmentLength = -1f;
         double angle = _random.NextDouble() * Math.PI * 2d;
-        float vertical = Mathf.Lerp(-0.35f, 0.35f, (float)_random.NextDouble());
         Vector3 direction = new Vector3((float)Math.Cos(angle), 0f, (float)Math.Sin(angle));
         // A pure random walk drifts away and then sits at the 50 cm limit. Bias the
         // new segment back toward the pointer so the zig-zag stays in its vicinity
@@ -481,9 +482,7 @@ public sealed class DavidDriver : MonoBehaviour {
             float pull = Mathf.Clamp01(_segmentFrom.magnitude / DavidMode.MaximumDashUnits) * 1.4f;
             direction = Vector3.Normalize(direction - _segmentFrom.normalized * pull);
         }
-        var candidate = _segmentFrom
-            + direction * length
-            + Vector3.up * vertical;
+        var candidate = _segmentFrom + direction * length;
         _segmentTo = ConstrainDash(candidate);
         _segmentDistance = Vector3.Distance(_segmentFrom, _segmentTo);
         if (_segmentDistance < 0.02f) {
@@ -505,9 +504,9 @@ public sealed class DavidDriver : MonoBehaviour {
 
     /// <summary>Keeps the dash within 50 cm of the pointer and inside the rendered view.</summary>
     Vector3 ConstrainDash(Vector3 candidate) {
+        candidate.y = 0f;
         if (candidate.magnitude > DavidMode.MaximumDashUnits)
             candidate = candidate.normalized * DavidMode.MaximumDashUnits;
-        candidate.y = Mathf.Clamp(candidate.y, -Mathf.Max(0f, _intentLift), 1.2f);
         var camera = Camera.main != null ? Camera.main : LabBootstrap.Instance != null ? LabBootstrap.Instance.Cam : null;
         if (camera == null) return candidate;
         for (int attempt = 0; attempt < 8; attempt++) {

@@ -1,0 +1,95 @@
+{
+  "source": "D:\\ChemLabUnity\\ArtSources\\Nessie\\小水怪_已贴图.blend",
+  "images": [
+    {
+      "name": "ivory_fabric_basecolor",
+      "file": "Texture_00.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "ivory_fabric_height",
+      "file": "Texture_01.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "ivory_fabric_normal",
+      "file": "Texture_02.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "ivory_fabric_roughness",
+      "file": "Texture_03.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "moss_fabric_basecolor",
+      "file": "Texture_04.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "moss_fabric_height",
+      "file": "Texture_05.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "moss_fabric_normal",
+      "file": "Texture_06.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "moss_fabric_roughness",
+      "file": "Texture_07.png",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "立方体",
+      "vertices": 118
+    },
+    {
+      "name": "球体",
+      "vertices": 482
+    },
+    {
+      "name": "球体.001",
+      "vertices": 482
+    },
+    {
+      "name": "立方体.001",
+      "vertices": 60
+    },
+    {
+      "name": "Moss microfibers",
+      "vertices": 105000
+    },
+    {
+      "name": "Ivory microfibers",
+      "vertices": 60000
+    }
+  ]
+}

@@ -357,8 +357,8 @@ public class LabBootstrap : MonoBehaviour {
     readonly List<Vessel> _bound = new List<Vessel>();
 
     /* 相机轨道 */
-    float _yaw = 0.34f, _pitch = 0.26f, _dist = 7.4f, _distT = 7.4f;
-    Vector3 _focus = new Vector3(0f, 0.34f, 0f);
+    float _yaw = 0.34f, _pitch = 0.38f, _dist = 13.2f, _distT = 13.2f;
+    Vector3 _focus = new Vector3(0.10f, 0.10f, -0.30f);
     Vessel _framedMetered;
     Vector3 _beforeMeteredFocus;
     float _beforeMeteredYaw,_beforeMeteredPitch,_beforeMeteredDistance,_beforeMeteredDistanceTarget;
@@ -487,6 +487,8 @@ public class LabBootstrap : MonoBehaviour {
         }
         if(System.Array.IndexOf(System.Environment.GetCommandLineArgs(),"-windowInputProbe")>=0)
             gameObject.AddComponent<WindowInputProbe>();
+        if(System.Array.IndexOf(System.Environment.GetCommandLineArgs(),"-reactionTagTest")>=0)
+            gameObject.AddComponent<ReactionTagAudit>();
         if(System.Array.IndexOf(System.Environment.GetCommandLineArgs(),"-windowTargetInput")>=0)
             gameObject.AddComponent<WindowTargetInput>();
     }
@@ -619,8 +621,8 @@ public class LabBootstrap : MonoBehaviour {
         ApparatusSet.Clear();
         // Keep the burner used for splint ignition inside the central viewport,
         // clear of the fixed reagent panel at the default composition.
-        var burner = ApparatusSet.Add(ApparatusKind.BunsenBurner, new Vector3(0.15f, 0f, 1.25f));
-        var tripod = ApparatusSet.Add(ApparatusKind.Tripod, new Vector3(1.60f, 0f, 1.25f));
+        var burner = ApparatusSet.Add(ApparatusKind.BunsenBurner, new Vector3(-2.00f, 0f, -4.00f));
+        var tripod = ApparatusSet.Add(ApparatusKind.Tripod, new Vector3(-3.05f, 0f, -4.00f));
         foreach (var a in ApparatusSet.All) {
             var av = ApparatusView.Create(a, transform, _metalMat, _glowMat, _flameMat);
             av.Sync();
@@ -631,9 +633,9 @@ public class LabBootstrap : MonoBehaviour {
     /// <summary>台面上的检验器材：红/蓝石蕊试纸各一、木条一根</summary>
     void BuildTestItems() {
         TestSet.Clear();
-        TestSet.Add(TestItemKind.RedLitmus,  new Vector3(0.55f, 0f, 1.86f));
-        TestSet.Add(TestItemKind.BlueLitmus, new Vector3(0.85f, 0f, 1.86f));
-        TestSet.Add(TestItemKind.Splint,     new Vector3(1.15f, 0f, 1.86f));
+        TestSet.Add(TestItemKind.RedLitmus,  new Vector3(-2.20f, 0f, -2.00f));
+        TestSet.Add(TestItemKind.BlueLitmus, new Vector3(-1.97f, 0f, -2.00f));
+        TestSet.Add(TestItemKind.Splint,     new Vector3(-1.73f, 0f, -2.00f));
         foreach (var t in TestSet.All) {
             var tv = TestItemView.Create(t, transform, _paperMat, _woodMat, _flameMat);
             tv.Sync();
@@ -1011,6 +1013,12 @@ public class LabBootstrap : MonoBehaviour {
         b2.AddWater(150);
         Lab.AddReagent(b2, "zn", 4.0);
         Lab.AddLiquid(b2, "hcl", 18);
+        // Reference startup composition: two beakers, flask, then tube;
+        // printer/burner/tripod and test materials form the back row.
+        b1.Pos=new Vector3(1.70f,0f,.65f);
+        b2.Pos=new Vector3(.65f,0f,.55f);
+        f1.Pos=new Vector3(-.40f,0f,.25f);
+        t1.Pos=new Vector3(-1.10f,0f,.06f);
 
         Lab.Log.Clear();
         Lab.Note(null, "实验台已就绪。左侧选器材；从右侧拖试剂到器皿，松开后输入数量并确认加入。", "setup");
@@ -1179,7 +1187,15 @@ public class LabBootstrap : MonoBehaviour {
             foreach (var ev in Lab.RecentReactions) {
                 if (ev == null || ev.Sequence <= _eqSeen) continue;
                 _eqSeen = ev.Sequence;
-                if (ev.Rule == null || !Lab.Vessels.Contains(ev.Vessel)) continue;
+                if (!EqTagSettings.Show || ev.Rule == null || !Lab.Vessels.Contains(ev.Vessel) || Lab.Clock-ev.At>EqTagSettings.Duration) continue;
+                var existing=_eqTags.Find(x=>x!=null && x.Matches(ev));
+                if(existing!=null){existing.RefreshEvent(ev);continue;}
+                // Bound layout work even for many different reactions, not only repeated drops.
+                while(_eqTags.Count>=24 || _eqTags.Count(x=>x!=null&&x.Ev?.Vessel==ev.Vessel)>=6){
+                    int oldest=_eqTags.Count>=24?0:_eqTags.FindIndex(x=>x!=null&&x.Ev?.Vessel==ev.Vessel);
+                    var retired=_eqTags[oldest];_eqTags.RemoveAt(oldest);EquationTag.Active.Remove(retired);
+                    if(retired!=null){retired.gameObject.SetActive(false);Destroy(retired.gameObject);}
+                }
                 var et = EquationTag.Create(ev, _tagRoot, LabUI.UiFont, Cam);
                 /* 同一容器上已有几个标签就往上错开几位，避免叠在一起 */
                 int sameHere = 0;
@@ -1198,7 +1214,9 @@ public class LabBootstrap : MonoBehaviour {
                     _eqTags.RemoveAt(i);
                 }
             }
+            var equationSlots=new Dictionary<Vessel,int>();
             foreach(var eq in _eqTags)if(eq!=null){
+                var vessel=eq.Ev.Vessel;equationSlots.TryGetValue(vessel,out int slot);eq.Slot=slot;equationSlots[vessel]=slot+1;
                 bool relevant=_framedMetered==null||eq.Ev?.Vessel==_framedMetered||
                     eq.Ev?.Vessel==_framedMetered.AttachedTo;
                 relevant &= Printer == null || !Printer.Busy;
@@ -1584,7 +1602,7 @@ public class LabBootstrap : MonoBehaviour {
     void HandleInput() {
         if(SuppressDesktopInputForAudit)return;
         /* 计算器开着时实验台不接收输入（那边有自己的交互） */
-        if (CalculatorActive) return;
+        if (CalculatorActive || (_ui!=null && _ui.SettingsOpen)) return;
         /* 控制台持有输入时不串扰视角/拖动/选单。LabInput 已整体屏蔽，
            这里是第二道保险，也省掉每帧的拾取射线。 */
         if (DeveloperConsole.InputCaptured) {

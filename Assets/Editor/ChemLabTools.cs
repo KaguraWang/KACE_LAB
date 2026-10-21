@@ -111,9 +111,11 @@ public static class ChemLabTools {
     public static void BuildPlayer() {
         EnsureMaterials();
         if (!File.Exists(ScenePath)) BuildScene_Internal();
+        string playerPath="Build/ChemLab.exe";
+        foreach(var arg in Environment.GetCommandLineArgs())if(arg.StartsWith("-playerOut="))playerPath=arg.Substring("-playerOut=".Length);
         var opts = new BuildPlayerOptions {
             scenes = new[] { ScenePath },
-            locationPathName = "Build/ChemLab.exe",
+            locationPathName = playerPath,
             target = BuildTarget.StandaloneWindows64,
             options = System.Array.IndexOf(System.Environment.GetCommandLineArgs(),"-solidProfilerAudit")>=0?BuildOptions.Development:BuildOptions.None,
         };
@@ -127,6 +129,43 @@ public static class ChemLabTools {
         Debug.Log($"[ChemLab] 构建结果 {sum.result}  大小 {(sum.totalSize / 1048576.0):F1} MB  错误 {sum.totalErrors}");
         if (Application.isBatchMode) EditorApplication.Exit(sum.result == BuildResult.Succeeded && sum.totalErrors==0 ? 0 : 1);
     }
+    /// <summary>Cross-build an Apple Silicon player with the installed macOS module.</summary>
+    public static void BuildMacAppleSilicon() {
+        const BuildTarget target = BuildTarget.StandaloneOSX;
+        if (!BuildPipeline.IsBuildTargetSupported(BuildTargetGroup.Standalone, target))
+            throw new InvalidOperationException("macOS build module is not installed.");
+        string platform = BuildPipeline.GetBuildTargetName(target);
+        string oldArch = EditorUserBuildSettings.GetPlatformSettings(platform, "Architecture");
+        string oldXcode = EditorUserBuildSettings.GetPlatformSettings(platform, "CreateXcodeProject");
+        var oldBackend = PlayerSettings.GetScriptingBackend(BuildTargetGroup.Standalone);
+        bool oldAuto = PlayerSettings.GetUseDefaultGraphicsAPIs(target);
+        var oldApis = PlayerSettings.GetGraphicsAPIs(target);
+        BuildReport report;
+        try {
+            EditorUserBuildSettings.SetPlatformSettings(platform, "Architecture", "ARM64");
+            EditorUserBuildSettings.SetPlatformSettings(platform, "CreateXcodeProject", "false");
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.Mono2x);
+            PlayerSettings.SetUseDefaultGraphicsAPIs(target, false);
+            PlayerSettings.SetGraphicsAPIs(target, new[] { UnityEngine.Rendering.GraphicsDeviceType.Metal });
+            EnsureMaterials();
+            if (!File.Exists(ScenePath)) BuildScene_Internal();
+            report = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
+                scenes = new[] { ScenePath }, target = target, options = BuildOptions.None,
+                locationPathName = "BuildMac/v0.1.0_CE_Beta/KaceLab.app"
+            });
+        } finally {
+            EditorUserBuildSettings.SetPlatformSettings(platform, "Architecture", oldArch);
+            EditorUserBuildSettings.SetPlatformSettings(platform, "CreateXcodeProject", oldXcode);
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, oldBackend);
+            PlayerSettings.SetGraphicsAPIs(target, oldApis);
+            PlayerSettings.SetUseDefaultGraphicsAPIs(target, oldAuto);
+            AssetDatabase.SaveAssets();
+        }
+        var sum = report.summary;
+        Debug.Log($"[ChemLab Mac ARM64] {sum.result}; bytes={sum.totalSize}; errors={sum.totalErrors}");
+        if (Application.isBatchMode) EditorApplication.Exit(sum.result == BuildResult.Succeeded && sum.totalErrors == 0 ? 0 : 1);
+    }
+
     static void BuildScene_Internal() {
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         var go = new GameObject("LabBootstrap");

@@ -689,7 +689,12 @@ public class InteractionRegression : MonoBehaviour {
             var v = Lab.AddVessel(kind); v.Pos = center;
             yield return null; yield return null;
             var g = VesselMesh.Get(kind);
-            var hit = LabPick.Pick(cam.WorldToScreenPoint(center + Vector3.up * g.H * 0.45f), cam);
+            // Aim at the actual near-side wall, not the hollow interior. The
+            // latter depends on the startup camera pitch for shallow dishes.
+            var nearSide = Vector3.ProjectOnPlane(cam.transform.position - center, Vector3.up).normalized;
+            float wallRadius = VesselMesh.RadiusAt(VesselMesh.Profile(g.Type, g.R, g.H), .45f);
+            var wallPoint = center + Vector3.up * (g.H * .45f + .003f) + nearSide * wallRadius;
+            var hit = LabPick.Pick(cam.WorldToScreenPoint(wallPoint), cam);
             Check("pick vessel " + kind, hit.vessel == v);
             Lab.RemoveVessel(v);
             yield return null; yield return null;

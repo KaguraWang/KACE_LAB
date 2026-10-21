@@ -9,7 +9,7 @@ public sealed class VersionInfo : MonoBehaviour, IPointerEnterHandler, IPointerE
     ISelectHandler, IDeselectHandler {
     public static VersionInfo Instance { get; private set; }
     public const string Author = "神楽風和";
-    public const string DisplayVersion = "v0.0.2_SE_CESA";
+    public const string DisplayVersion = "v0.1.0_CE_Beta";
     public const string LicenseMessage = "支持風和谢谢喵";
     RectTransform panel;
     Text contents;
